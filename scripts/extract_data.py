@@ -277,10 +277,11 @@ def extract_meta_ads(
         rows = _meta_get(
             f"{base}/insights",
             {
-                "fields": META_CAMPAIGN_FIELDS + ",publisher_platform",
+                "fields": META_CAMPAIGN_FIELDS,
                 "time_range": time_range,
                 "level": "campaign",
                 "breakdowns": "publisher_platform",
+                "limit": "500",
             },
             access_token,
         )
@@ -394,7 +395,7 @@ def extract_meta_ads(
 # Google Ads API
 # ---------------------------------------------------------------------------
 
-def _build_google_ads_client() -> Any:
+def _build_google_ads_client(login_customer_id: str = "") -> Any:
     """Build a GoogleAdsClient from environment variables."""
     from google.ads.googleads.client import GoogleAdsClient
 
@@ -404,6 +405,7 @@ def _build_google_ads_client() -> Any:
         "client_secret": os.environ["GOOGLE_ADS_CLIENT_SECRET"],
         "refresh_token": os.environ["GOOGLE_ADS_REFRESH_TOKEN"],
         "use_proto_plus": True,
+        "login_customer_id": login_customer_id.replace("-", ""),
     }
     return GoogleAdsClient.load_from_dict(config)
 
@@ -413,9 +415,6 @@ def _google_query(
 ) -> list[Any]:
     """Execute a Google Ads query and return all rows with pagination."""
     service = client.get_service("GoogleAdsService")
-    # If using MCC, set login-customer-id header
-    if mcc_id:
-        client.login_customer_id = mcc_id
     rows = []
     request = client.get_type("SearchGoogleAdsRequest")
     request.customer_id = customer_id.replace("-", "")
@@ -959,7 +958,7 @@ def main() -> None:
     google_client = None
     if google_refresh:
         try:
-            google_client = _build_google_ads_client()
+            google_client = _build_google_ads_client(login_customer_id="7270852417")
             log.info("Google Ads client initialized.")
         except Exception as exc:
             log.error("Failed to initialize Google Ads client: %s", exc)
