@@ -256,11 +256,11 @@
 </head>
 <body>
   <nav class="page-nav no-print">
-    <a href="index.html" class="nav-brand">Trees Coliving</a>
+    <a href="index.html" class="nav-brand"><img src="../assets/trees-logo.png" alt="Trees Coliving" style="height:32px;vertical-align:middle;margin-right:8px">Trees Coliving</a>
     <div class="nav-links">
       <a href="google.html" class="nav-link">Google Ads</a>
       <a href="meta.html" class="nav-link active">Meta Ads</a>
-      <a href="historico.html" class="nav-link">Historico</a>
+      <a href="historico.html" class="nav-link">Histórico</a>
       <a href="hubspot.html" class="nav-link">HubSpot</a>
     </div>
     <div class="nav-controls">
@@ -273,7 +273,7 @@
   <div class="dashboard-wrapper" id="dashboard-content">
     <div class="page-header">
       <span class="page-header-icon">M</span>
-      <span class="page-header-title">Meta Ads &mdash; Espana</span>
+      <span class="page-header-title">Meta Ads &mdash; España</span>
     </div>
 
     <div class="kpi-grid-7" id="meta-kpis"></div>
@@ -286,12 +286,12 @@
     </div>
 
     <div class="table-section">
-      <h4>Campanas</h4>
+      <h4>Campañas</h4>
       <div class="table-wrapper" id="table-meta-campaigns"></div>
     </div>
 
     <div class="table-section">
-      <h4>Campanas por Plataforma</h4>
+      <h4>Campañas por Plataforma</h4>
       <div class="table-wrapper" id="table-meta-platforms"></div>
     </div>
 
@@ -319,14 +319,14 @@
     }
 
     const campaignCols = [
-      { key: 'name', label: 'Campana', unit: 'text' },
+      { key: 'name', label: 'Campaña', unit: 'text' },
       { key: 'impresiones', label: 'Impresiones', unit: 'count', align: 'right' },
       { key: 'clics', label: 'Clics', unit: 'count', align: 'right' },
       { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
       { key: 'cpc', label: 'CPC', unit: 'eur', align: 'right' },
       { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
       { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-      { key: 'inversion', label: 'Inversion', unit: 'eur', align: 'right' }
+      { key: 'inversion', label: 'Inversión', unit: 'eur', align: 'right' }
     ];
 
     function renderMeta(data) {
@@ -339,10 +339,10 @@
         lineColor: '#6B6B6B'
       });
 
-      renderSortableTable('table-meta-campaigns', campaignCols, m.campaigns);
+      renderSortableTable('table-meta-campaigns', campaignCols, m.campaigns, { defaultSortCol: 'leads', defaultSortAsc: false });
 
       renderSortableTable('table-meta-platforms', [
-        { key: 'name', label: 'Campana', unit: 'text' },
+        { key: 'name', label: 'Campaña', unit: 'text' },
         {
           key: 'platform', label: 'Plataforma', unit: 'text',
           render: row => platformPill(row.platform)
@@ -353,8 +353,8 @@
         { key: 'cpc', label: 'CPC', unit: 'eur', align: 'right' },
         { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
         { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-        { key: 'inversion', label: 'Inversion', unit: 'eur', align: 'right' }
-      ], m.campaigns_by_platform);
+        { key: 'inversion', label: 'Inversión', unit: 'eur', align: 'right' }
+      ], m.campaigns_by_platform, { defaultSortCol: 'leads', defaultSortAsc: false });
 
       renderSortableTable('table-meta-creatives', [
         { key: 'name', label: 'Ad Name', unit: 'text' },
@@ -373,8 +373,8 @@
         { key: 'cpc', label: 'CPC', unit: 'eur', align: 'right' },
         { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
         { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-        { key: 'inversion', label: 'Inversion', unit: 'eur', align: 'right' }
-      ], m.creatives);
+        { key: 'inversion', label: 'Inversión', unit: 'eur', align: 'right' }
+      ], m.creatives, { defaultSortCol: 'leads', defaultSortAsc: false });
     }
 
     const urlParams = new URLSearchParams(window.location.search);

@@ -308,11 +308,11 @@
 <body>
   <!-- ── Navigation ── -->
   <nav class="page-nav no-print">
-    <a href="index.html" class="nav-brand">Trees Coliving</a>
+    <a href="index.html" class="nav-brand"><img src="../assets/trees-logo.png" alt="Trees Coliving" style="height:32px;vertical-align:middle;margin-right:8px">Trees Coliving</a>
     <div class="nav-links">
       <a href="google.html" class="nav-link active">Google Ads</a>
       <a href="meta.html" class="nav-link">Meta Ads</a>
-      <a href="historico.html" class="nav-link">Historico</a>
+      <a href="historico.html" class="nav-link">Histórico</a>
       <a href="hubspot.html" class="nav-link">HubSpot</a>
     </div>
     <div class="nav-controls">
@@ -325,7 +325,7 @@
   <div class="dashboard-wrapper" id="dashboard-content">
     <div class="page-header">
       <span class="page-header-icon">G</span>
-      <span class="page-header-title">Google Ads &mdash; Espana</span>
+      <span class="page-header-title">Google Ads &mdash; España</span>
     </div>
 
     <div class="kpi-grid-7" id="google-kpis"></div>
@@ -338,7 +338,7 @@
     </div>
 
     <div class="table-section">
-      <h4>Campanas</h4>
+      <h4>Campañas</h4>
       <div class="table-wrapper" id="table-google-campaigns"></div>
     </div>
 
@@ -360,14 +360,14 @@
     const STORAGE_KEY = 'trees_selected_month';
 
     const campaignCols = [
-      { key: 'name', label: 'Campana', unit: 'text' },
+      { key: 'name', label: 'Campaña', unit: 'text' },
       { key: 'impresiones', label: 'Impresiones', unit: 'count', align: 'right' },
       { key: 'clics', label: 'Clics', unit: 'count', align: 'right' },
       { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
       { key: 'cpc', label: 'CPC', unit: 'eur', align: 'right' },
       { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
       { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-      { key: 'inversion', label: 'Inversion', unit: 'eur', align: 'right' }
+      { key: 'inversion', label: 'Inversión', unit: 'eur', align: 'right' }
     ];
 
     function renderGoogle(data) {
@@ -380,8 +380,9 @@
         lineColor: '#6B6B6B'
       });
 
-      renderSortableTable('table-google-campaigns', campaignCols, g.campaigns);
+      renderSortableTable('table-google-campaigns', campaignCols, g.campaigns, { defaultSortCol: 'leads', defaultSortAsc: false });
 
+      const keywords = (g.keywords || []).slice(0, 30);
       renderSortableTable('table-google-keywords', [
         { key: 'keyword', label: 'Keyword', unit: 'text' },
         { key: 'impresiones', label: 'Impresiones', unit: 'count', align: 'right' },
@@ -390,8 +391,8 @@
         { key: 'cpc', label: 'CPC', unit: 'eur', align: 'right' },
         { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
         { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-        { key: 'inversion', label: 'Inversion', unit: 'eur', align: 'right' }
-      ], g.keywords);
+        { key: 'inversion', label: 'Inversión', unit: 'eur', align: 'right' }
+      ], keywords, { defaultSortCol: 'leads', defaultSortAsc: false });
     }
 
     // Override month from localStorage / URL

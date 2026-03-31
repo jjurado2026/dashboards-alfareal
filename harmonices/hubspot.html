@@ -80,11 +80,11 @@
 <body>
 
   <nav class="page-nav">
-    <a href="index.html" class="nav-brand">Harmonices</a>
+    <a href="index.html" class="nav-brand"><img src="../assets/harmonices-logo.png" alt="Harmonices" style="height:32px;vertical-align:middle;margin-right:8px">Harmonices</a>
     <div class="nav-links">
       <a href="google.html" class="nav-link">Google Ads</a>
       <a href="meta.html" class="nav-link">Meta Ads</a>
-      <a href="historico.html" class="nav-link">Historico</a>
+      <a href="historico.html" class="nav-link">Histórico</a>
       <a href="hubspot.html" class="nav-link active">HubSpot</a>
     </div>
     <div class="nav-controls">
@@ -120,7 +120,7 @@
         <div class="chart-container"><canvas id="chart-hs-visitas"></canvas></div>
       </div>
       <div class="chart-card">
-        <h3>Leads Validos Actuales (Mensual)</h3>
+        <h3>Leads Válidos Actuales (Mensual)</h3>
         <div class="chart-container"><canvas id="chart-hs-leads-valid"></canvas></div>
       </div>
     </div>
@@ -143,7 +143,7 @@
 
     <!-- Table: Leads por etapa y campana -->
     <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Leads por Etapa y Campana</h4>
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Leads por Etapa y Campaña</h4>
       <div class="table-wrapper" id="table-hs-leads-source"></div>
     </section>
 
@@ -225,18 +225,28 @@
       });
     }
 
+    function showEmpty(canvasId) {
+      const canvas = document.getElementById(canvasId);
+      if (canvas) canvas.parentElement.innerHTML = '<p style="color:var(--color-text-muted);font-size:0.85rem;text-align:center;padding:40px 0;">Sin datos disponibles</p>';
+    }
+
     function onDataLoaded(data) {
       if (!data.hubspot) return;
       const hs = data.hubspot;
 
       if (hs.deals_current_month) renderDealsBar('chart-hs-current', hs.deals_current_month, stageColors);
-      if (hs.deals_stock_total) renderDealsBar('chart-hs-stock', hs.deals_stock_total, stageColors);
+      else showEmpty('chart-hs-current');
 
-      if (hs.visitas_monthly) {
+      if (hs.deals_stock_total) renderDealsBar('chart-hs-stock', hs.deals_stock_total, stageColors);
+      else showEmpty('chart-hs-stock');
+
+      if (hs.visitas_monthly && hs.visitas_monthly.length) {
         createMonthlyBar('chart-hs-visitas', hs.visitas_monthly, { color: TEAL, label: 'Visitas' });
+      } else {
+        showEmpty('chart-hs-visitas');
       }
 
-      if (hs.leads_valid_monthly) {
+      if (hs.leads_valid_monthly && hs.leads_valid_monthly.length) {
         createStackedBar('chart-hs-leads-valid', hs.leads_valid_monthly, {
           datasets: [
             { key: 'interesado_futuro',   label: 'Int. futuro',   color: ORANGE },
@@ -244,27 +254,35 @@
             { key: 'reservado_pagado',    label: 'Reservado',     color: PURPLE }
           ]
         });
+      } else {
+        showEmpty('chart-hs-leads-valid');
       }
 
       if (hs.stage_history) {
-        if (hs.stage_history.interesado_futuro) {
+        if (hs.stage_history.interesado_futuro && hs.stage_history.interesado_futuro.length) {
           createMonthlyBar('chart-hs-int-futuro', hs.stage_history.interesado_futuro, { color: ORANGE, label: 'Int. futuro' });
-        }
-        if (hs.stage_history.interesado_caliente) {
+        } else { showEmpty('chart-hs-int-futuro'); }
+        if (hs.stage_history.interesado_caliente && hs.stage_history.interesado_caliente.length) {
           createMonthlyBar('chart-hs-int-caliente', hs.stage_history.interesado_caliente, { color: TEAL, label: 'Int. caliente' });
-        }
-        if (hs.stage_history.reservado_pagado) {
+        } else { showEmpty('chart-hs-int-caliente'); }
+        if (hs.stage_history.reservado_pagado && hs.stage_history.reservado_pagado.length) {
           createMonthlyBar('chart-hs-reservado', hs.stage_history.reservado_pagado, { color: PURPLE, label: 'Reservado' });
-        }
+        } else { showEmpty('chart-hs-reservado'); }
+      } else {
+        showEmpty('chart-hs-int-futuro');
+        showEmpty('chart-hs-int-caliente');
+        showEmpty('chart-hs-reservado');
       }
 
-      if (hs.leads_by_source) {
+      if (hs.leads_by_source && hs.leads_by_source.length) {
         renderSortableTable('table-hs-leads-source', [
-          { key: 'source', label: 'Fuente / Campana', unit: 'text' },
+          { key: 'source', label: 'Fuente / Campaña', unit: 'text' },
           { key: 'interesado_futuro', label: 'Int. Futuro', unit: 'count', align: 'right', defaultDesc: true },
           { key: 'interesado_caliente', label: 'Int. Caliente', unit: 'count', align: 'right' },
           { key: 'reservado_pagado', label: 'Reservado (Pagado)', unit: 'count', align: 'right' }
         ], hs.leads_by_source);
+      } else {
+        document.getElementById('table-hs-leads-source').innerHTML = '<p style="color:var(--color-text-muted);font-size:0.85rem;">Sin datos disponibles</p>';
       }
     }
 

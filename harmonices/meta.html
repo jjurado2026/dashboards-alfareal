@@ -94,11 +94,11 @@
 <body>
 
   <nav class="page-nav">
-    <a href="index.html" class="nav-brand">Harmonices</a>
+    <a href="index.html" class="nav-brand"><img src="../assets/harmonices-logo.png" alt="Harmonices" style="height:32px;vertical-align:middle;margin-right:8px">Harmonices</a>
     <div class="nav-links">
       <a href="google.html" class="nav-link">Google Ads</a>
       <a href="meta.html" class="nav-link active">Meta Ads</a>
-      <a href="historico.html" class="nav-link">Historico</a>
+      <a href="historico.html" class="nav-link">Histórico</a>
       <a href="hubspot.html" class="nav-link">HubSpot</a>
     </div>
     <div class="nav-controls">
@@ -112,7 +112,7 @@
 
     <div class="section-divider" style="margin-top:24px;">
       <span class="section-icon" style="background: var(--color-meta);"></span>
-      <h2>Meta Ads — Espana</h2>
+      <h2>Meta Ads — España</h2>
     </div>
 
     <section class="kpi-section">
@@ -125,18 +125,18 @@
         <div class="chart-container"><canvas id="chart-meta-daily"></canvas></div>
       </div>
       <div class="chart-card">
-        <h3>Campanas por Plataforma</h3>
+        <h3>Campañas por Plataforma</h3>
         <div class="chart-container"><canvas id="chart-meta-platforms"></canvas></div>
       </div>
     </div>
 
     <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campanas</h4>
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campañas</h4>
       <div class="table-wrapper" id="table-meta-campaigns"></div>
     </section>
 
     <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campanas por Plataforma</h4>
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campañas por Plataforma</h4>
       <div class="table-wrapper" id="table-meta-platforms"></div>
     </section>
 
@@ -177,7 +177,7 @@
         { key: 'cpc',         label: 'CPC',          fmt: formatCurrency, invert: true },
         { key: 'leads',       label: 'Leads',        fmt: formatCount, invert: false },
         { key: 'cpl',         label: 'CPL',          fmt: formatCurrency, invert: true },
-        { key: 'inversion',   label: 'Inversion',    fmt: formatCurrency, invert: false }
+        { key: 'inversion',   label: 'Inversión',    fmt: formatCurrency, invert: false }
       ];
       container.innerHTML = metrics.map(m => {
         const kpi = platform[m.key];
@@ -245,8 +245,8 @@
         { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
         { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
         { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
-        { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
-      ], creatives);
+        { key: 'spend', label: 'Inversión', unit: 'eur', align: 'right' }
+      ], creatives, { defaultSortCol: 'leads', defaultSortAsc: false });
     }
 
     function onDataLoaded(data) {
@@ -257,12 +257,12 @@
       if (m.platforms) renderPlatformChart('chart-meta-platforms', m.platforms);
       if (m.campaigns) {
         renderSortableTable('table-meta-campaigns', [
-          { key: 'name', label: 'Campana', unit: 'text' },
+          { key: 'name', label: 'Campaña', unit: 'text' },
           { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
           { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
           { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
-          { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
-        ], m.campaigns);
+          { key: 'spend', label: 'Inversión', unit: 'eur', align: 'right' }
+        ], m.campaigns, { defaultSortCol: 'leads', defaultSortAsc: false });
       }
       // Platforms table (by platform breakdown)
       if (m.platforms) {
@@ -270,8 +270,8 @@
           { key: 'platform', label: 'Plataforma', unit: 'text' },
           { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
           { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
-          { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
-        ], m.platforms);
+          { key: 'spend', label: 'Inversión', unit: 'eur', align: 'right' }
+        ], m.platforms, { defaultSortCol: 'leads', defaultSortAsc: false });
       }
       if (m.creatives) renderCreativesTable('table-meta-creatives', m.creatives);
     }

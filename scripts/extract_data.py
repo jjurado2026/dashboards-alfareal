@@ -286,14 +286,20 @@ def extract_meta_ads(
             access_token,
         )
         for r in rows:
+            platform = r.get("publisher_platform", "").lower()
+            # Only include Facebook and Instagram
+            if platform not in ("facebook", "instagram"):
+                continue
             leads = _extract_leads(r.get("actions"))
             spend = parse_float(r.get("spend"))
             result["campaigns_by_platform"].append(
                 {
                     "campaign": r.get("campaign_name", ""),
-                    "platform": r.get("publisher_platform", ""),
+                    "platform": platform.capitalize(),
                     "impresiones": parse_int(r.get("impressions")),
                     "clics": parse_int(r.get("clicks")),
+                    "ctr": round(safe_div(parse_int(r.get("clicks")) * 100, parse_int(r.get("impressions"))), 2),
+                    "cpc": round(safe_div(spend, parse_int(r.get("clicks"))), 2),
                     "leads": leads,
                     "cpl": safe_div(spend, leads),
                     "inversion": round(spend, 2),
@@ -521,7 +527,7 @@ def extract_google_ads(
                    metrics.average_cpc
             FROM campaign
             WHERE segments.date BETWEEN '{date_from}' AND '{date_to}'
-              AND campaign.status = 'ENABLED'
+              AND metrics.impressions > 1
         """
         rows = _google_query(client, cid, query, mcc_id)
         for r in rows:
@@ -550,9 +556,9 @@ def extract_google_ads(
                    metrics.ctr, metrics.average_cpc
             FROM keyword_view
             WHERE segments.date BETWEEN '{date_from}' AND '{date_to}'
-              AND campaign.status = 'ENABLED'
+              AND metrics.impressions > 1
             ORDER BY metrics.impressions DESC
-            LIMIT 50
+            LIMIT 100
         """
         rows = _google_query(client, cid, query, mcc_id)
         for r in rows:

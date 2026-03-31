@@ -235,11 +235,11 @@
 </head>
 <body>
   <nav class="page-nav no-print">
-    <a href="index.html" class="nav-brand">Trees Coliving</a>
+    <a href="index.html" class="nav-brand"><img src="../assets/trees-logo.png" alt="Trees Coliving" style="height:32px;vertical-align:middle;margin-right:8px">Trees Coliving</a>
     <div class="nav-links">
       <a href="google.html" class="nav-link">Google Ads</a>
       <a href="meta.html" class="nav-link">Meta Ads</a>
-      <a href="historico.html" class="nav-link">Historico</a>
+      <a href="historico.html" class="nav-link">Histórico</a>
       <a href="hubspot.html" class="nav-link active">HubSpot</a>
     </div>
     <div class="nav-controls">
@@ -282,7 +282,7 @@
     <!-- Leads Validos Mensuales (Stacked Bar) -->
     <div class="chart-row cols-1">
       <div class="chart-box">
-        <h4>Leads Validos Mensuales</h4>
+        <h4>Leads Válidos Mensuales</h4>
         <div class="chart-container tall"><canvas id="chart-hubspot-stacked"></canvas></div>
       </div>
     </div>
@@ -290,15 +290,15 @@
     <!-- Individual Stage Histories: 3 side by side -->
     <div class="chart-row cols-3">
       <div class="chart-box">
-        <h4>Interesados Historico</h4>
+        <h4>Interesados Histórico</h4>
         <div class="chart-container short"><canvas id="chart-hs-interesados"></canvas></div>
       </div>
       <div class="chart-box">
-        <h4>Lista de Espera Historico</h4>
+        <h4>Lista de Espera Histórico</h4>
         <div class="chart-container short"><canvas id="chart-hs-lista"></canvas></div>
       </div>
       <div class="chart-box">
-        <h4>Firmados Historico</h4>
+        <h4>Firmados Histórico</h4>
         <div class="chart-container short"><canvas id="chart-hs-firmados"></canvas></div>
       </div>
     </div>
@@ -306,11 +306,11 @@
     <!-- 2 side by side -->
     <div class="chart-row cols-2">
       <div class="chart-box">
-        <h4>Sin Disponibilidad Historico</h4>
+        <h4>Sin Disponibilidad Histórico</h4>
         <div class="chart-container short"><canvas id="chart-hs-sindispo"></canvas></div>
       </div>
       <div class="chart-box">
-        <h4>Descartados Historico</h4>
+        <h4>Descartados Histórico</h4>
         <div class="chart-container short"><canvas id="chart-hs-descartados"></canvas></div>
       </div>
     </div>
@@ -335,60 +335,62 @@
 
     function renderHubSpot(data) {
       const hs = data.hubspot;
+      if (!hs) { document.getElementById('pipeline-stages').innerHTML = '<p style="color:var(--color-text-muted);font-size:0.85rem;text-align:center;">Sin datos disponibles</p>'; return; }
 
-      // Pipeline stage counts from deals_by_stage_history (latest entry)
-      const stageHistory = hs.deals_by_stage_history || [];
-      if (stageHistory.length > 0) {
-        const latest = stageHistory[stageHistory.length - 1];
-        document.getElementById('stage-interesado').textContent = formatCount(latest.interesado || 0);
-        document.getElementById('stage-lista-espera').textContent = formatCount(latest.lista_espera || 0);
-        document.getElementById('stage-firmado').textContent = formatCount(latest.firmado || 0);
-        document.getElementById('stage-sin-disponibilidad').textContent = formatCount(latest.sin_disponibilidad || 0);
-        document.getElementById('stage-descartado').textContent = formatCount(latest.descartado || 0);
+      // Pipeline stage counts from individual history arrays (latest entry)
+      function latestCount(arr) {
+        if (!arr || !arr.length) return 0;
+        return arr[arr.length - 1].count || 0;
+      }
+      document.getElementById('stage-interesado').textContent = formatCount(latestCount(hs.interesados_history));
+      document.getElementById('stage-lista-espera').textContent = formatCount(latestCount(hs.lista_espera_history));
+      document.getElementById('stage-firmado').textContent = formatCount(latestCount(hs.firmados_history));
+      document.getElementById('stage-sin-disponibilidad').textContent = formatCount(latestCount(hs.sin_disponibilidad_history));
+      document.getElementById('stage-descartado').textContent = formatCount(latestCount(hs.descartados_history));
+
+      // Stacked bar: Leads válidos mensuales
+      if (hs.leads_valid_monthly && hs.leads_valid_monthly.length) {
+        createStackedBar('chart-hubspot-stacked', hs.leads_valid_monthly, {
+          datasets: [
+            { key: 'lista_espera', label: 'Lista Espera', color: '#D97706' },
+            { key: 'firmado', label: 'Firmado', color: '#0D9488' },
+            { key: 'sin_disponibilidad', label: 'Sin Disponibilidad', color: '#7C3AED' }
+          ]
+        });
       }
 
-      // Stacked bar: Leads validos mensuales
-      createStackedBar('chart-hubspot-stacked', hs.leads_valid_monthly, {
-        datasets: [
-          { key: 'lista_espera', label: 'Lista Espera', color: '#D97706' },
-          { key: 'firmado', label: 'Firmado', color: '#0D9488' },
-          { key: 'sin_disponibilidad', label: 'Sin Disponibilidad', color: '#7C3AED' }
-        ]
-      });
-
       // Individual stage histories
-      createMonthlyBar('chart-hs-interesados',
-        stageHistory.map(h => ({ month: h.month, count: h.interesado })),
-        { color: '#2D5016', label: 'Interesados' }
-      );
+      if (hs.interesados_history && hs.interesados_history.length) {
+        createMonthlyBar('chart-hs-interesados', hs.interesados_history, { color: '#2D5016', label: 'Interesados' });
+      }
 
-      createMonthlyBar('chart-hs-lista',
-        stageHistory.map(h => ({ month: h.month, count: h.lista_espera })),
-        { color: '#D97706', label: 'Lista Espera' }
-      );
+      if (hs.lista_espera_history && hs.lista_espera_history.length) {
+        createMonthlyBar('chart-hs-lista', hs.lista_espera_history, { color: '#D97706', label: 'Lista Espera' });
+      }
 
-      createMonthlyBar('chart-hs-firmados',
-        stageHistory.map(h => ({ month: h.month, count: h.firmado })),
-        { color: '#0D9488', label: 'Firmados' }
-      );
+      if (hs.firmados_history && hs.firmados_history.length) {
+        createMonthlyBar('chart-hs-firmados', hs.firmados_history, { color: '#0D9488', label: 'Firmados' });
+      }
 
-      createMonthlyBar('chart-hs-sindispo',
-        stageHistory.map(h => ({ month: h.month, count: h.sin_disponibilidad })),
-        { color: '#7C3AED', label: 'Sin Disponibilidad' }
-      );
+      if (hs.sin_disponibilidad_history && hs.sin_disponibilidad_history.length) {
+        createMonthlyBar('chart-hs-sindispo', hs.sin_disponibilidad_history, { color: '#7C3AED', label: 'Sin Disponibilidad' });
+      }
 
-      createMonthlyBar('chart-hs-descartados',
-        stageHistory.map(h => ({ month: h.month, count: h.descartado })),
-        { color: '#B91C1C', label: 'Descartados' }
-      );
+      if (hs.descartados_history && hs.descartados_history.length) {
+        createMonthlyBar('chart-hs-descartados', hs.descartados_history, { color: '#B91C1C', label: 'Descartados' });
+      }
 
       // Sources table
-      renderSortableTable('table-hubspot-sources', [
-        { key: 'source', label: 'Fuente', unit: 'text' },
-        { key: 'lista_espera', label: 'Lista de Espera', unit: 'count', align: 'right' },
-        { key: 'firmado', label: 'Firmado', unit: 'count', align: 'right' },
-        { key: 'sin_disponibilidad', label: 'Sin Disponibilidad', unit: 'count', align: 'right' }
-      ], hs.leads_by_source);
+      if (hs.leads_by_source && hs.leads_by_source.length) {
+        renderSortableTable('table-hubspot-sources', [
+          { key: 'source', label: 'Fuente', unit: 'text' },
+          { key: 'lista_espera', label: 'Lista de Espera', unit: 'count', align: 'right' },
+          { key: 'firmado', label: 'Firmado', unit: 'count', align: 'right' },
+          { key: 'sin_disponibilidad', label: 'Sin Disponibilidad', unit: 'count', align: 'right' }
+        ], hs.leads_by_source);
+      } else {
+        document.getElementById('table-hubspot-sources').innerHTML = '<p style="color:var(--color-text-muted);font-size:0.85rem;">Sin datos disponibles</p>';
+      }
     }
 
     const urlParams = new URLSearchParams(window.location.search);

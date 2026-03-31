@@ -93,7 +93,7 @@ async function loadMonth(month) {
   const footerEl = document.getElementById('last-updated');
   if (footerEl && data.meta.generatedAt) {
     const d = new Date(data.meta.generatedAt);
-    footerEl.textContent = `Ultima actualizacion: ${d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
+    footerEl.textContent = `Última actualización: ${d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' })}`;
   }
 
   // Call client-specific renderer
@@ -125,7 +125,7 @@ export function renderKpiCards(containerId, kpis) {
     { key: 'cpc', label: 'CPC', format: formatCurrency, invert: true },
     { key: 'leads', label: 'LEADS', format: formatCount, invert: false },
     { key: 'cpl', label: 'CPL', format: formatCurrency, invert: true },
-    { key: 'inversion', label: 'INVERSION', format: formatCurrency, invert: false }
+    { key: 'inversion', label: 'INVERSIÓN', format: formatCurrency, invert: false }
   ];
 
   container.innerHTML = metrics.map(m => {
@@ -152,12 +152,18 @@ export function renderKpiCards(containerId, kpis) {
  * @param {Array} columns - [{key, label, unit, align?, defaultDesc?, render?}]
  * @param {Array} rows
  */
-export function renderSortableTable(containerId, columns, rows) {
+export function renderSortableTable(containerId, columns, rows, options = {}) {
   const container = document.getElementById(containerId);
   if (!container || !rows) return;
 
-  let sortCol = null;
-  let sortAsc = true;
+  let sortCol = options.defaultSortCol ?? null;
+  let sortAsc = options.defaultSortAsc ?? true;
+
+  // Resolve string key to index
+  if (typeof sortCol === 'string') {
+    sortCol = columns.findIndex(c => c.key === sortCol);
+    if (sortCol === -1) sortCol = null;
+  }
 
   function formatCell(value, unit) {
     if (value == null) return '\u2014';
@@ -249,7 +255,7 @@ export function renderHistoricalTable(containerId, history, options = {}) {
     { key: 'cpc', label: 'CPC', format: formatCurrency },
     { key: 'leads', label: 'Leads', format: formatCount },
     { key: 'cpl', label: 'CPL', format: formatCurrency },
-    { key: 'inversion', label: 'Inversion', format: formatCurrency }
+    { key: 'inversion', label: 'Inversión', format: formatCurrency }
   ];
 
   let html = '<table class="data-table"><thead><tr>';
