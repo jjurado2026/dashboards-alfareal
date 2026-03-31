@@ -419,7 +419,6 @@ def _google_query(
     request = client.get_type("SearchGoogleAdsRequest")
     request.customer_id = customer_id.replace("-", "")
     request.query = query
-    request.page_size = 10000
 
     response = service.search(request=request)
     for row in response:
