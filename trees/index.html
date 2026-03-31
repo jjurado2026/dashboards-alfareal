@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Dashboard Publicidad — Trees Coliving</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../shared/styles-base.css">
+  <style>
+    :root {
+      --color-primary: #2D5016;
+      --color-primary-light: #4A7A2E;
+      --color-bg: #F5F0E8;
+      --color-card-bg: #FFFFFF;
+      --color-text: #1A1A1A;
+      --color-text-muted: #6B6B6B;
+      --color-positive: #2D5016;
+      --color-negative: #B91C1C;
+      --color-meta: #1877F2;
+      --color-google: #34A853;
+      --font-family: 'Nunito', sans-serif;
+      --border-radius: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard-wrapper" id="dashboard-content">
+
+    <!-- HEADER -->
+    <header class="dashboard-header">
+      <div class="header-left">
+        <div>
+          <div class="header-title">Trees Coliving</div>
+          <div class="header-subtitle">Dashboard de Publicidad Digital</div>
+        </div>
+      </div>
+      <div class="header-controls no-print">
+        <select id="month-selector" class="month-selector"></select>
+        <button id="btn-export-pdf" class="btn-export">Exportar PDF</button>
+      </div>
+    </header>
+
+    <!-- COMBINED KPIs -->
+    <section class="kpi-section">
+      <div class="section-title">Resumen General</div>
+      <div class="kpi-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="kpi-card combined" id="kpi-total-leads">
+          <div class="kpi-label">Total Leads</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card combined" id="kpi-blended-cpl">
+          <div class="kpi-label">CPL Combinado</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card combined" id="kpi-total-spend">
+          <div class="kpi-label">Inversión Total</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- META ADS KPIs -->
+    <section class="kpi-section">
+      <div class="section-title"><span class="icon" style="color: var(--color-meta);">●</span> Meta Ads</div>
+      <div class="kpi-grid">
+        <div class="kpi-card meta" id="kpi-meta-leads">
+          <div class="kpi-label">Leads</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card meta" id="kpi-meta-cpl">
+          <div class="kpi-label">CPL</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card meta" id="kpi-meta-spend">
+          <div class="kpi-label">Inversión</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card meta" id="kpi-meta-ctr">
+          <div class="kpi-label">CTR</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE ADS KPIs -->
+    <section class="kpi-section">
+      <div class="section-title"><span class="icon" style="color: var(--color-google);">●</span> Google Ads</div>
+      <div class="kpi-grid">
+        <div class="kpi-card google" id="kpi-google-leads">
+          <div class="kpi-label">Leads</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card google" id="kpi-google-cpl">
+          <div class="kpi-label">CPL</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card google" id="kpi-google-spend">
+          <div class="kpi-label">Inversión</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+        <div class="kpi-card google" id="kpi-google-ctr">
+          <div class="kpi-label">CTR</div>
+          <div class="kpi-value">—</div>
+          <div class="kpi-delta"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHARTS ROW 1 -->
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Mix de Canales</h3>
+        <div class="chart-container">
+          <canvas id="chart-channel-mix"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <h3>Evolución Histórica: Leads + CPL</h3>
+        <div class="chart-container">
+          <canvas id="chart-history"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- CHARTS ROW 2 -->
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Evolución Inversión Mensual</h3>
+        <div class="chart-container">
+          <canvas id="chart-spend"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <h3>Funnel de Negocio</h3>
+        <div class="chart-container">
+          <canvas id="chart-funnel"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <!-- BUSINESS METRICS -->
+    <div class="business-grid">
+      <div class="metric-highlight">
+        <div class="big-number" id="visitas-value">—</div>
+        <div class="metric-label">Visitas Realizadas</div>
+      </div>
+      <div class="metric-highlight">
+        <div class="big-number" id="ocupacion-value">—</div>
+        <div class="metric-label">Ocupación</div>
+        <span class="status-badge success" id="ocupacion-badge" style="display:none;"></span>
+      </div>
+    </div>
+
+    <!-- CAMPAIGN TABLES -->
+    <section class="tabs">
+      <div class="section-title">Detalle de Campañas</div>
+      <div class="tab-buttons no-print">
+        <button class="tab-btn active" data-tab="tab-meta">Meta Ads</button>
+        <button class="tab-btn" data-tab="tab-google">Google Ads</button>
+      </div>
+
+      <div id="tab-meta" class="tab-content active">
+        <h4 style="margin-bottom: 12px; color: var(--color-text-muted); font-size: 0.85rem;">Top Creatividades</h4>
+        <div class="table-wrapper" id="table-meta-creatives"></div>
+        <h4 style="margin: 20px 0 12px; color: var(--color-text-muted); font-size: 0.85rem;">Campañas</h4>
+        <div class="table-wrapper" id="table-meta-campaigns"></div>
+      </div>
+
+      <div id="tab-google" class="tab-content">
+        <h4 style="margin-bottom: 12px; color: var(--color-text-muted); font-size: 0.85rem;">Top Keywords</h4>
+        <div class="table-wrapper" id="table-google-keywords"></div>
+        <h4 style="margin: 20px 0 12px; color: var(--color-text-muted); font-size: 0.85rem;">Campañas</h4>
+        <div class="table-wrapper" id="table-google-campaigns"></div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="dashboard-footer">
+      <span id="last-updated"></span> · Datos actualizados diariamente
+    </footer>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+  <script type="module">
+    import { initDashboard } from '../shared/dashboard.js';
+    initDashboard({
+      clientId: 'trees',
+      clientName: 'Trees Coliving',
+      dataBasePath: '../data/trees'
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trees Coliving — Informe Febrero 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-dark: #2D5016;
+      --green-mid: #4A7C28;
+      --green-light: #6BA33E;
+      --green-pale: #E8F0E0;
+      --beige: #F5F0E8;
+      --beige-dark: #E8E0D0;
+      --white: #FFFFFF;
+      --text-primary: #1A1A1A;
+      --text-secondary: #555555;
+      --text-muted: #888888;
+      --shadow: 0 2px 16px rgba(45, 80, 22, 0.08);
+      --shadow-lg: 0 4px 24px rgba(45, 80, 22, 0.12);
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: var(--beige);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 0 auto;
+      padding: 40px 48px;
+      background: var(--white);
+      position: relative;
+      page-break-after: always;
+      overflow: hidden;
+    }
+
+    .page:last-child {
+      page-break-after: avoid;
+    }
+
+    /* ---- Cover ---- */
+    .page-cover {
+      background: linear-gradient(160deg, #1A3A0A 0%, var(--green-dark) 40%, var(--green-mid) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: var(--white);
+      padding: 60px;
+      position: relative;
+    }
+
+    .page-cover::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 20% 80%, rgba(106, 163, 62, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(255, 255, 255, 0.05) 0%, transparent 40%);
+      pointer-events: none;
+    }
+
+    .cover-leaf {
+      font-size: 64px;
+      margin-bottom: 32px;
+      opacity: 0.7;
+    }
+
+    .cover-brand {
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      opacity: 0.6;
+      margin-bottom: 48px;
+    }
+
+    .cover-title {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .cover-subtitle {
+      font-size: 26px;
+      font-weight: 300;
+      opacity: 0.85;
+      margin-bottom: 48px;
+    }
+
+    .cover-client {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .cover-tagline {
+      font-size: 16px;
+      font-weight: 400;
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    .cover-footer {
+      position: absolute;
+      bottom: 40px;
+      font-size: 12px;
+      opacity: 0.4;
+      letter-spacing: 1px;
+    }
+
+    /* ---- Section Headers ---- */
+    .section-number {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--green-mid);
+      background: var(--green-pale);
+      padding: 4px 14px;
+      border-radius: 20px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--green-dark);
+      line-height: 1.25;
+      margin-bottom: 8px;
+    }
+
+    .section-subtitle {
+      font-size: 15px;
+      color: var(--text-secondary);
+      margin-bottom: 32px;
+      line-height: 1.5;
+    }
+
+    .section-divider {
+      width: 48px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--green-dark), var(--green-light));
+      border-radius: 2px;
+      margin-bottom: 24px;
+    }
+
+    /* ---- Cards ---- */
+    .cards-row {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .card {
+      flex: 1;
+      background: var(--white);
+      border: 1px solid var(--beige-dark);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--green-dark);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .card-text {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    /* ---- KPI Cards ---- */
+    .kpi-row {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .kpi {
+      flex: 1;
+      background: var(--white);
+      border: 1px solid var(--beige-dark);
+      border-radius: var(--radius);
+      padding: 20px;
+      text-align: center;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .kpi::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--green-dark), var(--green-light));
+    }
+
+    .kpi-value {
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--green-dark);
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+
+    .kpi-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    .kpi-comparison {
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .kpi-comparison .up { color: #C0392B; }
+    .kpi-comparison .down { color: var(--green-mid); }
+    .kpi-comparison .stable { color: var(--text-muted); }
+
+    /* ---- Note Box ---- */
+    .note-box {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green-mid);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 18px 22px;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-top: 20px;
+    }
+
+    .note-box strong {
+      color: var(--green-dark);
+    }
+
+    /* ---- Channel Mix ---- */
+    .channel-mix-container {
+      display: flex;
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 28px;
+    }
+
+    .channel-block {
+      flex: 1;
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .channel-block.meta {
+      background: linear-gradient(135deg, var(--green-dark), var(--green-mid));
+      color: var(--white);
+    }
+
+    .channel-block.google {
+      background: linear-gradient(135deg, #2B4C7E, #3D6FB4);
+      color: var(--white);
+    }
+
+    .channel-block.total {
+      background: var(--white);
+      border: 2px solid var(--green-dark);
+      color: var(--green-dark);
+    }
+
+    .channel-pct {
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+
+    .channel-leads {
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      opacity: 0.9;
+    }
+
+    .channel-name {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      opacity: 0.7;
+    }
+
+    .mix-bar {
+      height: 14px;
+      border-radius: 7px;
+      overflow: hidden;
+      display: flex;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .mix-bar-meta {
+      width: 66%;
+      background: linear-gradient(90deg, var(--green-dark), var(--green-mid));
+    }
+
+    .mix-bar-google {
+      width: 34%;
+      background: linear-gradient(90deg, #2B4C7E, #3D6FB4);
+    }
+
+    .bullet-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .bullet-list li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 14px;
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .bullet-list li::before {
+      content: '●';
+      position: absolute;
+      left: 0;
+      color: var(--green-mid);
+      font-size: 10px;
+      top: 4px;
+    }
+
+    /* ---- CSS Bar Charts ---- */
+    .chart-container {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    .chart-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .chart-label {
+      width: 58px;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-align: right;
+      padding-right: 10px;
+      flex-shrink: 0;
+    }
+
+    .chart-bar-wrapper {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .chart-bar {
+      height: 22px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      padding-left: 8px;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--white);
+      min-width: 32px;
+      transition: width 0.3s;
+    }
+
+    .chart-bar.meta-bar {
+      background: linear-gradient(90deg, var(--green-dark), var(--green-mid));
+    }
+
+    .chart-bar.google-bar {
+      background: linear-gradient(90deg, #2B4C7E, #3D6FB4);
+    }
+
+    .chart-cpl {
+      font-size: 10px;
+      color: var(--text-muted);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    /* ---- Tables ---- */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    .data-table thead th {
+      background: var(--green-dark);
+      color: var(--white);
+      padding: 10px 14px;
+      text-align: left;
+      font-weight: 700;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+
+    .data-table thead th:first-child {
+      border-radius: var(--radius-sm) 0 0 0;
+    }
+
+    .data-table thead th:last-child {
+      border-radius: 0 var(--radius-sm) 0 0;
+    }
+
+    .data-table tbody td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--beige);
+    }
+
+    .data-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .data-table tbody tr:nth-child(even) {
+      background: var(--green-pale);
+    }
+
+    .data-table .num {
+      text-align: right;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tables-row {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .tables-row > div {
+      flex: 1;
+    }
+
+    .table-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--green-dark);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* ---- Funnel ---- */
+    .funnel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      margin: 28px 0;
+    }
+
+    .funnel-step {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--white);
+      font-weight: 700;
+      border-radius: var(--radius-sm);
+      padding: 14px 20px;
+      margin-bottom: 4px;
+      position: relative;
+    }
+
+    .funnel-step .funnel-num {
+      font-size: 26px;
+      font-weight: 900;
+      margin-right: 12px;
+    }
+
+    .funnel-step .funnel-text {
+      font-size: 13px;
+      text-align: left;
+    }
+
+    .funnel-arrow {
+      font-size: 18px;
+      color: var(--green-mid);
+      margin: 2px 0;
+    }
+
+    .funnel-1 { background: var(--green-dark); width: 55%; }
+    .funnel-2 { background: var(--green-mid); width: 65%; }
+    .funnel-3 { background: #5A9A32; width: 75%; }
+    .funnel-4 { background: #7AB85A; width: 90%; }
+
+    /* ---- Strategy Cards ---- */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 24px;
+    }
+
+    .strategy-card {
+      background: var(--white);
+      border: 1px solid var(--beige-dark);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .strategy-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--green-dark), var(--green-light));
+    }
+
+    .strategy-card .card-icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    /* ---- Two Columns ---- */
+    .two-cols {
+      display: flex;
+      gap: 28px;
+    }
+
+    .two-cols > div {
+      flex: 1;
+    }
+
+    .col-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: var(--green-dark);
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 3px solid var(--green-pale);
+    }
+
+    .col-item {
+      margin-bottom: 16px;
+      padding-left: 20px;
+      position: relative;
+      font-size: 13.5px;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    .col-item::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--green-mid);
+      font-weight: 800;
+    }
+
+    .col-item strong {
+      color: var(--green-dark);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* ---- Thank You Page ---- */
+    .page-thanks {
+      background: linear-gradient(160deg, #1A3A0A 0%, var(--green-dark) 40%, var(--green-mid) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: var(--white);
+    }
+
+    .thanks-logo {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: 8px;
+      text-transform: uppercase;
+      opacity: 0.5;
+      margin-bottom: 48px;
+    }
+
+    .thanks-title {
+      font-size: 48px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+
+    .thanks-tagline {
+      font-size: 18px;
+      font-weight: 400;
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    .thanks-leaf {
+      font-size: 56px;
+      margin-top: 48px;
+      opacity: 0.5;
+    }
+
+    /* ---- Print Styles ---- */
+    @media print {
+      body {
+        background: white;
+      }
+
+      .page {
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        box-shadow: none;
+        page-break-after: always;
+        page-break-inside: avoid;
+      }
+
+      .page:last-child {
+        page-break-after: avoid;
+      }
+    }
+
+    /* ---- Screen display ---- */
+    @media screen {
+      body {
+        padding: 20px 0;
+      }
+
+      .page {
+        margin-bottom: 24px;
+        box-shadow: var(--shadow-lg);
+        border-radius: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- PAGE 1 — COVER -->
+<div class="page page-cover">
+  <div class="cover-leaf">🌿</div>
+  <div class="cover-brand">Trees Coliving</div>
+  <div class="cover-title">Informe de Resultados</div>
+  <div class="cover-subtitle">Febrero 2026</div>
+  <div style="width:60px;height:2px;background:rgba(255,255,255,0.3);margin:0 auto 48px;border-radius:1px;"></div>
+  <div class="cover-client">Trees Coliving</div>
+  <div class="cover-tagline">Vive. Conecta. Diviértete.</div>
+  <div class="cover-footer">Informe confidencial &middot; Febrero 2026</div>
+</div>
+
+<!-- PAGE 2 — EXECUTIVE SUMMARY -->
+<div class="page">
+  <div class="section-number">Resumen Ejecutivo</div>
+  <div class="section-title">Plena ocupación y alta eficiencia en captación</div>
+  <div class="section-divider"></div>
+  <div class="section-subtitle">Los puntos clave del rendimiento publicitario de febrero 2026.</div>
+
+  <div class="cards-row" style="flex-direction: column; gap: 20px;">
+    <div class="card">
+      <div class="card-icon">📊</div>
+      <div class="card-title">Optimización en Meta Ads</div>
+      <div class="card-text">El volumen de leads se mantiene estable (78) con una mejora notable en la eficiencia. El CPL baja a 5,73 €, consolidándose por debajo de los 6 €.</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">🔍</div>
+      <div class="card-title">Alta Relevancia en Búsqueda</div>
+      <div class="card-text">Se mantiene una fuerte intención de búsqueda con un CTR del 13%, compensando el aumento natural del CPL (18,49 €).</div>
+    </div>
+    <div class="card">
+      <div class="card-icon">🏠</div>
+      <div class="card-title">Plena Ocupación Alcanzada</div>
+      <div class="card-text">Éxito comercial con el 100% de ocupación física actual. 87 leads adicionales se han asegurado para nutrir el pipeline de futuras disponibilidades.</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 3 — CHANNEL MIX -->
+<div class="page">
+  <div class="section-number">Canal Mix</div>
+  <div class="section-title">Equilibrio del embudo: Meta tracciona el volumen, Google aporta la intención.</div>
+  <div class="section-divider"></div>
+
+  <div class="channel-mix-container">
+    <div class="channel-block meta">
+      <div class="channel-pct">66%</div>
+      <div class="channel-leads">78 Leads</div>
+      <div class="channel-name">Meta Ads</div>
+    </div>
+    <div class="channel-block google">
+      <div class="channel-pct">34%</div>
+      <div class="channel-leads">41 Leads</div>
+      <div class="channel-name">Google Ads</div>
+    </div>
+    <div class="channel-block total">
+      <div class="channel-pct">119</div>
+      <div class="channel-leads">Leads Totales</div>
+      <div class="channel-name">Febrero 2026</div>
+    </div>
+  </div>
+
+  <div class="mix-bar">
+    <div class="mix-bar-meta"></div>
+    <div class="mix-bar-google"></div>
+  </div>
+
+  <ul class="bullet-list">
+    <li>El mix de medios se apoya en <strong>Meta Ads</strong> como una potente red de captación a coste optimizado, generando dos tercios del volumen total de leads.</li>
+    <li><strong>Google Ads</strong> captura a los usuarios en fase de decisión activa, aportando alta calidad al mix global con intenciones de búsqueda cualificadas.</li>
+  </ul>
+</div>
+
+<!-- PAGE 4 — META ADS RESULTS -->
+<div class="page">
+  <div class="section-number">Meta Ads</div>
+  <div class="section-title">Meta Ads consolida el volumen y mejora el coste de captación</div>
+  <div class="section-divider"></div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-value">78</div>
+      <div class="kpi-label">Leads</div>
+      <div class="kpi-comparison"><span class="stable">Estable vs. 75 en Ene</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">5,73 €</div>
+      <div class="kpi-label">CPL</div>
+      <div class="kpi-comparison"><span class="down">↓ Mejora vs. 6,58 € en Ene</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">446,61 €</div>
+      <div class="kpi-label">Inversión total</div>
+      <div class="kpi-comparison">&nbsp;</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">6,22%</div>
+      <div class="kpi-label">CTR</div>
+      <div class="kpi-comparison">&nbsp;</div>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Análisis:</strong> La campaña <em>'Prospecting Advantage'</em> sigue liderando. La tracción de los formatos Reel (destacando <em>'Matadero'</em>) ha permitido reducir el CPL por debajo de los 6 €, consolidando una tendencia de optimización continua.
+  </div>
+</div>
+
+<!-- PAGE 5 — META ADS HISTORICAL -->
+<div class="page">
+  <div class="section-number">Meta Ads &middot; Histórico</div>
+  <div class="section-title">Consistencia histórica: 13 meses de optimización en Meta Ads</div>
+  <div class="section-divider"></div>
+
+  <div class="chart-container">
+    <div class="chart-row">
+      <div class="chart-label">Feb 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:50%;">53</div>
+        <div class="chart-cpl">2,47 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Mar 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:89%;">94</div>
+        <div class="chart-cpl">3,31 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Abr 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:86%;">91</div>
+        <div class="chart-cpl">3,53 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">May 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:80%;">85</div>
+        <div class="chart-cpl">5,81 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Jun 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:94%;">100</div>
+        <div class="chart-cpl">7,50 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Jul 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:100%;">106</div>
+        <div class="chart-cpl">5,95 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Ago 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:86%;">91</div>
+        <div class="chart-cpl">5,65 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Sep 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:86%;">91</div>
+        <div class="chart-cpl">5,68 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Oct 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:57%;">60</div>
+        <div class="chart-cpl">9,58 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Nov 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:61%;">65</div>
+        <div class="chart-cpl">7,99 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Dic 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:61%;">65</div>
+        <div class="chart-cpl">6,57 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Ene 26</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:71%;">75</div>
+        <div class="chart-cpl">6,58 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label" style="color:var(--green-dark);font-weight:900;">Feb 26</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar meta-bar" style="width:74%;background:linear-gradient(90deg,var(--green-dark),#8BC34A);">78</div>
+        <div class="chart-cpl" style="color:var(--green-dark);font-weight:800;">5,73 €</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Tendencia:</strong> Volumen sostenido y optimización progresiva del coste durante el último año, consolidando la barrera de los 6 € de CPL en el invierno de 2026.
+  </div>
+</div>
+
+<!-- PAGE 6 — GOOGLE ADS RESULTS -->
+<div class="page">
+  <div class="section-number">Google Ads</div>
+  <div class="section-title">Google Ads: Relevancia sostenida frente a fluctuaciones del mercado</div>
+  <div class="section-divider"></div>
+
+  <div class="kpi-row">
+    <div class="kpi">
+      <div class="kpi-value">41</div>
+      <div class="kpi-label">Leads</div>
+      <div class="kpi-comparison"><span class="up">↓ vs. 51 en Ene</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">18,49 €</div>
+      <div class="kpi-label">CPL</div>
+      <div class="kpi-comparison"><span class="up">↑ Aumento vs. 16,47 € en Ene</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">758,21 €</div>
+      <div class="kpi-label">Inversión total</div>
+      <div class="kpi-comparison">&nbsp;</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-value">13,00%</div>
+      <div class="kpi-label">CTR</div>
+      <div class="kpi-comparison"><span class="down">Alta relevancia</span></div>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Análisis:</strong> El CTR del 13% indica una excelente calidad del anuncio. El aumento del CPC ha elevado el CPL y ajustado el volumen de captación en búsqueda de forma natural, una dinámica habitual en mercados competitivos.
+  </div>
+</div>
+
+<!-- PAGE 7 — GOOGLE ADS HISTORICAL -->
+<div class="page">
+  <div class="section-number">Google Ads &middot; Histórico</div>
+  <div class="section-title">Consistencia histórica: 14 meses de evolución en Google Ads</div>
+  <div class="section-divider"></div>
+
+  <div class="chart-container">
+    <div class="chart-row">
+      <div class="chart-label">Ene 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:67%;">82</div>
+        <div class="chart-cpl">5,92 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Feb 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:79%;">96</div>
+        <div class="chart-cpl">7,11 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Mar 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:100%;">122</div>
+        <div class="chart-cpl">8,61 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Abr 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:69%;">84</div>
+        <div class="chart-cpl">13,06 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">May 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:62%;">76</div>
+        <div class="chart-cpl">16,88 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Jun 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:38%;">46</div>
+        <div class="chart-cpl">16,18 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Jul 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:45%;">55</div>
+        <div class="chart-cpl">11,08 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Ago 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:60%;">73</div>
+        <div class="chart-cpl">8,35 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Sep 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:52%;">64</div>
+        <div class="chart-cpl">10,31 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Oct 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:49%;">60</div>
+        <div class="chart-cpl">10,77 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Nov 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:35%;">43</div>
+        <div class="chart-cpl">16,25 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Dic 25</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:40%;">49</div>
+        <div class="chart-cpl">16,14 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label">Ene 26</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:44%;">54</div>
+        <div class="chart-cpl">15,56 €</div>
+      </div>
+    </div>
+    <div class="chart-row">
+      <div class="chart-label" style="color:#2B4C7E;font-weight:900;">Feb 26</div>
+      <div class="chart-bar-wrapper">
+        <div class="chart-bar google-bar" style="width:34%;background:linear-gradient(90deg,#2B4C7E,#5A9FD4);">41</div>
+        <div class="chart-cpl" style="color:#2B4C7E;font-weight:800;">18,49 €</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Tendencia:</strong> Ajuste natural en volumen frente a encarecimientos periódicos del coste por clic (CPC) en el mercado, manteniendo siempre la relevancia en intenciones de búsqueda captadas.
+  </div>
+</div>
+
+<!-- PAGE 8 — TOP KEYWORDS & CREATIVES -->
+<div class="page">
+  <div class="section-number">Top Captación</div>
+  <div class="section-title">Las claves de captación: El genérico 'Coliving' y el formato vídeo</div>
+  <div class="section-divider"></div>
+
+  <div class="tables-row">
+    <div>
+      <div class="table-title">🔎 Palabras clave (Google)</div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Keyword</th>
+            <th style="text-align:right;">Leads</th>
+            <th style="text-align:right;">CPL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>coliving</td>
+            <td class="num">7</td>
+            <td class="num">21,01 €</td>
+          </tr>
+          <tr>
+            <td>trees coliving <span style="font-size:10px;color:var(--green-mid);font-weight:700;">(Brand)</span></td>
+            <td class="num">6</td>
+            <td class="num">18,56 €</td>
+          </tr>
+          <tr>
+            <td>coliving madrid</td>
+            <td class="num">3</td>
+            <td class="num">32,15 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <div class="table-title">🎬 Reels de mayor impacto (Meta)</div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Creatividad</th>
+            <th style="text-align:right;">Leads</th>
+            <th style="text-align:right;">CPL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Reel 2 - Matadero - Copia</td>
+            <td class="num">32</td>
+            <td class="num">5,01 €</td>
+          </tr>
+          <tr>
+            <td>Reel 2 - Galerías - Copia</td>
+            <td class="num">13</td>
+            <td class="num">4,97 €</td>
+          </tr>
+          <tr>
+            <td>Reel 1 - Galerías</td>
+            <td class="num">12</td>
+            <td class="num">8,12 €</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Insight:</strong> El término <em>'coliving'</em> domina la intención de búsqueda, mientras que el tour en vídeo de <em>'Matadero'</em> se consolida como el activo visual más rentable, concentrando el 41% de todos los leads de Meta Ads.
+  </div>
+</div>
+
+<!-- PAGE 9 — BUSINESS IMPACT -->
+<div class="page">
+  <div class="section-number">Impacto Comercial</div>
+  <div class="section-title">Calidad confirmada: 108 leads válidos procesados</div>
+  <div class="section-divider"></div>
+
+  <div class="section-subtitle">108 Leads procesados y validados por el equipo de ventas en febrero.</div>
+
+  <div class="funnel">
+    <div class="funnel-step funnel-1">
+      <span class="funnel-num">5</span>
+      <span class="funnel-text">Contratos Firmados</span>
+    </div>
+    <div class="funnel-arrow">▼</div>
+    <div class="funnel-step funnel-2">
+      <span class="funnel-num">14</span>
+      <span class="funnel-text">En Lista de Espera Activa</span>
+    </div>
+    <div class="funnel-arrow">▼</div>
+    <div class="funnel-step funnel-3">
+      <span class="funnel-num">2</span>
+      <span class="funnel-text">En Proceso</span>
+    </div>
+    <div class="funnel-arrow">▼</div>
+    <div class="funnel-step funnel-4">
+      <span class="funnel-num">87</span>
+      <span class="funnel-text">Pipeline Futuro (Plena Ocupación)</span>
+    </div>
+  </div>
+
+  <div class="note-box">
+    <strong>Dato Clave:</strong> La cualificación de los leads es alta. El volumen generado nos permite cubrir la capacidad actual al 100% y asegurar una gran base de prospectos interesados para futuras aperturas.
+  </div>
+</div>
+
+<!-- PAGE 10 — STRATEGY -->
+<div class="page">
+  <div class="section-number">Estrategia</div>
+  <div class="section-title">Estrategia táctica: Gestión de la demanda futura</div>
+  <div class="section-divider"></div>
+
+  <div class="strategy-grid">
+    <div class="strategy-card">
+      <div class="card-icon">🎬</div>
+      <div class="card-title">Apuesta por Reels Ganadores</div>
+      <div class="card-text">Mantener el presupuesto en creatividades como <em>'Matadero'</em> que lideran la rentabilidad, maximizando el ROI de cada euro invertido en Meta.</div>
+    </div>
+    <div class="strategy-card">
+      <div class="card-icon">🎯</div>
+      <div class="card-title">Recalibración en Google</div>
+      <div class="card-text">Ajuste continuo de pujas para proteger el presupuesto ante las fluctuaciones del mercado de búsqueda, priorizando las keywords de mayor conversión.</div>
+    </div>
+    <div class="strategy-card">
+      <div class="card-icon">🌱</div>
+      <div class="card-title">Nutrición del Pipeline</div>
+      <div class="card-text">Foco vital en mantener calientes a los prospectos validados para futuras aperturas mediante secuencias de comunicación automatizadas.</div>
+    </div>
+    <div class="strategy-card">
+      <div class="card-icon">📊</div>
+      <div class="card-title">Sincronización de Inventario</div>
+      <div class="card-text">Monitorización de la ocupación real para alinear la inversión publicitaria con la disponibilidad futura, optimizando el timing de la captación.</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 11 — CONCLUSIONS & RECOMMENDATIONS -->
+<div class="page">
+  <div class="section-number">Conclusiones</div>
+  <div class="section-title">Conclusiones y recomendaciones estratégicas</div>
+  <div class="section-divider"></div>
+
+  <div class="two-cols">
+    <div>
+      <div class="col-title">Conclusiones</div>
+      <div class="col-item">
+        La estrategia actual es un <strong>éxito comercial</strong>: hemos alcanzado la plena ocupación.
+      </div>
+      <div class="col-item">
+        La eficiencia en redes (Meta) está <strong>consolidada por debajo de los 6 €</strong>, una barrera de optimización sostenida durante meses.
+      </div>
+      <div class="col-item">
+        Debemos <strong>seguir con esta estrategia</strong>, pues la cualificación de los leads es muy buena y el funnel comercial funciona.
+      </div>
+    </div>
+    <div>
+      <div class="col-title">Recomendaciones</div>
+      <div class="col-item">
+        <strong>Automatización CRM</strong>
+        Implementar inmediatamente secuencias de email para mantener el interés de los 87 leads válidos en espera.
+      </div>
+      <div class="col-item">
+        <strong>Iteración Visual</strong>
+        Producir nuevas variaciones del Reel de 'Matadero' para mantener la tracción y evitar la fatiga creativa.
+      </div>
+      <div class="col-item">
+        <strong>Ajuste Táctico</strong>
+        Modular la inversión en Google Ads de acuerdo con las previsiones de liberación de habitaciones en primavera.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 12 — THANK YOU -->
+<div class="page page-thanks">
+  <div class="thanks-logo">TREESCOLIVING</div>
+  <div class="thanks-title">Muchas gracias</div>
+  <div class="thanks-tagline">Vive. Conecta. Diviértete.</div>
+  <div class="thanks-leaf">🌿</div>
+</div>
+
+</body>
+</html>

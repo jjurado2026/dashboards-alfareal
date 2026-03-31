@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "clientId": "harmonices",
+    "clientName": "Harmonices",
+    "month": "2026-02",
+    "generatedAt": "2026-02-28T08:00:00Z"
+  },
+  "kpis": {
+    "meta_ads": {
+      "leads": { "value": 40, "previous": 33 },
+      "cpl": { "value": 6.99, "previous": 9.35 },
+      "spend": { "value": 279.60, "previous": 308.55 },
+      "ctr": { "value": 9.69, "previous": 7.80 },
+      "clicks": { "value": 2885, "previous": 2400 },
+      "cpc": { "value": 0.097, "previous": 0.129 },
+      "impressions": { "value": 29773, "previous": 30769 }
+    },
+    "google_ads": {
+      "leads": { "value": 115, "previous": 151 },
+      "cpl": { "value": 11.75, "previous": 9.76 },
+      "spend": { "value": 1351.25, "previous": 1473.76 },
+      "ctr": { "value": 4.29, "previous": 4.50 },
+      "clicks": { "value": 11018, "previous": 13500 },
+      "cpc": { "value": 0.123, "previous": 0.109 },
+      "impressions": { "value": 256800, "previous": 300000 }
+    },
+    "combined": {
+      "total_leads": { "value": 155, "previous": 184 },
+      "total_spend": { "value": 1630.85, "previous": 1782.31 },
+      "blended_cpl": { "value": 10.52, "previous": 9.69 }
+    }
+  },
+  "channelMix": {
+    "meta_ads": { "leads": 40, "pct": 25.8 },
+    "google_ads": { "leads": 115, "pct": 74.2 }
+  },
+  "businessMetrics": {
+    "funnel": [
+      { "stage": "Total Leads", "count": 155 },
+      { "stage": "Interesado Futuro", "count": 22 },
+      { "stage": "Interesado Caliente", "count": 10 },
+      { "stage": "Reservado (Pagado)", "count": 2 }
+    ],
+    "visitasRealizadas": 20,
+    "ocupacion": { "pct": null, "status": null }
+  },
+  "history": [
+    { "month": "2025-01", "meta_ads": { "leads": 0, "cpl": 0, "spend": 0 }, "google_ads": { "leads": 28, "cpl": 35.47, "spend": 993.16 } },
+    { "month": "2025-02", "meta_ads": { "leads": 0, "cpl": 0, "spend": 0 }, "google_ads": { "leads": 34, "cpl": 32.65, "spend": 1110.10 } },
+    { "month": "2025-03", "meta_ads": { "leads": 0, "cpl": 0, "spend": 0 }, "google_ads": { "leads": 28, "cpl": 48.87, "spend": 1368.36 } },
+    { "month": "2025-04", "meta_ads": { "leads": 0, "cpl": 0, "spend": 0 }, "google_ads": { "leads": 89, "cpl": 15.60, "spend": 1388.40 } },
+    { "month": "2025-05", "meta_ads": { "leads": 37, "cpl": 4.92, "spend": 182.04 }, "google_ads": { "leads": 107, "cpl": 14.22, "spend": 1521.54 } },
+    { "month": "2025-06", "meta_ads": { "leads": 46, "cpl": 7.45, "spend": 342.70 }, "google_ads": { "leads": 147, "cpl": 8.38, "spend": 1231.86 } },
+    { "month": "2025-07", "meta_ads": { "leads": 64, "cpl": 6.04, "spend": 386.56 }, "google_ads": { "leads": 195, "cpl": 6.12, "spend": 1193.40 } },
+    { "month": "2025-08", "meta_ads": { "leads": 56, "cpl": 6.91, "spend": 386.96 }, "google_ads": { "leads": 218, "cpl": 5.59, "spend": 1218.62 } },
+    { "month": "2025-09", "meta_ads": { "leads": 57, "cpl": 6.78, "spend": 386.46 }, "google_ads": { "leads": 235, "cpl": 5.03, "spend": 1182.05 } },
+    { "month": "2025-10", "meta_ads": { "leads": 45, "cpl": 8.89, "spend": 400.05 }, "google_ads": { "leads": 149, "cpl": 7.98, "spend": 1189.02 } },
+    { "month": "2025-11", "meta_ads": { "leads": 20, "cpl": 28.88, "spend": 577.60 }, "google_ads": { "leads": 99, "cpl": 12.76, "spend": 1263.24 } },
+    { "month": "2025-12", "meta_ads": { "leads": 40, "cpl": 8.35, "spend": 334.00 }, "google_ads": { "leads": 123, "cpl": 10.90, "spend": 1340.70 } },
+    { "month": "2026-01", "meta_ads": { "leads": 33, "cpl": 9.35, "spend": 308.55 }, "google_ads": { "leads": 151, "cpl": 9.76, "spend": 1473.76 } },
+    { "month": "2026-02", "meta_ads": { "leads": 40, "cpl": 6.99, "spend": 279.60 }, "google_ads": { "leads": 115, "cpl": 11.75, "spend": 1351.25 } }
+  ],
+  "campaigns": {
+    "google_ads": {
+      "keywords": [
+        { "keyword": "senior living madrid", "leads": 4, "cpl": 6.54, "clicks": 520, "impressions": 4200 },
+        { "keyword": "cohousing senior", "leads": 1, "cpl": 5.72, "clicks": 180, "impressions": 1500 },
+        { "keyword": "comunidades para mayores", "leads": 1, "cpl": 5.11, "clicks": 150, "impressions": 1200 }
+      ],
+      "campaigns": [
+        { "name": "Search - Senior Living", "leads": 60, "spend": 705.00, "cpl": 11.75, "ctr": 4.29, "clicks": 5740, "impressions": 133800, "status": "active" },
+        { "name": "Search - Cohousing", "leads": 35, "spend": 411.25, "cpl": 11.75, "ctr": 4.29, "clicks": 3350, "impressions": 78100, "status": "active" },
+        { "name": "Search - Brand Harmonices", "leads": 20, "spend": 235.00, "cpl": 11.75, "ctr": 4.29, "clicks": 1928, "impressions": 44900, "status": "active" }
+      ]
+    },
+    "meta_ads": {
+      "creatives": [
+        { "name": "Video sept 25", "leads": 37, "cpl": 7.34, "spend": 271.58, "clicks": 2600, "impressions": 26800 },
+        { "name": "Video nov 25", "leads": 2, "cpl": 0.72, "spend": 1.44, "clicks": 185, "impressions": 1900 }
+      ],
+      "campaigns": [
+        { "name": "Advantage+ Prospecting", "leads": 30, "spend": 209.70, "cpl": 6.99, "ctr": 9.69, "clicks": 2165, "impressions": 22340, "status": "active" },
+        { "name": "Retargeting Seniors", "leads": 10, "spend": 69.90, "cpl": 6.99, "ctr": 9.69, "clicks": 720, "impressions": 7433, "status": "active" }
+      ]
+    }
+  }
+}

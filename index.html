@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Dashboards de Publicidad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Nunito', sans-serif;
+      background: #F5F0E8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      max-width: 900px;
+      width: 100%;
+    }
+    .card {
+      border-radius: 20px;
+      padding: 48px 40px;
+      text-align: center;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+    }
+    .card-trees {
+      background: #2D5016;
+      color: #FFFFFF;
+    }
+    .card-harmonices {
+      background: #143B48;
+      color: #FFFFFF;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .card-name {
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    .card-desc {
+      font-size: 0.95rem;
+      opacity: 0.85;
+    }
+    .card-arrow {
+      font-size: 2rem;
+      margin-top: 8px;
+      opacity: 0.7;
+    }
+    @media (max-width: 640px) {
+      .container { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="trees/" class="card card-trees">
+      <div class="card-name">Trees Coliving</div>
+      <div class="card-desc">Dashboard de Publicidad Digital</div>
+      <div class="card-arrow">&rarr;</div>
+    </a>
+    <a href="harmonices/" class="card card-harmonices">
+      <div class="card-name">Harmonices</div>
+      <div class="card-desc">Dashboard de Publicidad Digital</div>
+      <div class="card-arrow">&rarr;</div>
+    </a>
+  </div>
+</body>
+</html>

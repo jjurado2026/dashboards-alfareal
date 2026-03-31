@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonices - Informe de Resultados - Febrero 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #143B48;
+            --primary-light: #1a5068;
+            --primary-faint: rgba(20, 59, 72, 0.07);
+            --bg: #F7F5F0;
+            --white: #FFFFFF;
+            --text: #1a1a1a;
+            --text-secondary: #5a5a5a;
+            --text-muted: #8a8a8a;
+            --border: #e2dfd8;
+            --border-light: #eeebe5;
+            --accent-green: #2a7a5a;
+            --accent-red: #b94a4a;
+            --accent-amber: #c4872a;
+        }
+
+        html {
+            font-size: 16px;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Page sections */
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 48px 52px;
+            background: var(--bg);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page + .page {
+            border-top: 1px solid var(--border-light);
+        }
+
+        /* Page header */
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-header-brand {
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--primary);
+        }
+
+        .page-header-date {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            letter-spacing: 0.5px;
+        }
+
+        /* Typography */
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+            line-height: 1.25;
+        }
+
+        .section-subtitle {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 28px;
+        }
+
+        .card-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            font-size: 13px;
+            font-weight: 400;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        .card-icon {
+            font-size: 28px;
+            margin-bottom: 14px;
+            display: block;
+        }
+
+        /* KPI cards */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-bottom: 28px;
+        }
+
+        .kpi-card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .kpi-value {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1.1;
+            margin-bottom: 6px;
+        }
+
+        .kpi-label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-secondary);
+            margin-bottom: 6px;
+        }
+
+        .kpi-note {
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .kpi-note .up { color: var(--accent-green); }
+        .kpi-note .down { color: var(--accent-red); }
+        .kpi-note .neutral { color: var(--accent-amber); }
+
+        /* Note box */
+        .note-box {
+            background: var(--primary-faint);
+            border-left: 3px solid var(--primary);
+            border-radius: 0 8px 8px 0;
+            padding: 18px 22px;
+            margin-top: 20px;
+        }
+
+        .note-box p {
+            font-size: 13px;
+            color: var(--text-secondary);
+            line-height: 1.65;
+        }
+
+        /* Two column layout */
+        .two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .three-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 18px;
+        }
+
+        /* Tables */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px;
+        }
+
+        .data-table thead th {
+            background: var(--primary);
+            color: var(--white);
+            font-weight: 600;
+            padding: 10px 8px;
+            text-align: left;
+            font-size: 10px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .data-table thead th:first-child {
+            border-radius: 8px 0 0 0;
+        }
+
+        .data-table thead th:last-child {
+            border-radius: 0 8px 0 0;
+        }
+
+        .data-table tbody td {
+            padding: 9px 8px;
+            border-bottom: 1px solid var(--border-light);
+            font-weight: 500;
+            color: var(--text);
+        }
+
+        .data-table tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        .data-table tbody tr:nth-child(even) {
+            background: rgba(20, 59, 72, 0.02);
+        }
+
+        .data-table tbody tr.highlight-row {
+            background: rgba(20, 59, 72, 0.06);
+            font-weight: 600;
+        }
+
+        .text-right { text-align: right; }
+        .text-center { text-align: center; }
+        .fw-600 { font-weight: 600; }
+        .fw-700 { font-weight: 700; }
+        .color-primary { color: var(--primary); }
+
+        /* Spacer */
+        .spacer { flex: 1; }
+
+        /* Footer */
+        .page-footer {
+            margin-top: auto;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .page-footer span {
+            font-size: 10px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background: white;
+            }
+
+            .page {
+                width: 100%;
+                min-height: auto;
+                height: 100vh;
+                margin: 0;
+                padding: 36px 44px;
+                page-break-after: always;
+                background: var(--bg);
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .page:last-child {
+                page-break-after: auto;
+            }
+
+            @page {
+                size: A4 portrait;
+                margin: 0;
+            }
+        }
+
+        /* === COVER PAGE === */
+        .cover-page {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: var(--bg);
+        }
+
+        .cover-accent {
+            width: 60px;
+            height: 4px;
+            background: var(--primary);
+            margin: 0 auto 48px;
+            border-radius: 2px;
+        }
+
+        .cover-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+            margin-bottom: 12px;
+        }
+
+        .cover-subtitle {
+            font-size: 22px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 80px;
+        }
+
+        .cover-brand {
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--primary);
+            opacity: 0.7;
+        }
+
+        .cover-line-bottom {
+            width: 120px;
+            height: 1px;
+            background: var(--border);
+            margin: 24px auto 0;
+        }
+
+        /* === THANK YOU PAGE === */
+        .thanks-page {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .thanks-text {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .thanks-brand {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            color: var(--primary);
+            opacity: 0.5;
+        }
+
+        /* Donut chart */
+        .donut-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 48px;
+            margin: 32px 0;
+        }
+
+        .donut-chart {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: conic-gradient(
+                var(--primary) 0% 74%,
+                #3a8fa0 74% 100%
+            );
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .donut-chart::after {
+            content: '';
+            width: 120px;
+            height: 120px;
+            background: var(--bg);
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        .donut-center {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .donut-center .val {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary);
+            line-height: 1;
+        }
+
+        .donut-center .lbl {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .donut-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .legend-dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+
+        .legend-dot.google { background: var(--primary); }
+        .legend-dot.meta { background: #3a8fa0; }
+
+        .legend-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .legend-detail {
+            font-size: 12px;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        /* Funnel */
+        .funnel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0;
+            margin: 28px 0;
+        }
+
+        .funnel-step {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 18px 24px;
+            background: var(--white);
+            border: 1px solid var(--border);
+            position: relative;
+        }
+
+        .funnel-step:first-child {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+            background: var(--primary);
+            color: var(--white);
+        }
+
+        .funnel-step:nth-child(2) { width: 78%; }
+        .funnel-step:nth-child(3) { width: 56%; }
+        .funnel-step:nth-child(4) {
+            width: 38%;
+            border-radius: 0 0 8px 8px;
+            background: var(--accent-green);
+            color: var(--white);
+            border-color: var(--accent-green);
+        }
+
+        .funnel-value {
+            font-size: 28px;
+            font-weight: 700;
+            margin-right: 12px;
+        }
+
+        .funnel-label {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .funnel-step:first-child .funnel-label,
+        .funnel-step:last-child .funnel-label {
+            color: rgba(255,255,255,0.85);
+        }
+
+        .funnel-arrow {
+            font-size: 18px;
+            color: var(--text-muted);
+            margin: -4px 0;
+            z-index: 1;
+        }
+
+        /* CSS Chart */
+        .chart-container {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 32px 28px 20px;
+            margin: 24px 0;
+        }
+
+        .chart-area {
+            position: relative;
+            height: 220px;
+            display: flex;
+            align-items: flex-end;
+            gap: 2px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border-light);
+        }
+
+        .chart-bar-group {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+
+        .chart-bar {
+            width: 28px;
+            background: var(--primary);
+            border-radius: 4px 4px 0 0;
+            position: relative;
+            transition: background 0.2s;
+            min-height: 4px;
+        }
+
+        .chart-bar.peak {
+            background: #1a5068;
+        }
+
+        .chart-bar-label {
+            position: absolute;
+            top: -20px;
+            font-size: 10px;
+            font-weight: 700;
+            color: var(--primary);
+            white-space: nowrap;
+        }
+
+        .chart-x-label {
+            position: absolute;
+            bottom: 8px;
+            font-size: 9px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        .chart-annotation {
+            position: absolute;
+            font-size: 10px;
+            font-weight: 600;
+            color: var(--accent-green);
+            background: rgba(42, 122, 90, 0.08);
+            padding: 3px 8px;
+            border-radius: 4px;
+            white-space: nowrap;
+        }
+
+        /* Highlight box */
+        .highlight-box {
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 8px;
+            padding: 28px 32px;
+            text-align: center;
+            margin: 24px 0;
+        }
+
+        .highlight-box .big-number {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 4px;
+        }
+
+        .highlight-box .big-label {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            opacity: 0.9;
+        }
+
+        .highlight-box .big-text {
+            font-size: 13px;
+            font-weight: 400;
+            opacity: 0.8;
+            line-height: 1.6;
+            max-width: 520px;
+            margin: 0 auto;
+        }
+
+        /* Grid for conclusions */
+        .grid-2x2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .numbered-card {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+        }
+
+        .numbered-card .num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            background: var(--primary);
+            color: var(--white);
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        /* Annual table specific */
+        .annual-table-wrap {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .annual-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 10.5px;
+        }
+
+        .annual-table thead th {
+            background: var(--primary);
+            color: var(--white);
+            font-weight: 600;
+            padding: 8px 6px;
+            text-align: center;
+            font-size: 9px;
+            letter-spacing: 0.4px;
+            text-transform: uppercase;
+        }
+
+        .annual-table thead th:first-child {
+            text-align: left;
+            padding-left: 12px;
+        }
+
+        .annual-table thead tr th.google-col {
+            background: #0f2f3a;
+        }
+
+        .annual-table thead tr th.meta-col {
+            background: #1a5068;
+        }
+
+        .annual-table tbody td {
+            padding: 7px 6px;
+            border-bottom: 1px solid var(--border-light);
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .annual-table tbody td:first-child {
+            text-align: left;
+            padding-left: 12px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .annual-table tbody tr:nth-child(even) {
+            background: rgba(20, 59, 72, 0.02);
+        }
+
+        .annual-table tbody tr:last-child {
+            background: rgba(20, 59, 72, 0.06);
+            font-weight: 600;
+        }
+
+        .annual-table tbody tr:last-child td {
+            font-weight: 600;
+            border-bottom: none;
+        }
+
+        .annual-table .na-cell {
+            color: var(--text-muted);
+        }
+
+        /* Content fill */
+        .content-fill {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="page cover-page">
+    <div>
+        <div class="cover-accent"></div>
+        <div class="cover-title">Informe de Resultados</div>
+        <div class="cover-subtitle">Febrero 2026</div>
+        <div style="height: 60px;"></div>
+        <div class="cover-brand">Harmonices</div>
+        <div class="cover-line-bottom"></div>
+    </div>
+</div>
+
+<!-- PAGE 2: EXECUTIVE SUMMARY -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Febrero: Eficiencia Recuperada y R&eacute;cord de Visitas.</div>
+        <div class="section-subtitle">Resumen ejecutivo del mes</div>
+
+        <div style="display: flex; flex-direction: column; gap: 18px;">
+            <div class="card">
+                <span class="card-icon">&#9878;</span>
+                <div class="card-title">Eficiencia Global &asymp; 10&euro;</div>
+                <div class="card-text">Cerramos el mes con un CPL combinado de 10,52 &euro;, manteniendo los costes controlados gracias al volumen de Google y la alta rentabilidad de Meta.</div>
+            </div>
+            <div class="card">
+                <span class="card-icon">&#9733;</span>
+                <div class="card-title">El Resurgir de Meta</div>
+                <div class="card-text">Meta Ads se convierte en el gran ganador de febrero. Aumenta la captaci&oacute;n a 40 leads y desploma su coste de adquisici&oacute;n a un excelente 6,99 &euro; por lead.</div>
+            </div>
+            <div class="card">
+                <span class="card-icon">&#9650;</span>
+                <div class="card-title">Maduraci&oacute;n del Pipeline</div>
+                <div class="card-text">Generamos 155 leads totales que se han traducido en un r&eacute;cord hist&oacute;rico de 20 visitas realizadas en un solo mes, impulsando adem&aacute;s 2 reservas en el CRM.</div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 2</span>
+    </div>
+</div>
+
+<!-- PAGE 3: STRATEGY -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">La Estrategia: Equilibrio Perfecto entre Volumen y Rentabilidad</div>
+        <div class="section-subtitle">Dos motores complementarios impulsando el crecimiento</div>
+
+        <div class="two-col" style="gap: 24px;">
+            <div class="card" style="border-top: 3px solid var(--primary);">
+                <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 16px;">Motor de Volumen</div>
+                <div class="card-title" style="font-size: 16px; margin-bottom: 14px;">Google Ads: Estabilizaci&oacute;n de la Demanda</div>
+                <div class="card-text">Tras el pico estacional masivo de enero, Google se estabiliza (115 leads). Sigue siendo la principal fuente de tr&aacute;fico y el cimiento del volumen de contactos.</div>
+                <div style="margin-top: 20px; display: flex; gap: 16px;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 24px; font-weight: 700; color: var(--primary);">115</div>
+                        <div style="font-size: 10px; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">Leads</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 24px; font-weight: 700; color: var(--primary);">74%</div>
+                        <div style="font-size: 10px; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">Del Total</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="border-top: 3px solid #3a8fa0;">
+                <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-muted); margin-bottom: 16px;">Motor de Eficiencia</div>
+                <div class="card-title" style="font-size: 16px; margin-bottom: 14px; color: #1a5068;">Meta Ads: M&aacute;xima Rentabilidad</div>
+                <div class="card-text">Meta actu&oacute; como el optimizador financiero del mes. Con un CPL de 6,99 &euro; y un CTR sostenido del 9,69%, compens&oacute; la ligera subida de costes en b&uacute;squeda y demostr&oacute; ser un canal vital.</div>
+                <div style="margin-top: 20px; display: flex; gap: 16px;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 24px; font-weight: 700; color: #1a5068;">40</div>
+                        <div style="font-size: 10px; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">Leads</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 24px; font-weight: 700; color: #1a5068;">6,99&euro;</div>
+                        <div style="font-size: 10px; font-weight: 600; color: var(--text-muted); text-transform: uppercase;">CPL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 3</span>
+    </div>
+</div>
+
+<!-- PAGE 4: GOOGLE ADS -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Google Ads: El Cimiento del Volumen</div>
+        <div class="section-subtitle">El mercado se estabiliza tras el fuerte arranque de a&ntilde;o.</div>
+
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value">115</div>
+                <div class="kpi-label">Leads</div>
+                <div class="kpi-note"><span class="down">&#8595;</span> vs 151 en Ene</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">11,75 &euro;</div>
+                <div class="kpi-label">CPL</div>
+                <div class="kpi-note"><span class="neutral">&#8593;</span> Ligero repunte vs Ene</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">1.351 &euro;</div>
+                <div class="kpi-label">Inversi&oacute;n Total</div>
+                <div class="kpi-note">&nbsp;</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">4,29%</div>
+                <div class="kpi-label">CTR</div>
+                <div class="kpi-note">Tr&aacute;fico muy estable y de calidad</div>
+            </div>
+        </div>
+
+        <div class="note-box">
+            <p>El volumen de leads se ajusta a la baja tras la excepcionalidad de enero, acompa&ntilde;ado de un ligero incremento en el CPL. A pesar de esto, con 11.018 clics generados, Google sigue siendo el motor principal de visitas a la web.</p>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 4</span>
+    </div>
+</div>
+
+<!-- PAGE 5: META ADS -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Meta Ads: Eficiencia Extraordinaria</div>
+        <div class="section-subtitle">Desplome del coste de adquisici&oacute;n y reactivaci&oacute;n del volumen.</div>
+
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value">40</div>
+                <div class="kpi-label">Leads</div>
+                <div class="kpi-note"><span class="up">&#8593;</span> Aumento vs 33 en Ene</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">6,99 &euro;</div>
+                <div class="kpi-label">CPL</div>
+                <div class="kpi-note"><span class="up">&#8595;</span> Excelente mejora vs 9,35&euro; en Ene</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">279 &euro;</div>
+                <div class="kpi-label">Inversi&oacute;n Total</div>
+                <div class="kpi-note">&nbsp;</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">9,69%</div>
+                <div class="kpi-label">CTR</div>
+                <div class="kpi-note">Fidelidad de clics alt&iacute;sima</div>
+            </div>
+        </div>
+
+        <div class="note-box">
+            <p>El canal estrella de febrero. Logramos incrementar el volumen de captaci&oacute;n un 21% al mismo tiempo que redujimos el coste por lead un 25%. La plataforma social est&aacute; en un momento &oacute;ptimo de rentabilidad.</p>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 5</span>
+    </div>
+</div>
+
+<!-- PAGE 6: CHANNEL MIX -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">El Mix del Canal: Meta Gana Terreno</div>
+        <div class="section-subtitle">Distribuci&oacute;n de leads por plataforma</div>
+
+        <div class="donut-container">
+            <div class="donut-chart">
+                <div class="donut-center">
+                    <div class="val">155</div>
+                    <div class="lbl">Total</div>
+                </div>
+            </div>
+            <div class="donut-legend">
+                <div class="legend-item">
+                    <div class="legend-dot google"></div>
+                    <div>
+                        <div class="legend-label">Google Ads &mdash; 74%</div>
+                        <div class="legend-detail">115 Leads &middot; 1.351 &euro; inversi&oacute;n</div>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-dot meta"></div>
+                    <div>
+                        <div class="legend-label">Meta Ads &mdash; 26%</div>
+                        <div class="legend-detail">40 Leads &middot; 279 &euro; inversi&oacute;n</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="note-box" style="margin-top: 32px;">
+            <p>La excelente eficiencia de Meta en febrero le ha permitido absorber m&aacute;s de una cuarta parte del volumen total de captaci&oacute;n (26%), equilibrando el peso frente al dominio absoluto que Google tuvo en enero.</p>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 6</span>
+    </div>
+</div>
+
+<!-- PAGE 7: TOP KEYWORDS & CREATIVES -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">La F&oacute;rmula del &Eacute;xito: Keywords y Creatividades</div>
+        <div class="section-subtitle">Los activos que generan conversiones</div>
+
+        <div class="two-col" style="gap: 24px; margin-bottom: 24px;">
+            <div>
+                <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--primary); margin-bottom: 12px;">Top Keywords (Google)</div>
+                <div class="annual-table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Keyword</th>
+                                <th class="text-center">Leads</th>
+                                <th class="text-right">CPL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-600">senior living madrid</td>
+                                <td class="text-center">4</td>
+                                <td class="text-right">6,54 &euro;</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-600">cohousing senior</td>
+                                <td class="text-center">1</td>
+                                <td class="text-right">5,72 &euro;</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-600">comunidades para mayores</td>
+                                <td class="text-center">1</td>
+                                <td class="text-right">5,11 &euro;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="note-box" style="margin-top: 16px;">
+                    <p>Las variaciones de &laquo;Senior Living&raquo; y &laquo;Cohousing&raquo; demuestran ser t&eacute;rminos con intenci&oacute;n de compra hiper-cualificada y costes extremadamente bajos.</p>
+                </div>
+            </div>
+            <div>
+                <div style="font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #1a5068; margin-bottom: 12px;">Top Creatividades (Meta)</div>
+                <div class="annual-table-wrap">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Creatividad</th>
+                                <th class="text-center">Leads</th>
+                                <th class="text-right">CPL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fw-600">Video sept 25</td>
+                                <td class="text-center">37</td>
+                                <td class="text-right">7,34 &euro;</td>
+                            </tr>
+                            <tr>
+                                <td class="fw-600">Video nov 25</td>
+                                <td class="text-center">2</td>
+                                <td class="text-right">0,72 &euro;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="note-box" style="margin-top: 16px;">
+                    <p>El &laquo;Video Sept 25&raquo; sigue siendo un coloso absoluto (37 de los 40 leads). Sin embargo, el incipiente &eacute;xito del &laquo;Video Nov 25&raquo; muestra el potencial de renovar el contenido.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 7</span>
+    </div>
+</div>
+
+<!-- PAGE 8: BUSINESS IMPACT -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Impacto en Negocio: R&eacute;cord de Visitas y Reservas</div>
+        <div class="section-subtitle">Del lead al cierre: el embudo de conversi&oacute;n</div>
+
+        <div class="funnel">
+            <div class="funnel-step">
+                <span class="funnel-value">155</span>
+                <span class="funnel-label">Total Leads</span>
+            </div>
+            <div class="funnel-arrow">&#9660;</div>
+            <div class="funnel-step">
+                <span class="funnel-value">22</span>
+                <span class="funnel-label">Interesado Futuro</span>
+            </div>
+            <div class="funnel-arrow">&#9660;</div>
+            <div class="funnel-step">
+                <span class="funnel-value">10</span>
+                <span class="funnel-label">Interesado Caliente</span>
+            </div>
+            <div class="funnel-arrow">&#9660;</div>
+            <div class="funnel-step">
+                <span class="funnel-value">2</span>
+                <span class="funnel-label">Reservado (pagado)</span>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <div class="big-number">20</div>
+            <div class="big-label">Visitas Realizadas</div>
+            <div class="big-text">Un hito sin precedentes. La alt&iacute;sima calidad de los leads de febrero ha empujado a 20 prospectos a realizar visitas presenciales, culminando en 2 reservas formales.</div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 8</span>
+    </div>
+</div>
+
+<!-- PAGE 9: ANNUAL EVOLUTION TABLE -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Evoluci&oacute;n Anual: Perspectiva 2025-2026</div>
+        <div class="section-subtitle">Rendimiento mensual de ambas plataformas</div>
+
+        <div class="annual-table-wrap">
+            <table class="annual-table">
+                <thead>
+                    <tr>
+                        <th style="width: 80px;">Mes</th>
+                        <th class="google-col">Google Leads</th>
+                        <th class="google-col">Google CPL</th>
+                        <th class="google-col">Google Inv.</th>
+                        <th class="meta-col">Meta Leads</th>
+                        <th class="meta-col">Meta CPL</th>
+                        <th class="meta-col">Meta Inv.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ene 2025</td>
+                        <td>28</td>
+                        <td>35,47 &euro;</td>
+                        <td>993 &euro;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                    </tr>
+                    <tr>
+                        <td>Feb 2025</td>
+                        <td>34</td>
+                        <td>32,65 &euro;</td>
+                        <td>1.109 &euro;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                    </tr>
+                    <tr>
+                        <td>Mar 2025</td>
+                        <td>28</td>
+                        <td>48,87 &euro;</td>
+                        <td>1.368 &euro;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                    </tr>
+                    <tr>
+                        <td>Abr 2025</td>
+                        <td>89</td>
+                        <td>15,60 &euro;</td>
+                        <td>1.389 &euro;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                        <td class="na-cell">&mdash;</td>
+                    </tr>
+                    <tr>
+                        <td>May 2025</td>
+                        <td>107</td>
+                        <td>14,22 &euro;</td>
+                        <td>1.520 &euro;</td>
+                        <td>37</td>
+                        <td>4,92 &euro;</td>
+                        <td>182 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Jun 2025</td>
+                        <td>147</td>
+                        <td>8,38 &euro;</td>
+                        <td>1.231 &euro;</td>
+                        <td>46</td>
+                        <td>7,45 &euro;</td>
+                        <td>342 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Jul 2025</td>
+                        <td>195</td>
+                        <td>6,12 &euro;</td>
+                        <td>1.192 &euro;</td>
+                        <td>64</td>
+                        <td>6,04 &euro;</td>
+                        <td>386 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Ago 2025</td>
+                        <td>218</td>
+                        <td>5,59 &euro;</td>
+                        <td>1.216 &euro;</td>
+                        <td>56</td>
+                        <td>6,91 &euro;</td>
+                        <td>387 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Sept 2025</td>
+                        <td>235</td>
+                        <td>5,03 &euro;</td>
+                        <td>1.182 &euro;</td>
+                        <td>57</td>
+                        <td>6,78 &euro;</td>
+                        <td>386 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2025</td>
+                        <td>149</td>
+                        <td>7,98 &euro;</td>
+                        <td>1.191 &euro;</td>
+                        <td>45</td>
+                        <td>8,89 &euro;</td>
+                        <td>400 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 2025</td>
+                        <td>99</td>
+                        <td>12,76 &euro;</td>
+                        <td>1.265 &euro;</td>
+                        <td>20</td>
+                        <td>28,88 &euro;</td>
+                        <td>577 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Dic 2025</td>
+                        <td>123</td>
+                        <td>10,90 &euro;</td>
+                        <td>1.340 &euro;</td>
+                        <td>40</td>
+                        <td>8,35 &euro;</td>
+                        <td>334 &euro;</td>
+                    </tr>
+                    <tr>
+                        <td>Ene 2026</td>
+                        <td>151</td>
+                        <td>9,76 &euro;</td>
+                        <td>1.471 &euro;</td>
+                        <td>33</td>
+                        <td>9,35 &euro;</td>
+                        <td>308 &euro;</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td>Feb 2026</td>
+                        <td>115</td>
+                        <td>11,75 &euro;</td>
+                        <td>1.351 &euro;</td>
+                        <td>40</td>
+                        <td>6,99 &euro;</td>
+                        <td>279 &euro;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="note-box" style="margin-top: 20px;">
+            <p>Febrero demuestra que somos capaces de mantener un suelo de captaci&oacute;n por encima de los 150 leads mensuales conjuntos, con Meta devolviendo su CPL a niveles r&eacute;cord de eficiencia.</p>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 9</span>
+    </div>
+</div>
+
+<!-- PAGE 10: ANNUAL EVOLUTION CHART -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Evoluci&oacute;n Anual: Estabilizaci&oacute;n tras el Pico</div>
+        <div class="section-subtitle">Leads de Google Ads &mdash; Enero 2025 a Febrero 2026</div>
+
+        <div class="chart-container">
+            <div class="chart-area" style="align-items: flex-end; padding-left: 4px; padding-right: 4px;">
+                <!-- Max value is 235, so scale = height(188px) / 235 = 0.8 -->
+                <!-- Bars: 28, 34, 28, 89, 107, 147, 195, 218, 235, 149, 99, 123, 151, 115 -->
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 22px;">
+                        <span class="chart-bar-label">28</span>
+                    </div>
+                    <span class="chart-x-label">E25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 27px;">
+                        <span class="chart-bar-label">34</span>
+                    </div>
+                    <span class="chart-x-label">F25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 22px;">
+                        <span class="chart-bar-label">28</span>
+                    </div>
+                    <span class="chart-x-label">M25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 71px;">
+                        <span class="chart-bar-label">89</span>
+                    </div>
+                    <span class="chart-x-label">A25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 86px;">
+                        <span class="chart-bar-label">107</span>
+                    </div>
+                    <span class="chart-x-label">M25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 118px;">
+                        <span class="chart-bar-label">147</span>
+                    </div>
+                    <span class="chart-x-label">J25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 156px;">
+                        <span class="chart-bar-label">195</span>
+                    </div>
+                    <span class="chart-x-label">J25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 174px;">
+                        <span class="chart-bar-label">218</span>
+                    </div>
+                    <span class="chart-x-label">A25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar peak" style="height: 188px;">
+                        <span class="chart-bar-label" style="color: var(--accent-green);">235</span>
+                    </div>
+                    <span class="chart-x-label">S25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 119px;">
+                        <span class="chart-bar-label">149</span>
+                    </div>
+                    <span class="chart-x-label">O25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 79px;">
+                        <span class="chart-bar-label">99</span>
+                    </div>
+                    <span class="chart-x-label">N25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 98px;">
+                        <span class="chart-bar-label">123</span>
+                    </div>
+                    <span class="chart-x-label">D25</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 121px;">
+                        <span class="chart-bar-label">151</span>
+                    </div>
+                    <span class="chart-x-label">E26</span>
+                </div>
+                <div class="chart-bar-group">
+                    <div class="chart-bar" style="height: 92px; background: #3a8fa0;">
+                        <span class="chart-bar-label" style="color: #3a8fa0;">115</span>
+                    </div>
+                    <span class="chart-x-label" style="font-weight: 700; color: var(--primary);">F26</span>
+                </div>
+
+                <!-- Annotations -->
+                <div class="chart-annotation" style="top: -8px; right: 140px;">M&aacute;ximos de Verano &#8593;</div>
+                <div class="chart-annotation" style="bottom: 100px; right: -8px; color: #3a8fa0; background: rgba(58, 143, 160, 0.08);">Suelo Estable</div>
+            </div>
+        </div>
+
+        <div class="note-box">
+            <p>Como era previsible, el pico de intenci&oacute;n de b&uacute;squeda post-Reyes se suaviza. No obstante, logramos establecer un suelo estable de 115 leads en b&uacute;squeda, muy por encima de los peores meses del &uacute;ltimo trimestre del a&ntilde;o pasado.</p>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 10</span>
+    </div>
+</div>
+
+<!-- PAGE 11: CONCLUSIONS -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">Conclusiones: Las Cuatro Verdades de Febrero</div>
+        <div class="section-subtitle">Los aprendizajes clave del mes</div>
+
+        <div class="grid-2x2">
+            <div class="numbered-card">
+                <div class="num">1</div>
+                <div class="card-title">Ajuste en B&uacute;squeda</div>
+                <div class="card-text">El volumen en Google se normaliza (115 leads) y su coste sufre un leve encarecimiento (11,75&euro;), un comportamiento est&aacute;ndar tras las altas intenciones de a&ntilde;o nuevo.</div>
+            </div>
+            <div class="numbered-card">
+                <div class="num">2</div>
+                <div class="card-title">Excelencia Social</div>
+                <div class="card-text">Meta Ads ha sido la salvaci&oacute;n de la rentabilidad, absorbiendo un 26% del volumen total con un CPL extraordinariamente bajo (6,99&euro;).</div>
+            </div>
+            <div class="numbered-card">
+                <div class="num">3</div>
+                <div class="card-title">Rentabilidad Protegida</div>
+                <div class="card-text">Pese a las variaciones entre plataformas, el modelo dual permite que el coste de adquisici&oacute;n global combinado se mantenga f&eacute;rreo en torno a los 10,52&euro;.</div>
+            </div>
+            <div class="numbered-card">
+                <div class="num">4</div>
+                <div class="card-title">Calidad Demostrada</div>
+                <div class="card-text">El trabajo de filtrado y cualificaci&oacute;n en campa&ntilde;as se refleja en el CRM. Lograr 20 visitas y 2 reservas pagadas confirma que el tr&aacute;fico captado es altamente propenso a la conversi&oacute;n.</div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 11</span>
+    </div>
+</div>
+
+<!-- PAGE 12: NEXT MONTH PLAN -->
+<div class="page">
+    <div class="page-header">
+        <span class="page-header-brand">Harmonices</span>
+        <span class="page-header-date">Febrero 2026</span>
+    </div>
+    <div class="content-fill">
+        <div class="section-title">El Plan para Marzo: Escalar, Optimizar y Renovar</div>
+        <div class="section-subtitle">Acciones estrat&eacute;gicas para el pr&oacute;ximo mes</div>
+
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="card" style="border-left: 4px solid var(--accent-green);">
+                <span class="card-icon">&#9650;</span>
+                <div class="card-title" style="font-size: 16px;">Escalar Social</div>
+                <div class="card-text">Inyectar mayor presupuesto en las campa&ntilde;as Advantage de Meta para exprimir al m&aacute;ximo su excelente inercia de rentabilidad actual (CPL 6,99&euro;).</div>
+            </div>
+            <div class="card" style="border-left: 4px solid var(--accent-amber);">
+                <span class="card-icon">&#9881;</span>
+                <div class="card-title" style="font-size: 16px;">Optimizar B&uacute;squeda</div>
+                <div class="card-text">Ajustar pujas y t&eacute;rminos de b&uacute;squeda en Google Ads para corregir la leve subida del coste, buscando reconducir el CPL por debajo de la barrera de los 10&euro;.</div>
+            </div>
+            <div class="card" style="border-left: 4px solid var(--primary);">
+                <span class="card-icon">&#10022;</span>
+                <div class="card-title" style="font-size: 16px;">Renovar Creatividades</div>
+                <div class="card-text">El &laquo;Video Sept 25&raquo; sigue monopolizando las conversiones sociales. Es imperativo introducir variaciones para evitar la inminente fatiga publicitaria que frenar&iacute;a la escalabilidad.</div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <span>Informe de Resultados</span>
+        <span>P&aacute;gina 12</span>
+    </div>
+</div>
+
+<!-- PAGE 13: THANK YOU -->
+<div class="page thanks-page">
+    <div>
+        <div class="cover-accent" style="margin-bottom: 40px;"></div>
+        <div class="thanks-text">Muchas gracias</div>
+        <div style="height: 32px;"></div>
+        <div class="thanks-brand">Harmonices</div>
+        <div class="cover-line-bottom"></div>
+    </div>
+</div>
+
+</body>
+</html>

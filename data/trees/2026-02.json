@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "clientId": "trees",
+    "clientName": "Trees Coliving",
+    "month": "2026-02",
+    "generatedAt": "2026-02-28T08:00:00Z"
+  },
+  "kpis": {
+    "meta_ads": {
+      "leads": { "value": 78, "previous": 75 },
+      "cpl": { "value": 5.73, "previous": 6.58 },
+      "spend": { "value": 446.61, "previous": 493.50 },
+      "ctr": { "value": 6.22, "previous": 5.80 },
+      "clicks": { "value": 7183, "previous": 6900 },
+      "cpc": { "value": 0.062, "previous": 0.072 },
+      "impressions": { "value": 115480, "previous": 118960 }
+    },
+    "google_ads": {
+      "leads": { "value": 41, "previous": 51 },
+      "cpl": { "value": 18.49, "previous": 16.47 },
+      "spend": { "value": 758.21, "previous": 839.97 },
+      "ctr": { "value": 13.00, "previous": 12.50 },
+      "clicks": { "value": 5830, "previous": 6720 },
+      "cpc": { "value": 0.13, "previous": 0.125 },
+      "impressions": { "value": 44846, "previous": 53760 }
+    },
+    "combined": {
+      "total_leads": { "value": 119, "previous": 126 },
+      "total_spend": { "value": 1204.82, "previous": 1333.47 },
+      "blended_cpl": { "value": 10.12, "previous": 10.58 }
+    }
+  },
+  "channelMix": {
+    "meta_ads": { "leads": 78, "pct": 65.5 },
+    "google_ads": { "leads": 41, "pct": 34.5 }
+  },
+  "businessMetrics": {
+    "funnel": [
+      { "stage": "Leads Válidos Procesados", "count": 108 },
+      { "stage": "Pipeline Futuro", "count": 87 },
+      { "stage": "Lista Espera Activa", "count": 14 },
+      { "stage": "Contratos Firmados", "count": 5 },
+      { "stage": "En Proceso", "count": 2 }
+    ],
+    "visitasRealizadas": null,
+    "ocupacion": { "pct": 100, "status": "Plena Ocupación" }
+  },
+  "history": [
+    { "month": "2025-01", "meta_ads": { "leads": 0, "cpl": 0, "spend": 0 }, "google_ads": { "leads": 82, "cpl": 5.92, "spend": 485.44 } },
+    { "month": "2025-02", "meta_ads": { "leads": 53, "cpl": 2.47, "spend": 130.91 }, "google_ads": { "leads": 96, "cpl": 7.11, "spend": 682.56 } },
+    { "month": "2025-03", "meta_ads": { "leads": 94, "cpl": 3.31, "spend": 311.14 }, "google_ads": { "leads": 122, "cpl": 8.61, "spend": 1050.42 } },
+    { "month": "2025-04", "meta_ads": { "leads": 91, "cpl": 3.53, "spend": 321.23 }, "google_ads": { "leads": 84, "cpl": 13.06, "spend": 1097.04 } },
+    { "month": "2025-05", "meta_ads": { "leads": 85, "cpl": 5.81, "spend": 493.85 }, "google_ads": { "leads": 76, "cpl": 16.88, "spend": 1282.88 } },
+    { "month": "2025-06", "meta_ads": { "leads": 100, "cpl": 7.50, "spend": 750.00 }, "google_ads": { "leads": 46, "cpl": 16.18, "spend": 744.28 } },
+    { "month": "2025-07", "meta_ads": { "leads": 106, "cpl": 5.95, "spend": 630.70 }, "google_ads": { "leads": 55, "cpl": 11.08, "spend": 609.40 } },
+    { "month": "2025-08", "meta_ads": { "leads": 91, "cpl": 5.65, "spend": 514.15 }, "google_ads": { "leads": 73, "cpl": 8.35, "spend": 609.55 } },
+    { "month": "2025-09", "meta_ads": { "leads": 91, "cpl": 5.68, "spend": 516.88 }, "google_ads": { "leads": 64, "cpl": 10.31, "spend": 659.84 } },
+    { "month": "2025-10", "meta_ads": { "leads": 60, "cpl": 9.58, "spend": 574.80 }, "google_ads": { "leads": 60, "cpl": 10.77, "spend": 646.20 } },
+    { "month": "2025-11", "meta_ads": { "leads": 65, "cpl": 7.99, "spend": 519.35 }, "google_ads": { "leads": 43, "cpl": 16.25, "spend": 698.75 } },
+    { "month": "2025-12", "meta_ads": { "leads": 65, "cpl": 6.57, "spend": 427.05 }, "google_ads": { "leads": 49, "cpl": 16.14, "spend": 790.86 } },
+    { "month": "2026-01", "meta_ads": { "leads": 75, "cpl": 6.58, "spend": 493.50 }, "google_ads": { "leads": 54, "cpl": 15.56, "spend": 840.24 } },
+    { "month": "2026-02", "meta_ads": { "leads": 78, "cpl": 5.73, "spend": 446.61 }, "google_ads": { "leads": 41, "cpl": 18.49, "spend": 758.21 } }
+  ],
+  "campaigns": {
+    "google_ads": {
+      "keywords": [
+        { "keyword": "coliving", "leads": 7, "cpl": 21.01, "clicks": 333, "impressions": 2562 },
+        { "keyword": "trees coliving (Brand)", "leads": 6, "cpl": 18.56, "clicks": 298, "impressions": 1589 },
+        { "keyword": "coliving madrid", "leads": 3, "cpl": 32.15, "clicks": 180, "impressions": 1200 }
+      ],
+      "campaigns": [
+        { "name": "Search - Coliving Genérico", "leads": 20, "spend": 420.10, "cpl": 21.01, "ctr": 13.00, "clicks": 2900, "impressions": 22308, "status": "active" },
+        { "name": "Search - Brand Trees", "leads": 15, "spend": 240.00, "cpl": 16.00, "ctr": 18.75, "clicks": 1920, "impressions": 10240, "status": "active" },
+        { "name": "Search - Coliving Madrid", "leads": 6, "spend": 98.11, "cpl": 16.35, "ctr": 8.20, "clicks": 1010, "impressions": 12298, "status": "active" }
+      ]
+    },
+    "meta_ads": {
+      "creatives": [
+        { "name": "Reel 2 - Matadero - Copia", "leads": 32, "cpl": 5.01, "spend": 160.32, "clicks": 2100, "impressions": 38000 },
+        { "name": "Reel 2 - Galerías - Copia", "leads": 13, "cpl": 4.97, "spend": 64.61, "clicks": 1200, "impressions": 22000 },
+        { "name": "Reel 1 - Galerías", "leads": 12, "cpl": 8.12, "spend": 97.44, "clicks": 980, "impressions": 18000 }
+      ],
+      "campaigns": [
+        { "name": "Prospecting Advantage", "leads": 50, "spend": 286.50, "cpl": 5.73, "ctr": 6.22, "clicks": 4610, "impressions": 74100, "status": "active" },
+        { "name": "Retargeting - Web Visitors", "leads": 18, "spend": 103.14, "cpl": 5.73, "ctr": 6.22, "clicks": 1658, "impressions": 26660, "status": "active" },
+        { "name": "Lookalike - Leads", "leads": 10, "spend": 56.97, "cpl": 5.70, "ctr": 6.22, "clicks": 915, "impressions": 14720, "status": "active" }
+      ]
+    }
+  }
+}
