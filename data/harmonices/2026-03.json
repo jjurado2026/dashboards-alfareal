@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2026-03",
-    "generatedAt": "2026-03-31T16:20:00.044600Z",
+    "generatedAt": "2026-03-31T16:23:39.887860Z",
     "dateRange": {
       "from": "2026-03-01",
       "to": "2026-03-31"
@@ -23,7 +23,7 @@
   "meta_ads": {
     "kpis": {
       "impresiones": {
-        "value": 21456
+        "value": 21457
       },
       "clics": {
         "value": 1894
@@ -300,22 +300,68 @@
     "campaigns": [
       {
         "name": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
-        "impresiones": 21456,
+        "impresiones": 21457,
         "clics": 1894,
-        "ctr": 8.827368,
+        "ctr": 8.826956,
         "cpc": 0.161003,
         "leads": 54,
         "cpl": 5.65,
         "inversion": 304.94,
-        "alcance": 11450
+        "alcance": 11456
       }
     ],
-    "campaigns_by_platform": [],
+    "campaigns_by_platform": [
+      {
+        "campaign": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
+        "platform": "audience_network",
+        "impresiones": 153,
+        "clics": 56,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.44
+      },
+      {
+        "campaign": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
+        "platform": "facebook",
+        "impresiones": 12878,
+        "clics": 1399,
+        "leads": 34,
+        "cpl": 5.15,
+        "inversion": 174.94
+      },
+      {
+        "campaign": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
+        "platform": "instagram",
+        "impresiones": 8412,
+        "clics": 439,
+        "leads": 20,
+        "cpl": 6.42,
+        "inversion": 128.45
+      },
+      {
+        "campaign": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
+        "platform": "messenger",
+        "impresiones": 2,
+        "clics": 0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "campaign": "Harmonices_LeadGen_Madrid_Prospecting - Advantage",
+        "platform": "threads",
+        "impresiones": 12,
+        "clics": 0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.11
+      }
+    ],
     "creatives": [
       {
         "name": "Video sept 25",
         "ad_id": "120235373002690407",
-        "image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t15.5256-10/586645002_2069736890504988_4792398009052276110_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=c_cu0fdqWoIQ7kNvwGFh5sc&_nc_oc=AdqffVytugXXZFcaWEe4-AOWUpD0kIzEJdMolmRwr3RY7em99IM_ndoMbLlZw4d2WTQ&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&edm=AAwGEdEEAAAA&_nc_gid=H0vNf29P4wt4FpK3Ji_wSw&_nc_tpa=Q5bMBQHpvi4BJ9qiS3YR9mQU6dkvznPCeyN-WUyqDyp54zX6S-GlI4DmCeZGiTw6il0yESJrenEPhtYr2w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_AfzRrY0raQQIgU0yatXJKY93G0bwVydDCq5uFwgZ9zbEWg&oe=69D1D5AB",
+        "image_url": "https://scontent-sjc3-1.xx.fbcdn.net/v/t15.5256-10/586645002_2069736890504988_4792398009052276110_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=c_cu0fdqWoIQ7kNvwEEbOrq&_nc_oc=AdoB4VCg7-Y8kNSJijvWqh1LkT9TaIkX9Jt4MeWvr1z765Jc3otOPx5vLh8-Vb13hcc&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=NvRGNyyLDeTsj96y5XDTGg&_nc_tpa=Q5bMBQFlvo4AC0eJxA_R8YhJz6aZeF0vxHiH9zjyVQ3GFY0R0mtbgHva-2m0m9O4CMdwdOvjuHMjhWM58Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Afwgn9gEFLBivnazEL30W0EDmGMm9AJln4Y94C8pz1YaEg&oe=69D1D5AB",
         "impresiones": 16571,
         "clics": 1382,
         "ctr": 8.339871,
@@ -326,10 +372,10 @@
       {
         "name": "Video nov 25",
         "ad_id": "120235642542760407",
-        "image_url": "https://external-dfw5-1.xx.fbcdn.net/emg1/v/t13/24032763882184493?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLtSPAQgKhlHohLjLDFkYhAG9E78zTsgoWknsyphQ4ySloWbty7bpXGplyZuT6rgvH5Uua7tTwuvIwjOxfOZrs2-d6yo6TAAhfo4nj1iEa0zvVO0StiOBFeXosrykpr-OcmxRuy99aaCdzF780q_MF6&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=wzGwCqsWHecUisdQhq4zsQ&_nc_oc=AdojKYmGvy815839aNSR94d05VSti37rumRvJo72LTWSqJ-B8yZli2wDVeAsFTeLyLM&ccb=13-1&oh=06_Q3-9AdvbxxVih-zN4JqVYKFowvC8sHyfXMVoPZ-nWry2KjJL&oe=69CDC015&_nc_sid=58080a",
-        "impresiones": 4303,
+        "image_url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/1756361502046950598?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJAMOxBCuoLvddgYWrA17wmTW-ci2pkDpM-BJhh2z-LqUZGXofFAUzuEtshUUaMWXSKGmk5KrNUAnRv0lQyZmoEUjfNg32_eWzd2ey2IYexcXmrRD7TY4hWTBVTy5wz_zgzvThDiJkqCUOAtKxi-8OZ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=PdbiRsxaz2jnX1aSKm1-VA&_nc_oc=Adpz4PdGwQHMV01SOrQRfk08q4g4u4nvRhGir1tKDXX5uj7hqWIISpE5X2k33cKCrzw&ccb=13-1&oh=06_Q3-9AaqHlXQB-aNzhx_Ie4m3b4R77nZhE4IzrKSb8sAyqWL6&oe=69CDC900&_nc_sid=58080a",
+        "impresiones": 4304,
         "clics": 460,
-        "ctr": 10.690216,
+        "ctr": 10.687732,
         "leads": 10,
         "cpl": 6.32,
         "inversion": 63.2
@@ -337,7 +383,7 @@
       {
         "name": "Carrusel nov 25",
         "ad_id": "120235643175770407",
-        "image_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t45.1600-4/588793758_857535553892476_4728378291005106974_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2dLGpgDPNV0Q7kNvwGGzlp8&_nc_oc=Adpmr4j4-QDV4Ky17aR3IYAHhE_pG8BOrFwbcw4ERlzNUOuE0A8Mwgsrq3lRKj0CdMw&_nc_zt=1&_nc_ht=scontent-dfw5-2.xx&edm=AAwGEdEEAAAA&_nc_gid=KekYhB1D03ko99yxCXIceg&_nc_tpa=Q5bMBQFwG8slOUsWDHVKV6FCCRfiSxFPL0TzvTEgKsPzOIlYt6ofiP88ZVTyKPUVI_fo5TTR_Y0D-XCovA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Afwl2B7JYNlPoQZsen72CPlHjRAxYD6NORXOOZtUgFea5A&oe=69D1B84B",
+        "image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t45.1600-4/588793758_857535553892476_4728378291005106974_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2dLGpgDPNV0Q7kNvwGFWwOJ&_nc_oc=AdpK-fltyvLmmkliB3KGUE5OVAOIAbvvtT3Pt6fWZ6qr836VTbQ3EHOi14cSfLjKd6Y&_nc_zt=1&_nc_ht=scontent-sjc6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=0a-rmpaSZu34gpGve2gE6Q&_nc_tpa=Q5bMBQGiGOuqjcODTU_kBPaRmdB3sXRan0DWUkYgyIdePjSqrUhp01fjaciQJj8dHNgnYgltekp7e3qHlw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_AfwivLPS9BWKA1BMOnh0fV8GVEn3HUwf_FRZMI6ROQ1x_w&oe=69D1B84B",
         "impresiones": 582,
         "clics": 52,
         "ctr": 8.934708,
