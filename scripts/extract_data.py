@@ -857,6 +857,122 @@ def _apply_previous(kpis: dict, prev_kpis: dict | None) -> dict:
 # Build unified dashboard JSON
 # ---------------------------------------------------------------------------
 
+def _transform_hubspot_for_dashboard(raw: dict, client: dict) -> dict:
+    """Transform raw HubSpot extraction into the format the dashboard JS expects."""
+    client_id = client["id"]
+    stages_current = raw.get("stages_current_month", {})
+    stages_total = raw.get("stages_total", {})
+    by_source_raw = raw.get("by_source", [])
+    monthly_raw = raw.get("monthly_history", [])
+
+    if client_id == "harmonices":
+        # Dashboard expects: deals_current_month, deals_stock_total, visitas_monthly,
+        # leads_valid_monthly, stage_history, leads_by_source
+        stage_keys = {
+            "Lead entrante": "lead_entrante",
+            "Exploratorio": "exploratorio",
+            "Interesado futuro": "interesado_futuro",
+            "Interesado caliente": "interesado_caliente",
+            "Reservado (pagado)": "reservado_pagado",
+            "Descartado": "descartado",
+        }
+
+        deals_current = {v: stages_current.get(k, 0) for k, v in stage_keys.items()}
+        deals_stock = {v: stages_total.get(k, 0) for k, v in stage_keys.items()}
+
+        # Monthly history → split into leads_valid_monthly + stage_history
+        leads_valid = []
+        stage_hist = {"interesado_futuro": [], "interesado_caliente": [], "reservado_pagado": []}
+        visitas = []
+
+        for entry in monthly_raw:
+            m = entry.get("month", "")
+            leads_valid.append({
+                "month": m,
+                "interesado_futuro": entry.get("Interesado futuro", 0),
+                "interesado_caliente": entry.get("Interesado caliente", 0),
+                "reservado_pagado": entry.get("Reservado (pagado)", 0),
+            })
+            for label, key in [("Interesado futuro", "interesado_futuro"),
+                               ("Interesado caliente", "interesado_caliente"),
+                               ("Reservado (pagado)", "reservado_pagado")]:
+                stage_hist[key].append({"month": m, "count": entry.get(label, 0)})
+
+        # Leads by source
+        leads_by_source = []
+        for item in by_source_raw:
+            src = item.get("source", "Unknown")
+            stages = item.get("stages", {})
+            leads_by_source.append({
+                "source": src,
+                "interesado_futuro": stages.get("Interesado futuro", 0),
+                "interesado_caliente": stages.get("Interesado caliente", 0),
+                "reservado_pagado": stages.get("Reservado (pagado)", 0),
+            })
+
+        return {
+            "deals_current_month": deals_current,
+            "deals_stock_total": deals_stock,
+            "visitas_monthly": visitas,  # Empty for now — needs fecha_visita property
+            "leads_valid_monthly": leads_valid,
+            "stage_history": stage_hist,
+            "leads_by_source": leads_by_source,
+        }
+
+    else:  # trees
+        stage_keys = {
+            "Interesado": "interesado",
+            "Lista de espera": "lista_espera",
+            "Firmado": "firmado",
+            "Sin disponibilidad": "sin_disponibilidad",
+            "Descartado": "descartado",
+        }
+
+        # Monthly history → split into individual histories + leads_valid_monthly
+        leads_valid = []
+        interesados_hist = []
+        lista_espera_hist = []
+        firmados_hist = []
+        sin_disp_hist = []
+        descartados_hist = []
+
+        for entry in monthly_raw:
+            m = entry.get("month", "")
+            leads_valid.append({
+                "month": m,
+                "lista_espera": entry.get("Lista de espera", 0),
+                "firmado": entry.get("Firmado", 0),
+                "sin_disponibilidad": entry.get("Sin disponibilidad", 0),
+            })
+            interesados_hist.append({"month": m, "count": entry.get("Interesado", 0)})
+            lista_espera_hist.append({"month": m, "count": entry.get("Lista de espera", 0)})
+            firmados_hist.append({"month": m, "count": entry.get("Firmado", 0)})
+            sin_disp_hist.append({"month": m, "count": entry.get("Sin disponibilidad", 0)})
+            descartados_hist.append({"month": m, "count": entry.get("Descartado", 0)})
+
+        # Leads by source
+        leads_by_source = []
+        for item in by_source_raw:
+            src = item.get("source", "Unknown")
+            stages = item.get("stages", {})
+            leads_by_source.append({
+                "source": src,
+                "lista_espera": stages.get("Lista de espera", 0),
+                "firmado": stages.get("Firmado", 0),
+                "sin_disponibilidad": stages.get("Sin disponibilidad", 0),
+            })
+
+        return {
+            "leads_valid_monthly": leads_valid,
+            "interesados_history": interesados_hist,
+            "lista_espera_history": lista_espera_hist,
+            "firmados_history": firmados_hist,
+            "sin_disponibilidad_history": sin_disp_hist,
+            "descartados_history": descartados_hist,
+            "leads_by_source": leads_by_source,
+        }
+
+
 def build_dashboard_json(
     client: dict,
     meta_data: dict,
@@ -881,6 +997,9 @@ def build_dashboard_json(
     meta_data["kpis"] = _apply_previous(meta_data.get("kpis", {}), prev_meta_kpis)
     google_data["kpis"] = _apply_previous(google_data.get("kpis", {}), prev_google_kpis)
 
+    # Transform HubSpot data to dashboard-expected format
+    hs_transformed = _transform_hubspot_for_dashboard(hubspot_data, client)
+
     return {
         "meta": {
             "clientId": client["id"],
@@ -891,7 +1010,7 @@ def build_dashboard_json(
         },
         "google_ads": google_data,
         "meta_ads": meta_data,
-        "hubspot": hubspot_data,
+        "hubspot": hs_transformed,
     }
 
 
@@ -1045,6 +1164,22 @@ def main() -> None:
             json.dumps(dashboard, indent=2, ensure_ascii=False), encoding="utf-8"
         )
         log.info("Wrote %s", out_path)
+
+        # Update manifest
+        manifest_path = out_dir / "manifest.json"
+        if manifest_path.exists():
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        else:
+            manifest = {"clientId": client["id"], "clientName": client["name"], "months": []}
+        if month_str not in manifest.get("months", []):
+            manifest.setdefault("months", []).append(month_str)
+            manifest["months"].sort()
+        manifest["latestMonth"] = manifest["months"][-1]
+        manifest["updatedAt"] = datetime.utcnow().isoformat() + "Z"
+        manifest_path.write_text(
+            json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        log.info("Updated manifest %s", manifest_path)
 
     # --- Git commit ---
     git_commit_and_push(month_str)
