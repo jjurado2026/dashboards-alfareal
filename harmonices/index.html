@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Dashboard Publicidad — Harmonices</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../shared/styles-base.css">
   <style>
     :root {
@@ -19,39 +19,159 @@
       --color-positive: #0D6E3F;
       --color-negative: #B91C1C;
       --color-meta: #1877F2;
-      --color-google: #143B48;
+      --color-google: #34A853;
+      --color-border: #E5E7EB;
       --font-family: 'Montserrat', sans-serif;
       --border-radius: 8px;
     }
 
-    /* Harmonices-specific refinements */
+    /* Harmonices overrides: angular, bordered, minimal shadow */
     .kpi-card {
-      border: 1px solid #E5E7EB;
+      border: 1px solid var(--color-border);
       box-shadow: none;
     }
     .kpi-card:hover {
       box-shadow: 0 2px 8px rgba(20, 59, 72, 0.08);
+      transform: translateY(-1px);
     }
     .chart-card {
-      border: 1px solid #E5E7EB;
+      border: 1px solid var(--color-border);
       box-shadow: none;
-    }
-    .dashboard-header {
-      border-bottom-color: #143B48;
-    }
-    .data-table th {
-      background: #143B48;
     }
     .metric-highlight {
-      border: 1px solid #E5E7EB;
+      border: 1px solid var(--color-border);
       box-shadow: none;
     }
+
+    /* Section dividers */
+    .section-divider {
+      margin: 48px 0 32px;
+      padding: 14px 0;
+      border-bottom: 2px solid var(--color-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-divider h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .section-divider .section-icon {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    /* 7-card KPI grid */
+    .kpi-grid-7 {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 14px;
+    }
+    @media (max-width: 1200px) {
+      .kpi-grid-7 { grid-template-columns: repeat(4, 1fr); }
+    }
+    @media (max-width: 768px) {
+      .kpi-grid-7 { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    /* Creative thumbnail */
+    .creative-thumb {
+      width: 48px;
+      height: 48px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid var(--color-border);
+    }
+    .creative-cell {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .creative-name {
+      font-size: 0.85rem;
+      line-height: 1.3;
+      max-width: 260px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    /* Inline bar for historical tables */
+    .inline-bar-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 100px;
+    }
+    .inline-bar {
+      height: 8px;
+      border-radius: 4px;
+      display: inline-block;
+      min-width: 2px;
+    }
+    .inline-value {
+      white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* HubSpot section custom styles */
+    .hubspot-grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+    .hubspot-grid-3 {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+      margin-bottom: 28px;
+    }
+    @media (max-width: 768px) {
+      .hubspot-grid-2,
+      .hubspot-grid-3 { grid-template-columns: 1fr; }
+    }
+
+    /* Tabs inline (print shows all) */
+    @media print {
+      .tab-content { display: block !important; }
+      .tab-content + .tab-content { margin-top: 24px; }
+    }
+
+    /* Date range badge */
+    .date-range-badge {
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 500;
+    }
+
+    /* Platform pills for campaigns table */
+    .platform-pill {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .platform-pill.facebook { background: #1877F2; }
+    .platform-pill.instagram { background: #E1306C; }
+    .platform-pill.audience { background: #6B7280; }
   </style>
 </head>
 <body>
   <div class="dashboard-wrapper" id="dashboard-content">
 
-    <!-- HEADER -->
+    <!-- ═══════════════════ HEADER ═══════════════════ -->
     <header class="dashboard-header">
       <div class="header-left">
         <div>
@@ -60,156 +180,146 @@
         </div>
       </div>
       <div class="header-controls no-print">
+        <span class="date-range-badge" id="date-range"></span>
         <select id="month-selector" class="month-selector"></select>
         <button id="btn-export-pdf" class="btn-export">Exportar PDF</button>
       </div>
     </header>
 
-    <!-- COMBINED KPIs -->
+    <!-- ═══════════════════ SECTION 1: GOOGLE ADS ═══════════════════ -->
+    <div class="section-divider">
+      <span class="section-icon" style="background: var(--color-google);"></span>
+      <h2>Google Ads — Espana</h2>
+    </div>
+
     <section class="kpi-section">
-      <div class="section-title">Resumen General</div>
-      <div class="kpi-grid" style="grid-template-columns: repeat(3, 1fr);">
-        <div class="kpi-card combined" id="kpi-total-leads">
-          <div class="kpi-label">Total Leads</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card combined" id="kpi-blended-cpl">
-          <div class="kpi-label">CPL Combinado</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card combined" id="kpi-total-spend">
-          <div class="kpi-label">Inversión Total</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-      </div>
+      <div class="kpi-grid-7" id="kpis-google"></div>
     </section>
 
-    <!-- META ADS KPIs -->
-    <section class="kpi-section">
-      <div class="section-title"><span class="icon" style="color: var(--color-meta);">●</span> Meta Ads</div>
-      <div class="kpi-grid">
-        <div class="kpi-card meta" id="kpi-meta-leads">
-          <div class="kpi-label">Leads</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card meta" id="kpi-meta-cpl">
-          <div class="kpi-label">CPL</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card meta" id="kpi-meta-spend">
-          <div class="kpi-label">Inversión</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card meta" id="kpi-meta-ctr">
-          <div class="kpi-label">CTR</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- GOOGLE ADS KPIs -->
-    <section class="kpi-section">
-      <div class="section-title"><span class="icon" style="color: var(--color-google);">●</span> Google Ads</div>
-      <div class="kpi-grid">
-        <div class="kpi-card google" id="kpi-google-leads">
-          <div class="kpi-label">Leads</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card google" id="kpi-google-cpl">
-          <div class="kpi-label">CPL</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card google" id="kpi-google-spend">
-          <div class="kpi-label">Inversión</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-        <div class="kpi-card google" id="kpi-google-ctr">
-          <div class="kpi-label">CTR</div>
-          <div class="kpi-value">—</div>
-          <div class="kpi-delta"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CHARTS ROW 1 -->
     <div class="charts-grid">
       <div class="chart-card">
-        <h3>Mix de Canales</h3>
-        <div class="chart-container">
-          <canvas id="chart-channel-mix"></canvas>
-        </div>
+        <h3>Rendimiento Diario: Leads + CPL</h3>
+        <div class="chart-container"><canvas id="chart-google-daily"></canvas></div>
       </div>
       <div class="chart-card">
-        <h3>Evolución Histórica: Leads + CPL</h3>
-        <div class="chart-container">
-          <canvas id="chart-history"></canvas>
-        </div>
+        <h3>Demografia: Leads por Edad</h3>
+        <div class="chart-container"><canvas id="chart-google-demographics"></canvas></div>
       </div>
     </div>
 
-    <!-- CHARTS ROW 2 -->
-    <div class="charts-grid">
-      <div class="chart-card">
-        <h3>Evolución Inversión Mensual</h3>
-        <div class="chart-container">
-          <canvas id="chart-spend"></canvas>
-        </div>
-      </div>
-      <div class="chart-card">
-        <h3>Funnel de Negocio</h3>
-        <div class="chart-container">
-          <canvas id="chart-funnel"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <!-- BUSINESS METRICS -->
-    <div class="business-grid">
-      <div class="metric-highlight">
-        <div class="big-number" id="visitas-value">—</div>
-        <div class="metric-label">Visitas Realizadas</div>
-      </div>
-      <div class="metric-highlight">
-        <div class="big-number" id="ocupacion-value">—</div>
-        <div class="metric-label">Ocupación</div>
-        <span class="status-badge success" id="ocupacion-badge" style="display:none;"></span>
-      </div>
-    </div>
-
-    <!-- CAMPAIGN TABLES -->
-    <section class="tabs">
-      <div class="section-title">Detalle de Campañas</div>
+    <section class="tabs" style="margin-bottom:28px;">
       <div class="tab-buttons no-print">
-        <button class="tab-btn active" data-tab="tab-meta">Meta Ads</button>
-        <button class="tab-btn" data-tab="tab-google">Google Ads</button>
+        <button class="tab-btn active" data-tab="tab-google-campaigns" data-group="google">Campanas</button>
+        <button class="tab-btn" data-tab="tab-google-keywords" data-group="google">Keywords</button>
       </div>
-
-      <div id="tab-meta" class="tab-content active">
-        <h4 style="margin-bottom: 12px; color: var(--color-text-muted); font-size: 0.85rem;">Top Creatividades</h4>
-        <div class="table-wrapper" id="table-meta-creatives"></div>
-        <h4 style="margin: 20px 0 12px; color: var(--color-text-muted); font-size: 0.85rem;">Campañas</h4>
-        <div class="table-wrapper" id="table-meta-campaigns"></div>
-      </div>
-
-      <div id="tab-google" class="tab-content">
-        <h4 style="margin-bottom: 12px; color: var(--color-text-muted); font-size: 0.85rem;">Top Keywords</h4>
-        <div class="table-wrapper" id="table-google-keywords"></div>
-        <h4 style="margin: 20px 0 12px; color: var(--color-text-muted); font-size: 0.85rem;">Campañas</h4>
+      <div id="tab-google-campaigns" class="tab-content active" data-group="google">
         <div class="table-wrapper" id="table-google-campaigns"></div>
       </div>
+      <div id="tab-google-keywords" class="tab-content" data-group="google">
+        <div class="table-wrapper" id="table-google-keywords"></div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- ═══════════════════ SECTION 2: META ADS ═══════════════════ -->
+    <div class="section-divider">
+      <span class="section-icon" style="background: var(--color-meta);"></span>
+      <h2>Meta Ads — Espana</h2>
+    </div>
+
+    <section class="kpi-section">
+      <div class="kpi-grid-7" id="kpis-meta"></div>
+    </section>
+
+    <div class="charts-grid">
+      <div class="chart-card">
+        <h3>Rendimiento Diario: Leads + CPL</h3>
+        <div class="chart-container"><canvas id="chart-meta-daily"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Campanas por Plataforma</h3>
+        <div class="chart-container"><canvas id="chart-meta-platforms"></canvas></div>
+      </div>
+    </div>
+
+    <section style="margin-bottom:28px;">
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campanas</h4>
+      <div class="table-wrapper" id="table-meta-campaigns"></div>
+    </section>
+
+    <section style="margin-bottom:28px;">
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Top Creatividades</h4>
+      <div class="table-wrapper" id="table-meta-creatives"></div>
+    </section>
+
+    <!-- ═══════════════════ SECTION 3: HISTORICO ═══════════════════ -->
+    <div class="section-divider">
+      <span class="section-icon" style="background: var(--color-primary);"></span>
+      <h2>Historico</h2>
+    </div>
+
+    <section style="margin-bottom:28px;">
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Google Ads — Historico Mensual</h4>
+      <div class="table-wrapper" id="table-history-google"></div>
+    </section>
+
+    <section style="margin-bottom:28px;">
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Meta Ads — Historico Mensual</h4>
+      <div class="table-wrapper" id="table-history-meta"></div>
+    </section>
+
+    <!-- ═══════════════════ SECTION 4: HUBSPOT PIPELINE ═══════════════════ -->
+    <div class="section-divider">
+      <span class="section-icon" style="background: #F97316;"></span>
+      <h2>HubSpot — Pipeline</h2>
+    </div>
+
+    <!-- Row 1: Current month deals + Stock total -->
+    <div class="hubspot-grid-2">
+      <div class="chart-card">
+        <h3>Negocios Mes Actual</h3>
+        <div class="chart-container"><canvas id="chart-hs-current"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Negocios Stock Total</h3>
+        <div class="chart-container"><canvas id="chart-hs-stock"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 2: Visitas + Leads validos -->
+    <div class="hubspot-grid-2">
+      <div class="chart-card">
+        <h3>Visitas Realizadas (Mensual)</h3>
+        <div class="chart-container"><canvas id="chart-hs-visitas"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Leads Validos Actuales (Mensual)</h3>
+        <div class="chart-container"><canvas id="chart-hs-leads-valid"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Individual stage histories -->
+    <div class="hubspot-grid-3">
+      <div class="chart-card">
+        <h3>Interesado Futuro</h3>
+        <div class="chart-container" style="height:240px;"><canvas id="chart-hs-int-futuro"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Interesado Caliente</h3>
+        <div class="chart-container" style="height:240px;"><canvas id="chart-hs-int-caliente"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <h3>Reservado (Pagado)</h3>
+        <div class="chart-container" style="height:240px;"><canvas id="chart-hs-reservado"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Table: Leads por etapa y campana -->
+    <section style="margin-bottom:28px;">
+      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Leads por Etapa y Campana</h4>
+      <div class="table-wrapper" id="table-hs-leads-source"></div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
     <footer class="dashboard-footer">
       <span id="last-updated"></span> · Datos actualizados diariamente
     </footer>
@@ -218,11 +328,388 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
   <script type="module">
-    import { initDashboard } from '../shared/dashboard.js';
+    import {
+      initDashboard, renderKpiCards, renderSortableTable, renderHistoricalTable,
+      formatCurrency, formatPct, formatCount, formatCompact, formatMonthLabel
+    } from '../shared/dashboard-v2.js';
+    import {
+      createDailyCombo, createHorizontalBar, createStackedBar,
+      createMonthlyBar, createFunnelBar
+    } from '../shared/charts-v2.js';
+
+    // ── Palette ──
+    const TEAL      = '#143B48';
+    const TEAL_MED  = '#1E5A6B';
+    const ORANGE    = '#F97316';
+    const PURPLE    = '#7C3AED';
+    const GREEN     = '#34A853';
+    const BLUE      = '#1877F2';
+    const RED       = '#DC2626';
+    const GRAY      = '#6B7280';
+
+    // ── Tab switching ──
+    function initTabs() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const group = btn.dataset.group;
+          const target = btn.dataset.tab;
+          document.querySelectorAll(`.tab-btn[data-group="${group}"]`).forEach(b => b.classList.remove('active'));
+          document.querySelectorAll(`.tab-content[data-group="${group}"]`).forEach(c => c.classList.remove('active'));
+          btn.classList.add('active');
+          const el = document.getElementById(target);
+          if (el) el.classList.add('active');
+        });
+      });
+    }
+
+    // ── Chart.js helper: destroy before recreate ──
+    function destroyChart(id) {
+      const existing = Chart.getChart(id);
+      if (existing) existing.destroy();
+    }
+
+    // ── Render 7 KPI cards for a platform ──
+    function renderPlatformKpis(containerId, platform) {
+      const container = document.getElementById(containerId);
+      if (!container || !platform) return;
+
+      const metrics = [
+        { key: 'impresiones', label: 'Impresiones', fmt: formatCount, invert: false },
+        { key: 'clics',       label: 'Clics',       fmt: formatCount, invert: false },
+        { key: 'ctr',         label: 'CTR',          fmt: v => formatPct(v), invert: false },
+        { key: 'cpc',         label: 'CPC',          fmt: formatCurrency, invert: true },
+        { key: 'leads',       label: 'Leads',        fmt: formatCount, invert: false },
+        { key: 'cpl',         label: 'CPL',          fmt: formatCurrency, invert: true },
+        { key: 'inversion',   label: 'Inversion',    fmt: formatCurrency, invert: false }
+      ];
+
+      container.innerHTML = metrics.map(m => {
+        const kpi = platform[m.key];
+        if (!kpi) return '';
+        const val = m.fmt(kpi.value);
+        const prev = kpi.previous;
+        let deltaHtml = '<span class="delta neutral">—</span>';
+        if (prev != null && prev !== 0) {
+          const pctChange = ((kpi.value - prev) / prev) * 100;
+          const abs = Math.abs(pctChange).toFixed(1);
+          const arrow = pctChange > 0.5 ? '&uarr;' : pctChange < -0.5 ? '&darr;' : '';
+          let cls = 'neutral';
+          if (pctChange > 0.5) cls = m.invert ? 'negative' : 'positive';
+          else if (pctChange < -0.5) cls = m.invert ? 'positive' : 'negative';
+          if (arrow) deltaHtml = `<span class="delta ${cls}">${arrow} ${abs}%</span>`;
+        }
+        return `
+          <div class="kpi-card">
+            <div class="kpi-label">${m.label}</div>
+            <div class="kpi-value">${val}</div>
+            <div class="kpi-delta">${deltaHtml}</div>
+          </div>`;
+      }).join('');
+    }
+
+    // ── Render creative table with thumbnails ──
+    function renderCreativesTable(containerId, creatives) {
+      const container = document.getElementById(containerId);
+      if (!container || !creatives || !creatives.length) {
+        if (container) container.innerHTML = '<p style="color:var(--color-text-muted);font-size:0.85rem;">Sin datos de creatividades.</p>';
+        return;
+      }
+      renderSortableTable(containerId, [
+        {
+          key: 'name', label: 'Creatividad', unit: 'text',
+          render: row => {
+            const thumb = row.thumbnail_url
+              ? `<img class="creative-thumb" src="${row.thumbnail_url}" alt="" loading="lazy" onerror="this.style.display='none'">`
+              : '';
+            return `<div class="creative-cell">${thumb}<span class="creative-name" title="${row.name || ''}">${row.name || '—'}</span></div>`;
+          }
+        },
+        { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
+        { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
+        { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
+        { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
+      ], creatives);
+    }
+
+    // ── Render platform distribution horizontal bar ──
+    function renderPlatformChart(canvasId, platformData) {
+      destroyChart(canvasId);
+      const canvas = document.getElementById(canvasId);
+      if (!canvas || !platformData || !platformData.length) return;
+
+      const colors = {
+        facebook: BLUE,
+        instagram: '#E1306C',
+        audience_network: GRAY,
+        messenger: '#0084FF'
+      };
+
+      new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels: platformData.map(p => p.platform),
+          datasets: [{
+            label: 'Leads',
+            data: platformData.map(p => p.leads),
+            backgroundColor: platformData.map(p => (colors[p.platform.toLowerCase()] || GRAY) + 'CC'),
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: ctx => `${ctx.parsed.x} leads` } }
+          },
+          scales: {
+            x: { beginAtZero: true, grid: { color: '#E5E7EB' }, ticks: { font: { size: 10 } } },
+            y: { grid: { display: false }, ticks: { font: { size: 11 } } }
+          }
+        }
+      });
+    }
+
+    // ── HubSpot: bar chart for deal stages ──
+    function renderDealsBar(canvasId, data, colorMap) {
+      destroyChart(canvasId);
+      const canvas = document.getElementById(canvasId);
+      if (!canvas || !data) return;
+
+      const entries = Object.entries(data);
+      const labels = entries.map(([k]) => stageName(k));
+      const values = entries.map(([, v]) => v);
+      const colors = entries.map(([k]) => colorMap[k] || TEAL);
+
+      new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: colors.map(c => c + 'CC'),
+            borderRadius: 4,
+            barPercentage: 0.65,
+            categoryPercentage: 0.85
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: { callbacks: { label: ctx => `${ctx.parsed.y} negocios` } }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { font: { size: 10 }, maxRotation: 30 } },
+            y: { beginAtZero: true, grid: { color: '#E5E7EB' }, ticks: { font: { size: 10 }, stepSize: 1 } }
+          }
+        }
+      });
+    }
+
+    // ── Stage name prettifier ──
+    function stageName(key) {
+      const map = {
+        lead_entrante: 'Lead entrante',
+        exploratorio: 'Exploratorio',
+        interesado_futuro: 'Int. futuro',
+        interesado_caliente: 'Int. caliente',
+        reservado_pagado: 'Reservado',
+        descartado: 'Descartado'
+      };
+      return map[key] || key;
+    }
+
+    // ── HubSpot stage colors ──
+    const stageColors = {
+      lead_entrante: TEAL,
+      exploratorio: TEAL_MED,
+      interesado_futuro: ORANGE,
+      interesado_caliente: '#0EA5E9',
+      reservado_pagado: PURPLE,
+      descartado: RED
+    };
+
+    // ── Historical table renderer (inline bars) ──
+    function renderHistoryTable(containerId, history, barCols, barColorMap) {
+      const container = document.getElementById(containerId);
+      if (!container || !history || !history.length) return;
+
+      const maxVals = {};
+      barCols.forEach(key => {
+        maxVals[key] = Math.max(...history.map(h => h[key] || 0), 1);
+      });
+
+      const columns = [
+        { key: 'month',       label: 'Mes',         format: formatMonthLabel },
+        { key: 'impresiones', label: 'Impresiones',  format: formatCount },
+        { key: 'clics',       label: 'Clics',        format: formatCount },
+        { key: 'ctr',         label: 'CTR',           format: v => formatPct(v) },
+        { key: 'cpc',         label: 'CPC',           format: formatCurrency },
+        { key: 'leads',       label: 'Leads',         format: formatCount },
+        { key: 'cpl',         label: 'CPL',            format: formatCurrency },
+        { key: 'inversion',   label: 'Inversion',     format: formatCurrency }
+      ];
+
+      const reversed = [...history].reverse();
+      let html = '<table class="data-table"><thead><tr>';
+      columns.forEach(col => {
+        const align = col.key !== 'month' ? 'text-align:right' : '';
+        html += `<th style="${align}">${col.label}</th>`;
+      });
+      html += '</tr></thead><tbody>';
+
+      reversed.forEach(row => {
+        html += '<tr>';
+        columns.forEach(col => {
+          const val = row[col.key];
+          const formatted = col.format ? col.format(val) : (val ?? '\u2014');
+          const align = col.key !== 'month' ? 'text-align:right' : '';
+          if (barCols.includes(col.key) && val != null) {
+            const pct = Math.min((val / maxVals[col.key]) * 100, 100);
+            const color = barColorMap[col.key] || TEAL;
+            html += `<td style="${align}">
+              <div class="inline-bar-wrapper">
+                <span class="inline-bar" style="width:${pct.toFixed(0)}%;background:${color}"></span>
+                <span class="inline-value">${formatted}</span>
+              </div>
+            </td>`;
+          } else {
+            html += `<td style="${align}">${formatted}</td>`;
+          }
+        });
+        html += '</tr>';
+      });
+
+      html += '</tbody></table>';
+      container.innerHTML = html;
+    }
+
+    // ══════════════════════════════════════════════
+    //  Main data handler
+    // ══════════════════════════════════════════════
+
+    function onDataLoaded(data) {
+      // ── GOOGLE ADS SECTION ──
+      if (data.google_ads) {
+        const g = data.google_ads;
+        renderPlatformKpis('kpis-google', g.kpis);
+        if (g.daily) createDailyCombo('chart-google-daily', g.daily, { barColor: GREEN, lineColor: GRAY });
+        if (g.demographics) createHorizontalBar('chart-google-demographics', g.demographics, { color: GREEN, label: 'Leads' });
+        if (g.campaigns) {
+          renderSortableTable('table-google-campaigns', [
+            { key: 'name', label: 'Campana', unit: 'text' },
+            { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
+            { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
+            { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
+            { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
+          ], g.campaigns);
+        }
+        if (g.keywords) {
+          renderSortableTable('table-google-keywords', [
+            { key: 'keyword', label: 'Keyword', unit: 'text' },
+            { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
+            { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
+            { key: 'impressions', label: 'Impresiones', unit: 'count', align: 'right' },
+            { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' }
+          ], g.keywords);
+        }
+      }
+
+      // ── META ADS SECTION ──
+      if (data.meta_ads) {
+        const m = data.meta_ads;
+        renderPlatformKpis('kpis-meta', m.kpis);
+        if (m.daily) createDailyCombo('chart-meta-daily', m.daily, { barColor: BLUE, lineColor: GRAY });
+        if (m.platforms) renderPlatformChart('chart-meta-platforms', m.platforms);
+        if (m.campaigns) {
+          renderSortableTable('table-meta-campaigns', [
+            { key: 'name', label: 'Campana', unit: 'text' },
+            { key: 'leads', label: 'Leads', unit: 'count', align: 'right', defaultDesc: true },
+            { key: 'cpl', label: 'CPL', unit: 'eur', align: 'right' },
+            { key: 'ctr', label: 'CTR', unit: 'pct', align: 'right' },
+            { key: 'spend', label: 'Inversion', unit: 'eur', align: 'right' }
+          ], m.campaigns);
+        }
+        if (m.creatives) renderCreativesTable('table-meta-creatives', m.creatives);
+      }
+
+      // ── HISTORICO SECTION ──
+      if (data.history) {
+        if (data.history.google_ads) {
+          renderHistoryTable('table-history-google', data.history.google_ads,
+            ['leads', 'cpl'], { leads: GREEN, cpl: '#D97706' });
+        }
+        if (data.history.meta_ads) {
+          renderHistoryTable('table-history-meta', data.history.meta_ads,
+            ['leads', 'cpl'], { leads: BLUE, cpl: '#D97706' });
+        }
+      }
+
+      // ── HUBSPOT PIPELINE SECTION ──
+      if (data.hubspot) {
+        const hs = data.hubspot;
+
+        // Negocios mes actual
+        if (hs.deals_current_month) {
+          renderDealsBar('chart-hs-current', hs.deals_current_month, stageColors);
+        }
+
+        // Negocios stock total
+        if (hs.deals_stock_total) {
+          renderDealsBar('chart-hs-stock', hs.deals_stock_total, stageColors);
+        }
+
+        // Visitas realizadas (monthly)
+        if (hs.visitas_monthly) {
+          createMonthlyBar('chart-hs-visitas', hs.visitas_monthly, { color: TEAL, label: 'Visitas' });
+        }
+
+        // Leads validos actuales (stacked monthly)
+        if (hs.leads_valid_monthly) {
+          createStackedBar('chart-hs-leads-valid', hs.leads_valid_monthly, {
+            datasets: [
+              { key: 'interesado_futuro',   label: 'Int. futuro',   color: ORANGE },
+              { key: 'interesado_caliente', label: 'Int. caliente', color: TEAL },
+              { key: 'reservado_pagado',    label: 'Reservado',     color: PURPLE }
+            ]
+          });
+        }
+
+        // Individual stage history charts
+        if (hs.stage_history) {
+          if (hs.stage_history.interesado_futuro) {
+            createMonthlyBar('chart-hs-int-futuro', hs.stage_history.interesado_futuro, { color: ORANGE, label: 'Int. futuro' });
+          }
+          if (hs.stage_history.interesado_caliente) {
+            createMonthlyBar('chart-hs-int-caliente', hs.stage_history.interesado_caliente, { color: TEAL, label: 'Int. caliente' });
+          }
+          if (hs.stage_history.reservado_pagado) {
+            createMonthlyBar('chart-hs-reservado', hs.stage_history.reservado_pagado, { color: PURPLE, label: 'Reservado' });
+          }
+        }
+
+        // Table: Leads por etapa y campana
+        if (hs.leads_by_source) {
+          renderSortableTable('table-hs-leads-source', [
+            { key: 'source', label: 'Fuente / Campana', unit: 'text' },
+            { key: 'interesado_futuro', label: 'Int. Futuro', unit: 'count', align: 'right', defaultDesc: true },
+            { key: 'interesado_caliente', label: 'Int. Caliente', unit: 'count', align: 'right' },
+            { key: 'reservado_pagado', label: 'Reservado (Pagado)', unit: 'count', align: 'right' }
+          ], hs.leads_by_source);
+        }
+      }
+    }
+
+    // ── Bootstrap ──
+    initTabs();
     initDashboard({
       clientId: 'harmonices',
       clientName: 'Harmonices',
-      dataBasePath: '../data/harmonices'
+      dataBasePath: '../data/harmonices',
+      onDataLoaded
     });
   </script>
 </body>

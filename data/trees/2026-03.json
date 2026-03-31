@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "clientId": "trees",
+    "clientName": "Trees Coliving",
+    "month": "2026-03",
+    "generatedAt": "2026-03-31T08:00:00Z",
+    "dateRange": { "from": "2026-03-01", "to": "2026-03-31" }
+  },
+  "google_ads": {
+    "kpis": {
+      "impresiones": { "value": 6798, "previous": 44846 },
+      "clics": { "value": 895, "previous": 5830 },
+      "ctr": { "value": 13.17, "previous": 13.00 },
+      "cpc": { "value": 0.83, "previous": 0.13 },
+      "leads": { "value": 34, "previous": 41 },
+      "cpl": { "value": 21.95, "previous": 18.49 },
+      "inversion": { "value": 746.41, "previous": 758.21 }
+    },
+    "daily": [
+      { "date": "2026-03-01", "leads": 1, "cpl": 22.10 },
+      { "date": "2026-03-02", "leads": 2, "cpl": 18.50 },
+      { "date": "2026-03-03", "leads": 1, "cpl": 24.30 },
+      { "date": "2026-03-04", "leads": 0, "cpl": 0 },
+      { "date": "2026-03-05", "leads": 1, "cpl": 20.80 },
+      { "date": "2026-03-06", "leads": 2, "cpl": 19.40 },
+      { "date": "2026-03-07", "leads": 1, "cpl": 23.10 },
+      { "date": "2026-03-08", "leads": 1, "cpl": 21.50 },
+      { "date": "2026-03-09", "leads": 2, "cpl": 17.90 },
+      { "date": "2026-03-10", "leads": 1, "cpl": 25.60 },
+      { "date": "2026-03-11", "leads": 0, "cpl": 0 },
+      { "date": "2026-03-12", "leads": 1, "cpl": 22.40 },
+      { "date": "2026-03-13", "leads": 2, "cpl": 20.10 },
+      { "date": "2026-03-14", "leads": 1, "cpl": 24.80 },
+      { "date": "2026-03-15", "leads": 1, "cpl": 21.30 },
+      { "date": "2026-03-16", "leads": 0, "cpl": 0 },
+      { "date": "2026-03-17", "leads": 2, "cpl": 19.70 },
+      { "date": "2026-03-18", "leads": 1, "cpl": 23.50 },
+      { "date": "2026-03-19", "leads": 1, "cpl": 22.00 },
+      { "date": "2026-03-20", "leads": 2, "cpl": 18.20 },
+      { "date": "2026-03-21", "leads": 1, "cpl": 26.10 },
+      { "date": "2026-03-22", "leads": 0, "cpl": 0 },
+      { "date": "2026-03-23", "leads": 1, "cpl": 21.80 },
+      { "date": "2026-03-24", "leads": 2, "cpl": 20.50 },
+      { "date": "2026-03-25", "leads": 1, "cpl": 23.90 },
+      { "date": "2026-03-26", "leads": 1, "cpl": 22.60 },
+      { "date": "2026-03-27", "leads": 2, "cpl": 19.10 },
+      { "date": "2026-03-28", "leads": 1, "cpl": 24.40 },
+      { "date": "2026-03-29", "leads": 1, "cpl": 21.00 },
+      { "date": "2026-03-30", "leads": 1, "cpl": 25.30 },
+      { "date": "2026-03-31", "leads": 0, "cpl": 0 }
+    ],
+    "demographics": {
+      "gender": [
+        { "label": "Hombre", "leads": 18 },
+        { "label": "Mujer", "leads": 14 },
+        { "label": "Desconocido", "leads": 2 }
+      ],
+      "age": [
+        { "label": "18-24", "leads": 8 },
+        { "label": "25-34", "leads": 14 },
+        { "label": "35-44", "leads": 7 },
+        { "label": "45-54", "leads": 3 },
+        { "label": "55-64", "leads": 1 },
+        { "label": "65+", "leads": 1 }
+      ]
+    },
+    "campaigns": [
+      {
+        "name": "GADS-BUSQ-COLIVING-Y-APARTAMENTOS-ES",
+        "impresiones": 6156,
+        "clics": 695,
+        "ctr": 11.29,
+        "cpc": 0.83,
+        "leads": 27.5,
+        "cpl": 21.10,
+        "inversion": 580.24
+      },
+      {
+        "name": "GADS-BUSQ-BRAND-ES",
+        "impresiones": 435,
+        "clics": 175,
+        "ctr": 40.23,
+        "cpc": 0.81,
+        "leads": 5.5,
+        "cpl": 25.82,
+        "inversion": 141.98
+      },
+      {
+        "name": "GADS-BUSQ-BRAND-ES #2",
+        "impresiones": 11,
+        "clics": 5,
+        "ctr": 45.45,
+        "cpc": 0.42,
+        "leads": 1,
+        "cpl": 2.08,
+        "inversion": 2.08
+      }
+    ],
+    "keywords": [
+      { "keyword": "coliving madrid", "impresiones": 1985, "clics": 262, "ctr": 13.20, "cpc": 0.87, "leads": 9, "cpl": 25.30, "inversion": 227.70 },
+      { "keyword": "coliving", "impresiones": 1450, "clics": 168, "ctr": 11.59, "cpc": 0.91, "leads": 7, "cpl": 21.83, "inversion": 152.81 },
+      { "keyword": "trees coliving", "impresiones": 380, "clics": 155, "ctr": 40.79, "cpc": 0.80, "leads": 5, "cpl": 24.80, "inversion": 124.00 },
+      { "keyword": "apartamentos compartidos madrid", "impresiones": 820, "clics": 85, "ctr": 10.37, "cpc": 0.79, "leads": 3, "cpl": 22.37, "inversion": 67.10 },
+      { "keyword": "pisos compartidos madrid", "impresiones": 640, "clics": 72, "ctr": 11.25, "cpc": 0.76, "leads": 3, "cpl": 18.21, "inversion": 54.64 },
+      { "keyword": "coliving españa", "impresiones": 510, "clics": 58, "ctr": 11.37, "cpc": 0.82, "leads": 2, "cpl": 23.78, "inversion": 47.56 },
+      { "keyword": "habitacion compartida madrid", "impresiones": 390, "clics": 38, "ctr": 9.74, "cpc": 0.85, "leads": 2, "cpl": 16.15, "inversion": 32.30 },
+      { "keyword": "residencia coliving", "impresiones": 320, "clics": 32, "ctr": 10.00, "cpc": 0.88, "leads": 1.5, "cpl": 18.77, "inversion": 28.16 },
+      { "keyword": "trees coliving madrid", "impresiones": 55, "clics": 20, "ctr": 36.36, "cpc": 0.90, "leads": 0.5, "cpl": 17.98, "inversion": 8.99 },
+      { "keyword": "coliving barrio salamanca", "impresiones": 248, "clics": 5, "ctr": 2.02, "cpc": 0.63, "leads": 0.5, "cpl": 6.30, "inversion": 3.15 }
+    ],
+    "monthly_history": [
+      { "month": "2025-01", "impresiones": 53760, "clics": 6720, "ctr": 12.50, "cpc": 0.07, "leads": 82, "cpl": 5.92, "inversion": 485.44 },
+      { "month": "2025-02", "impresiones": 48000, "clics": 6000, "ctr": 12.50, "cpc": 0.11, "leads": 96, "cpl": 7.11, "inversion": 682.56 },
+      { "month": "2025-03", "impresiones": 55200, "clics": 6900, "ctr": 12.50, "cpc": 0.15, "leads": 122, "cpl": 8.61, "inversion": 1050.42 },
+      { "month": "2025-04", "impresiones": 46200, "clics": 5775, "ctr": 12.50, "cpc": 0.19, "leads": 84, "cpl": 13.06, "inversion": 1097.04 },
+      { "month": "2025-05", "impresiones": 44800, "clics": 5600, "ctr": 12.50, "cpc": 0.23, "leads": 76, "cpl": 16.88, "inversion": 1282.88 },
+      { "month": "2025-06", "impresiones": 36800, "clics": 4600, "ctr": 12.50, "cpc": 0.16, "leads": 46, "cpl": 16.18, "inversion": 744.28 },
+      { "month": "2025-07", "impresiones": 44000, "clics": 5500, "ctr": 12.50, "cpc": 0.11, "leads": 55, "cpl": 11.08, "inversion": 609.40 },
+      { "month": "2025-08", "impresiones": 46720, "clics": 5840, "ctr": 12.50, "cpc": 0.10, "leads": 73, "cpl": 8.35, "inversion": 609.55 },
+      { "month": "2025-09", "impresiones": 40960, "clics": 5120, "ctr": 12.50, "cpc": 0.13, "leads": 64, "cpl": 10.31, "inversion": 659.84 },
+      { "month": "2025-10", "impresiones": 38400, "clics": 4800, "ctr": 12.50, "cpc": 0.13, "leads": 60, "cpl": 10.77, "inversion": 646.20 },
+      { "month": "2025-11", "impresiones": 34400, "clics": 4300, "ctr": 12.50, "cpc": 0.16, "leads": 43, "cpl": 16.25, "inversion": 698.75 },
+      { "month": "2025-12", "impresiones": 39200, "clics": 4900, "ctr": 12.50, "cpc": 0.16, "leads": 49, "cpl": 16.14, "inversion": 790.86 },
+      { "month": "2026-01", "impresiones": 43200, "clics": 5400, "ctr": 12.50, "cpc": 0.16, "leads": 54, "cpl": 15.56, "inversion": 840.24 },
+      { "month": "2026-02", "impresiones": 44846, "clics": 5830, "ctr": 13.00, "cpc": 0.13, "leads": 41, "cpl": 18.49, "inversion": 758.21 },
+      { "month": "2026-03", "impresiones": 6798, "clics": 895, "ctr": 13.17, "cpc": 0.83, "leads": 34, "cpl": 21.95, "inversion": 746.41 }
+    ]
+  },
+  "meta_ads": {
+    "kpis": {
+      "impresiones": { "value": 67807, "previous": 115480 },
+      "clics": { "value": 3587, "previous": 7183 },
+      "ctr": { "value": 5.29, "previous": 6.22 },
+      "cpc": { "value": 0.14, "previous": 0.062 },
+      "leads": { "value": 46, "previous": 78 },
+      "cpl": { "value": 11.09, "previous": 5.73 },
+      "inversion": { "value": 510.29, "previous": 446.61 }
+    },
+    "daily": [
+      { "date": "2026-03-01", "leads": 2, "cpl": 10.50 },
+      { "date": "2026-03-02", "leads": 1, "cpl": 12.30 },
+      { "date": "2026-03-03", "leads": 2, "cpl": 9.80 },
+      { "date": "2026-03-04", "leads": 1, "cpl": 11.20 },
+      { "date": "2026-03-05", "leads": 2, "cpl": 10.90 },
+      { "date": "2026-03-06", "leads": 1, "cpl": 13.10 },
+      { "date": "2026-03-07", "leads": 2, "cpl": 9.50 },
+      { "date": "2026-03-08", "leads": 1, "cpl": 11.80 },
+      { "date": "2026-03-09", "leads": 2, "cpl": 10.20 },
+      { "date": "2026-03-10", "leads": 1, "cpl": 12.60 },
+      { "date": "2026-03-11", "leads": 2, "cpl": 9.70 },
+      { "date": "2026-03-12", "leads": 1, "cpl": 11.50 },
+      { "date": "2026-03-13", "leads": 2, "cpl": 10.40 },
+      { "date": "2026-03-14", "leads": 1, "cpl": 13.30 },
+      { "date": "2026-03-15", "leads": 2, "cpl": 9.90 },
+      { "date": "2026-03-16", "leads": 1, "cpl": 12.10 },
+      { "date": "2026-03-17", "leads": 2, "cpl": 10.60 },
+      { "date": "2026-03-18", "leads": 1, "cpl": 11.40 },
+      { "date": "2026-03-19", "leads": 2, "cpl": 10.00 },
+      { "date": "2026-03-20", "leads": 1, "cpl": 12.80 },
+      { "date": "2026-03-21", "leads": 2, "cpl": 9.60 },
+      { "date": "2026-03-22", "leads": 1, "cpl": 11.70 },
+      { "date": "2026-03-23", "leads": 2, "cpl": 10.30 },
+      { "date": "2026-03-24", "leads": 1, "cpl": 12.40 },
+      { "date": "2026-03-25", "leads": 2, "cpl": 10.10 },
+      { "date": "2026-03-26", "leads": 1, "cpl": 13.00 },
+      { "date": "2026-03-27", "leads": 2, "cpl": 9.40 },
+      { "date": "2026-03-28", "leads": 1, "cpl": 11.90 },
+      { "date": "2026-03-29", "leads": 2, "cpl": 10.70 },
+      { "date": "2026-03-30", "leads": 1, "cpl": 12.50 },
+      { "date": "2026-03-31", "leads": 1, "cpl": 11.09 }
+    ],
+    "campaigns": [
+      {
+        "name": "Trees_LeadGen_España - Prospecting Advantage",
+        "impresiones": 49585,
+        "clics": 2554,
+        "ctr": 5.15,
+        "cpc": 0.14,
+        "leads": 31,
+        "cpl": 11.90,
+        "inversion": 368.85
+      },
+      {
+        "name": "Trees_LeadGen_España - Prospecting - Galerías",
+        "impresiones": 17067,
+        "clics": 991,
+        "ctr": 5.81,
+        "cpc": 0.13,
+        "leads": 15,
+        "cpl": 8.86,
+        "inversion": 132.85
+      }
+    ],
+    "campaigns_by_platform": [
+      {
+        "name": "Trees_LeadGen_España - Prospecting Advantage",
+        "platform": "Facebook",
+        "impresiones": 32430,
+        "clics": 1668,
+        "ctr": 5.14,
+        "cpc": 0.15,
+        "leads": 20,
+        "cpl": 12.40,
+        "inversion": 248.00
+      },
+      {
+        "name": "Trees_LeadGen_España - Prospecting Advantage",
+        "platform": "Instagram",
+        "impresiones": 17155,
+        "clics": 886,
+        "ctr": 5.16,
+        "cpc": 0.14,
+        "leads": 11,
+        "cpl": 10.99,
+        "inversion": 120.85
+      },
+      {
+        "name": "Trees_LeadGen_España - Prospecting - Galerías",
+        "platform": "Facebook",
+        "impresiones": 10240,
+        "clics": 594,
+        "ctr": 5.80,
+        "cpc": 0.13,
+        "leads": 9,
+        "cpl": 8.87,
+        "inversion": 79.80
+      },
+      {
+        "name": "Trees_LeadGen_España - Prospecting - Galerías",
+        "platform": "Instagram",
+        "impresiones": 6827,
+        "clics": 397,
+        "ctr": 5.82,
+        "cpc": 0.13,
+        "leads": 6,
+        "cpl": 8.84,
+        "inversion": 53.05
+      }
+    ],
+    "creatives": [
+      {
+        "name": "Reel 1 - Galerías",
+        "image_url": "",
+        "impresiones": 31511,
+        "clics": 1630,
+        "ctr": 5.17,
+        "cpc": 0.14,
+        "leads": 28,
+        "cpl": 8.24,
+        "inversion": 230.66
+      },
+      {
+        "name": "Reel 2 - Matadero - Copia",
+        "image_url": "",
+        "impresiones": 12596,
+        "clics": 691,
+        "ctr": 5.49,
+        "cpc": 0.13,
+        "leads": 9,
+        "cpl": 9.83,
+        "inversion": 88.48
+      },
+      {
+        "name": "Reel 3 - Tour Habitación",
+        "image_url": "",
+        "impresiones": 10800,
+        "clics": 580,
+        "ctr": 5.37,
+        "cpc": 0.14,
+        "leads": 5,
+        "cpl": 15.68,
+        "inversion": 78.40
+      },
+      {
+        "name": "Carrusel - Espacios Comunes",
+        "image_url": "",
+        "impresiones": 8420,
+        "clics": 450,
+        "ctr": 5.34,
+        "cpc": 0.15,
+        "leads": 3,
+        "cpl": 23.90,
+        "inversion": 71.70
+      },
+      {
+        "name": "Imagen - Fachada Galerías",
+        "image_url": "",
+        "impresiones": 4480,
+        "clics": 236,
+        "ctr": 5.27,
+        "cpc": 0.17,
+        "leads": 1,
+        "cpl": 41.05,
+        "inversion": 41.05
+      }
+    ],
+    "monthly_history": [
+      { "month": "2025-01", "impresiones": 0, "clics": 0, "ctr": 0, "cpc": 0, "leads": 0, "cpl": 0, "inversion": 0 },
+      { "month": "2025-02", "impresiones": 53000, "clics": 3100, "ctr": 5.85, "cpc": 0.04, "leads": 53, "cpl": 2.47, "inversion": 130.91 },
+      { "month": "2025-03", "impresiones": 94100, "clics": 5500, "ctr": 5.84, "cpc": 0.06, "leads": 94, "cpl": 3.31, "inversion": 311.14 },
+      { "month": "2025-04", "impresiones": 91000, "clics": 5320, "ctr": 5.85, "cpc": 0.06, "leads": 91, "cpl": 3.53, "inversion": 321.23 },
+      { "month": "2025-05", "impresiones": 85000, "clics": 4970, "ctr": 5.85, "cpc": 0.10, "leads": 85, "cpl": 5.81, "inversion": 493.85 },
+      { "month": "2025-06", "impresiones": 100000, "clics": 5850, "ctr": 5.85, "cpc": 0.13, "leads": 100, "cpl": 7.50, "inversion": 750.00 },
+      { "month": "2025-07", "impresiones": 106000, "clics": 6200, "ctr": 5.85, "cpc": 0.10, "leads": 106, "cpl": 5.95, "inversion": 630.70 },
+      { "month": "2025-08", "impresiones": 91000, "clics": 5320, "ctr": 5.85, "cpc": 0.10, "leads": 91, "cpl": 5.65, "inversion": 514.15 },
+      { "month": "2025-09", "impresiones": 91000, "clics": 5320, "ctr": 5.85, "cpc": 0.10, "leads": 91, "cpl": 5.68, "inversion": 516.88 },
+      { "month": "2025-10", "impresiones": 60000, "clics": 3510, "ctr": 5.85, "cpc": 0.16, "leads": 60, "cpl": 9.58, "inversion": 574.80 },
+      { "month": "2025-11", "impresiones": 65000, "clics": 3800, "ctr": 5.85, "cpc": 0.14, "leads": 65, "cpl": 7.99, "inversion": 519.35 },
+      { "month": "2025-12", "impresiones": 65000, "clics": 3800, "ctr": 5.85, "cpc": 0.11, "leads": 65, "cpl": 6.57, "inversion": 427.05 },
+      { "month": "2026-01", "impresiones": 118960, "clics": 6900, "ctr": 5.80, "cpc": 0.072, "leads": 75, "cpl": 6.58, "inversion": 493.50 },
+      { "month": "2026-02", "impresiones": 115480, "clics": 7183, "ctr": 6.22, "cpc": 0.062, "leads": 78, "cpl": 5.73, "inversion": 446.61 },
+      { "month": "2026-03", "impresiones": 67807, "clics": 3587, "ctr": 5.29, "cpc": 0.14, "leads": 46, "cpl": 11.09, "inversion": 510.29 }
+    ]
+  },
+  "hubspot": {
+    "deals_current_month": {
+      "interesado": 28,
+      "lista_espera": 14,
+      "firmado": 3,
+      "sin_disponibilidad": 8,
+      "descartado": 15
+    },
+    "deals_by_stage_history": [
+      { "month": "2025-01", "interesado": 45, "lista_espera": 6, "firmado": 2, "sin_disponibilidad": 3, "descartado": 8 },
+      { "month": "2025-02", "interesado": 62, "lista_espera": 8, "firmado": 3, "sin_disponibilidad": 5, "descartado": 12 },
+      { "month": "2025-03", "interesado": 80, "lista_espera": 10, "firmado": 4, "sin_disponibilidad": 6, "descartado": 18 },
+      { "month": "2025-04", "interesado": 58, "lista_espera": 9, "firmado": 3, "sin_disponibilidad": 5, "descartado": 14 },
+      { "month": "2025-05", "interesado": 52, "lista_espera": 11, "firmado": 4, "sin_disponibilidad": 7, "descartado": 10 },
+      { "month": "2025-06", "interesado": 48, "lista_espera": 12, "firmado": 5, "sin_disponibilidad": 8, "descartado": 12 },
+      { "month": "2025-07", "interesado": 55, "lista_espera": 13, "firmado": 3, "sin_disponibilidad": 6, "descartado": 11 },
+      { "month": "2025-08", "interesado": 50, "lista_espera": 10, "firmado": 4, "sin_disponibilidad": 7, "descartado": 13 },
+      { "month": "2025-09", "interesado": 46, "lista_espera": 11, "firmado": 3, "sin_disponibilidad": 5, "descartado": 10 },
+      { "month": "2025-10", "interesado": 38, "lista_espera": 9, "firmado": 2, "sin_disponibilidad": 4, "descartado": 9 },
+      { "month": "2025-11", "interesado": 35, "lista_espera": 8, "firmado": 3, "sin_disponibilidad": 5, "descartado": 11 },
+      { "month": "2025-12", "interesado": 40, "lista_espera": 10, "firmado": 2, "sin_disponibilidad": 6, "descartado": 12 },
+      { "month": "2026-01", "interesado": 42, "lista_espera": 12, "firmado": 4, "sin_disponibilidad": 7, "descartado": 14 },
+      { "month": "2026-02", "interesado": 35, "lista_espera": 11, "firmado": 5, "sin_disponibilidad": 6, "descartado": 13 },
+      { "month": "2026-03", "interesado": 28, "lista_espera": 14, "firmado": 3, "sin_disponibilidad": 8, "descartado": 15 }
+    ],
+    "leads_valid_monthly": [
+      { "month": "2025-01", "lista_espera": 6, "firmado": 2, "sin_disponibilidad": 3 },
+      { "month": "2025-02", "lista_espera": 8, "firmado": 3, "sin_disponibilidad": 5 },
+      { "month": "2025-03", "lista_espera": 10, "firmado": 4, "sin_disponibilidad": 6 },
+      { "month": "2025-04", "lista_espera": 9, "firmado": 3, "sin_disponibilidad": 5 },
+      { "month": "2025-05", "lista_espera": 11, "firmado": 4, "sin_disponibilidad": 7 },
+      { "month": "2025-06", "lista_espera": 12, "firmado": 5, "sin_disponibilidad": 8 },
+      { "month": "2025-07", "lista_espera": 13, "firmado": 3, "sin_disponibilidad": 6 },
+      { "month": "2025-08", "lista_espera": 10, "firmado": 4, "sin_disponibilidad": 7 },
+      { "month": "2025-09", "lista_espera": 11, "firmado": 3, "sin_disponibilidad": 5 },
+      { "month": "2025-10", "lista_espera": 9, "firmado": 2, "sin_disponibilidad": 4 },
+      { "month": "2025-11", "lista_espera": 8, "firmado": 3, "sin_disponibilidad": 5 },
+      { "month": "2025-12", "lista_espera": 10, "firmado": 2, "sin_disponibilidad": 6 },
+      { "month": "2026-01", "lista_espera": 12, "firmado": 4, "sin_disponibilidad": 7 },
+      { "month": "2026-02", "lista_espera": 11, "firmado": 5, "sin_disponibilidad": 6 },
+      { "month": "2026-03", "lista_espera": 14, "firmado": 3, "sin_disponibilidad": 8 }
+    ],
+    "leads_by_source": [
+      { "source": "Google Ads", "lista_espera": 5, "firmado": 1, "sin_disponibilidad": 3 },
+      { "source": "Meta Ads", "lista_espera": 6, "firmado": 2, "sin_disponibilidad": 3 },
+      { "source": "Orgánico Web", "lista_espera": 2, "firmado": 0, "sin_disponibilidad": 1 },
+      { "source": "Referido", "lista_espera": 1, "firmado": 0, "sin_disponibilidad": 1 }
+    ]
+  }
+}

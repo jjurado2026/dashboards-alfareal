@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "clientId": "harmonices",
+    "clientName": "Harmonices",
+    "month": "2026-03",
+    "generatedAt": "2026-03-31T08:00:00Z",
+    "dateRange": { "from": "2026-03-01", "to": "2026-03-31" }
+  },
+  "google_ads": {
+    "kpis": {
+      "impresiones": { "value": 278400, "previous": 256800 },
+      "clics": { "value": 12100, "previous": 11018 },
+      "ctr": { "value": 4.35, "previous": 4.29 },
+      "cpc": { "value": 0.115, "previous": 0.123 },
+      "leads": { "value": 130, "previous": 115 },
+      "cpl": { "value": 10.70, "previous": 11.75 },
+      "inversion": { "value": 1391.50, "previous": 1351.25 }
+    },
+    "daily": [
+      { "date": "2026-03-01", "leads": 4, "cpl": 10.20 },
+      { "date": "2026-03-02", "leads": 5, "cpl": 9.80 },
+      { "date": "2026-03-03", "leads": 3, "cpl": 11.50 },
+      { "date": "2026-03-04", "leads": 4, "cpl": 10.90 },
+      { "date": "2026-03-05", "leads": 5, "cpl": 9.60 },
+      { "date": "2026-03-06", "leads": 4, "cpl": 10.40 },
+      { "date": "2026-03-07", "leads": 3, "cpl": 12.10 },
+      { "date": "2026-03-08", "leads": 5, "cpl": 9.50 },
+      { "date": "2026-03-09", "leads": 4, "cpl": 10.80 },
+      { "date": "2026-03-10", "leads": 5, "cpl": 10.00 },
+      { "date": "2026-03-11", "leads": 4, "cpl": 11.20 },
+      { "date": "2026-03-12", "leads": 3, "cpl": 12.30 },
+      { "date": "2026-03-13", "leads": 5, "cpl": 9.70 },
+      { "date": "2026-03-14", "leads": 4, "cpl": 10.60 },
+      { "date": "2026-03-15", "leads": 5, "cpl": 9.90 },
+      { "date": "2026-03-16", "leads": 4, "cpl": 11.00 },
+      { "date": "2026-03-17", "leads": 3, "cpl": 12.50 },
+      { "date": "2026-03-18", "leads": 5, "cpl": 9.40 },
+      { "date": "2026-03-19", "leads": 4, "cpl": 10.50 },
+      { "date": "2026-03-20", "leads": 5, "cpl": 10.10 },
+      { "date": "2026-03-21", "leads": 4, "cpl": 11.30 },
+      { "date": "2026-03-22", "leads": 3, "cpl": 12.00 },
+      { "date": "2026-03-23", "leads": 5, "cpl": 9.30 },
+      { "date": "2026-03-24", "leads": 4, "cpl": 10.70 },
+      { "date": "2026-03-25", "leads": 5, "cpl": 10.20 },
+      { "date": "2026-03-26", "leads": 4, "cpl": 11.40 },
+      { "date": "2026-03-27", "leads": 3, "cpl": 12.20 },
+      { "date": "2026-03-28", "leads": 5, "cpl": 9.80 },
+      { "date": "2026-03-29", "leads": 4, "cpl": 10.30 },
+      { "date": "2026-03-30", "leads": 5, "cpl": 10.00 },
+      { "date": "2026-03-31", "leads": 4, "cpl": 11.10 }
+    ],
+    "demographics": {
+      "gender": [
+        { "label": "Mujer", "leads": 68 },
+        { "label": "Hombre", "leads": 52 },
+        { "label": "Desconocido", "leads": 10 }
+      ],
+      "age": [
+        { "label": "18-24", "leads": 2 },
+        { "label": "25-34", "leads": 5 },
+        { "label": "35-44", "leads": 12 },
+        { "label": "45-54", "leads": 28 },
+        { "label": "55-64", "leads": 48 },
+        { "label": "65+", "leads": 35 }
+      ]
+    },
+    "campaigns": [
+      {
+        "name": "GADS-BUSQ-SENIOR-LIVING-ES",
+        "impresiones": 145000,
+        "clics": 6310,
+        "ctr": 4.35,
+        "cpc": 0.115,
+        "leads": 68,
+        "cpl": 10.67,
+        "inversion": 725.56
+      },
+      {
+        "name": "GADS-BUSQ-COHOUSING-ES",
+        "impresiones": 85400,
+        "clics": 3715,
+        "ctr": 4.35,
+        "cpc": 0.112,
+        "leads": 40,
+        "cpl": 10.39,
+        "inversion": 415.68
+      },
+      {
+        "name": "GADS-BUSQ-BRAND-HARMONICES",
+        "impresiones": 48000,
+        "clics": 2075,
+        "ctr": 4.32,
+        "cpc": 0.121,
+        "leads": 22,
+        "cpl": 11.38,
+        "inversion": 250.26
+      }
+    ],
+    "keywords": [
+      { "keyword": "senior living", "impresiones": 42000, "clics": 1830, "ctr": 4.36, "cpc": 0.11, "leads": 22, "cpl": 9.15, "inversion": 201.30 },
+      { "keyword": "cohousing senior", "impresiones": 28500, "clics": 1240, "ctr": 4.35, "cpc": 0.11, "leads": 15, "cpl": 9.09, "inversion": 136.40 },
+      { "keyword": "residencia mayores madrid", "impresiones": 35000, "clics": 1522, "ctr": 4.35, "cpc": 0.12, "leads": 18, "cpl": 10.14, "inversion": 182.64 },
+      { "keyword": "comunidades para mayores", "impresiones": 22000, "clics": 957, "ctr": 4.35, "cpc": 0.11, "leads": 12, "cpl": 8.77, "inversion": 105.27 },
+      { "keyword": "harmonices", "impresiones": 18000, "clics": 783, "ctr": 4.35, "cpc": 0.12, "leads": 10, "cpl": 9.40, "inversion": 93.96 },
+      { "keyword": "vivienda senior españa", "impresiones": 15800, "clics": 688, "ctr": 4.35, "cpc": 0.12, "leads": 8, "cpl": 10.32, "inversion": 82.56 },
+      { "keyword": "coliving mayores", "impresiones": 12400, "clics": 540, "ctr": 4.35, "cpc": 0.11, "leads": 7, "cpl": 8.49, "inversion": 59.40 },
+      { "keyword": "senior cohousing madrid", "impresiones": 9800, "clics": 426, "ctr": 4.35, "cpc": 0.12, "leads": 6, "cpl": 8.52, "inversion": 51.12 }
+    ],
+    "monthly_history": [
+      { "month": "2025-01", "impresiones": 28000, "clics": 1260, "ctr": 4.50, "cpc": 0.79, "leads": 28, "cpl": 35.47, "inversion": 993.16 },
+      { "month": "2025-02", "impresiones": 34000, "clics": 1530, "ctr": 4.50, "cpc": 0.73, "leads": 34, "cpl": 32.65, "inversion": 1110.10 },
+      { "month": "2025-03", "impresiones": 28000, "clics": 1260, "ctr": 4.50, "cpc": 1.09, "leads": 28, "cpl": 48.87, "inversion": 1368.36 },
+      { "month": "2025-04", "impresiones": 89000, "clics": 4005, "ctr": 4.50, "cpc": 0.35, "leads": 89, "cpl": 15.60, "inversion": 1388.40 },
+      { "month": "2025-05", "impresiones": 107000, "clics": 4815, "ctr": 4.50, "cpc": 0.32, "leads": 107, "cpl": 14.22, "inversion": 1521.54 },
+      { "month": "2025-06", "impresiones": 147000, "clics": 6615, "ctr": 4.50, "cpc": 0.19, "leads": 147, "cpl": 8.38, "inversion": 1231.86 },
+      { "month": "2025-07", "impresiones": 195000, "clics": 8775, "ctr": 4.50, "cpc": 0.14, "leads": 195, "cpl": 6.12, "inversion": 1193.40 },
+      { "month": "2025-08", "impresiones": 218000, "clics": 9810, "ctr": 4.50, "cpc": 0.12, "leads": 218, "cpl": 5.59, "inversion": 1218.62 },
+      { "month": "2025-09", "impresiones": 235000, "clics": 10575, "ctr": 4.50, "cpc": 0.11, "leads": 235, "cpl": 5.03, "inversion": 1182.05 },
+      { "month": "2025-10", "impresiones": 149000, "clics": 6705, "ctr": 4.50, "cpc": 0.18, "leads": 149, "cpl": 7.98, "inversion": 1189.02 },
+      { "month": "2025-11", "impresiones": 99000, "clics": 4455, "ctr": 4.50, "cpc": 0.28, "leads": 99, "cpl": 12.76, "inversion": 1263.24 },
+      { "month": "2025-12", "impresiones": 123000, "clics": 5535, "ctr": 4.50, "cpc": 0.24, "leads": 123, "cpl": 10.90, "inversion": 1340.70 },
+      { "month": "2026-01", "impresiones": 300000, "clics": 13500, "ctr": 4.50, "cpc": 0.109, "leads": 151, "cpl": 9.76, "inversion": 1473.76 },
+      { "month": "2026-02", "impresiones": 256800, "clics": 11018, "ctr": 4.29, "cpc": 0.123, "leads": 115, "cpl": 11.75, "inversion": 1351.25 },
+      { "month": "2026-03", "impresiones": 278400, "clics": 12100, "ctr": 4.35, "cpc": 0.115, "leads": 130, "cpl": 10.70, "inversion": 1391.50 }
+    ]
+  },
+  "meta_ads": {
+    "kpis": {
+      "impresiones": { "value": 34200, "previous": 29773 },
+      "clics": { "value": 3320, "previous": 2885 },
+      "ctr": { "value": 9.71, "previous": 9.69 },
+      "cpc": { "value": 0.091, "previous": 0.097 },
+      "leads": { "value": 45, "previous": 40 },
+      "cpl": { "value": 6.71, "previous": 6.99 },
+      "inversion": { "value": 302.12, "previous": 279.60 }
+    },
+    "daily": [
+      { "date": "2026-03-01", "leads": 1, "cpl": 7.10 },
+      { "date": "2026-03-02", "leads": 2, "cpl": 6.20 },
+      { "date": "2026-03-03", "leads": 1, "cpl": 7.50 },
+      { "date": "2026-03-04", "leads": 2, "cpl": 6.00 },
+      { "date": "2026-03-05", "leads": 1, "cpl": 7.30 },
+      { "date": "2026-03-06", "leads": 2, "cpl": 6.40 },
+      { "date": "2026-03-07", "leads": 1, "cpl": 7.80 },
+      { "date": "2026-03-08", "leads": 2, "cpl": 5.90 },
+      { "date": "2026-03-09", "leads": 1, "cpl": 7.20 },
+      { "date": "2026-03-10", "leads": 2, "cpl": 6.10 },
+      { "date": "2026-03-11", "leads": 1, "cpl": 7.60 },
+      { "date": "2026-03-12", "leads": 2, "cpl": 6.30 },
+      { "date": "2026-03-13", "leads": 1, "cpl": 7.00 },
+      { "date": "2026-03-14", "leads": 2, "cpl": 6.50 },
+      { "date": "2026-03-15", "leads": 1, "cpl": 7.40 },
+      { "date": "2026-03-16", "leads": 2, "cpl": 6.00 },
+      { "date": "2026-03-17", "leads": 1, "cpl": 7.70 },
+      { "date": "2026-03-18", "leads": 2, "cpl": 6.20 },
+      { "date": "2026-03-19", "leads": 1, "cpl": 7.10 },
+      { "date": "2026-03-20", "leads": 2, "cpl": 6.40 },
+      { "date": "2026-03-21", "leads": 1, "cpl": 7.50 },
+      { "date": "2026-03-22", "leads": 2, "cpl": 5.80 },
+      { "date": "2026-03-23", "leads": 1, "cpl": 7.30 },
+      { "date": "2026-03-24", "leads": 2, "cpl": 6.10 },
+      { "date": "2026-03-25", "leads": 1, "cpl": 7.60 },
+      { "date": "2026-03-26", "leads": 2, "cpl": 6.30 },
+      { "date": "2026-03-27", "leads": 1, "cpl": 7.00 },
+      { "date": "2026-03-28", "leads": 2, "cpl": 6.50 },
+      { "date": "2026-03-29", "leads": 1, "cpl": 7.20 },
+      { "date": "2026-03-30", "leads": 2, "cpl": 6.00 },
+      { "date": "2026-03-31", "leads": 1, "cpl": 6.71 }
+    ],
+    "campaigns": [
+      {
+        "name": "Harmonices_LeadGen - Advantage+ Prospecting",
+        "impresiones": 25650,
+        "clics": 2490,
+        "ctr": 9.71,
+        "cpc": 0.089,
+        "leads": 34,
+        "cpl": 6.52,
+        "inversion": 221.58
+      },
+      {
+        "name": "Harmonices_LeadGen - Retargeting Seniors",
+        "impresiones": 8550,
+        "clics": 830,
+        "ctr": 9.71,
+        "cpc": 0.097,
+        "leads": 11,
+        "cpl": 7.32,
+        "inversion": 80.54
+      }
+    ],
+    "campaigns_by_platform": [
+      {
+        "name": "Harmonices_LeadGen - Advantage+ Prospecting",
+        "platform": "Facebook",
+        "impresiones": 18200,
+        "clics": 1768,
+        "ctr": 9.71,
+        "cpc": 0.088,
+        "leads": 25,
+        "cpl": 6.22,
+        "inversion": 155.62
+      },
+      {
+        "name": "Harmonices_LeadGen - Advantage+ Prospecting",
+        "platform": "Instagram",
+        "impresiones": 7450,
+        "clics": 722,
+        "ctr": 9.70,
+        "cpc": 0.091,
+        "leads": 9,
+        "cpl": 7.33,
+        "inversion": 65.96
+      },
+      {
+        "name": "Harmonices_LeadGen - Retargeting Seniors",
+        "platform": "Facebook",
+        "impresiones": 6840,
+        "clics": 664,
+        "ctr": 9.71,
+        "cpc": 0.095,
+        "leads": 9,
+        "cpl": 7.01,
+        "inversion": 63.08
+      },
+      {
+        "name": "Harmonices_LeadGen - Retargeting Seniors",
+        "platform": "Instagram",
+        "impresiones": 1710,
+        "clics": 166,
+        "ctr": 9.71,
+        "cpc": 0.105,
+        "leads": 2,
+        "cpl": 8.73,
+        "inversion": 17.46
+      }
+    ],
+    "creatives": [
+      {
+        "name": "Video sept 25",
+        "image_url": "",
+        "impresiones": 24500,
+        "clics": 2380,
+        "ctr": 9.71,
+        "cpc": 0.09,
+        "leads": 38,
+        "cpl": 5.64,
+        "inversion": 214.20
+      },
+      {
+        "name": "Video nov 25",
+        "image_url": "",
+        "impresiones": 5800,
+        "clics": 563,
+        "ctr": 9.71,
+        "cpc": 0.10,
+        "leads": 4,
+        "cpl": 14.08,
+        "inversion": 56.30
+      },
+      {
+        "name": "Carrusel - Comunidad",
+        "image_url": "",
+        "impresiones": 3900,
+        "clics": 377,
+        "ctr": 9.67,
+        "cpc": 0.08,
+        "leads": 3,
+        "cpl": 10.54,
+        "inversion": 31.62
+      }
+    ],
+    "monthly_history": [
+      { "month": "2025-01", "impresiones": 0, "clics": 0, "ctr": 0, "cpc": 0, "leads": 0, "cpl": 0, "inversion": 0 },
+      { "month": "2025-02", "impresiones": 0, "clics": 0, "ctr": 0, "cpc": 0, "leads": 0, "cpl": 0, "inversion": 0 },
+      { "month": "2025-03", "impresiones": 0, "clics": 0, "ctr": 0, "cpc": 0, "leads": 0, "cpl": 0, "inversion": 0 },
+      { "month": "2025-04", "impresiones": 0, "clics": 0, "ctr": 0, "cpc": 0, "leads": 0, "cpl": 0, "inversion": 0 },
+      { "month": "2025-05", "impresiones": 37000, "clics": 2886, "ctr": 7.80, "cpc": 0.063, "leads": 37, "cpl": 4.92, "inversion": 182.04 },
+      { "month": "2025-06", "impresiones": 46000, "clics": 3588, "ctr": 7.80, "cpc": 0.096, "leads": 46, "cpl": 7.45, "inversion": 342.70 },
+      { "month": "2025-07", "impresiones": 64000, "clics": 4992, "ctr": 7.80, "cpc": 0.078, "leads": 64, "cpl": 6.04, "inversion": 386.56 },
+      { "month": "2025-08", "impresiones": 56000, "clics": 4368, "ctr": 7.80, "cpc": 0.089, "leads": 56, "cpl": 6.91, "inversion": 386.96 },
+      { "month": "2025-09", "impresiones": 57000, "clics": 4446, "ctr": 7.80, "cpc": 0.087, "leads": 57, "cpl": 6.78, "inversion": 386.46 },
+      { "month": "2025-10", "impresiones": 45000, "clics": 3510, "ctr": 7.80, "cpc": 0.114, "leads": 45, "cpl": 8.89, "inversion": 400.05 },
+      { "month": "2025-11", "impresiones": 20000, "clics": 1560, "ctr": 7.80, "cpc": 0.370, "leads": 20, "cpl": 28.88, "inversion": 577.60 },
+      { "month": "2025-12", "impresiones": 40000, "clics": 3120, "ctr": 7.80, "cpc": 0.107, "leads": 40, "cpl": 8.35, "inversion": 334.00 },
+      { "month": "2026-01", "impresiones": 30769, "clics": 2400, "ctr": 7.80, "cpc": 0.129, "leads": 33, "cpl": 9.35, "inversion": 308.55 },
+      { "month": "2026-02", "impresiones": 29773, "clics": 2885, "ctr": 9.69, "cpc": 0.097, "leads": 40, "cpl": 6.99, "inversion": 279.60 },
+      { "month": "2026-03", "impresiones": 34200, "clics": 3320, "ctr": 9.71, "cpc": 0.091, "leads": 45, "cpl": 6.71, "inversion": 302.12 }
+    ]
+  },
+  "hubspot": {
+    "deals_current_month": {
+      "lead_entrante": 42,
+      "exploratorio": 18,
+      "interesado_futuro": 12,
+      "interesado_caliente": 6,
+      "reservado_pagado": 2,
+      "descartado": 10
+    },
+    "deals_stock_total": {
+      "lead_entrante": 580,
+      "exploratorio": 210,
+      "interesado_futuro": 95,
+      "interesado_caliente": 38,
+      "reservado_pagado": 14,
+      "descartado": 320
+    },
+    "visitas_monthly": [
+      { "month": "2025-01", "count": 5 },
+      { "month": "2025-02", "count": 7 },
+      { "month": "2025-03", "count": 8 },
+      { "month": "2025-04", "count": 12 },
+      { "month": "2025-05", "count": 15 },
+      { "month": "2025-06", "count": 18 },
+      { "month": "2025-07", "count": 22 },
+      { "month": "2025-08", "count": 20 },
+      { "month": "2025-09", "count": 24 },
+      { "month": "2025-10", "count": 19 },
+      { "month": "2025-11", "count": 16 },
+      { "month": "2025-12", "count": 18 },
+      { "month": "2026-01", "count": 21 },
+      { "month": "2026-02", "count": 20 },
+      { "month": "2026-03", "count": 23 }
+    ],
+    "leads_valid_monthly": [
+      { "month": "2025-01", "interesado_futuro": 3, "interesado_caliente": 1, "reservado_pagado": 0 },
+      { "month": "2025-02", "interesado_futuro": 4, "interesado_caliente": 2, "reservado_pagado": 0 },
+      { "month": "2025-03", "interesado_futuro": 5, "interesado_caliente": 2, "reservado_pagado": 1 },
+      { "month": "2025-04", "interesado_futuro": 7, "interesado_caliente": 3, "reservado_pagado": 1 },
+      { "month": "2025-05", "interesado_futuro": 8, "interesado_caliente": 4, "reservado_pagado": 1 },
+      { "month": "2025-06", "interesado_futuro": 10, "interesado_caliente": 5, "reservado_pagado": 1 },
+      { "month": "2025-07", "interesado_futuro": 12, "interesado_caliente": 6, "reservado_pagado": 2 },
+      { "month": "2025-08", "interesado_futuro": 11, "interesado_caliente": 5, "reservado_pagado": 1 },
+      { "month": "2025-09", "interesado_futuro": 13, "interesado_caliente": 6, "reservado_pagado": 2 },
+      { "month": "2025-10", "interesado_futuro": 9, "interesado_caliente": 4, "reservado_pagado": 1 },
+      { "month": "2025-11", "interesado_futuro": 7, "interesado_caliente": 3, "reservado_pagado": 1 },
+      { "month": "2025-12", "interesado_futuro": 10, "interesado_caliente": 5, "reservado_pagado": 1 },
+      { "month": "2026-01", "interesado_futuro": 11, "interesado_caliente": 5, "reservado_pagado": 2 },
+      { "month": "2026-02", "interesado_futuro": 10, "interesado_caliente": 4, "reservado_pagado": 1 },
+      { "month": "2026-03", "interesado_futuro": 12, "interesado_caliente": 6, "reservado_pagado": 2 }
+    ],
+    "stage_history": {
+      "interesado_futuro": [
+        { "month": "2025-01", "count": 3 },
+        { "month": "2025-02", "count": 4 },
+        { "month": "2025-03", "count": 5 },
+        { "month": "2025-04", "count": 7 },
+        { "month": "2025-05", "count": 8 },
+        { "month": "2025-06", "count": 10 },
+        { "month": "2025-07", "count": 12 },
+        { "month": "2025-08", "count": 11 },
+        { "month": "2025-09", "count": 13 },
+        { "month": "2025-10", "count": 9 },
+        { "month": "2025-11", "count": 7 },
+        { "month": "2025-12", "count": 10 },
+        { "month": "2026-01", "count": 11 },
+        { "month": "2026-02", "count": 10 },
+        { "month": "2026-03", "count": 12 }
+      ],
+      "interesado_caliente": [
+        { "month": "2025-01", "count": 1 },
+        { "month": "2025-02", "count": 2 },
+        { "month": "2025-03", "count": 2 },
+        { "month": "2025-04", "count": 3 },
+        { "month": "2025-05", "count": 4 },
+        { "month": "2025-06", "count": 5 },
+        { "month": "2025-07", "count": 6 },
+        { "month": "2025-08", "count": 5 },
+        { "month": "2025-09", "count": 6 },
+        { "month": "2025-10", "count": 4 },
+        { "month": "2025-11", "count": 3 },
+        { "month": "2025-12", "count": 5 },
+        { "month": "2026-01", "count": 5 },
+        { "month": "2026-02", "count": 4 },
+        { "month": "2026-03", "count": 6 }
+      ],
+      "reservado_pagado": [
+        { "month": "2025-01", "count": 0 },
+        { "month": "2025-02", "count": 0 },
+        { "month": "2025-03", "count": 1 },
+        { "month": "2025-04", "count": 1 },
+        { "month": "2025-05", "count": 1 },
+        { "month": "2025-06", "count": 1 },
+        { "month": "2025-07", "count": 2 },
+        { "month": "2025-08", "count": 1 },
+        { "month": "2025-09", "count": 2 },
+        { "month": "2025-10", "count": 1 },
+        { "month": "2025-11", "count": 1 },
+        { "month": "2025-12", "count": 1 },
+        { "month": "2026-01", "count": 2 },
+        { "month": "2026-02", "count": 1 },
+        { "month": "2026-03", "count": 2 }
+      ]
+    },
+    "leads_by_source": [
+      { "source": "Google Ads", "interesado_futuro": 5, "interesado_caliente": 3, "reservado_pagado": 1 },
+      { "source": "Meta Ads", "interesado_futuro": 4, "interesado_caliente": 2, "reservado_pagado": 1 },
+      { "source": "Orgánico Web", "interesado_futuro": 2, "interesado_caliente": 1, "reservado_pagado": 0 },
+      { "source": "Referido", "interesado_futuro": 1, "interesado_caliente": 0, "reservado_pagado": 0 }
+    ]
+  }
+}
