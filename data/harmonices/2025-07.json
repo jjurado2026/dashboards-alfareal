@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2025-07",
-    "generatedAt": "2026-04-01T09:29:37.441005Z",
+    "generatedAt": "2026-04-01T10:29:44.995305Z",
     "dateRange": {
       "from": "2025-07-01",
       "to": "2025-07-31"
@@ -1549,12 +1549,12 @@
         "previous": 0.09
       },
       "leads": {
-        "value": 128,
-        "previous": 92
+        "value": 64,
+        "previous": 46
       },
       "cpl": {
-        "value": 3.02,
-        "previous": 3.72
+        "value": 6.04,
+        "previous": 7.45
       },
       "inversion": {
         "value": 386.42,
@@ -1568,40 +1568,40 @@
     "daily": [
       {
         "date": "2025-07-01",
-        "leads": 2,
-        "cpl": 6.21,
+        "leads": 1,
+        "cpl": 12.42,
         "impresiones": 1280,
         "clics": 114,
         "inversion": 12.42
       },
       {
         "date": "2025-07-02",
-        "leads": 2,
-        "cpl": 6.29,
+        "leads": 1,
+        "cpl": 12.57,
         "impresiones": 1296,
         "clics": 151,
         "inversion": 12.57
       },
       {
         "date": "2025-07-03",
-        "leads": 2,
-        "cpl": 5.74,
+        "leads": 1,
+        "cpl": 11.48,
         "impresiones": 1093,
         "clics": 116,
         "inversion": 11.48
       },
       {
         "date": "2025-07-04",
-        "leads": 6,
-        "cpl": 1.95,
+        "leads": 3,
+        "cpl": 3.9,
         "impresiones": 1057,
         "clics": 107,
         "inversion": 11.71
       },
       {
         "date": "2025-07-05",
-        "leads": 8,
-        "cpl": 1.62,
+        "leads": 4,
+        "cpl": 3.23,
         "impresiones": 965,
         "clics": 115,
         "inversion": 12.93
@@ -1616,24 +1616,24 @@
       },
       {
         "date": "2025-07-07",
-        "leads": 6,
-        "cpl": 2.23,
+        "leads": 3,
+        "cpl": 4.46,
         "impresiones": 1148,
         "clics": 114,
         "inversion": 13.38
       },
       {
         "date": "2025-07-08",
-        "leads": 2,
-        "cpl": 6.12,
+        "leads": 1,
+        "cpl": 12.25,
         "impresiones": 994,
         "clics": 83,
         "inversion": 12.25
       },
       {
         "date": "2025-07-09",
-        "leads": 10,
-        "cpl": 1.25,
+        "leads": 5,
+        "cpl": 2.5,
         "impresiones": 1310,
         "clics": 143,
         "inversion": 12.49
@@ -1656,48 +1656,48 @@
       },
       {
         "date": "2025-07-12",
-        "leads": 4,
-        "cpl": 2.91,
+        "leads": 2,
+        "cpl": 5.82,
         "impresiones": 1051,
         "clics": 118,
         "inversion": 11.64
       },
       {
         "date": "2025-07-13",
-        "leads": 6,
-        "cpl": 2.49,
+        "leads": 3,
+        "cpl": 4.97,
         "impresiones": 1664,
         "clics": 168,
         "inversion": 14.92
       },
       {
         "date": "2025-07-14",
-        "leads": 14,
-        "cpl": 0.87,
+        "leads": 7,
+        "cpl": 1.74,
         "impresiones": 1387,
         "clics": 165,
         "inversion": 12.21
       },
       {
         "date": "2025-07-15",
-        "leads": 2,
-        "cpl": 5.72,
+        "leads": 1,
+        "cpl": 11.44,
         "impresiones": 1232,
         "clics": 115,
         "inversion": 11.44
       },
       {
         "date": "2025-07-16",
-        "leads": 2,
-        "cpl": 6.08,
+        "leads": 1,
+        "cpl": 12.17,
         "impresiones": 1017,
         "clics": 95,
         "inversion": 12.17
       },
       {
         "date": "2025-07-17",
-        "leads": 4,
-        "cpl": 3.1,
+        "leads": 2,
+        "cpl": 6.19,
         "impresiones": 1192,
         "clics": 103,
         "inversion": 12.38
@@ -1712,72 +1712,72 @@
       },
       {
         "date": "2025-07-19",
-        "leads": 2,
-        "cpl": 6.29,
+        "leads": 1,
+        "cpl": 12.59,
         "impresiones": 1068,
         "clics": 137,
         "inversion": 12.59
       },
       {
         "date": "2025-07-20",
-        "leads": 8,
-        "cpl": 1.74,
+        "leads": 4,
+        "cpl": 3.48,
         "impresiones": 1322,
         "clics": 137,
         "inversion": 13.94
       },
       {
         "date": "2025-07-21",
-        "leads": 4,
-        "cpl": 3.29,
+        "leads": 2,
+        "cpl": 6.59,
         "impresiones": 1215,
         "clics": 145,
         "inversion": 13.18
       },
       {
         "date": "2025-07-22",
-        "leads": 2,
-        "cpl": 6.12,
+        "leads": 1,
+        "cpl": 12.24,
         "impresiones": 1281,
         "clics": 145,
         "inversion": 12.24
       },
       {
         "date": "2025-07-23",
-        "leads": 2,
-        "cpl": 6.12,
+        "leads": 1,
+        "cpl": 12.25,
         "impresiones": 1288,
         "clics": 125,
         "inversion": 12.25
       },
       {
         "date": "2025-07-24",
-        "leads": 2,
-        "cpl": 6.0,
+        "leads": 1,
+        "cpl": 12.01,
         "impresiones": 1053,
         "clics": 118,
         "inversion": 12.01
       },
       {
         "date": "2025-07-25",
-        "leads": 6,
-        "cpl": 1.93,
+        "leads": 3,
+        "cpl": 3.85,
         "impresiones": 978,
         "clics": 108,
         "inversion": 11.55
       },
       {
         "date": "2025-07-26",
-        "leads": 8,
-        "cpl": 1.52,
+        "leads": 4,
+        "cpl": 3.04,
         "impresiones": 1014,
         "clics": 102,
         "inversion": 12.17
       },
       {
         "date": "2025-07-27",
-        "leads": 10,
-        "cpl": 1.56,
+        "leads": 5,
+        "cpl": 3.13,
         "impresiones": 1486,
         "clics": 144,
         "inversion": 15.63
@@ -1792,24 +1792,24 @@
       },
       {
         "date": "2025-07-29",
-        "leads": 6,
-        "cpl": 2.14,
+        "leads": 3,
+        "cpl": 4.28,
         "impresiones": 1097,
         "clics": 103,
         "inversion": 12.85
       },
       {
         "date": "2025-07-30",
-        "leads": 4,
-        "cpl": 2.87,
+        "leads": 2,
+        "cpl": 5.74,
         "impresiones": 1143,
         "clics": 152,
         "inversion": 11.47
       },
       {
         "date": "2025-07-31",
-        "leads": 4,
-        "cpl": 2.94,
+        "leads": 2,
+        "cpl": 5.88,
         "impresiones": 1268,
         "clics": 138,
         "inversion": 11.76
@@ -1822,8 +1822,8 @@
         "clics": 3824,
         "ctr": 10.442381,
         "cpc": 0.101051,
-        "leads": 128,
-        "cpl": 3.02,
+        "leads": 64,
+        "cpl": 6.04,
         "inversion": 386.42,
         "alcance": 17003
       }
@@ -1836,8 +1836,8 @@
         "clics": 3647,
         "ctr": 11.59,
         "cpc": 0.09,
-        "leads": 116,
-        "cpl": 2.69,
+        "leads": 58,
+        "cpl": 5.37,
         "inversion": 311.54
       },
       {
@@ -1847,8 +1847,8 @@
         "clics": 177,
         "ctr": 3.43,
         "cpc": 0.42,
-        "leads": 12,
-        "cpl": 6.24,
+        "leads": 6,
+        "cpl": 12.48,
         "inversion": 74.88
       }
     ],
@@ -1856,23 +1856,23 @@
       {
         "name": "Vídeo cliente",
         "ad_id": "120224045953500407",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwHwgno3&_nc_oc=Adp6MYqVnCfFv7KlfWOMHSmA8-_0hLCkJBQ9y0VU_16HJ2EGoF3aWtG9YxQTqFEpp7s&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=joT0xLxNf5GuGCNvG9nIYw&_nc_tpa=Q5bMBQFV5yHtBetjUDOTWwznJarlFMiEoPO6U3xrO-5PuWUQqSe_XuhhfBVpFZ9lkjdTmKYmOi15xwjsSg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af07Ittn4oXTmQ4M6G9EhHXwWcZbn852mXvCsOBM6GLLZQ&oe=69D2C23E",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwHhyGXn&_nc_oc=Adrvke1Eotpzucvvf_hu9sGaGPzb_EkkMe9bOs53QNgksNpDH8osioaAjkDd43otoyk&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=WhhYa67J26_4c4zgYyQUCw&_nc_tpa=Q5bMBQFeE24N5Dg8YIdrXL8izJq6GnGrOQlOekQ5jxZMO2s0K17RJe94b1jPtjOiG27kyET1i_-AH5bClQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1VxE6fWGLmJUZf5tFD2onYuKN1p905D3ci6uIrPAKFgQ&oe=69D2C23E",
         "impresiones": 33747,
         "clics": 3504,
         "ctr": 10.383145,
-        "leads": 122,
-        "cpl": 2.93,
+        "leads": 61,
+        "cpl": 5.85,
         "inversion": 357.02
       },
       {
         "name": "Vídeo cliente 2",
         "ad_id": "120226758910920407",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/509130027_704043678914126_8811603678686514418_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=8XalzuuHrQwQ7kNvwHjDF6E&_nc_oc=AdpGczv6TIxaX1o5TDTsVvu_Du4sKcRbEOZsuN_400vP5me8Jp2Fb9JKAZcbVQVZTts&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=5seNoPvf2KAn3L-KnAWWvA&_nc_tpa=Q5bMBQFeRc18IwoJfvb2gUM5PkSgYmuXhkc5x_LQcNdXYsHpmJBArSLOMIYGb42TLM8Ka2xcfXe-KJbovw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0YSzuX0tLUPL03-r19VjUhVuDwi0dFVWEiQAnt5zWr4Q&oe=69D2A31A",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/509130027_704043678914126_8811603678686514418_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=8XalzuuHrQwQ7kNvwFUYOEx&_nc_oc=Adpje6sCZAUrvFQPmwT2w-8hh64IQ8Ci4aWFhoxsoa1UwFLJKuOqOJO5rpMu3b5iA10&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=AzrZgZ3xhrUkaE5y6vJi7w&_nc_tpa=Q5bMBQHl6C4dEQcb_p9xlMqi-opVGUGCQW6zyDt1JJxQDi_AtZFj5P3r1qMW4jMFzTMBRI6p1nz_pU1pqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1dAIepzL8BVksI2AzsFJ8TMO1Ccky3dGNJm0PywYZ0mw&oe=69D2DB5A",
         "impresiones": 2873,
         "clics": 320,
         "ctr": 11.138183,
-        "leads": 6,
-        "cpl": 4.9,
+        "leads": 3,
+        "cpl": 9.8,
         "inversion": 29.4
       }
     ],
@@ -1883,8 +1883,8 @@
         "clics": 1778,
         "ctr": 9.159283,
         "cpc": 0.10243,
-        "leads": 74,
-        "cpl": 2.46,
+        "leads": 37,
+        "cpl": 4.92,
         "inversion": 182.12,
         "alcance": 9890
       },
@@ -1894,8 +1894,8 @@
         "clics": 3688,
         "ctr": 10.350537,
         "cpc": 0.092866,
-        "leads": 92,
-        "cpl": 3.72,
+        "leads": 46,
+        "cpl": 7.45,
         "inversion": 342.49,
         "alcance": 16627
       },
@@ -1905,8 +1905,8 @@
         "clics": 3824,
         "ctr": 10.442381,
         "cpc": 0.101051,
-        "leads": 128,
-        "cpl": 3.02,
+        "leads": 64,
+        "cpl": 6.04,
         "inversion": 386.42,
         "alcance": 17003
       }

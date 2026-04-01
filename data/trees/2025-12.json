@@ -3,7 +3,7 @@
     "clientId": "trees",
     "clientName": "Trees Coliving",
     "month": "2025-12",
-    "generatedAt": "2026-04-01T09:33:50.715104Z",
+    "generatedAt": "2026-04-01T10:32:57.704934Z",
     "dateRange": {
       "from": "2025-12-01",
       "to": "2025-12-31"
@@ -959,12 +959,12 @@
         "previous": 0.27
       },
       "leads": {
-        "value": 152,
-        "previous": 130
+        "value": 76,
+        "previous": 65
       },
       "cpl": {
-        "value": 3.29,
-        "previous": 4.0
+        "value": 6.57,
+        "previous": 7.99
       },
       "inversion": {
         "value": 499.48,
@@ -978,24 +978,24 @@
     "daily": [
       {
         "date": "2025-12-01",
-        "leads": 4,
-        "cpl": 4.77,
+        "leads": 2,
+        "cpl": 9.54,
         "impresiones": 1745,
         "clics": 112,
         "inversion": 19.07
       },
       {
         "date": "2025-12-02",
-        "leads": 6,
-        "cpl": 2.99,
+        "leads": 3,
+        "cpl": 5.98,
         "impresiones": 1751,
         "clics": 105,
         "inversion": 17.93
       },
       {
         "date": "2025-12-03",
-        "leads": 4,
-        "cpl": 4.66,
+        "leads": 2,
+        "cpl": 9.31,
         "impresiones": 2128,
         "clics": 106,
         "inversion": 18.63
@@ -1010,112 +1010,112 @@
       },
       {
         "date": "2025-12-05",
-        "leads": 4,
-        "cpl": 3.69,
+        "leads": 2,
+        "cpl": 7.38,
         "impresiones": 1325,
         "clics": 70,
         "inversion": 14.76
       },
       {
         "date": "2025-12-06",
-        "leads": 6,
-        "cpl": 2.46,
+        "leads": 3,
+        "cpl": 4.92,
         "impresiones": 1493,
         "clics": 89,
         "inversion": 14.77
       },
       {
         "date": "2025-12-07",
-        "leads": 22,
-        "cpl": 0.87,
+        "leads": 11,
+        "cpl": 1.74,
         "impresiones": 1628,
         "clics": 115,
         "inversion": 19.19
       },
       {
         "date": "2025-12-08",
-        "leads": 6,
-        "cpl": 2.85,
+        "leads": 3,
+        "cpl": 5.69,
         "impresiones": 1734,
         "clics": 101,
         "inversion": 17.07
       },
       {
         "date": "2025-12-09",
-        "leads": 8,
-        "cpl": 1.76,
+        "leads": 4,
+        "cpl": 3.52,
         "impresiones": 1514,
         "clics": 77,
         "inversion": 14.07
       },
       {
         "date": "2025-12-10",
-        "leads": 6,
-        "cpl": 2.84,
+        "leads": 3,
+        "cpl": 5.68,
         "impresiones": 1901,
         "clics": 97,
         "inversion": 17.05
       },
       {
         "date": "2025-12-11",
-        "leads": 8,
-        "cpl": 1.81,
+        "leads": 4,
+        "cpl": 3.61,
         "impresiones": 1424,
         "clics": 78,
         "inversion": 14.45
       },
       {
         "date": "2025-12-12",
-        "leads": 6,
-        "cpl": 2.62,
+        "leads": 3,
+        "cpl": 5.25,
         "impresiones": 1251,
         "clics": 68,
         "inversion": 15.75
       },
       {
         "date": "2025-12-13",
-        "leads": 4,
-        "cpl": 3.56,
+        "leads": 2,
+        "cpl": 7.13,
         "impresiones": 1131,
         "clics": 62,
         "inversion": 14.26
       },
       {
         "date": "2025-12-14",
-        "leads": 8,
-        "cpl": 2.51,
+        "leads": 4,
+        "cpl": 5.03,
         "impresiones": 1650,
         "clics": 91,
         "inversion": 20.1
       },
       {
         "date": "2025-12-15",
-        "leads": 6,
-        "cpl": 2.79,
+        "leads": 3,
+        "cpl": 5.57,
         "impresiones": 1527,
         "clics": 97,
         "inversion": 16.71
       },
       {
         "date": "2025-12-16",
-        "leads": 12,
-        "cpl": 1.31,
+        "leads": 6,
+        "cpl": 2.61,
         "impresiones": 1486,
         "clics": 76,
         "inversion": 15.69
       },
       {
         "date": "2025-12-17",
-        "leads": 2,
-        "cpl": 7.64,
+        "leads": 1,
+        "cpl": 15.28,
         "impresiones": 1314,
         "clics": 79,
         "inversion": 15.28
       },
       {
         "date": "2025-12-18",
-        "leads": 4,
-        "cpl": 2.59,
+        "leads": 2,
+        "cpl": 5.17,
         "impresiones": 876,
         "clics": 47,
         "inversion": 10.35
@@ -1130,32 +1130,32 @@
       },
       {
         "date": "2025-12-20",
-        "leads": 8,
-        "cpl": 2.08,
+        "leads": 4,
+        "cpl": 4.16,
         "impresiones": 1420,
         "clics": 91,
         "inversion": 16.63
       },
       {
         "date": "2025-12-21",
-        "leads": 2,
-        "cpl": 10.45,
+        "leads": 1,
+        "cpl": 20.89,
         "impresiones": 1712,
         "clics": 94,
         "inversion": 20.89
       },
       {
         "date": "2025-12-22",
-        "leads": 4,
-        "cpl": 3.85,
+        "leads": 2,
+        "cpl": 7.69,
         "impresiones": 1500,
         "clics": 84,
         "inversion": 15.38
       },
       {
         "date": "2025-12-23",
-        "leads": 2,
-        "cpl": 7.45,
+        "leads": 1,
+        "cpl": 14.89,
         "impresiones": 1407,
         "clics": 104,
         "inversion": 14.89
@@ -1170,48 +1170,48 @@
       },
       {
         "date": "2025-12-25",
-        "leads": 4,
-        "cpl": 4.46,
+        "leads": 2,
+        "cpl": 8.91,
         "impresiones": 1886,
         "clics": 109,
         "inversion": 17.83
       },
       {
         "date": "2025-12-26",
-        "leads": 4,
-        "cpl": 4.02,
+        "leads": 2,
+        "cpl": 8.04,
         "impresiones": 1927,
         "clics": 91,
         "inversion": 16.09
       },
       {
         "date": "2025-12-27",
-        "leads": 2,
-        "cpl": 6.64,
+        "leads": 1,
+        "cpl": 13.29,
         "impresiones": 1297,
         "clics": 77,
         "inversion": 13.29
       },
       {
         "date": "2025-12-28",
-        "leads": 6,
-        "cpl": 3.29,
+        "leads": 3,
+        "cpl": 6.58,
         "impresiones": 1835,
         "clics": 119,
         "inversion": 19.74
       },
       {
         "date": "2025-12-29",
-        "leads": 2,
-        "cpl": 8.23,
+        "leads": 1,
+        "cpl": 16.47,
         "impresiones": 1696,
         "clics": 102,
         "inversion": 16.47
       },
       {
         "date": "2025-12-30",
-        "leads": 2,
-        "cpl": 7.51,
+        "leads": 1,
+        "cpl": 15.03,
         "impresiones": 1646,
         "clics": 90,
         "inversion": 15.03
@@ -1232,8 +1232,8 @@
         "clics": 74,
         "ctr": 3.522132,
         "cpc": 0.227568,
-        "leads": 4,
-        "cpl": 4.21,
+        "leads": 2,
+        "cpl": 8.42,
         "inversion": 16.84,
         "alcance": 1673
       },
@@ -1243,8 +1243,8 @@
         "clics": 758,
         "ctr": 5.936717,
         "cpc": 0.16285,
-        "leads": 38,
-        "cpl": 3.25,
+        "leads": 19,
+        "cpl": 6.5,
         "inversion": 123.44,
         "alcance": 6829
       },
@@ -1254,8 +1254,8 @@
         "clics": 1949,
         "ctr": 5.900339,
         "cpc": 0.1843,
-        "leads": 110,
-        "cpl": 3.27,
+        "leads": 55,
+        "cpl": 6.53,
         "inversion": 359.2,
         "alcance": 13610
       }
@@ -1268,8 +1268,8 @@
         "clics": 22,
         "ctr": 3.55,
         "cpc": 0.17,
-        "leads": 2,
-        "cpl": 1.9,
+        "leads": 1,
+        "cpl": 3.8,
         "inversion": 3.8
       },
       {
@@ -1279,8 +1279,8 @@
         "clics": 52,
         "ctr": 3.51,
         "cpc": 0.25,
-        "leads": 2,
-        "cpl": 6.52,
+        "leads": 1,
+        "cpl": 13.04,
         "inversion": 13.04
       },
       {
@@ -1290,8 +1290,8 @@
         "clics": 332,
         "ctr": 8.24,
         "cpc": 0.11,
-        "leads": 12,
-        "cpl": 2.97,
+        "leads": 6,
+        "cpl": 5.94,
         "inversion": 35.63
       },
       {
@@ -1301,8 +1301,8 @@
         "clics": 425,
         "ctr": 4.87,
         "cpc": 0.21,
-        "leads": 26,
-        "cpl": 3.37,
+        "leads": 13,
+        "cpl": 6.75,
         "inversion": 87.73
       },
       {
@@ -1312,8 +1312,8 @@
         "clics": 919,
         "ctr": 8.18,
         "cpc": 0.13,
-        "leads": 38,
-        "cpl": 3.04,
+        "leads": 19,
+        "cpl": 6.08,
         "inversion": 115.51
       },
       {
@@ -1323,8 +1323,8 @@
         "clics": 1018,
         "ctr": 4.69,
         "cpc": 0.24,
-        "leads": 72,
-        "cpl": 3.38,
+        "leads": 36,
+        "cpl": 6.75,
         "inversion": 243.01
       }
     ],
@@ -1332,7 +1332,7 @@
       {
         "name": "Reel 2 - Chueca",
         "ad_id": "120216767585160524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/496127669_1900662434102253_6924625959469011025_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=N2haAPkIYAQQ7kNvwF62Bae&_nc_oc=AdqsarX_MgEz_cJvyhcBS97QEi4j5QFm_ycNO-aYV65wtoa8eVjvO4WstzdwFuEjtA0&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=hIctnXUfZYOr8Pp-zacKPQ&_nc_tpa=Q5bMBQHRasrmkmvSWwz_o88OCqw8OP0_doac0T7nCAZLn7r_-DPihOSTbIEUrU8YGZUV-DxOuEa73ADFqg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3T4v57l949dEey8AkwXRx4a7mid6p1GEw04TquyOKjYw&oe=69D29E7B",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/496127669_1900662434102253_6924625959469011025_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=N2haAPkIYAQQ7kNvwHt8kd0&_nc_oc=AdpSnrnjMttK6Ac_rYWMZ4kOxBcrbf_sQctwtzDY4z008Ocz4AV7K5OrQzApdUAE4MY&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=rWfteVYQYMpJa12EN5SqfA&_nc_tpa=Q5bMBQHSh0nYQ_wKKiQh52QtL6wTgUGdMgFK7RZQ4PniW723NQnTXD7vyp5DwXUxfxXduGDT_tCfz3uC4g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0khEw6I3rUAshZyGckmQGvZ48krA7vw34WOeN1GzrgGw&oe=69D2D6BB",
         "impresiones": 27,
         "clics": 2,
         "ctr": 7.407407,
@@ -1343,7 +1343,7 @@
       {
         "name": "Reel 1 - Chueca",
         "ad_id": "120216767585170524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/495928598_1384246256107195_7893687407442138504_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=7SbCCAAYU10Q7kNvwHGOli4&_nc_oc=Adru3NSyr2lPCuOx3ci8g1ZQhZixchAza5EmKNEuxQAL45o8dngvWe-KvGsYcGRMAus&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=xXg1_Xn_m7WlNMLR8eYVkA&_nc_tpa=Q5bMBQE1ca1LZvphe9fEzDWY2E6eTtvzGmHYp1p6QSEIoFDdRjYVXK4hsdfqAAF05rXcfGvVyCFfqyMFuw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1kHeW3GUr7uNQbdYh_5MgwQUuhiquVdoLk4Pgzcrwn4Q&oe=69D2C7A6",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/495928598_1384246256107195_7893687407442138504_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=7SbCCAAYU10Q7kNvwFU1sYr&_nc_oc=AdpZhOJIEefT1w5M5Jczgw-A6WO4bSucNFDa1jmDaRHeK1fgv_7kiAdtIZvxnzaxZlo&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=moyXLlFk3ZrVwR-N7iZMhQ&_nc_tpa=Q5bMBQHHp0hGJhzcmEYkirqJa6XSn6wPkJCVgDGEtM-KeuH9X292SFIBA4VMzEPhqccEweLwjoQYGvXK8g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3rPiA_2DNbX8qJw2X1wTtUZRbBG_icbh8i6xLxyD5QCw&oe=69D2C7A6",
         "impresiones": 16,
         "clics": 1,
         "ctr": 6.25,
@@ -1354,18 +1354,18 @@
       {
         "name": "Reel 2 - Matadero",
         "ad_id": "120225286755760524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/497052415_1196964132209708_3771639466737832574_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=eOsWVoejGLcQ7kNvwGE6Pxs&_nc_oc=AdqphYwhW_0p9Yig-iOVn_kJHaxPE8XkxxEYxjl2c3tcxz8cSgQa4SFRtzM-ND7ifi0&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=_EE_SdGSTbfVdQZZs_5ZTA&_nc_tpa=Q5bMBQEv64yXF211dm0VBj8WnYILY2W0x_5fffA8Wv9jJdxW_GrgB_SEkkHhAKkfTqs36Z4I1BUe7HsJzA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3XJr7ByydO0NiPq9YmNHZ_u6HaLDQt9C9FAU9JnNrUnA&oe=69D2C33D",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/497052415_1196964132209708_3771639466737832574_n.jpg?_nc_cat=103&ccb=1-7&_nc_ohc=eOsWVoejGLcQ7kNvwHxczIs&_nc_oc=AdoIyK_0hFe0KOr-VJtaLxwMx2WYYLF7AZqW1eTE3P3ttRuIyFR26FoUe7TIzC4C77I&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=BgLgvLH597PAXewIj_yULw&_nc_tpa=Q5bMBQFjsPzma0CEOufs2aIJWgYBFr1mUUnsjpq3HF-nQpX9unQVlc0n0bVWBYqHodcfGlpN2klIvBAYsA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1M6E8Y0CMHbno0w8TQbKETHpjh-u2oKc-un3YNgpLqow&oe=69D2C33D",
         "impresiones": 2017,
         "clics": 68,
         "ctr": 3.371344,
-        "leads": 4,
-        "cpl": 3.94,
+        "leads": 2,
+        "cpl": 7.88,
         "inversion": 15.76
       },
       {
         "name": "Reel 1 - Matadero",
         "ad_id": "120225286755780524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/497368705_1039548340896363_8235533567997716629_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Xi9p99FHDRUQ7kNvwEjQjjf&_nc_oc=AdrjSbNWmpy9lhqNLFv4n4TAza1jqtqDkubXmykebuCUwx4dCmLGb1Ai_OkosDe0NrY&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=27NdU6IEifp80bGMVoRXiQ&_nc_tpa=Q5bMBQEVYNo_uP3eG388zv2qsDI8p0Hk_FcelvdKJERIJtCvd41mkOQ7fThA8w46yY_EEO9YwdzPJtMv5Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0hefiTCDGCqvuQERydibfhYKOmsxLbfZlbcg2g7QA56w&oe=69D2CA46",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/497368705_1039548340896363_8235533567997716629_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=Xi9p99FHDRUQ7kNvwHB9wc1&_nc_oc=Adp7fAol4KyMMEWuthUbEVbnAmmy74S0QZYvmfgO8CNtJqYR43Q4cjvUt5CWk55Fv0w&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=qDgaXTW8dS0HsDTjgs9PDg&_nc_tpa=Q5bMBQGwH4LD9P3CkVekSQsHqt19QR6kLwNyr6wo93z502ogJWa8mXFt9TakLLfTirb6QN7lH3sfywpMCQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0K7chdQjVCbU8EpiZPFC5yvDf1GHYCnJb9GS3jFnBEPw&oe=69D2CA46",
         "impresiones": 40,
         "clics": 3,
         "ctr": 7.5,
@@ -1376,29 +1376,29 @@
       {
         "name": "Reel 2 - Galerías",
         "ad_id": "120233356876250524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/649748830_939757501837114_7025849193821656748_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=CKo7O72KAvcQ7kNvwEP6EqT&_nc_oc=AdrF3ptvl8D4XGh3K_LFHkXVxwbInTvE4XyiSPDtZyshIN69SH_nCiwXfuph-GreSak&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=B-LXFFKdEHvBdZ--LkbY_g&_nc_tpa=Q5bMBQHF8c3T_AutNBJzjAJrAxdtAI-3fag14RAdZQBN6XzSmKhxbWXIyCVq1ZO-Q-McTWyd0-AyqvL_EA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1Y4noXT_Ryz5HrO0P6ocq-xWhqZFDUpyFALEcsLJZqBg&oe=69D2D4D8",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/649748830_939757501837114_7025849193821656748_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=CKo7O72KAvcQ7kNvwFuksSG&_nc_oc=AdofJEeZOQ0oojaUs1008qLI1hjCbhfU5gtK5KSxklm1AkvMyTWLtZPVtv9GclJEDsE&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=oh16gGRAQRgzQv8FXGluYg&_nc_tpa=Q5bMBQEgVyxJlXKzKxek9pfWMEpDaus-0EcBTEfz2urLYVKWLjCEz1VjPqeo1sI9X-hr6TZCz21w5d4jAQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0jFHwGnOdWx66-qa1ieTS3yWiKfc7zhAeQAwcB6Sng0A&oe=69D2D4D8",
         "impresiones": 2103,
         "clics": 136,
         "ctr": 6.466952,
-        "leads": 4,
-        "cpl": 4.83,
+        "leads": 2,
+        "cpl": 9.65,
         "inversion": 19.3
       },
       {
         "name": "Reel 1 - Galerías",
         "ad_id": "120233356876310524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/649602188_26075154742135233_6025741269965580397_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=xQ-0iNPBs6QQ7kNvwGUZCRM&_nc_oc=Adp5uEy8bIEhSC2yRzSYGB6RmBtBk9bhczVM2WDoIWMRrBzvoYjU_5ofszeikjLfbwY&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=Y_ZjarpQA8AhDRq_12xBgw&_nc_tpa=Q5bMBQEfexs0yyZCvLx52LW0cWI3NEIbumvUyJeBUClw2E0axPwn0tcIcp4HIdFf-SG6NjU1Xs4cT8gCkA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1TodfXFebVtpdWv6HWZ3DFdw3jYO_QHvdmqBhqDVrtEA&oe=69D2AAF5",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/649602188_26075154742135233_6025741269965580397_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=xQ-0iNPBs6QQ7kNvwGacEtq&_nc_oc=AdrY39nM6Actb1nSqj4KxMIv1E-PiVu_JXrC3mcmX6f0mA-3kj_wkFT4n2ET4ktQbDs&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=EMoLAXCuk7SJl175i5_uOw&_nc_tpa=Q5bMBQEGrXXOoU9--nmY4rxWR_HsB4y0LtH4PZOvrCWGgmhJcpZzxmDxy-NR4t-yKLZjEzDtmDwyUaRKeQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0yG2fK2Smew4Ll4y18eS0BjOglHEiY7SZP1It3sS5y_Q&oe=69D2AAF5",
         "impresiones": 10647,
         "clics": 621,
         "ctr": 5.832629,
-        "leads": 34,
-        "cpl": 3.06,
+        "leads": 17,
+        "cpl": 6.11,
         "inversion": 103.9
       },
       {
         "name": "Reel sep 25 - Galerías",
         "ad_id": "120233391042580524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/651241633_2183538299128073_6130125000314033840_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=WB2LSGLOIKsQ7kNvwFNfF0l&_nc_oc=AdoMXaH9nZQJYa1xbKUvPCtCY0WEdg1m6FSPUm-tZdjGeJP-ScIj368ABjEqKlPBRuw&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=QJW7F-40FDAJoQsvsYnI5w&_nc_tpa=Q5bMBQEtP4MrieeDwYAU8fVv_IvI0coCHnM13ZXMSzVjny4UVabX5VG2Hc0N5p1SjqgO1fvuTZDXheeBKw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3kKSuZw61m_iWkfRyiXkHJ7vI6eiPFDQltaOgwVYaEYw&oe=69D2C4F3",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/651241633_2183538299128073_6130125000314033840_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=WB2LSGLOIKsQ7kNvwEKo2Ka&_nc_oc=AdrGzbpyVJIOiPHBTGDFgG9bRqoYSfBguhC5OGYmDNJP0iyz_zN992kujBgRKdT4jwk&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=4Z3qRCJx8EOhhPl3bNCIjg&_nc_tpa=Q5bMBQGK-xXNyGEQJYt6zri3olhDRZMu7tq_wAk_OTSrrL3Rg63GjxeQx_rqDpOtkjYhmto2TI2s-fce3A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af02LOCkmuI6-YoCa3V7IrWOSl1gL7jdvZgu5WbHim-uOg&oe=69D2C4F3",
         "impresiones": 17,
         "clics": 1,
         "ctr": 5.882353,
@@ -1409,7 +1409,7 @@
       {
         "name": "Carrusel sept 25 - Chueca",
         "ad_id": "120233391619700524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHxve-4&_nc_oc=Adp0BOQq5mmGgUlC0c2jdGwt-yZnaF8Uh44x6pcHgL6O0dYdAtCGUx3RdleLUDgB9Q0&_nc_zt=1&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=NRPj4VzfrHzuI8-3I4zomw&_nc_tpa=Q5bMBQGte34J9r4m-K_tMbnHlD657FYPt4f-FjlcVf5W1wNl4k_4mbB1gU_sp7pxBxC3wJti7jhS_DHU3g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af3y6g9hTDFY9_NGsEaaX_XZhEu2BbRVl31aa4kfy6Odfw&oe=69D2A4CA",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwEQ-NEs&_nc_oc=AdqoQceFA6vsA6t7GYzO5z3mIP8XTgLNq4_vIKryv4sdaRhVxL8e5ZSCqbCvWjA7ZJ8&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=-zVANLPw_JJVBsBOpJMqYw&_nc_tpa=Q5bMBQHnjIWZCMi9c_eMHNdnxIxUGjQMVNg186Ka9QqqHOTcO_bNg8MB_EsE2AANjGPUPfa32kL5B5cHdg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af3hrXSZJGI_VThznyGX2l3tGh4y6f3ArXtwaBTyCHNx_g&oe=69D2DD0A",
         "impresiones": 1,
         "clics": 0,
         "ctr": 0.0,
@@ -1420,7 +1420,7 @@
       {
         "name": "Reel sept 25 - Galerías",
         "ad_id": "120237142414710524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/639608149_2321503658261944_6325963494289220674_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=FtIsHedhdvgQ7kNvwFgbUCP&_nc_oc=AdqxXkIA9yuIR9uZrlkOVVE8qCEXVUoqtmhovpQQSq43Pjp6dVJadFSTp_J4xQMd5Xg&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=DCVB2qXrYCOwAOTiPKQGmg&_nc_tpa=Q5bMBQGj9C3MyxuHRrevbHXqfoVwm_BpRHK8xJ8KsLhFxp-6QsANjq3DOTbm1dmbbknqDYX_gTa43ny4eQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3Rr1J33xcsmYr6t4lStxPC0g43dAAZi3hMlAqOinW1ag&oe=69D2D242",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/639608149_2321503658261944_6325963494289220674_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=FtIsHedhdvgQ7kNvwH4Bz29&_nc_oc=AdoUMZ-MEAxBrEZOw3JQoPGKE150Qo-KXeP2fc26k6a3pVU8UvIa9QjGy-rzwg5E060&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=QPd1kg8ssjr9ehJYWoG8tg&_nc_tpa=Q5bMBQGAcmodFTnzbeAa9GvLfWMUA_659veiUu4LSue40WSFbqf8ws4fGCt32zGSNMziKY-RqBi9SjSVhw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2BzOJNW5n1OuVoP08Q8z64r_SuFplIHRb3PflBO_6DmQ&oe=69D2D242",
         "impresiones": 21,
         "clics": 6,
         "ctr": 28.571429,
@@ -1431,7 +1431,7 @@
       {
         "name": "Carrusel sep 25 - Galerías",
         "ad_id": "120237142414720524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHxve-4&_nc_oc=Adp0BOQq5mmGgUlC0c2jdGwt-yZnaF8Uh44x6pcHgL6O0dYdAtCGUx3RdleLUDgB9Q0&_nc_zt=1&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=pgchrNzGRMHyfh4hHH8hSg&_nc_tpa=Q5bMBQGAuxmpZpKTXpN6S6LiCh_1ZDucaaZGd47-wL3KJR7_o3xauQ0fXnHJ9vGpWs7PAKoeKn4dyB3w-A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af0jmSeKxHTAv-64v9Ui7Q-Y0iU-DQNdgr4fgSEMpfwoRA&oe=69D2A4CA",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwEQ-NEs&_nc_oc=AdqoQceFA6vsA6t7GYzO5z3mIP8XTgLNq4_vIKryv4sdaRhVxL8e5ZSCqbCvWjA7ZJ8&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=yIlP8xcquJqpNYxyoKmW9Q&_nc_tpa=Q5bMBQHlvzZDW_X6y-nXV6oTgodlk0okPsKs3klgFSeQlZQM3YIay-e_yMKP6PfNpJA8tgi1p4C7PssGoQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af1I6mXLS83yrmCdpDsZKK6b4gdhcDVbirap_xNmdQ30sg&oe=69D2DD0A",
         "impresiones": 64,
         "clics": 3,
         "ctr": 4.6875,
@@ -1442,7 +1442,7 @@
       {
         "name": "Reel 2 - Galerías",
         "ad_id": "120237142414730524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/650173994_1729780011328938_2425083094950844032_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=c5gB1okjBG8Q7kNvwHT49iX&_nc_oc=Adr1odHGDooGGnaJpdCD50Nh07hv-lZaXaJQOL699R8KIzePwPAFjYoFM65f7UEYLXE&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=D4qkQ7aAsLXmWVHI681-zg&_nc_tpa=Q5bMBQE8CQFB3ATMyMU6uH8klOje9sG79hEoSQm7VovwV4L-H7jaTSWw94CXHJgcw8gdC9fHUuxOV9fMaA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2HargSZdElF8ujilbtx7LacQg_6-5578_kmhiGmjnrgQ&oe=69D2CBE0",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/650173994_1729780011328938_2425083094950844032_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=c5gB1okjBG8Q7kNvwECJI2F&_nc_oc=Adoex-qI7a5reaDsSKkJC4WaDTAU6dk-rwQ6heUVkcFk_oiMIChjqDpANifOaEmDckg&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=Gf0vv6h7m1YhZxK88MZTIA&_nc_tpa=Q5bMBQEzJazgROeyw6JqOPKgvonMeggGbtaHwupCc3HwyC0dSsUJM_WxY4PUdI5RTBEsqBSAEBO3Dumhow&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0iy7W6rA9JHakSZmOTwBUgrjV1YVdlP5xFOr_HocGJYQ&oe=69D2CBE0",
         "impresiones": 2944,
         "clics": 182,
         "ctr": 6.182065,
@@ -1453,18 +1453,18 @@
       {
         "name": "Reel 1 - Galerías",
         "ad_id": "120237142414740524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/651244024_1627388521916467_5795218656243493196_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=uFnp68OA640Q7kNvwF7pA3w&_nc_oc=AdqYJur3mXSWAQdvWBYJ7J83TIiV0v-EG1mu13E60A_q9FuxkV0wpAEBlqlG7GyGs-s&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=eGRrxeMGvz_MOvq0KWW2nQ&_nc_tpa=Q5bMBQFP6ga5fwAxN5z5JUrjl7NzAJ2B_YiNIqNEyaSoh4UYG0EDh0oEhlFoZ5puG45z2xecewzDAm-2Nw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3JoswpPuYfCxrcmK4DeSwNt1Qw2kfKiprL3ePtxxM49w&oe=69D2BDEF",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/651244024_1627388521916467_5795218656243493196_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=uFnp68OA640Q7kNvwERmRUy&_nc_oc=AdrURVWDiBZq6jIiAJjDq8u_PxObYQhJ9J2gCqUbX6448VeuB2GXCJ-5ZpGat-HZAw8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=1G65LS1XJ16lZFhdST7-vQ&_nc_tpa=Q5bMBQH6HTtlZ82AU6WFP2i6WvZxSo5woujg_XXICH56x1tVxRxnPp3Vq3HsEkYtDdULFiDspZbuKklM1g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2oW_CdEG2ugDjryXzpbNzYKop3YU7czLzW4-NNX7h0uA&oe=69D2BDEF",
         "impresiones": 1882,
         "clics": 128,
         "ctr": 6.801275,
-        "leads": 6,
-        "cpl": 3.16,
+        "leads": 3,
+        "cpl": 6.32,
         "inversion": 18.97
       },
       {
         "name": "Reel sept25 - Chueca",
         "ad_id": "120237142765830524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/650451214_937695975338658_126412499006863826_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=s4e69VG2Zp0Q7kNvwFIbTdV&_nc_oc=AdosOYBSeiL595K1xanVa-6sFrwLH3LEOH6GemEmZTyJG6Q5XfJ971W_eE2GgFBnYtA&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=wDyDhk96Fs6pTnFIz6F3CA&_nc_tpa=Q5bMBQFxK9QG3gmpOY59aagGg_WIILLGJ_1qbiQyPgFBwGx6Gn4EG4mPaSVqIIX4nTDrdj7ZcbzmzIkA1w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0wsWuG0br5dA-cZupEjXxXufL9fD6CxyTe6w3sS_Wg9w&oe=69D2D385",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/650451214_937695975338658_126412499006863826_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=s4e69VG2Zp0Q7kNvwE3SWc1&_nc_oc=Adrsiu2eeikEljDhdFrsPwobav_ApXYLvlE9CVptlzmBWBxOelX6FHp8_fsWdgOLOZE&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=gar7ZK2CCHARgsJF0pUgnQ&_nc_tpa=Q5bMBQEfR_WdG28FYtQHGxXJyHLRHD-5uV8G5qIus-efnbmXtW11Pmsk_aGXc56QL5GqYqjpGY41i2Vk6Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3gfKzvej3AkQa-MMeCQw1ikxCWlLU_adFd8TbRNGPdiA&oe=69D2D385",
         "impresiones": 59,
         "clics": 4,
         "ctr": 6.779661,
@@ -1475,7 +1475,7 @@
       {
         "name": "Reel 2 - Chueca",
         "ad_id": "120237142782490524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/650161396_978969157799377_8679319691643856962_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=cWTUL88a9pcQ7kNvwFPUY3s&_nc_oc=Adq6ATfccX4GSWkdpPrbR9UD0wxhuycMgsO5tFLSemI-dFc5hSr0g6k-ov_Uaq5BAjc&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=9dEqOzjR-J0Na0dLzZNTyQ&_nc_tpa=Q5bMBQFdSoMDM_XlS21ZbLvvhpIwKIpxxxYkaqLBWG3s7Xvm4TR3shn5SXPb8wHRoBPkD3wn80TNpu6gaA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af34xK5SXAUXi6ZRymz6QwDB-xYbgMN0WJf5XuYKNCQV1g&oe=69D2D1CC",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/650161396_978969157799377_8679319691643856962_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=cWTUL88a9pcQ7kNvwF7uI-a&_nc_oc=AdpFvMhh3CorOw7T0dDqL5uJ_P46wzMQie8DkWMhdDHQ_DAjbTTJ6vQqIxFKlfON9bk&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=5-mvxzmoCoKwlLoM1fTNSw&_nc_tpa=Q5bMBQHvW_35QLeqs47xxq0A66374F3qKfSbHlWf80wn-IC6ILG80Uv0K6X_G8D7vkZ2Ad7r8_7CdVfNQg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0v_mk_9mWLLRWW0L_a9GT-jhONyh4tENRAU0tLTFZjlg&oe=69D2D1CC",
         "impresiones": 1297,
         "clics": 77,
         "ctr": 5.936777,
@@ -1486,18 +1486,18 @@
       {
         "name": "Reel 1 - Chueca",
         "ad_id": "120237142782500524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/650167584_1673693763804384_2754576296426434329_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=ntVL_jcA7iMQ7kNvwE9Tpdc&_nc_oc=AdodNGUMEugLq56jFp2eZOST0yhmDNCrYId8a5_4CP6ecRvohYQr61qQEqFvATv9dlM&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=jgWXhaGqYp10cOAfOeJsyg&_nc_tpa=Q5bMBQH2TiybPixsHLBy5COTqNVoudxUh-tTjz9AeZJgnDD4GGrawVgnpkUTk95EdO6moIdF3ELfAyL-4A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1ILI4iNblR3USS-cOo1NMzuV-x9yIDs8tp1AWYA_sEkg&oe=69D2CADA",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/650167584_1673693763804384_2754576296426434329_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=ntVL_jcA7iMQ7kNvwGIjQzI&_nc_oc=Adp-fwImKoTxgieud-zXO26HyTqpSG9n6Z_lmmvvOIcm-WcJYx9CVTDkyJIfyh0M0Ac&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=37fuM8F3srPk_rW7PIbYRw&_nc_tpa=Q5bMBQHNzJaEKm041LRoXTrQ-_G8QffkNdjSAeLRhWOxtDQfGMalXZq3QmfSB1oLxp_UwmPYiN8EUbDp2w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3gbKDt4IzpyWwB2go7v-BNFwETvh7qFO-Vghbwvwvqug&oe=69D2CADA",
         "impresiones": 1441,
         "clics": 77,
         "ctr": 5.343511,
-        "leads": 4,
-        "cpl": 3.65,
+        "leads": 2,
+        "cpl": 7.29,
         "inversion": 14.59
       },
       {
         "name": "Carrusel sep 25 - Chueca",
         "ad_id": "120237142782510524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHxve-4&_nc_oc=Adp0BOQq5mmGgUlC0c2jdGwt-yZnaF8Uh44x6pcHgL6O0dYdAtCGUx3RdleLUDgB9Q0&_nc_zt=1&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=hk-if3Da1sF9G3rnDY3-9A&_nc_tpa=Q5bMBQF4TxbkYo7yNCKpfaxdd4ea-XYYcwhYSAVegtzcdaZEoatR1qULix-nXhiJhURhTxxRxlSG-14dpg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af2vqq6uajmKgXRNRpgS7_KmWJZUEnsDmLPQOFF-F7Kvmw&oe=69D2A4CA",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwEQ-NEs&_nc_oc=AdqoQceFA6vsA6t7GYzO5z3mIP8XTgLNq4_vIKryv4sdaRhVxL8e5ZSCqbCvWjA7ZJ8&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=t-R0x0ZekgcBlv0e8__bcw&_nc_tpa=Q5bMBQE4iKkq0qFhwf0QAzrz7pncAO_5C8e0BZPQgO9YVfK9VLtT-YRBwSNvlHnZ__IPMfuMRSNJaOHhBg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af3HzAZgA-cwbud2bzGscxTA47xbhyW17f4BIo6obOOkrQ&oe=69D2DD0A",
         "impresiones": 1,
         "clics": 0,
         "ctr": 0.0,
@@ -1508,7 +1508,7 @@
       {
         "name": "Reel sept25 - Matadero",
         "ad_id": "120237142809970524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/651238385_1282115163779103_8215898203789694664_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=R-P1vFF3zkUQ7kNvwFzHMyR&_nc_oc=AdqyGPWqmEimQnIVwbWEjz2UCMljULKLJvVkhp21Dxa0655gfoB4Ou9MHR5LZfoCSx8&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=o2VASGZ_sX-X9iE_EmmgJw&_nc_tpa=Q5bMBQGuX91f43tHG5QiptLiRzI_9Ln3mxN6glxvCFJtIYt5q7vZyTqXyHRLt7Kwtu1qfB1jZCtdqZZrNA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0tmlZLfSCmEhh_FNQz2YvFKdACi9qqW4IvbxevRuDR6g&oe=69D2D2DC",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/651238385_1282115163779103_8215898203789694664_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=R-P1vFF3zkUQ7kNvwF2kA9g&_nc_oc=AdrbzKBOGIUkecwyzOXdh46YzLTdJNYGzgBjDlTRMn62WE24RhRP_Tmd8lcLVhMII84&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=3F6NoUQbbzcG6TsssNaN6Q&_nc_tpa=Q5bMBQF75b7gTwAovSDQwGvnIPfcXmlStKRWAJRsON45COGQsleclONUi0rQYSOxny7qJRbUJG3JuaieqA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0tZccwxw5XcWRGEub7huER6LgiHg4fHtvl1xhQsJZPxg&oe=69D2D2DC",
         "impresiones": 38,
         "clics": 3,
         "ctr": 7.894737,
@@ -1519,29 +1519,29 @@
       {
         "name": "Reel 2 - Matadero",
         "ad_id": "120237142809980524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/650403356_1503740377978295_527400710403907573_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=70GMcwQT25AQ7kNvwHv5fBZ&_nc_oc=AdpZ-xsEloAQUQ1kOE3Y48fQ1Mg4_Qm0LYHbJ6OS4aFYxiobq3fPD9MZcfHFnVyutWw&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=azVX04ZHeFurwz4PVrbNug&_nc_tpa=Q5bMBQHgtb3iFg6F7vL0iL9ENhURxfMlBzcglQRmuqn4Tcucs6WEgi3GFsHjKwVGFMjNMgKVSVAVETvAAw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0JphPM87VUAgmmGJeTXBDUI3G54100iZhgy5Gf9yYyVg&oe=69D2D4E2",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/650403356_1503740377978295_527400710403907573_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=70GMcwQT25AQ7kNvwHKfURb&_nc_oc=AdroK9ffjbKKZ5u1MuYab7rUKhbOBUnHL6zvMDI363Qz9jktCqNyCwW44fvvSXWIzAs&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=NyOadrcW2jMoHxiNYqaHTA&_nc_tpa=Q5bMBQEwXaDeMnsupd6NXL34jYoU534oFKguEizf7o9_UUG3mcyM7n61EWS1QFh_4nWJl2ammnJsXy325w&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1nhjkiYowHxKahn6E5stCwvgipBIs2Z1SdCZhK0Y0eYA&oe=69D2D4E2",
         "impresiones": 18015,
         "clics": 1029,
         "ctr": 5.711907,
-        "leads": 78,
-        "cpl": 2.64,
+        "leads": 39,
+        "cpl": 5.28,
         "inversion": 205.85
       },
       {
         "name": "Reel 1 - Matadero",
         "ad_id": "120237142809990524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/649696304_955172257046947_7682272055292055320_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=t6DtPltS8a0Q7kNvwFvV0vN&_nc_oc=AdrbhM0VrRN2G4wzeynvwAx0rztP8JJ8xVsgD3XPFluE1ys_4XqYAPbbeDqwHaNwvHQ&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=GYkpQxHO0Rza1mKjAwrz7g&_nc_tpa=Q5bMBQFILCK2bsfxy3ECNQn_OrsuNCq_3ZUwCgKTDGXVx9VMJCQmlANlAtKfkYRFt6SYX_pBx_BFx_NJiQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2kBVNx7Y2VjjR3AAK0LWBoi9uqOuFPMfE7gE3MqrX_jQ&oe=69D2B315",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/649696304_955172257046947_7682272055292055320_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=t6DtPltS8a0Q7kNvwH6LSdL&_nc_oc=AdpUILgpDf8C8UuR76i_FAekkZDe1UfV60CEku7qZjNMOHLXFM0tTC6-F-S3USQVq6M&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=5L9M3gq_y_Vt3SbKlAzNLg&_nc_tpa=Q5bMBQFh_ygwTg92w2sR40L59bjNN7mgRAWgF67ZCDC1GkrYKZcKy1nh5fl6eUKTWVQyPcxbi0COnRc7RQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3Z1No25GXsdv347aD83XYhrGqsP7HTI1bVtlz8OGlu1A&oe=69D2B315",
         "impresiones": 7251,
         "clics": 438,
         "ctr": 6.040546,
-        "leads": 22,
-        "cpl": 3.32,
+        "leads": 11,
+        "cpl": 6.65,
         "inversion": 73.13
       },
       {
         "name": "Carrusel sept 25 - Matadero",
         "ad_id": "120237142810000524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHxve-4&_nc_oc=Adp0BOQq5mmGgUlC0c2jdGwt-yZnaF8Uh44x6pcHgL6O0dYdAtCGUx3RdleLUDgB9Q0&_nc_zt=1&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=iyc8GtdShtGOHetgkA1hiQ&_nc_tpa=Q5bMBQFV5ZdPMqQYMCAT9L7iaUMhsLh0Bxx8CL94EZgZ5pKuJDd6z4Rqv5i3A4ZTqOgW1qEm-Y6u1jpulA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af3v-GgvGQRF1WfuyBREKuqP8tg2mZttM37AdzyKRVWdrA&oe=69D2A4CA",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwEQ-NEs&_nc_oc=AdqoQceFA6vsA6t7GYzO5z3mIP8XTgLNq4_vIKryv4sdaRhVxL8e5ZSCqbCvWjA7ZJ8&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=fki70o0s__xb1jXqz3Gtww&_nc_tpa=Q5bMBQELGRi7XmA2fBa3Yhtb_dtSwRqjaVdsc-oyJ0GoKtduY35nWIDXOJW17aB8avdg54IipyELDFAHHQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af2O0jwCoaU2rp-fUH8Manf_cBgWPjCAbdbBYk3UiOpovA&oe=69D2DD0A",
         "impresiones": 19,
         "clics": 2,
         "ctr": 10.526316,
@@ -1552,7 +1552,7 @@
       {
         "name": "Reel nov 24 - Galerías",
         "ad_id": "120237400673280524",
-        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/587955051_728987153560161_8144882891516604868_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=-SLFeoV9zFYQ7kNvwHC152W&_nc_oc=Adp8-_TaeHJAlxCGiGY_31C7hRm6O2sYgvVhoztcK0_oG_rvzr56Ujs1Y8JqEpGN1d0&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=f8oSq6UrOH2zGMovWoPvxg&_nc_tpa=Q5bMBQH1N8CqMXEivzXZbMVSP2VOtH8IfbJka7gPSmXsZBseSokSEVnyIub51Q3WIi3vtw5FZTNdFf9lhA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0SOhgCBNzbGBK5Lh5tlWBFam7MXKVBe4tvx74mCdmIKA&oe=69D29CF7",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/587955051_728987153560161_8144882891516604868_n.jpg?_nc_cat=107&ccb=1-7&_nc_ohc=-SLFeoV9zFYQ7kNvwGNVWgL&_nc_oc=AdrjwHQ0z0VCyjIXYfJ_QiImQc0D0EC18y4sc_b7TKqrsb04myCDdQtkRVr9QNhM3J8&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=1VpX6_7Na18qft-w1KWqVQ&_nc_tpa=Q5bMBQHyxE1vrWlk6-cRCwD19Vi2qYGKo-MnIDCrOkr3UsCowE4FiC6MfcIwqUv8TSkWxMuF6uxmz2beJw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0aMsRD51wB8WoCkNWSEx6_lb8wqwMVhDaMFu79Dvqzeg&oe=69D2D537",
         "impresiones": 1,
         "clics": 0,
         "ctr": 0.0,
@@ -1568,8 +1568,8 @@
         "clics": 1009,
         "ctr": 4.180477,
         "cpc": 0.129732,
-        "leads": 106,
-        "cpl": 1.23,
+        "leads": 53,
+        "cpl": 2.47,
         "inversion": 130.9,
         "alcance": 11765
       },
@@ -1579,8 +1579,8 @@
         "clics": 2023,
         "ctr": 3.378198,
         "cpc": 0.15392,
-        "leads": 188,
-        "cpl": 1.66,
+        "leads": 94,
+        "cpl": 3.31,
         "inversion": 311.38,
         "alcance": 27290
       },
@@ -1590,8 +1590,8 @@
         "clics": 2174,
         "ctr": 2.688032,
         "cpc": 0.147751,
-        "leads": 182,
-        "cpl": 1.76,
+        "leads": 91,
+        "cpl": 3.53,
         "inversion": 321.21,
         "alcance": 42466
       },
@@ -1601,8 +1601,8 @@
         "clics": 2898,
         "ctr": 1.932966,
         "cpc": 0.170466,
-        "leads": 170,
-        "cpl": 2.91,
+        "leads": 85,
+        "cpl": 5.81,
         "inversion": 494.01,
         "alcance": 70677
       },
@@ -1612,8 +1612,8 @@
         "clics": 2820,
         "ctr": 1.762742,
         "cpc": 0.207507,
-        "leads": 156,
-        "cpl": 3.75,
+        "leads": 78,
+        "cpl": 7.5,
         "inversion": 585.17,
         "alcance": 79101
       },
@@ -1623,8 +1623,8 @@
         "clics": 3245,
         "ctr": 1.777936,
         "cpc": 0.183482,
-        "leads": 200,
-        "cpl": 2.98,
+        "leads": 100,
+        "cpl": 5.95,
         "inversion": 595.4,
         "alcance": 90549
       },
@@ -1634,8 +1634,8 @@
         "clics": 3109,
         "ctr": 1.659275,
         "cpc": 0.192625,
-        "leads": 212,
-        "cpl": 2.82,
+        "leads": 106,
+        "cpl": 5.65,
         "inversion": 598.87,
         "alcance": 72689
       },
@@ -1645,8 +1645,8 @@
         "clics": 2245,
         "ctr": 2.088722,
         "cpc": 0.230254,
-        "leads": 182,
-        "cpl": 2.84,
+        "leads": 91,
+        "cpl": 5.68,
         "inversion": 516.92,
         "alcance": 48052
       },
@@ -1656,8 +1656,8 @@
         "clics": 1709,
         "ctr": 3.569489,
         "cpc": 0.336238,
-        "leads": 120,
-        "cpl": 4.79,
+        "leads": 60,
+        "cpl": 9.58,
         "inversion": 574.63,
         "alcance": 19185
       },
@@ -1667,8 +1667,8 @@
         "clics": 1958,
         "ctr": 4.832897,
         "cpc": 0.265301,
-        "leads": 130,
-        "cpl": 4.0,
+        "leads": 65,
+        "cpl": 7.99,
         "inversion": 519.46,
         "alcance": 16221
       },
@@ -1678,8 +1678,8 @@
         "clics": 2781,
         "ctr": 5.805724,
         "cpc": 0.179604,
-        "leads": 152,
-        "cpl": 3.29,
+        "leads": 76,
+        "cpl": 6.57,
         "inversion": 499.48,
         "alcance": 17462
       }
