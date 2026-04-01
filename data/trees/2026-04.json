@@ -3,7 +3,7 @@
     "clientId": "trees",
     "clientName": "Trees Coliving",
     "month": "2026-04",
-    "generatedAt": "2026-04-01T07:15:29.726059Z",
+    "generatedAt": "2026-04-01T08:55:45.660633Z",
     "dateRange": {
       "from": "2026-04-01",
       "to": "2026-04-30"
@@ -12,19 +12,19 @@
   "google_ads": {
     "kpis": {
       "impresiones": {
-        "value": 71,
-        "previous": 7029
+        "value": 82,
+        "previous": 7032
       },
       "clics": {
-        "value": 10,
-        "previous": 922
+        "value": 12,
+        "previous": 923
       },
       "ctr": {
-        "value": 14.08,
-        "previous": 13.12
+        "value": 14.63,
+        "previous": 13.13
       },
       "cpc": {
-        "value": 0.53,
+        "value": 0.65,
         "previous": 0.84
       },
       "leads": {
@@ -33,11 +33,11 @@
       },
       "cpl": {
         "value": 0.0,
-        "previous": 22.65
+        "previous": 22.71
       },
       "inversion": {
-        "value": 5.29,
-        "previous": 770.04
+        "value": 7.8,
+        "previous": 772.18
       }
     },
     "daily": [
@@ -45,9 +45,9 @@
         "date": "2026-04-01",
         "leads": 0,
         "cpl": 0.0,
-        "impresiones": 71,
-        "clics": 10,
-        "inversion": 5.29
+        "impresiones": 82,
+        "clics": 12,
+        "inversion": 7.8
       }
     ],
     "demographics": {
@@ -346,13 +346,13 @@
     "campaigns": [
       {
         "name": "GADS-BUSQ-COLIVING-Y-APARTAMENTOS-ES #2",
-        "impresiones": 68,
-        "clics": 7,
-        "ctr": 10.29,
-        "cpc": 0.61,
+        "impresiones": 79,
+        "clics": 9,
+        "ctr": 11.39,
+        "cpc": 0.75,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 4.28
+        "inversion": 6.79
       },
       {
         "name": "GADS-BUSQ-BRAND-ES #2",
@@ -368,43 +368,53 @@
     "keywords": [
       {
         "keyword": "coliving",
-        "impresiones": 22,
+        "impresiones": 25,
         "clics": 2,
-        "ctr": 9.09,
+        "ctr": 8.0,
         "cpc": 0.94,
         "leads": 0,
         "cpl": 0.0,
         "inversion": 1.87
       },
       {
-        "keyword": "apartamentos madrid centro",
-        "impresiones": 11,
-        "clics": 0,
-        "ctr": 0.0,
-        "cpc": 0.0,
-        "leads": 0,
-        "cpl": 0.0,
-        "inversion": 0.0
-      },
-      {
         "keyword": "coliving madrid",
-        "impresiones": 10,
+        "impresiones": 12,
         "clics": 1,
-        "ctr": 10.0,
+        "ctr": 8.33,
         "cpc": 0.57,
         "leads": 0,
         "cpl": 0.0,
         "inversion": 0.57
       },
       {
+        "keyword": "apartamentos madrid centro",
+        "impresiones": 12,
+        "clics": 1,
+        "ctr": 8.33,
+        "cpc": 0.43,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.43
+      },
+      {
         "keyword": "habitaciones en alquiler madrid",
-        "impresiones": 8,
+        "impresiones": 9,
         "clics": 0,
         "ctr": 0.0,
         "cpc": 0.0,
         "leads": 0,
         "cpl": 0.0,
         "inversion": 0.0
+      },
+      {
+        "keyword": "alquiler apartamentos",
+        "impresiones": 4,
+        "clics": 2,
+        "ctr": 50.0,
+        "cpc": 0.25,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.51
       },
       {
         "keyword": "kanso coliving",
@@ -415,16 +425,6 @@
         "leads": 0,
         "cpl": 0.0,
         "inversion": 0.62
-      },
-      {
-        "keyword": "alquiler apartamentos",
-        "impresiones": 3,
-        "clics": 2,
-        "ctr": 66.67,
-        "cpc": 0.25,
-        "leads": 0,
-        "cpl": 0.0,
-        "inversion": 0.51
       },
       {
         "keyword": "alquiler apartamentos madrid",
@@ -448,6 +448,16 @@
       },
       {
         "keyword": "coliving madrid centro",
+        "impresiones": 2,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "flex living madrid",
         "impresiones": 2,
         "clics": 0,
         "ctr": 0.0,
@@ -620,32 +630,32 @@
       },
       {
         "month": "2026-04-01",
-        "impresiones": 71,
-        "clics": 10,
-        "ctr": 14.08,
-        "cpc": 0.53,
+        "impresiones": 82,
+        "clics": 12,
+        "ctr": 14.63,
+        "cpc": 0.65,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 5.29
+        "inversion": 7.8
       }
     ]
   },
   "meta_ads": {
     "kpis": {
       "impresiones": {
-        "value": 819,
-        "previous": 68977
+        "value": 1305,
+        "previous": 69156
       },
       "clics": {
-        "value": 26,
-        "previous": 3646
+        "value": 48,
+        "previous": 3657
       },
       "ctr": {
-        "value": 3.17,
+        "value": 3.68,
         "previous": 5.29
       },
       "cpc": {
-        "value": 0.25,
+        "value": 0.21,
         "previous": 0.14
       },
       "leads": {
@@ -654,15 +664,15 @@
       },
       "cpl": {
         "value": 0.0,
-        "previous": 5.54
+        "previous": 5.57
       },
       "inversion": {
-        "value": 6.55,
-        "previous": 520.98
+        "value": 10.07,
+        "previous": 523.48
       },
       "alcance": {
-        "value": 692,
-        "previous": 26414
+        "value": 1162,
+        "previous": 26432
       }
     },
     "daily": [
@@ -670,53 +680,53 @@
         "date": "2026-04-01",
         "leads": 0,
         "cpl": 0.0,
-        "impresiones": 819,
-        "clics": 26,
-        "inversion": 6.55
+        "impresiones": 1305,
+        "clics": 48,
+        "inversion": 10.07
       }
     ],
     "campaigns": [
       {
         "name": "Trees_LeadGen_España_Prospecting Advantage_30032026",
-        "impresiones": 819,
-        "clics": 26,
-        "ctr": 3.174603,
-        "cpc": 0.251923,
+        "impresiones": 1305,
+        "clics": 48,
+        "ctr": 3.678161,
+        "cpc": 0.209792,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 6.55,
-        "alcance": 692
+        "inversion": 10.07,
+        "alcance": 1162
       }
     ],
     "campaigns_by_platform": [
       {
         "campaign": "Trees_LeadGen_España_Prospecting Advantage_30032026",
         "platform": "Facebook",
-        "impresiones": 125,
-        "clics": 3,
-        "ctr": 2.4,
-        "cpc": 0.22,
+        "impresiones": 213,
+        "clics": 8,
+        "ctr": 3.76,
+        "cpc": 0.17,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 0.66
+        "inversion": 1.32
       },
       {
         "campaign": "Trees_LeadGen_España_Prospecting Advantage_30032026",
         "platform": "Instagram",
-        "impresiones": 693,
-        "clics": 23,
-        "ctr": 3.32,
-        "cpc": 0.26,
+        "impresiones": 1091,
+        "clics": 40,
+        "ctr": 3.67,
+        "cpc": 0.22,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 5.89
+        "inversion": 8.75
       }
     ],
     "creatives": [
       {
         "name": "Reel sept 25 - Galerías",
         "ad_id": "120242867614770524",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/656873115_2119620715481914_8302900095005024678_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=iIHZ2j9FcbwQ7kNvwHWwayG&_nc_oc=AdoUzvqxY9BPMAJiLMGA5vMTtevujxyQrCQOy8L-9Wz-BmeF6C6-5__FgpOriTXj5sM&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=GISw1evlFwdxh0xfxQRMtA&_nc_tpa=Q5bMBQEmkXgWPLhGJy2uUqS9eTeVG1n_OgClrKrxHW1JXSfXBAPsZXL9IbpHZ_SDq4TJqcjRUsbfAWvcTg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2eWlI3930vSJBLwjXAMcfFyLMBeVcEQBZAyLD_V_Hbhg&oe=69D2AB05",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/656873115_2119620715481914_8302900095005024678_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=iIHZ2j9FcbwQ7kNvwHi61wJ&_nc_oc=Adq5WDgr1IUjgv5Km6VjPtfa6yC_5kQkBsMBkdRGPjCi4SqAmlE7wp5A9__RP08jNsI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=ZnLkQCsWXHoNNL6RLdhMxw&_nc_tpa=Q5bMBQHWBgD4ILRtGT8PK4zsLA-XKYWt0-OHlNKz-3lTgUDsQLban00b2vDoMT73Q7_hLxJHiL4pKJt6Lw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2S9HU8XwC8u2DTR2ri2y-1e75xpDDPXWfM0SVxT1zi8g&oe=69D2AB05",
         "impresiones": 6,
         "clics": 0,
         "ctr": 0.0,
@@ -725,9 +735,20 @@
         "inversion": 0.75
       },
       {
+        "name": "Reel 1 - Galerías",
+        "ad_id": "120242867614800524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/661262493_2459004001203001_6404394853695321163_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=Hp9DcyFsIJIQ7kNvwHnNodJ&_nc_oc=AdoW4ir_AjkVG_vT3vTwKAjGEuxFu373NsACbO0AUZKI1fadI0NPWp3cOnt8vaBG2XM&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=64bhDNAwLf-KeqqnEIO_SA&_nc_tpa=Q5bMBQGxyLwlojWa7XTwddHse2xhbiwwl1_gzD5xoscmQox3maRcx4VkeR8HHGte2sz7wCP0KRKGgcblXA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1Ic9D9Nr_iFFHvQZM4OltTMoVloPOqLfmEWiBhrtmVdg&oe=69D2A71F",
+        "impresiones": 6,
+        "clics": 0,
+        "ctr": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.05
+      },
+      {
         "name": "Carrusel sep 25 - Galerías",
         "ad_id": "120242867614840524",
-        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHclFB4&_nc_oc=AdpNpH2q9-Jidw5qI10Y6h7ptm0xXLFK4fhqQ2kxKm96AFZS8vtyANwgtA7Zn_yTZgs&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=u3GcxrwMR7tKRIVpp2HLiQ&_nc_tpa=Q5bMBQFxEX4NRPlqHSFkuBFqe8OQzCXqgWAuJWEmQu6TKVjNTEAaBJP3j6wBWN_3MCGVzwKePh-jQhbYMA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af1Imx8A2ZCWWOKiz0egxmN2O84NR65sU5Wv1ozdtZgECw&oe=69D2A4CA",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHrchEg&_nc_oc=Adpc0Rz5H27NCNosCpi_NIHXZUVEGoFUgSbLUZGR5Up4q6_XBGs_vR0XoptVQvo2n4s&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=vyWVA751YXLXZ8z-0xA64w&_nc_tpa=Q5bMBQEAmKPH573jCdM-5r8dP3U9eL7OlfmrOfsCTEaThIdKhE0db9LA66RrqigosOeCcqrdD3wTith7nQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af0j3XgiZHQoFgi9ALBVNtQjxsT_iqW9shKUZvd60HY_qA&oe=69D2A4CA",
         "impresiones": 12,
         "clics": 0,
         "ctr": 0.0,
@@ -738,29 +759,29 @@
       {
         "name": "Reel 2 - Galerías",
         "ad_id": "120242867614860524",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/659061465_891555650220193_8816957004658979211_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=BeGE7WSI_8sQ7kNvwHFr_Ln&_nc_oc=AdoxRV-egQxAZ4pASbjlSq2s1L_RHHUCWBOy3k2ZQGV9dNCGy81jJQQM8w70Vnx1jsM&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=9aOFJD7mFIOMejfD-PWURw&_nc_tpa=Q5bMBQEt6W8gId-JERlj5aZ1wvTrm5I1_zFCJ_kWMtj8CIFLTJPMwRvoZ-whK8hVO4aN4u47DhzKGM1jgA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1H2MIM77615VbELP2zEDL3wBTsZHqf-q7QdSabyvvfDQ&oe=69D283ED",
-        "impresiones": 254,
-        "clics": 8,
-        "ctr": 3.149606,
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/659061465_891555650220193_8816957004658979211_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=BeGE7WSI_8sQ7kNvwEpmXvn&_nc_oc=AdoTkEMBggi0S21Gvmn1mgjYh01cDrHHUuI1hryuKdf4tNqG4DtVfrsClyF0GSAg46U&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=fn31_cjLSHXz6Q-R1fmHXw&_nc_tpa=Q5bMBQF2di0_fLzu1fhwkKLAYKkjTgFX2aGDTbJXHcrj-zS3MGGfqF1l-L4zNFkxO17JRo_yBGnJAsOKkA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2mJX0PHdrCa18wBbSYq5OhqXgNtUxSfT_fcSN0t47ozQ&oe=69D2BC2D",
+        "impresiones": 675,
+        "clics": 26,
+        "ctr": 3.851852,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 1.74
+        "inversion": 4.57
       },
       {
         "name": "Reel 2 - Matadero",
         "ad_id": "120242867630990524",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/657586801_2060985194774013_3383708222013089294_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=NM_C_Ovb3ioQ7kNvwF5j-5Q&_nc_oc=AdqeGgchEl1Rl8hkx9ZjarIY3mRFGCYjXoMwPkC5rZA9FjEiGcpS9XtS7yYux1nC6XA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=QUYGFXYojw1dLgOsmgtoYA&_nc_tpa=Q5bMBQFRPzQ4DiKVe6UiFkmjiPPlEuykjHiNhp5TE5fa8xPdfHBxXMGE9-r8Js2bLgQ-J2YMCBEB9NQZCw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1eg0XigFkbShfNZU9Gju5mZlpmZgjw7gvJ1dclmu8Z3w&oe=69D29986",
-        "impresiones": 396,
-        "clics": 14,
-        "ctr": 3.535354,
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/657586801_2060985194774013_3383708222013089294_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=NM_C_Ovb3ioQ7kNvwGh_rTZ&_nc_oc=AdofFNm2-N-gRDboFo4EF2jc1lHuXc-KRGaP0HOiJd21IeyUhpLzgiJaanCEfJPHzQc&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=nNJ_Z878sug-IER18gW32g&_nc_tpa=Q5bMBQFqbPG_q0WaYqzyaua94b1et24Rs3f6JTTXeLmp-IOuZT2NiPmQ-FO1G6n2Yp0DgOhSmBZNMPeIpw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1v0aUARm6eBfvZuiK-ZzDv3gETimSIrqnFLD8hhDQclw&oe=69D29986",
+        "impresiones": 432,
+        "clics": 16,
+        "ctr": 3.703704,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 2.37
+        "inversion": 2.77
       },
       {
         "name": "Carrusel enero 26 - Matadero",
         "ad_id": "120242867631010524",
-        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t45.1600-4/616558203_895077840138247_3338405979299086246_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=WFSH1Q8h9iAQ7kNvwFVYTOf&_nc_oc=Adp_CWyVm26um4I2Wg-W5LuV33XEvNVeTugNTA9dLEDqragXfIn96V6-vR-sLXNk84E&_nc_zt=1&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=0VrvCtlPfMcLkXAW2ta2jg&_nc_tpa=Q5bMBQE9HDL0eiZVDBF96_VeVoja8jnYZuvq_3nrEiCfmsfOM3K812MoawtAdxv8GDgASNEwK7s68O3u2g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af1jmYorQZycpXGOYzJamfS9z3nj3aGawI24xLTNrNoElw&oe=69D2A253",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t45.1600-4/616558203_895077840138247_3338405979299086246_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=WFSH1Q8h9iAQ7kNvwHJpoPj&_nc_oc=Adq7SCYS9PcDAwHiRCb_eJSuDE5xSnOZmuHf3AFWaRLwpLLFSp7ZMWgHXE5OPidKMQ0&_nc_zt=1&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=IqaGtFgfl3zwKbWbfu4uQQ&_nc_tpa=Q5bMBQGUliLy1ooB9vTm4qxICOdgT49ZidoOjqmIxvwZImIeUAGcSSodLcSIVbn5Askrac_MQsHswz_5zA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af34YvGsPe7ds9cv32aXeZmA9u1Y6ww22SmOBuCYkVw79w&oe=69D2A253",
         "impresiones": 3,
         "clics": 0,
         "ctr": 0.0,
@@ -771,18 +792,18 @@
       {
         "name": "Reel 1 - Chueca",
         "ad_id": "120242867634670524",
-        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/657993406_827970632967848_5582357296231331201_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=YR-5Lv-TMfYQ7kNvwEC4yU8&_nc_oc=AdoH7yCsVscafnsPXHx1CPw0mdtI-IQJK-QY8SZ5W_30kfndJ31fNotntGWHlIZv-Z4&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=M78gi4NOsdnSnS33UU3lqA&_nc_tpa=Q5bMBQFlim-tZyBIaxhc_TAq5TFDWXCxleWXZKYvYr0owUvogB1d5LPPS5FlJYrZ_D218S70Zdz5IpwR2A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2QacLfyVMkeC3xZl5xT5Q_wQ07uYXlu4SwVpusC9XRJw&oe=69D282D0",
-        "impresiones": 133,
-        "clics": 4,
-        "ctr": 3.007519,
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/657993406_827970632967848_5582357296231331201_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=YR-5Lv-TMfYQ7kNvwFNwYke&_nc_oc=AdrDSSo5pqivjbeD8Mso_tM9PoMKa0k0Tpv1G06BJGno1tBTv-1LR2oxV-uryGQy8kc&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=ty5ueJj78hLB38th7NfmMA&_nc_tpa=Q5bMBQEk5HbfgCeEFQxsa4V9DImjXp4eJLWRCHyYvf7VtoNFcfbvW_EEAibRsLJuuNLuS-xezAd1f_EnBA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3CkaHCOT9YL6ju12VNkCKDJkrhVQQ9cCS_W8oruFiNzQ&oe=69D2BB10",
+        "impresiones": 156,
+        "clics": 6,
+        "ctr": 3.846154,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 1.08
+        "inversion": 1.32
       },
       {
         "name": "Reel sept25 - Chueca",
         "ad_id": "120242867634690524",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/659847586_929808576426574_7625765222829843231_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=C2MH5HhojlYQ7kNvwF8EMb7&_nc_oc=AdpDENwFj1Ub8IcGlXRUD0hSioCd3-ZTH2i-QNAeZXHbUKlBQ1qSNgx0MgfodIhmF9Y&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=PByetkI3GvrnU8jJNIk0zA&_nc_tpa=Q5bMBQHlfkNk2vc5-A-f6lKcGiBjRUmEkCJ4nZIDnLPxdUqrr1W0wKkTKr93OMQdeTJmbVtJByWaVhj9hw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af06Y5VZyXRBG4Jqa-D1z047Xp9999OADYc_j5mA-s90cQ&oe=69D284B3",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/659847586_929808576426574_7625765222829843231_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=C2MH5HhojlYQ7kNvwEX2tih&_nc_oc=Adr8qD6HyWa7a98aoaTFfUe_LFeHuiU3vYsrEJeQfkbB4hFla51WcePwODOgyMDeRUg&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=Fma9uIIOU0H1VaEj6BRP_A&_nc_tpa=Q5bMBQG_4kyN3ZQz8rk3fbdYZtBR9Ct8kLRU3mZy0JstV-PWUR51l_WFhis2A4bBuKju-goXAn3b8k8-Xw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3Aa4-3TI9Swyt6Wdn9TA7EZclhj8vnToby4Rl6-IcBRw&oe=69D2BCF3",
         "impresiones": 12,
         "clics": 0,
         "ctr": 0.0,
@@ -793,7 +814,7 @@
       {
         "name": "Reel 2 - Chueca",
         "ad_id": "120242867634710524",
-        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/660534402_1546465184146602_492024181695332321_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=ggrEdzgEa40Q7kNvwG3y8_n&_nc_oc=AdpCpOb29j_02vWwWR-6QRABVB1iXq7sBDPdNmhBmsEsyXc7-J1JDyMQgLO8YFJTSZ8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=597z9RKQ8nJXjtSulXlRtQ&_nc_tpa=Q5bMBQEcWi9Z7WfWDTh8OXO4L-WfquP8u553T1CXAf1bTCXOlJcdQyEzNipGjECZz8hhjOf8vntWAfzP1A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1NJNKjoYFhXZU8SWxn4fmoP0zGpD-o-463ebBW1FarAw&oe=69D2A55B",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/660534402_1546465184146602_492024181695332321_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=ggrEdzgEa40Q7kNvwE_YiDh&_nc_oc=AdoYuBQ9tvJvdktcU3kZzVVa1ROa04rHxUvXPFbJKhV-Kg2eZS8gQCxqWL6ciSr8adg&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=EZEicbr9ZIaUNtFJMgEyVA&_nc_tpa=Q5bMBQEV5bUFsZU6nC0W_9l13ZDK_uXJ1m6mYwNg33MTCut5cL_i391SVqys-K-gVmhTwDLV3QVypt66zA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2Bokj474_8Rj8p2jqd0nTRSWNQj49-Zd7b3cRgg5IW6g&oe=69D2A55B",
         "impresiones": 3,
         "clics": 0,
         "ctr": 0.0,
@@ -959,14 +980,14 @@
       },
       {
         "month": "2026-04",
-        "impresiones": 819,
-        "clics": 26,
-        "ctr": 3.174603,
-        "cpc": 0.251923,
+        "impresiones": 1305,
+        "clics": 48,
+        "ctr": 3.678161,
+        "cpc": 0.209792,
         "leads": 0,
         "cpl": 0.0,
-        "inversion": 6.55,
-        "alcance": 692
+        "inversion": 10.07,
+        "alcance": 1162
       }
     ]
   },

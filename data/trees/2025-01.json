@@ -1,0 +1,1367 @@
+{
+  "meta": {
+    "clientId": "trees",
+    "clientName": "Trees Coliving",
+    "month": "2025-01",
+    "generatedAt": "2026-04-01T08:45:05.155357Z",
+    "dateRange": {
+      "from": "2025-01-01",
+      "to": "2025-01-31"
+    }
+  },
+  "google_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 30291
+      },
+      "clics": {
+        "value": 2172
+      },
+      "ctr": {
+        "value": 7.17
+      },
+      "cpc": {
+        "value": 0.22
+      },
+      "leads": {
+        "value": 82
+      },
+      "cpl": {
+        "value": 5.92
+      },
+      "inversion": {
+        "value": 485.03
+      }
+    },
+    "daily": [
+      {
+        "date": "2025-01-01",
+        "leads": 1,
+        "cpl": 17.27,
+        "impresiones": 449,
+        "clics": 85,
+        "inversion": 17.27
+      },
+      {
+        "date": "2025-01-02",
+        "leads": 3,
+        "cpl": 5.24,
+        "impresiones": 648,
+        "clics": 95,
+        "inversion": 15.71
+      },
+      {
+        "date": "2025-01-03",
+        "leads": 1,
+        "cpl": 16.49,
+        "impresiones": 624,
+        "clics": 105,
+        "inversion": 16.49
+      },
+      {
+        "date": "2025-01-04",
+        "leads": 2,
+        "cpl": 6.63,
+        "impresiones": 442,
+        "clics": 60,
+        "inversion": 13.26
+      },
+      {
+        "date": "2025-01-05",
+        "leads": 1,
+        "cpl": 16.29,
+        "impresiones": 675,
+        "clics": 95,
+        "inversion": 16.29
+      },
+      {
+        "date": "2025-01-06",
+        "leads": 3,
+        "cpl": 5.36,
+        "impresiones": 745,
+        "clics": 97,
+        "inversion": 16.08
+      },
+      {
+        "date": "2025-01-07",
+        "leads": 2,
+        "cpl": 8.24,
+        "impresiones": 656,
+        "clics": 92,
+        "inversion": 16.49
+      },
+      {
+        "date": "2025-01-08",
+        "leads": 2,
+        "cpl": 7.65,
+        "impresiones": 769,
+        "clics": 93,
+        "inversion": 15.3
+      },
+      {
+        "date": "2025-01-09",
+        "leads": 1,
+        "cpl": 15.1,
+        "impresiones": 832,
+        "clics": 93,
+        "inversion": 15.1
+      },
+      {
+        "date": "2025-01-10",
+        "leads": 3,
+        "cpl": 6.19,
+        "impresiones": 866,
+        "clics": 83,
+        "inversion": 18.58
+      },
+      {
+        "date": "2025-01-11",
+        "leads": 3,
+        "cpl": 5.4,
+        "impresiones": 897,
+        "clics": 97,
+        "inversion": 16.21
+      },
+      {
+        "date": "2025-01-12",
+        "leads": 4,
+        "cpl": 4.05,
+        "impresiones": 820,
+        "clics": 78,
+        "inversion": 16.22
+      },
+      {
+        "date": "2025-01-13",
+        "leads": 5,
+        "cpl": 3.01,
+        "impresiones": 890,
+        "clics": 74,
+        "inversion": 15.05
+      },
+      {
+        "date": "2025-01-14",
+        "leads": 5,
+        "cpl": 3.16,
+        "impresiones": 909,
+        "clics": 68,
+        "inversion": 15.8
+      },
+      {
+        "date": "2025-01-15",
+        "leads": 4,
+        "cpl": 3.8,
+        "impresiones": 1037,
+        "clics": 60,
+        "inversion": 15.19
+      },
+      {
+        "date": "2025-01-16",
+        "leads": 2,
+        "cpl": 6.82,
+        "impresiones": 972,
+        "clics": 45,
+        "inversion": 13.63
+      },
+      {
+        "date": "2025-01-17",
+        "leads": 2,
+        "cpl": 4.57,
+        "impresiones": 738,
+        "clics": 29,
+        "inversion": 9.14
+      },
+      {
+        "date": "2025-01-18",
+        "leads": 4,
+        "cpl": 5.91,
+        "impresiones": 1265,
+        "clics": 66,
+        "inversion": 23.63
+      },
+      {
+        "date": "2025-01-19",
+        "leads": 4,
+        "cpl": 4.48,
+        "impresiones": 1349,
+        "clics": 60,
+        "inversion": 17.91
+      },
+      {
+        "date": "2025-01-20",
+        "leads": 3,
+        "cpl": 5.04,
+        "impresiones": 1329,
+        "clics": 58,
+        "inversion": 15.11
+      },
+      {
+        "date": "2025-01-21",
+        "leads": 4,
+        "cpl": 4.24,
+        "impresiones": 1299,
+        "clics": 60,
+        "inversion": 16.98
+      },
+      {
+        "date": "2025-01-22",
+        "leads": 3,
+        "cpl": 4.84,
+        "impresiones": 1017,
+        "clics": 53,
+        "inversion": 14.53
+      },
+      {
+        "date": "2025-01-23",
+        "leads": 1,
+        "cpl": 16.5,
+        "impresiones": 1445,
+        "clics": 62,
+        "inversion": 16.5
+      },
+      {
+        "date": "2025-01-24",
+        "leads": 1,
+        "cpl": 13.96,
+        "impresiones": 1485,
+        "clics": 63,
+        "inversion": 13.96
+      },
+      {
+        "date": "2025-01-25",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 1637,
+        "clics": 45,
+        "inversion": 10.33
+      },
+      {
+        "date": "2025-01-26",
+        "leads": 4,
+        "cpl": 5.28,
+        "impresiones": 1630,
+        "clics": 85,
+        "inversion": 21.12
+      },
+      {
+        "date": "2025-01-27",
+        "leads": 2,
+        "cpl": 8.15,
+        "impresiones": 1116,
+        "clics": 74,
+        "inversion": 16.3
+      },
+      {
+        "date": "2025-01-28",
+        "leads": 4,
+        "cpl": 2.95,
+        "impresiones": 938,
+        "clics": 45,
+        "inversion": 11.82
+      },
+      {
+        "date": "2025-01-29",
+        "leads": 2,
+        "cpl": 8.21,
+        "impresiones": 1057,
+        "clics": 61,
+        "inversion": 16.43
+      },
+      {
+        "date": "2025-01-30",
+        "leads": 3,
+        "cpl": 4.61,
+        "impresiones": 907,
+        "clics": 48,
+        "inversion": 13.83
+      },
+      {
+        "date": "2025-01-31",
+        "leads": 2,
+        "cpl": 7.38,
+        "impresiones": 848,
+        "clics": 43,
+        "inversion": 14.77
+      }
+    ],
+    "demographics": {
+      "gender": [
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 2
+        },
+        {
+          "label": "11",
+          "leads": 9
+        },
+        {
+          "label": "20",
+          "leads": 10
+        },
+        {
+          "label": "10",
+          "leads": 2
+        },
+        {
+          "label": "11",
+          "leads": 14
+        },
+        {
+          "label": "20",
+          "leads": 2
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        }
+      ],
+      "age": []
+    },
+    "campaigns": [
+      {
+        "name": "GADS-BUSQ-COLIVING-Y-APARTAMENTOS-ES",
+        "impresiones": 16582,
+        "clics": 1546,
+        "ctr": 9.32,
+        "cpc": 0.18,
+        "leads": 40,
+        "cpl": 6.78,
+        "inversion": 271.16
+      },
+      {
+        "name": "PMAX-TREES-COLIVING-ES",
+        "impresiones": 13709,
+        "clics": 626,
+        "ctr": 4.57,
+        "cpc": 0.34,
+        "leads": 42,
+        "cpl": 5.09,
+        "inversion": 213.87
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "alquiler apartamentos",
+        "impresiones": 5480,
+        "clics": 579,
+        "ctr": 10.57,
+        "cpc": 0.14,
+        "leads": 9,
+        "cpl": 8.81,
+        "inversion": 79.25
+      },
+      {
+        "keyword": "pisos en alquiler cerca de mi",
+        "impresiones": 2130,
+        "clics": 500,
+        "ctr": 23.47,
+        "cpc": 0.12,
+        "leads": 1,
+        "cpl": 61.1,
+        "inversion": 61.1
+      },
+      {
+        "keyword": "habitaciones en alquiler madrid",
+        "impresiones": 1655,
+        "clics": 63,
+        "ctr": 3.81,
+        "cpc": 0.35,
+        "leads": 5,
+        "cpl": 4.45,
+        "inversion": 22.25
+      },
+      {
+        "keyword": "coliving",
+        "impresiones": 1646,
+        "clics": 125,
+        "ctr": 7.59,
+        "cpc": 0.33,
+        "leads": 12,
+        "cpl": 3.47,
+        "inversion": 41.62
+      },
+      {
+        "keyword": "apartamentos madrid",
+        "impresiones": 1578,
+        "clics": 35,
+        "ctr": 2.22,
+        "cpc": 0.31,
+        "leads": 1,
+        "cpl": 10.98,
+        "inversion": 10.98
+      },
+      {
+        "keyword": "apartamentos madrid centro",
+        "impresiones": 1445,
+        "clics": 45,
+        "ctr": 3.11,
+        "cpc": 0.31,
+        "leads": 2,
+        "cpl": 6.89,
+        "inversion": 13.78
+      },
+      {
+        "keyword": "alquiler de apartamento",
+        "impresiones": 915,
+        "clics": 66,
+        "ctr": 7.21,
+        "cpc": 0.12,
+        "leads": 2,
+        "cpl": 4.07,
+        "inversion": 8.13
+      },
+      {
+        "keyword": "busco piso de alquiler",
+        "impresiones": 750,
+        "clics": 56,
+        "ctr": 7.47,
+        "cpc": 0.11,
+        "leads": 1,
+        "cpl": 6.42,
+        "inversion": 6.42
+      },
+      {
+        "keyword": "coliving madrid",
+        "impresiones": 589,
+        "clics": 36,
+        "ctr": 6.11,
+        "cpc": 0.43,
+        "leads": 1,
+        "cpl": 15.63,
+        "inversion": 15.63
+      },
+      {
+        "keyword": "alquiler apartamentos madrid",
+        "impresiones": 171,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "trees coliving madrid",
+        "impresiones": 74,
+        "clics": 27,
+        "ctr": 36.49,
+        "cpc": 0.24,
+        "leads": 3,
+        "cpl": 2.17,
+        "inversion": 6.5
+      },
+      {
+        "keyword": "flex living madrid",
+        "impresiones": 29,
+        "clics": 2,
+        "ctr": 6.9,
+        "cpc": 0.81,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.63
+      },
+      {
+        "keyword": "coliving madrid adultos",
+        "impresiones": 22,
+        "clics": 8,
+        "ctr": 36.36,
+        "cpc": 0.36,
+        "leads": 2,
+        "cpl": 1.45,
+        "inversion": 2.9
+      },
+      {
+        "keyword": "coworking coliving",
+        "impresiones": 21,
+        "clics": 1,
+        "ctr": 4.76,
+        "cpc": 0.21,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.21
+      },
+      {
+        "keyword": "madrid coliving",
+        "impresiones": 21,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "coliving madrid centro",
+        "impresiones": 20,
+        "clics": 2,
+        "ctr": 10.0,
+        "cpc": 0.25,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.5
+      },
+      {
+        "keyword": "coliving madrid profesionales",
+        "impresiones": 16,
+        "clics": 1,
+        "ctr": 6.25,
+        "cpc": 0.26,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.26
+      },
+      {
+        "keyword": "apartamentos en madrid",
+        "impresiones": 11,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "colivings en madrid",
+        "impresiones": 4,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "alquiler de apartamentos en madrid",
+        "impresiones": 2,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "apartamentos coliving madrid",
+        "impresiones": 2,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      }
+    ],
+    "monthly_history": [
+      {
+        "month": "2025-01-01",
+        "impresiones": 30291,
+        "clics": 2172,
+        "ctr": 7.17,
+        "cpc": 0.22,
+        "leads": 82,
+        "cpl": 5.92,
+        "inversion": 485.03
+      }
+    ]
+  },
+  "meta_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 0
+      },
+      "clics": {
+        "value": 0
+      },
+      "ctr": {
+        "value": 0.0
+      },
+      "cpc": {
+        "value": 0.0
+      },
+      "leads": {
+        "value": 0
+      },
+      "cpl": {
+        "value": 0.0
+      },
+      "inversion": {
+        "value": 0
+      },
+      "alcance": {
+        "value": 0
+      }
+    },
+    "daily": [],
+    "campaigns": [],
+    "campaigns_by_platform": [],
+    "creatives": [],
+    "monthly_history": []
+  },
+  "hubspot": {
+    "leads_valid_monthly": [
+      {
+        "month": "2024-10",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2024-11",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2024-12",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-01",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-02",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-03",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-04",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-05",
+        "lista_espera": 0,
+        "firmado": 10,
+        "sin_disponibilidad": 1
+      },
+      {
+        "month": "2025-06",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-07",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-08",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 70
+      },
+      {
+        "month": "2025-09",
+        "lista_espera": 1,
+        "firmado": 1,
+        "sin_disponibilidad": 140
+      },
+      {
+        "month": "2025-10",
+        "lista_espera": 0,
+        "firmado": 4,
+        "sin_disponibilidad": 83
+      },
+      {
+        "month": "2025-11",
+        "lista_espera": 3,
+        "firmado": 5,
+        "sin_disponibilidad": 49
+      },
+      {
+        "month": "2025-12",
+        "lista_espera": 8,
+        "firmado": 3,
+        "sin_disponibilidad": 70
+      },
+      {
+        "month": "2026-01",
+        "lista_espera": 9,
+        "firmado": 6,
+        "sin_disponibilidad": 80
+      },
+      {
+        "month": "2026-02",
+        "lista_espera": 16,
+        "firmado": 5,
+        "sin_disponibilidad": 88
+      },
+      {
+        "month": "2026-03",
+        "lista_espera": 10,
+        "firmado": 2,
+        "sin_disponibilidad": 38
+      }
+    ],
+    "interesados_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 0
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 0
+      },
+      {
+        "month": "2025-09",
+        "count": 0
+      },
+      {
+        "month": "2025-10",
+        "count": 0
+      },
+      {
+        "month": "2025-11",
+        "count": 0
+      },
+      {
+        "month": "2025-12",
+        "count": 0
+      },
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 3
+      }
+    ],
+    "lista_espera_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 0
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 0
+      },
+      {
+        "month": "2025-09",
+        "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 0
+      },
+      {
+        "month": "2025-11",
+        "count": 3
+      },
+      {
+        "month": "2025-12",
+        "count": 8
+      },
+      {
+        "month": "2026-01",
+        "count": 9
+      },
+      {
+        "month": "2026-02",
+        "count": 16
+      },
+      {
+        "month": "2026-03",
+        "count": 10
+      }
+    ],
+    "firmados_history": [
+      {
+        "month": "2024-10",
+        "count": 1
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 3
+      },
+      {
+        "month": "2025-01",
+        "count": 3
+      },
+      {
+        "month": "2025-02",
+        "count": 2
+      },
+      {
+        "month": "2025-03",
+        "count": 2
+      },
+      {
+        "month": "2025-04",
+        "count": 2
+      },
+      {
+        "month": "2025-05",
+        "count": 10
+      },
+      {
+        "month": "2025-06",
+        "count": 1
+      },
+      {
+        "month": "2025-07",
+        "count": 1
+      },
+      {
+        "month": "2025-08",
+        "count": 3
+      },
+      {
+        "month": "2025-09",
+        "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 4
+      },
+      {
+        "month": "2025-11",
+        "count": 5
+      },
+      {
+        "month": "2025-12",
+        "count": 3
+      },
+      {
+        "month": "2026-01",
+        "count": 6
+      },
+      {
+        "month": "2026-02",
+        "count": 5
+      },
+      {
+        "month": "2026-03",
+        "count": 2
+      }
+    ],
+    "sin_disponibilidad_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 1
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 70
+      },
+      {
+        "month": "2025-09",
+        "count": 140
+      },
+      {
+        "month": "2025-10",
+        "count": 83
+      },
+      {
+        "month": "2025-11",
+        "count": 49
+      },
+      {
+        "month": "2025-12",
+        "count": 70
+      },
+      {
+        "month": "2026-01",
+        "count": 80
+      },
+      {
+        "month": "2026-02",
+        "count": 88
+      },
+      {
+        "month": "2026-03",
+        "count": 38
+      }
+    ],
+    "descartados_history": [
+      {
+        "month": "2024-10",
+        "count": 9
+      },
+      {
+        "month": "2024-11",
+        "count": 34
+      },
+      {
+        "month": "2024-12",
+        "count": 62
+      },
+      {
+        "month": "2025-01",
+        "count": 123
+      },
+      {
+        "month": "2025-02",
+        "count": 179
+      },
+      {
+        "month": "2025-03",
+        "count": 242
+      },
+      {
+        "month": "2025-04",
+        "count": 193
+      },
+      {
+        "month": "2025-05",
+        "count": 195
+      },
+      {
+        "month": "2025-06",
+        "count": 159
+      },
+      {
+        "month": "2025-07",
+        "count": 176
+      },
+      {
+        "month": "2025-08",
+        "count": 157
+      },
+      {
+        "month": "2025-09",
+        "count": 55
+      },
+      {
+        "month": "2025-10",
+        "count": 53
+      },
+      {
+        "month": "2025-11",
+        "count": 82
+      },
+      {
+        "month": "2025-12",
+        "count": 49
+      },
+      {
+        "month": "2026-01",
+        "count": 65
+      },
+      {
+        "month": "2026-02",
+        "count": 35
+      },
+      {
+        "month": "2026-03",
+        "count": 33
+      }
+    ],
+    "leads_by_source": [
+      {
+        "source": "DIRECT_TRAFFIC",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "source": "ORGANIC_SEARCH",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 0
+      },
+      {
+        "source": "PAID_SEARCH",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "source": "Unknown",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 0
+      }
+    ]
+  }
+}

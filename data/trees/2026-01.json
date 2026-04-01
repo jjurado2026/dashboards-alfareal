@@ -1,0 +1,2195 @@
+{
+  "meta": {
+    "clientId": "trees",
+    "clientName": "Trees Coliving",
+    "month": "2026-01",
+    "generatedAt": "2026-04-01T08:53:27.376620Z",
+    "dateRange": {
+      "from": "2026-01-01",
+      "to": "2026-01-31"
+    }
+  },
+  "google_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 10104,
+        "previous": 9775
+      },
+      "clics": {
+        "value": 1140,
+        "previous": 925
+      },
+      "ctr": {
+        "value": 11.28,
+        "previous": 9.46
+      },
+      "cpc": {
+        "value": 0.74,
+        "previous": 0.86
+      },
+      "leads": {
+        "value": 54,
+        "previous": 49
+      },
+      "cpl": {
+        "value": 15.56,
+        "previous": 16.14
+      },
+      "inversion": {
+        "value": 840.16,
+        "previous": 791.1
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-01-01",
+        "leads": 1,
+        "cpl": 4.58,
+        "impresiones": 147,
+        "clics": 7,
+        "inversion": 4.58
+      },
+      {
+        "date": "2026-01-02",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 619,
+        "clics": 62,
+        "inversion": 49.48
+      },
+      {
+        "date": "2026-01-03",
+        "leads": 1,
+        "cpl": 30.93,
+        "impresiones": 468,
+        "clics": 37,
+        "inversion": 30.93
+      },
+      {
+        "date": "2026-01-04",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 520,
+        "clics": 38,
+        "inversion": 32.29
+      },
+      {
+        "date": "2026-01-05",
+        "leads": 3,
+        "cpl": 9.27,
+        "impresiones": 347,
+        "clics": 35,
+        "inversion": 27.81
+      },
+      {
+        "date": "2026-01-06",
+        "leads": 1,
+        "cpl": 27.34,
+        "impresiones": 379,
+        "clics": 37,
+        "inversion": 27.34
+      },
+      {
+        "date": "2026-01-07",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 324,
+        "clics": 30,
+        "inversion": 27.5
+      },
+      {
+        "date": "2026-01-08",
+        "leads": 4,
+        "cpl": 7.45,
+        "impresiones": 558,
+        "clics": 36,
+        "inversion": 29.79
+      },
+      {
+        "date": "2026-01-09",
+        "leads": 1,
+        "cpl": 29.67,
+        "impresiones": 404,
+        "clics": 33,
+        "inversion": 29.67
+      },
+      {
+        "date": "2026-01-10",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 217,
+        "clics": 28,
+        "inversion": 27.96
+      },
+      {
+        "date": "2026-01-11",
+        "leads": 2,
+        "cpl": 16.06,
+        "impresiones": 335,
+        "clics": 45,
+        "inversion": 32.12
+      },
+      {
+        "date": "2026-01-12",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 235,
+        "clics": 32,
+        "inversion": 24.96
+      },
+      {
+        "date": "2026-01-13",
+        "leads": 3,
+        "cpl": 9.35,
+        "impresiones": 216,
+        "clics": 32,
+        "inversion": 28.04
+      },
+      {
+        "date": "2026-01-14",
+        "leads": 1,
+        "cpl": 22.46,
+        "impresiones": 262,
+        "clics": 34,
+        "inversion": 22.46
+      },
+      {
+        "date": "2026-01-15",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 391,
+        "clics": 42,
+        "inversion": 29.44
+      },
+      {
+        "date": "2026-01-16",
+        "leads": 2,
+        "cpl": 11.25,
+        "impresiones": 241,
+        "clics": 29,
+        "inversion": 22.49
+      },
+      {
+        "date": "2026-01-17",
+        "leads": 3,
+        "cpl": 8.62,
+        "impresiones": 268,
+        "clics": 37,
+        "inversion": 25.87
+      },
+      {
+        "date": "2026-01-18",
+        "leads": 4,
+        "cpl": 7.25,
+        "impresiones": 422,
+        "clics": 47,
+        "inversion": 29.0
+      },
+      {
+        "date": "2026-01-19",
+        "leads": 6,
+        "cpl": 6.02,
+        "impresiones": 376,
+        "clics": 46,
+        "inversion": 36.12
+      },
+      {
+        "date": "2026-01-20",
+        "leads": 3,
+        "cpl": 10.46,
+        "impresiones": 365,
+        "clics": 48,
+        "inversion": 31.38
+      },
+      {
+        "date": "2026-01-21",
+        "leads": 2,
+        "cpl": 15.04,
+        "impresiones": 285,
+        "clics": 48,
+        "inversion": 30.07
+      },
+      {
+        "date": "2026-01-22",
+        "leads": 3,
+        "cpl": 8.06,
+        "impresiones": 232,
+        "clics": 30,
+        "inversion": 24.19
+      },
+      {
+        "date": "2026-01-23",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 258,
+        "clics": 26,
+        "inversion": 13.68
+      },
+      {
+        "date": "2026-01-24",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 206,
+        "clics": 40,
+        "inversion": 22.94
+      },
+      {
+        "date": "2026-01-25",
+        "leads": 3,
+        "cpl": 6.98,
+        "impresiones": 306,
+        "clics": 33,
+        "inversion": 20.95
+      },
+      {
+        "date": "2026-01-26",
+        "leads": 1,
+        "cpl": 39.55,
+        "impresiones": 510,
+        "clics": 50,
+        "inversion": 39.55
+      },
+      {
+        "date": "2026-01-27",
+        "leads": 3,
+        "cpl": 9.72,
+        "impresiones": 230,
+        "clics": 37,
+        "inversion": 29.16
+      },
+      {
+        "date": "2026-01-28",
+        "leads": 1,
+        "cpl": 25.5,
+        "impresiones": 198,
+        "clics": 35,
+        "inversion": 25.5
+      },
+      {
+        "date": "2026-01-29",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 404,
+        "clics": 53,
+        "inversion": 32.39
+      },
+      {
+        "date": "2026-01-30",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 238,
+        "clics": 27,
+        "inversion": 16.66
+      },
+      {
+        "date": "2026-01-31",
+        "leads": 4,
+        "cpl": 3.96,
+        "impresiones": 143,
+        "clics": 26,
+        "inversion": 15.85
+      }
+    ],
+    "demographics": {
+      "gender": [
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 7
+        },
+        {
+          "label": "11",
+          "leads": 10
+        },
+        {
+          "label": "20",
+          "leads": 3
+        },
+        {
+          "label": "10",
+          "leads": 3
+        },
+        {
+          "label": "11",
+          "leads": 20
+        },
+        {
+          "label": "20",
+          "leads": 3
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 1
+        },
+        {
+          "label": "11",
+          "leads": 2
+        },
+        {
+          "label": "20",
+          "leads": 3
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        }
+      ],
+      "age": []
+    },
+    "campaigns": [
+      {
+        "name": "GADS-BUSQ-COLIVING-Y-APARTAMENTOS-ES",
+        "impresiones": 9547,
+        "clics": 887,
+        "ctr": 9.29,
+        "cpc": 0.78,
+        "leads": 47,
+        "cpl": 14.65,
+        "inversion": 688.34
+      },
+      {
+        "name": "GADS-BUSQ-BRAND-ES",
+        "impresiones": 557,
+        "clics": 253,
+        "ctr": 45.42,
+        "cpc": 0.6,
+        "leads": 6,
+        "cpl": 25.3,
+        "inversion": 151.83
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "coliving",
+        "impresiones": 2463,
+        "clics": 227,
+        "ctr": 9.22,
+        "cpc": 0.87,
+        "leads": 18,
+        "cpl": 10.95,
+        "inversion": 197.15
+      },
+      {
+        "keyword": "habitaciones en alquiler madrid",
+        "impresiones": 1546,
+        "clics": 135,
+        "ctr": 8.73,
+        "cpc": 0.75,
+        "leads": 7,
+        "cpl": 14.49,
+        "inversion": 101.44
+      },
+      {
+        "keyword": "coliving madrid",
+        "impresiones": 1115,
+        "clics": 135,
+        "ctr": 12.11,
+        "cpc": 0.86,
+        "leads": 2,
+        "cpl": 58.27,
+        "inversion": 116.54
+      },
+      {
+        "keyword": "apartamentos en madrid",
+        "impresiones": 1056,
+        "clics": 98,
+        "ctr": 9.28,
+        "cpc": 0.72,
+        "leads": 4,
+        "cpl": 17.76,
+        "inversion": 71.05
+      },
+      {
+        "keyword": "apartamentos madrid centro",
+        "impresiones": 880,
+        "clics": 95,
+        "ctr": 10.8,
+        "cpc": 0.67,
+        "leads": 7,
+        "cpl": 9.07,
+        "inversion": 63.47
+      },
+      {
+        "keyword": "madrid coliving",
+        "impresiones": 846,
+        "clics": 68,
+        "ctr": 8.04,
+        "cpc": 0.74,
+        "leads": 4,
+        "cpl": 12.6,
+        "inversion": 50.4
+      },
+      {
+        "keyword": "alquiler apartamentos",
+        "impresiones": 511,
+        "clics": 36,
+        "ctr": 7.05,
+        "cpc": 0.69,
+        "leads": 2,
+        "cpl": 12.35,
+        "inversion": 24.69
+      },
+      {
+        "keyword": "trees coliving",
+        "impresiones": 475,
+        "clics": 207,
+        "ctr": 43.58,
+        "cpc": 0.57,
+        "leads": 4,
+        "cpl": 29.24,
+        "inversion": 116.96
+      },
+      {
+        "keyword": "kanso coliving",
+        "impresiones": 226,
+        "clics": 16,
+        "ctr": 7.08,
+        "cpc": 0.58,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 9.28
+      },
+      {
+        "keyword": "alquiler de apartamento",
+        "impresiones": 156,
+        "clics": 4,
+        "ctr": 2.56,
+        "cpc": 0.55,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.21
+      },
+      {
+        "keyword": "apartamentos coliving madrid",
+        "impresiones": 135,
+        "clics": 12,
+        "ctr": 8.89,
+        "cpc": 0.63,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 7.62
+      },
+      {
+        "keyword": "coliving madrid precios",
+        "impresiones": 133,
+        "clics": 11,
+        "ctr": 8.27,
+        "cpc": 0.74,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 8.11
+      },
+      {
+        "keyword": "colivings en madrid",
+        "impresiones": 130,
+        "clics": 13,
+        "ctr": 10.0,
+        "cpc": 0.81,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 10.52
+      },
+      {
+        "keyword": "trees coliving madrid",
+        "impresiones": 82,
+        "clics": 46,
+        "ctr": 56.1,
+        "cpc": 0.76,
+        "leads": 2,
+        "cpl": 17.43,
+        "inversion": 34.87
+      },
+      {
+        "keyword": "mejores coliving madrid",
+        "impresiones": 74,
+        "clics": 7,
+        "ctr": 9.46,
+        "cpc": 0.72,
+        "leads": 1,
+        "cpl": 5.02,
+        "inversion": 5.02
+      },
+      {
+        "keyword": "flex living madrid",
+        "impresiones": 66,
+        "clics": 6,
+        "ctr": 9.09,
+        "cpc": 0.45,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.67
+      },
+      {
+        "keyword": "alquiler apartamentos madrid",
+        "impresiones": 63,
+        "clics": 1,
+        "ctr": 1.59,
+        "cpc": 0.22,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.22
+      },
+      {
+        "keyword": "coliving madrid adultos",
+        "impresiones": 53,
+        "clics": 11,
+        "ctr": 20.75,
+        "cpc": 0.67,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 7.33
+      },
+      {
+        "keyword": "alquiler coliving madrid",
+        "impresiones": 41,
+        "clics": 4,
+        "ctr": 9.76,
+        "cpc": 1.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 3.99
+      },
+      {
+        "keyword": "coliving madrid centro",
+        "impresiones": 31,
+        "clics": 6,
+        "ctr": 19.35,
+        "cpc": 0.9,
+        "leads": 1,
+        "cpl": 5.37,
+        "inversion": 5.37
+      },
+      {
+        "keyword": "coliving madrid profesionales",
+        "impresiones": 16,
+        "clics": 1,
+        "ctr": 6.25,
+        "cpc": 0.26,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.26
+      },
+      {
+        "keyword": "alquiler de apartamentos en madrid",
+        "impresiones": 5,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      }
+    ],
+    "monthly_history": [
+      {
+        "month": "2025-01-01",
+        "impresiones": 30291,
+        "clics": 2172,
+        "ctr": 7.17,
+        "cpc": 0.22,
+        "leads": 82,
+        "cpl": 5.92,
+        "inversion": 485.03
+      },
+      {
+        "month": "2025-02-01",
+        "impresiones": 23712,
+        "clics": 1496,
+        "ctr": 6.31,
+        "cpc": 0.46,
+        "leads": 96,
+        "cpl": 7.11,
+        "inversion": 682.2
+      },
+      {
+        "month": "2025-03-01",
+        "impresiones": 31907,
+        "clics": 1854,
+        "ctr": 5.81,
+        "cpc": 0.58,
+        "leads": 122,
+        "cpl": 8.81,
+        "inversion": 1074.85
+      },
+      {
+        "month": "2025-04-01",
+        "impresiones": 26006,
+        "clics": 1678,
+        "ctr": 6.45,
+        "cpc": 0.65,
+        "leads": 84,
+        "cpl": 13.06,
+        "inversion": 1097.35
+      },
+      {
+        "month": "2025-05-01",
+        "impresiones": 32287,
+        "clics": 1904,
+        "ctr": 5.9,
+        "cpc": 0.67,
+        "leads": 76,
+        "cpl": 16.88,
+        "inversion": 1282.58
+      },
+      {
+        "month": "2025-06-01",
+        "impresiones": 25326,
+        "clics": 1260,
+        "ctr": 4.98,
+        "cpc": 0.59,
+        "leads": 46,
+        "cpl": 16.18,
+        "inversion": 744.17
+      },
+      {
+        "month": "2025-07-01",
+        "impresiones": 13050,
+        "clics": 893,
+        "ctr": 6.84,
+        "cpc": 0.68,
+        "leads": 55,
+        "cpl": 11.08,
+        "inversion": 609.24
+      },
+      {
+        "month": "2025-08-01",
+        "impresiones": 8911,
+        "clics": 831,
+        "ctr": 9.33,
+        "cpc": 0.73,
+        "leads": 73,
+        "cpl": 8.35,
+        "inversion": 609.67
+      },
+      {
+        "month": "2025-09-01",
+        "impresiones": 11795,
+        "clics": 975,
+        "ctr": 8.27,
+        "cpc": 0.68,
+        "leads": 64,
+        "cpl": 10.31,
+        "inversion": 659.86
+      },
+      {
+        "month": "2025-10-01",
+        "impresiones": 11132,
+        "clics": 904,
+        "ctr": 8.12,
+        "cpc": 0.71,
+        "leads": 60,
+        "cpl": 10.77,
+        "inversion": 646.21
+      },
+      {
+        "month": "2025-11-01",
+        "impresiones": 9079,
+        "clics": 898,
+        "ctr": 9.89,
+        "cpc": 0.78,
+        "leads": 43,
+        "cpl": 16.25,
+        "inversion": 698.93
+      },
+      {
+        "month": "2025-12-01",
+        "impresiones": 9775,
+        "clics": 925,
+        "ctr": 9.46,
+        "cpc": 0.86,
+        "leads": 49,
+        "cpl": 16.14,
+        "inversion": 791.1
+      },
+      {
+        "month": "2026-01-01",
+        "impresiones": 10104,
+        "clics": 1140,
+        "ctr": 11.28,
+        "cpc": 0.74,
+        "leads": 54,
+        "cpl": 15.56,
+        "inversion": 840.16
+      }
+    ]
+  },
+  "meta_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 66736,
+        "previous": 47901
+      },
+      "clics": {
+        "value": 4055,
+        "previous": 2781
+      },
+      "ctr": {
+        "value": 6.08,
+        "previous": 5.81
+      },
+      "cpc": {
+        "value": 0.12,
+        "previous": 0.18
+      },
+      "leads": {
+        "value": 150,
+        "previous": 152
+      },
+      "cpl": {
+        "value": 3.29,
+        "previous": 3.29
+      },
+      "inversion": {
+        "value": 493.56,
+        "previous": 499.48
+      },
+      "alcance": {
+        "value": 25108,
+        "previous": 17462
+      }
+    },
+    "daily": [
+      {
+        "date": "2026-01-01",
+        "leads": 6,
+        "cpl": 3.02,
+        "impresiones": 2662,
+        "clics": 137,
+        "inversion": 18.14
+      },
+      {
+        "date": "2026-01-02",
+        "leads": 4,
+        "cpl": 3.45,
+        "impresiones": 2103,
+        "clics": 100,
+        "inversion": 13.81
+      },
+      {
+        "date": "2026-01-03",
+        "leads": 2,
+        "cpl": 7.42,
+        "impresiones": 2230,
+        "clics": 93,
+        "inversion": 14.84
+      },
+      {
+        "date": "2026-01-04",
+        "leads": 4,
+        "cpl": 4.6,
+        "impresiones": 2542,
+        "clics": 143,
+        "inversion": 18.4
+      },
+      {
+        "date": "2026-01-05",
+        "leads": 2,
+        "cpl": 8.3,
+        "impresiones": 2237,
+        "clics": 125,
+        "inversion": 16.61
+      },
+      {
+        "date": "2026-01-06",
+        "leads": 8,
+        "cpl": 2.01,
+        "impresiones": 2200,
+        "clics": 128,
+        "inversion": 16.05
+      },
+      {
+        "date": "2026-01-07",
+        "leads": 10,
+        "cpl": 1.52,
+        "impresiones": 1959,
+        "clics": 107,
+        "inversion": 15.25
+      },
+      {
+        "date": "2026-01-08",
+        "leads": 2,
+        "cpl": 7.92,
+        "impresiones": 1930,
+        "clics": 133,
+        "inversion": 15.85
+      },
+      {
+        "date": "2026-01-09",
+        "leads": 2,
+        "cpl": 6.92,
+        "impresiones": 1581,
+        "clics": 117,
+        "inversion": 13.85
+      },
+      {
+        "date": "2026-01-10",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 2191,
+        "clics": 133,
+        "inversion": 15.83
+      },
+      {
+        "date": "2026-01-11",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 2453,
+        "clics": 157,
+        "inversion": 19.3
+      },
+      {
+        "date": "2026-01-12",
+        "leads": 6,
+        "cpl": 2.73,
+        "impresiones": 2028,
+        "clics": 134,
+        "inversion": 16.4
+      },
+      {
+        "date": "2026-01-13",
+        "leads": 6,
+        "cpl": 2.82,
+        "impresiones": 1741,
+        "clics": 91,
+        "inversion": 16.9
+      },
+      {
+        "date": "2026-01-14",
+        "leads": 4,
+        "cpl": 3.76,
+        "impresiones": 1833,
+        "clics": 135,
+        "inversion": 15.05
+      },
+      {
+        "date": "2026-01-15",
+        "leads": 6,
+        "cpl": 2.5,
+        "impresiones": 1981,
+        "clics": 115,
+        "inversion": 15.01
+      },
+      {
+        "date": "2026-01-16",
+        "leads": 2,
+        "cpl": 7.24,
+        "impresiones": 1511,
+        "clics": 85,
+        "inversion": 14.48
+      },
+      {
+        "date": "2026-01-17",
+        "leads": 8,
+        "cpl": 1.82,
+        "impresiones": 1832,
+        "clics": 133,
+        "inversion": 14.53
+      },
+      {
+        "date": "2026-01-18",
+        "leads": 8,
+        "cpl": 2.34,
+        "impresiones": 2198,
+        "clics": 168,
+        "inversion": 18.71
+      },
+      {
+        "date": "2026-01-19",
+        "leads": 10,
+        "cpl": 1.61,
+        "impresiones": 2224,
+        "clics": 127,
+        "inversion": 16.1
+      },
+      {
+        "date": "2026-01-20",
+        "leads": 2,
+        "cpl": 8.72,
+        "impresiones": 2764,
+        "clics": 125,
+        "inversion": 17.44
+      },
+      {
+        "date": "2026-01-21",
+        "leads": 8,
+        "cpl": 1.86,
+        "impresiones": 1958,
+        "clics": 131,
+        "inversion": 14.9
+      },
+      {
+        "date": "2026-01-22",
+        "leads": 4,
+        "cpl": 3.86,
+        "impresiones": 2401,
+        "clics": 160,
+        "inversion": 15.44
+      },
+      {
+        "date": "2026-01-23",
+        "leads": 2,
+        "cpl": 7.19,
+        "impresiones": 1934,
+        "clics": 112,
+        "inversion": 14.38
+      },
+      {
+        "date": "2026-01-24",
+        "leads": 2,
+        "cpl": 7.42,
+        "impresiones": 2449,
+        "clics": 134,
+        "inversion": 14.84
+      },
+      {
+        "date": "2026-01-25",
+        "leads": 8,
+        "cpl": 2.29,
+        "impresiones": 2778,
+        "clics": 191,
+        "inversion": 18.31
+      },
+      {
+        "date": "2026-01-26",
+        "leads": 6,
+        "cpl": 2.98,
+        "impresiones": 2620,
+        "clics": 143,
+        "inversion": 17.89
+      },
+      {
+        "date": "2026-01-27",
+        "leads": 16,
+        "cpl": 0.98,
+        "impresiones": 2057,
+        "clics": 132,
+        "inversion": 15.65
+      },
+      {
+        "date": "2026-01-28",
+        "leads": 4,
+        "cpl": 4.02,
+        "impresiones": 2152,
+        "clics": 172,
+        "inversion": 16.07
+      },
+      {
+        "date": "2026-01-29",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 1803,
+        "clics": 120,
+        "inversion": 13.82
+      },
+      {
+        "date": "2026-01-30",
+        "leads": 4,
+        "cpl": 3.83,
+        "impresiones": 2100,
+        "clics": 150,
+        "inversion": 15.34
+      },
+      {
+        "date": "2026-01-31",
+        "leads": 4,
+        "cpl": 3.59,
+        "impresiones": 2284,
+        "clics": 124,
+        "inversion": 14.37
+      }
+    ],
+    "campaigns": [
+      {
+        "name": "Trees_LeadGen_España - Prospecting - Galerías",
+        "impresiones": 17655,
+        "clics": 1047,
+        "ctr": 5.930331,
+        "cpc": 0.117545,
+        "leads": 38,
+        "cpl": 3.24,
+        "inversion": 123.07,
+        "alcance": 10097
+      },
+      {
+        "name": "Trees_LeadGen_España - Prospecting Advantage",
+        "impresiones": 49081,
+        "clics": 3008,
+        "ctr": 6.128644,
+        "cpc": 0.123168,
+        "leads": 112,
+        "cpl": 3.31,
+        "inversion": 370.49,
+        "alcance": 20960
+      }
+    ],
+    "campaigns_by_platform": [
+      {
+        "campaign": "Trees_LeadGen_España - Prospecting - Galerías",
+        "platform": "Facebook",
+        "impresiones": 5383,
+        "clics": 475,
+        "ctr": 8.82,
+        "cpc": 0.07,
+        "leads": 12,
+        "cpl": 2.84,
+        "inversion": 34.03
+      },
+      {
+        "campaign": "Trees_LeadGen_España - Prospecting - Galerías",
+        "platform": "Instagram",
+        "impresiones": 12253,
+        "clics": 567,
+        "ctr": 4.63,
+        "cpc": 0.16,
+        "leads": 26,
+        "cpl": 3.42,
+        "inversion": 88.96
+      },
+      {
+        "campaign": "Trees_LeadGen_España - Prospecting Advantage",
+        "platform": "Facebook",
+        "impresiones": 14295,
+        "clics": 1243,
+        "ctr": 8.7,
+        "cpc": 0.08,
+        "leads": 42,
+        "cpl": 2.44,
+        "inversion": 102.34
+      },
+      {
+        "campaign": "Trees_LeadGen_España - Prospecting Advantage",
+        "platform": "Instagram",
+        "impresiones": 34586,
+        "clics": 1729,
+        "ctr": 5.0,
+        "cpc": 0.15,
+        "leads": 70,
+        "cpl": 3.8,
+        "inversion": 266.33
+      }
+    ],
+    "creatives": [
+      {
+        "name": "Reel 2 - Galerías",
+        "ad_id": "120233356876250524",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/649748830_939757501837114_7025849193821656748_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=CKo7O72KAvcQ7kNvwGL_wT5&_nc_oc=Adrt56RW0Sh4BXKodXXAef9mCSoQ41vwmWy6C3vqJrp-ctIquuYzCHDgSr0p9pCYSag&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=CnpDntazIzH6RAD4ZyfFSA&_nc_tpa=Q5bMBQG2Tecg4mp4BgJnlJfYCyRrvHv9SYWGEs5NVeTlvz9wvVCOZtWlvIEjyd-U_bYbzJMGkHn970m_7A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0ZGcq91UW2kTpHC1YSxwAOj7i5MmdvtAXDP2m_dK4mow&oe=69D29C98",
+        "impresiones": 4994,
+        "clics": 339,
+        "ctr": 6.788146,
+        "leads": 14,
+        "cpl": 2.73,
+        "inversion": 38.17
+      },
+      {
+        "name": "Reel 1 - Galerías",
+        "ad_id": "120233356876310524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/649602188_26075154742135233_6025741269965580397_n.jpg?_nc_cat=102&ccb=1-7&_nc_ohc=xQ-0iNPBs6QQ7kNvwFPp2SD&_nc_oc=AdqC2was4_Xq8rsCmkTKFdxjPNG3virNtCdszMd8AL1w90jNbXefIFaxJ4G4HqJYeWY&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YdM58i5ZCijG8aXZW4Esgg&_nc_tpa=Q5bMBQGf-bLuE14_xQnoYYJ7ree8RbUKkR13r9bZFZ16uHPhoMamCKvcJCSstlIpNRdjyCt0HPq_oZixRg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0R-ZfHuOACHJrlIufCrqQ53Ohv_xj0l5T7EGYS1mfy1w&oe=69D2AAF5",
+        "impresiones": 12565,
+        "clics": 698,
+        "ctr": 5.555113,
+        "leads": 24,
+        "cpl": 3.49,
+        "inversion": 83.77
+      },
+      {
+        "name": "Reel sep 25 - Galerías",
+        "ad_id": "120233391042580524",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/651241633_2183538299128073_6130125000314033840_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=WB2LSGLOIKsQ7kNvwEjATP8&_nc_oc=AdoJJE8Euy0PaMeivJMmYob5Q2eqOLFayLQKKE-cw89o3AK-eUEswtNg7RqXix-4z9Q&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=VC6H8JjAt5gurihMpd9xUg&_nc_tpa=Q5bMBQFHYjc7LGTj4UWCnRSY-DNdVqvZCWCGt_ywBPsRFUDjqcWsakLTZcF0QLiEGguSmi8nCRskbjnzjw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1jOSdLnmOiKNCi31k8UiKjyJn-Bg3PTJDPKmpMNmeG8w&oe=69D2C4F3",
+        "impresiones": 75,
+        "clics": 9,
+        "ctr": 12.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.06
+      },
+      {
+        "name": "Carrusel sep 25 - Galerías",
+        "ad_id": "120233391186330524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHrchEg&_nc_oc=Adpc0Rz5H27NCNosCpi_NIHXZUVEGoFUgSbLUZGR5Up4q6_XBGs_vR0XoptVQvo2n4s&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=jXcyCsctgsvP9xx2c_qSOQ&_nc_tpa=Q5bMBQHua4wSIpdkMu_uROVRCV4UJ2ScmuJaB7HVIIuKiSo3md1Hss7eaD7tWwttbpcrBajZRqwOEZWnsQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af15yejw4BZPqopLEL-aEYizEIA7-LsZr7cCm1mgBfHzWA&oe=69D2A4CA",
+        "impresiones": 4,
+        "clics": 0,
+        "ctr": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "name": "Reel sept 25 - Galerías",
+        "ad_id": "120237142414710524",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/639608149_2321503658261944_6325963494289220674_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=FtIsHedhdvgQ7kNvwGBZGvf&_nc_oc=AdoWoAyCL0o27XNmERARisfhtgXf9-fxqm1b9ywk8D0joqhAzD8TilTBiK_nPmluhec&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=13hoxBLA8bfuzx-lVQajmw&_nc_tpa=Q5bMBQGqCBjXnzzyyTuDNznJToJPv0vnMW5oIjvli8ppSteFqABrgZouHW9yWHd6Lz_d3a776doyOMxrlw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0o4DXFq8P25NjxhKtic0S5RzVtp02f9yhVKD7RzV4Pyg&oe=69D29A02",
+        "impresiones": 36,
+        "clics": 5,
+        "ctr": 13.888889,
+        "leads": 4,
+        "cpl": 0.16,
+        "inversion": 0.64
+      },
+      {
+        "name": "Carrusel sep 25 - Galerías",
+        "ad_id": "120237142414720524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHrchEg&_nc_oc=Adpc0Rz5H27NCNosCpi_NIHXZUVEGoFUgSbLUZGR5Up4q6_XBGs_vR0XoptVQvo2n4s&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=_zlOUgp2iqjLM_lkizMOSw&_nc_tpa=Q5bMBQFCPzeq3RWiHJ6wfxuGcDe4E7xiXLBaCN3-SfbduoLV8bg2vwg8yyAjUs8KleZ3Wx55wZlUfYsZjQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af36s-HcQeBFofHVTfLe1O0fQKH9qyJ0lyJ-K9o3NGsLgg&oe=69D2A4CA",
+        "impresiones": 68,
+        "clics": 10,
+        "ctr": 14.705882,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.78
+      },
+      {
+        "name": "Reel 2 - Galerías",
+        "ad_id": "120237142414730524",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/650173994_1729780011328938_2425083094950844032_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=c5gB1okjBG8Q7kNvwHAlbq-&_nc_oc=AdppVQwT4rGLDkOX1N0ohdRyg9vN3gfb_qCtqnaFO0RzSAYKAnk85jGYAjVMTyDglPI&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=vIiIbSgHACqh4PwgQ5dXqA&_nc_tpa=Q5bMBQG_-A1jGm5ydPvqdnyGAi4okXoogN0YS1Nwdg8jkNphrswDXElpfLwAEOl2GrAfZRhgUgNaHvsNLg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af16PBMgPaOLvC8m81xBAt_j6FF0kv3CZauHilFVLjWNnQ&oe=69D293A0",
+        "impresiones": 25912,
+        "clics": 1613,
+        "ctr": 6.224915,
+        "leads": 54,
+        "cpl": 3.62,
+        "inversion": 195.53
+      },
+      {
+        "name": "Reel 1 - Galerías",
+        "ad_id": "120237142414740524",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/651244024_1627388521916467_5795218656243493196_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=uFnp68OA640Q7kNvwG41tfP&_nc_oc=AdqjNx3l2NCh43aTTue9ppY46zblym1wmmKhp2ZU_NEZZzD5vxOeL4rM2m9j9qJTSM8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=xFjPrRHwbZnWchPSygQz2g&_nc_tpa=Q5bMBQENSew3h5DMJlc_kvrlxAFP86vVf4jR-vkFf3rRXzjjKC9m-ICX3qUtuZAPfwoaIHeuSCPBG6JbAg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3WPAKdJbRQmWSxFhBhshEjaAgzIOGh7JBUPgT9KZt2yg&oe=69D2BDEF",
+        "impresiones": 4956,
+        "clics": 293,
+        "ctr": 5.912026,
+        "leads": 10,
+        "cpl": 3.63,
+        "inversion": 36.29
+      },
+      {
+        "name": "Reel sept25 - Chueca",
+        "ad_id": "120237142765830524",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/650451214_937695975338658_126412499006863826_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=s4e69VG2Zp0Q7kNvwEdYUsQ&_nc_oc=AdpyAmG__GIjz1Fwy333Kdu4xJimksZisC_QrB7Wd3woCNrDvqihUrFHGqbJfZK1GfM&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=-837INMXuiqXAaUoJnd2Ug&_nc_tpa=Q5bMBQFWv2EFC5sIJqS3T5VMcYzzTbCTMOjM3bUmHK_4OWHVGpei88PWoKVnclA7m7AsiyjTyz3MSVeeig&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1Njc5e4g6baGDK45f6QJZ1fYeNO5ozRIbEImuup4WMGQ&oe=69D29B45",
+        "impresiones": 27,
+        "clics": 3,
+        "ctr": 11.111111,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.64
+      },
+      {
+        "name": "Reel 2 - Chueca",
+        "ad_id": "120237142782490524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/650161396_978969157799377_8679319691643856962_n.jpg?_nc_cat=109&ccb=1-7&_nc_ohc=cWTUL88a9pcQ7kNvwH9lKdS&_nc_oc=Adr-xFjHkPVEvZoiMBeU3tFsuqeo4hTw1hK-mW_Wpfo6ZVQt9zAG2_06WgwR-pFkr0Q&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=tIgZvdTsWpZQGzC9T3vXNg&_nc_tpa=Q5bMBQF-tRNZqPViYdiMrRJ5cqORY8cxwKmFud9j0iPgbdDHf-GAB9ZqI8QsBqNyXu25sF3dUc3hvll7dw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1-zq10EjoW7pgSGnm5Oze_ehCA69XOukRrexZRUFnL1Q&oe=69D2998C",
+        "impresiones": 743,
+        "clics": 44,
+        "ctr": 5.921938,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 5.3
+      },
+      {
+        "name": "Reel 1 - Chueca",
+        "ad_id": "120237142782500524",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/650167584_1673693763804384_2754576296426434329_n.jpg?_nc_cat=101&ccb=1-7&_nc_ohc=ntVL_jcA7iMQ7kNvwFBk-9x&_nc_oc=Ado0Qbew7KJXWc4f5JaZxefXpQ3EQEKwHq2cNq57aymIMDU8eauX453pZBVV35H3JCE&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=p5e3OMF_ozR13965gniyPw&_nc_tpa=Q5bMBQEiN-WiImArKN6LH4Yw7lU0EPKMbWfrZZ1M69ZQCpbVMQ8T22CaGGgSBL0iQumFcu8qUr-fPdUNOw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af23eSYUDgfiqmVi-tYzlb4PYN-_8fVOCjxlwt_TgmFm4g&oe=69D2CADA",
+        "impresiones": 1454,
+        "clics": 92,
+        "ctr": 6.327373,
+        "leads": 6,
+        "cpl": 1.71,
+        "inversion": 10.26
+      },
+      {
+        "name": "Carrusel sep 25 - Chueca",
+        "ad_id": "120237142782510524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHrchEg&_nc_oc=Adpc0Rz5H27NCNosCpi_NIHXZUVEGoFUgSbLUZGR5Up4q6_XBGs_vR0XoptVQvo2n4s&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=Z1kAEh61LqESToNKtnKl7g&_nc_tpa=Q5bMBQG4wMkzLdfylRvmH3Iyd_yjWhP14qbuglIgqG1GG7Fr_izwluwdLFOpOC0S6Do99QML2QBFPQFf5g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af37lu48JlRa9USwCO9rD8PDtBW2OvnR0YJtTNQUvAh3Nw&oe=69D2A4CA",
+        "impresiones": 47,
+        "clics": 2,
+        "ctr": 4.255319,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.74
+      },
+      {
+        "name": "Reel sept25 - Matadero",
+        "ad_id": "120237142809970524",
+        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/651238385_1282115163779103_8215898203789694664_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=R-P1vFF3zkUQ7kNvwE0ygcp&_nc_oc=AdpV34-fIiWLpaHn4CcuWxa4eUD9tCU0YANC4kI4tpAxol_mTpDcI1ner0NJU0mQBYs&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=KD8stVFUCinN2pdemEhZ8g&_nc_tpa=Q5bMBQHbXAxoW8rjQ9RcDeQ315K4josmerWn0zLIDxjgFh3IRIm7Fl8N7djl8jLcz4kX8JJJuvzXqzDEWw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0Bz5aat6ytOgiE8vgKgXq8sb-keayxrOgCdA4ivMtRoQ&oe=69D29A9C",
+        "impresiones": 42,
+        "clics": 1,
+        "ctr": 2.380952,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.61
+      },
+      {
+        "name": "Reel 2 - Matadero",
+        "ad_id": "120237142809980524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t15.5256-10/650403356_1503740377978295_527400710403907573_n.jpg?_nc_cat=100&ccb=1-7&_nc_ohc=70GMcwQT25AQ7kNvwHF_eyP&_nc_oc=Ado5kGGoOecIt793otC4B7YmO10ct6kyF3g4OaNJ5EoQSKefHBKozHDL-q8CxuinT7Q&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=Jphsp3dqKN3hv4yVqc6SMA&_nc_tpa=Q5bMBQGSImt0Dy-7Rmd6GW7MkZj72rhZgfybTlQ0P8DaWatj-FNMuvyVSDgyt_06l9KvtKGMLGnm8Ntr7Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3vVarpEcFTIZZyx4WQBfqre23Y7y9CYK9fvdu5kom2LQ&oe=69D29CA2",
+        "impresiones": 5409,
+        "clics": 262,
+        "ctr": 4.843779,
+        "leads": 12,
+        "cpl": 3.51,
+        "inversion": 42.1
+      },
+      {
+        "name": "Reel 1 - Matadero",
+        "ad_id": "120237142809990524",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/649696304_955172257046947_7682272055292055320_n.jpg?_nc_cat=111&ccb=1-7&_nc_ohc=t6DtPltS8a0Q7kNvwHugySi&_nc_oc=AdrPqFhrGIUGqYPukjiALe06A_tbywgNmX2icut1JEN8gZ6_Yp3-2PYK5rtTSupAD9E&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=CChCnGaeJq3rJ2fADCfXyQ&_nc_tpa=Q5bMBQFyUKVlmeeonaTy6Motq8PACOmv0s4Lcw4Zb7P9FqvmgxUfJRZFZliXg5FMj0exGCFBUPxyEZh20g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1AS3spcG8KV2ZQifUGibCf4wSdZgnHCkJX644r1ybWbg&oe=69D2B315",
+        "impresiones": 10271,
+        "clics": 665,
+        "ctr": 6.47454,
+        "leads": 26,
+        "cpl": 2.91,
+        "inversion": 75.72
+      },
+      {
+        "name": "Carrusel sept 25 - Matadero",
+        "ad_id": "120237142810000524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/548902479_795605433418822_1679253884362873064_n.jpg?_nc_cat=106&ccb=1-7&_nc_ohc=qhrnaycV8BMQ7kNvwHrchEg&_nc_oc=Adpc0Rz5H27NCNosCpi_NIHXZUVEGoFUgSbLUZGR5Up4q6_XBGs_vR0XoptVQvo2n4s&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=5MIR_Gd0tsATKgZ9IRJrrA&_nc_tpa=Q5bMBQEbrVKCvUZrdlGx7DoZcsBcKsyd1mdBtU8Ifcg9acuIoKEnDFef0caJg8DiyF4YfCKXN4LxKnzgqA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af2mcy9d3yAjMwpy4wdDAXSi-s-yT6K_mgkihWI3nvzqVQ&oe=69D2A4CA",
+        "impresiones": 57,
+        "clics": 11,
+        "ctr": 19.298246,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.66
+      },
+      {
+        "name": "Carrusel ene 26 - Galerías",
+        "ad_id": "120239669160680524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/614639272_895060053473359_3134127519263470310_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=BsPs-5jwaN0Q7kNvwHBGm6F&_nc_oc=AdrC92oqczVXnYE7OF2QkcsebW0mlLA5fluq0FzVkyTTqdw11oAQidlqT_1usWGssmo&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=wFjmnGLDlhqRgVcXm-9_ZA&_nc_tpa=Q5bMBQFFLDsn0JtlRDfaoy4Ec0Iuj98tS3_-tFM0ndOMHVFcrlZprbvmtr5dswNM0UAiLOhJA-t0dey_dg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af2AF61FbRoL7LUASREU755RGZg8nqMj4SPh-XPlmb8Xeg&oe=69D2A918",
+        "impresiones": 17,
+        "clics": 1,
+        "ctr": 5.882353,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.07
+      },
+      {
+        "name": "Carrusel enero 26 - Galerías",
+        "ad_id": "120239669214160524",
+        "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t45.1600-4/614639272_895060053473359_3134127519263470310_n.png?_nc_cat=107&ccb=1-7&_nc_ohc=BsPs-5jwaN0Q7kNvwHBGm6F&_nc_oc=AdrC92oqczVXnYE7OF2QkcsebW0mlLA5fluq0FzVkyTTqdw11oAQidlqT_1usWGssmo&_nc_zt=1&_nc_ht=scontent-iad6-1.xx&edm=AAwGEdEEAAAA&_nc_gid=skeqsQ6ZvHzPs0fMHBWL-w&_nc_tpa=Q5bMBQHqGdAdMtsMn7-Kkkbkh-kMppvs9tTfdRhyqvC5xAI18dTftsUL0yHDwuttuaGwBhlnH2YplcxYYQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af2alrgx_W1f0hE-34JPDDQd52ri-6j4HRAToYm-qEWbJw&oe=69D2A918",
+        "impresiones": 33,
+        "clics": 3,
+        "ctr": 9.090909,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.74
+      },
+      {
+        "name": "Carrusel enero 26 - Matadero",
+        "ad_id": "120239669223580524",
+        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t45.1600-4/616558203_895077840138247_3338405979299086246_n.png?_nc_cat=105&ccb=1-7&_nc_ohc=WFSH1Q8h9iAQ7kNvwHJpoPj&_nc_oc=Adq7SCYS9PcDAwHiRCb_eJSuDE5xSnOZmuHf3AFWaRLwpLLFSp7ZMWgHXE5OPidKMQ0&_nc_zt=1&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=j8HR3TQ5BZvbopEPA9_Frg&_nc_tpa=Q5bMBQEIBodhy38eb04-kshi6u1CW6l1KZTNnxe-VM55g8sav_YOLokXGn7FDw2ZbKjdp3iTKqQBxgcZ0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af0BwP08mcm-sS5xXna6be7ws6oDk7aVoA4OQaXwSmN-yA&oe=69D2A253",
+        "impresiones": 9,
+        "clics": 1,
+        "ctr": 11.111111,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.37
+      },
+      {
+        "name": "Carrusel ene 26 - Chueca",
+        "ad_id": "120239669258910524",
+        "image_url": "https://external-iad6-1.xx.fbcdn.net/emg1/v/t13/2524833106208400107?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI3DUUei_sqCm2JvvQlHW0JtP321HXfMS8zqiW1jdFQh9CkQ5OCGNfI2ODtX4hGJj9HygkoM10w5RwMyh56djmXte98uaz9JwlW6nZtxKsTE-0SgG4SzOjEaaF-3zLsPr0t6fRAlM3SN3gct9-1FQh5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=TbEs6S-HtMhu4R0jOtf4GA&_nc_oc=AdqtX6ZvIi4uMg7UKNARYnAuLtrj1pXDseoNJuqACvfFY-UPRrzqkTjWRwGcMRMhHOw&ccb=13-1&oh=06_Q3-9AcZipDvaoKeTn8F3ayCVbYHKEQ2b4koq25ismwKXEvEl&oe=69CEAEAC&_nc_sid=58080a",
+        "impresiones": 17,
+        "clics": 3,
+        "ctr": 17.647059,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.11
+      }
+    ],
+    "monthly_history": [
+      {
+        "month": "2025-02",
+        "impresiones": 24136,
+        "clics": 1009,
+        "ctr": 4.180477,
+        "cpc": 0.129732,
+        "leads": 106,
+        "cpl": 1.23,
+        "inversion": 130.9,
+        "alcance": 11765
+      },
+      {
+        "month": "2025-03",
+        "impresiones": 59884,
+        "clics": 2023,
+        "ctr": 3.378198,
+        "cpc": 0.15392,
+        "leads": 188,
+        "cpl": 1.66,
+        "inversion": 311.38,
+        "alcance": 27290
+      },
+      {
+        "month": "2025-04",
+        "impresiones": 80877,
+        "clics": 2174,
+        "ctr": 2.688032,
+        "cpc": 0.147751,
+        "leads": 182,
+        "cpl": 1.76,
+        "inversion": 321.21,
+        "alcance": 42466
+      },
+      {
+        "month": "2025-05",
+        "impresiones": 149925,
+        "clics": 2898,
+        "ctr": 1.932966,
+        "cpc": 0.170466,
+        "leads": 170,
+        "cpl": 2.91,
+        "inversion": 494.01,
+        "alcance": 70677
+      },
+      {
+        "month": "2025-06",
+        "impresiones": 159978,
+        "clics": 2820,
+        "ctr": 1.762742,
+        "cpc": 0.207507,
+        "leads": 156,
+        "cpl": 3.75,
+        "inversion": 585.17,
+        "alcance": 79101
+      },
+      {
+        "month": "2025-07",
+        "impresiones": 182515,
+        "clics": 3245,
+        "ctr": 1.777936,
+        "cpc": 0.183482,
+        "leads": 200,
+        "cpl": 2.98,
+        "inversion": 595.4,
+        "alcance": 90549
+      },
+      {
+        "month": "2025-08",
+        "impresiones": 187371,
+        "clics": 3109,
+        "ctr": 1.659275,
+        "cpc": 0.192625,
+        "leads": 212,
+        "cpl": 2.82,
+        "inversion": 598.87,
+        "alcance": 72689
+      },
+      {
+        "month": "2025-09",
+        "impresiones": 107482,
+        "clics": 2245,
+        "ctr": 2.088722,
+        "cpc": 0.230254,
+        "leads": 182,
+        "cpl": 2.84,
+        "inversion": 516.92,
+        "alcance": 48052
+      },
+      {
+        "month": "2025-10",
+        "impresiones": 47878,
+        "clics": 1709,
+        "ctr": 3.569489,
+        "cpc": 0.336238,
+        "leads": 120,
+        "cpl": 4.79,
+        "inversion": 574.63,
+        "alcance": 19185
+      },
+      {
+        "month": "2025-11",
+        "impresiones": 40514,
+        "clics": 1958,
+        "ctr": 4.832897,
+        "cpc": 0.265301,
+        "leads": 130,
+        "cpl": 4.0,
+        "inversion": 519.46,
+        "alcance": 16221
+      },
+      {
+        "month": "2025-12",
+        "impresiones": 47901,
+        "clics": 2781,
+        "ctr": 5.805724,
+        "cpc": 0.179604,
+        "leads": 152,
+        "cpl": 3.29,
+        "inversion": 499.48,
+        "alcance": 17462
+      },
+      {
+        "month": "2026-01",
+        "impresiones": 66736,
+        "clics": 4055,
+        "ctr": 6.076181,
+        "cpc": 0.121716,
+        "leads": 150,
+        "cpl": 3.29,
+        "inversion": 493.56,
+        "alcance": 25108
+      }
+    ]
+  },
+  "hubspot": {
+    "leads_valid_monthly": [
+      {
+        "month": "2024-10",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2024-11",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2024-12",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-01",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-02",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-03",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-04",
+        "lista_espera": 0,
+        "firmado": 2,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-05",
+        "lista_espera": 0,
+        "firmado": 10,
+        "sin_disponibilidad": 1
+      },
+      {
+        "month": "2025-06",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-07",
+        "lista_espera": 0,
+        "firmado": 1,
+        "sin_disponibilidad": 0
+      },
+      {
+        "month": "2025-08",
+        "lista_espera": 0,
+        "firmado": 3,
+        "sin_disponibilidad": 70
+      },
+      {
+        "month": "2025-09",
+        "lista_espera": 1,
+        "firmado": 1,
+        "sin_disponibilidad": 140
+      },
+      {
+        "month": "2025-10",
+        "lista_espera": 0,
+        "firmado": 4,
+        "sin_disponibilidad": 83
+      },
+      {
+        "month": "2025-11",
+        "lista_espera": 3,
+        "firmado": 5,
+        "sin_disponibilidad": 49
+      },
+      {
+        "month": "2025-12",
+        "lista_espera": 8,
+        "firmado": 3,
+        "sin_disponibilidad": 70
+      },
+      {
+        "month": "2026-01",
+        "lista_espera": 9,
+        "firmado": 6,
+        "sin_disponibilidad": 80
+      },
+      {
+        "month": "2026-02",
+        "lista_espera": 16,
+        "firmado": 5,
+        "sin_disponibilidad": 88
+      },
+      {
+        "month": "2026-03",
+        "lista_espera": 10,
+        "firmado": 2,
+        "sin_disponibilidad": 38
+      }
+    ],
+    "interesados_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 0
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 0
+      },
+      {
+        "month": "2025-09",
+        "count": 0
+      },
+      {
+        "month": "2025-10",
+        "count": 0
+      },
+      {
+        "month": "2025-11",
+        "count": 0
+      },
+      {
+        "month": "2025-12",
+        "count": 0
+      },
+      {
+        "month": "2026-01",
+        "count": 0
+      },
+      {
+        "month": "2026-02",
+        "count": 0
+      },
+      {
+        "month": "2026-03",
+        "count": 3
+      }
+    ],
+    "lista_espera_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 0
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 0
+      },
+      {
+        "month": "2025-09",
+        "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 0
+      },
+      {
+        "month": "2025-11",
+        "count": 3
+      },
+      {
+        "month": "2025-12",
+        "count": 8
+      },
+      {
+        "month": "2026-01",
+        "count": 9
+      },
+      {
+        "month": "2026-02",
+        "count": 16
+      },
+      {
+        "month": "2026-03",
+        "count": 10
+      }
+    ],
+    "firmados_history": [
+      {
+        "month": "2024-10",
+        "count": 1
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 3
+      },
+      {
+        "month": "2025-01",
+        "count": 3
+      },
+      {
+        "month": "2025-02",
+        "count": 2
+      },
+      {
+        "month": "2025-03",
+        "count": 2
+      },
+      {
+        "month": "2025-04",
+        "count": 2
+      },
+      {
+        "month": "2025-05",
+        "count": 10
+      },
+      {
+        "month": "2025-06",
+        "count": 1
+      },
+      {
+        "month": "2025-07",
+        "count": 1
+      },
+      {
+        "month": "2025-08",
+        "count": 3
+      },
+      {
+        "month": "2025-09",
+        "count": 1
+      },
+      {
+        "month": "2025-10",
+        "count": 4
+      },
+      {
+        "month": "2025-11",
+        "count": 5
+      },
+      {
+        "month": "2025-12",
+        "count": 3
+      },
+      {
+        "month": "2026-01",
+        "count": 6
+      },
+      {
+        "month": "2026-02",
+        "count": 5
+      },
+      {
+        "month": "2026-03",
+        "count": 2
+      }
+    ],
+    "sin_disponibilidad_history": [
+      {
+        "month": "2024-10",
+        "count": 0
+      },
+      {
+        "month": "2024-11",
+        "count": 0
+      },
+      {
+        "month": "2024-12",
+        "count": 0
+      },
+      {
+        "month": "2025-01",
+        "count": 0
+      },
+      {
+        "month": "2025-02",
+        "count": 0
+      },
+      {
+        "month": "2025-03",
+        "count": 0
+      },
+      {
+        "month": "2025-04",
+        "count": 0
+      },
+      {
+        "month": "2025-05",
+        "count": 1
+      },
+      {
+        "month": "2025-06",
+        "count": 0
+      },
+      {
+        "month": "2025-07",
+        "count": 0
+      },
+      {
+        "month": "2025-08",
+        "count": 70
+      },
+      {
+        "month": "2025-09",
+        "count": 140
+      },
+      {
+        "month": "2025-10",
+        "count": 83
+      },
+      {
+        "month": "2025-11",
+        "count": 49
+      },
+      {
+        "month": "2025-12",
+        "count": 70
+      },
+      {
+        "month": "2026-01",
+        "count": 80
+      },
+      {
+        "month": "2026-02",
+        "count": 88
+      },
+      {
+        "month": "2026-03",
+        "count": 38
+      }
+    ],
+    "descartados_history": [
+      {
+        "month": "2024-10",
+        "count": 9
+      },
+      {
+        "month": "2024-11",
+        "count": 34
+      },
+      {
+        "month": "2024-12",
+        "count": 62
+      },
+      {
+        "month": "2025-01",
+        "count": 123
+      },
+      {
+        "month": "2025-02",
+        "count": 179
+      },
+      {
+        "month": "2025-03",
+        "count": 242
+      },
+      {
+        "month": "2025-04",
+        "count": 193
+      },
+      {
+        "month": "2025-05",
+        "count": 195
+      },
+      {
+        "month": "2025-06",
+        "count": 159
+      },
+      {
+        "month": "2025-07",
+        "count": 176
+      },
+      {
+        "month": "2025-08",
+        "count": 157
+      },
+      {
+        "month": "2025-09",
+        "count": 55
+      },
+      {
+        "month": "2025-10",
+        "count": 53
+      },
+      {
+        "month": "2025-11",
+        "count": 82
+      },
+      {
+        "month": "2025-12",
+        "count": 49
+      },
+      {
+        "month": "2026-01",
+        "count": 65
+      },
+      {
+        "month": "2026-02",
+        "count": 35
+      },
+      {
+        "month": "2026-03",
+        "count": 33
+      }
+    ],
+    "leads_by_source": [
+      {
+        "source": "DIRECT_TRAFFIC",
+        "lista_espera": 1,
+        "firmado": 4,
+        "sin_disponibilidad": 31
+      },
+      {
+        "source": "ORGANIC_SEARCH",
+        "lista_espera": 1,
+        "firmado": 0,
+        "sin_disponibilidad": 2
+      },
+      {
+        "source": "PAID_SEARCH",
+        "lista_espera": 1,
+        "firmado": 2,
+        "sin_disponibilidad": 15
+      },
+      {
+        "source": "PAID_SOCIAL",
+        "lista_espera": 6,
+        "firmado": 0,
+        "sin_disponibilidad": 31
+      },
+      {
+        "source": "SOCIAL_MEDIA",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 1
+      },
+      {
+        "source": "Unknown",
+        "lista_espera": 0,
+        "firmado": 0,
+        "sin_disponibilidad": 0
+      }
+    ]
+  }
+}

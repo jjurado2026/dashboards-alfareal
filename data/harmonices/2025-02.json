@@ -1,0 +1,2051 @@
+{
+  "meta": {
+    "clientId": "harmonices",
+    "clientName": "Harmonices",
+    "month": "2025-02",
+    "generatedAt": "2026-04-01T08:46:02.588758Z",
+    "dateRange": {
+      "from": "2025-02-01",
+      "to": "2025-02-28"
+    }
+  },
+  "google_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 33266,
+        "previous": 48651
+      },
+      "clics": {
+        "value": 3302,
+        "previous": 5500
+      },
+      "ctr": {
+        "value": 9.93,
+        "previous": 11.31
+      },
+      "cpc": {
+        "value": 0.34,
+        "previous": 0.18
+      },
+      "leads": {
+        "value": 34,
+        "previous": 28
+      },
+      "cpl": {
+        "value": 32.65,
+        "previous": 35.47
+      },
+      "inversion": {
+        "value": 1109.94,
+        "previous": 993.03
+      }
+    },
+    "daily": [
+      {
+        "date": "2025-02-01",
+        "leads": 1,
+        "cpl": 41.84,
+        "impresiones": 2871,
+        "clics": 183,
+        "inversion": 41.84
+      },
+      {
+        "date": "2025-02-02",
+        "leads": 5,
+        "cpl": 9.22,
+        "impresiones": 1154,
+        "clics": 165,
+        "inversion": 46.08
+      },
+      {
+        "date": "2025-02-03",
+        "leads": 1,
+        "cpl": 50.86,
+        "impresiones": 1251,
+        "clics": 169,
+        "inversion": 50.86
+      },
+      {
+        "date": "2025-02-04",
+        "leads": 2,
+        "cpl": 16.76,
+        "impresiones": 1046,
+        "clics": 136,
+        "inversion": 33.52
+      },
+      {
+        "date": "2025-02-05",
+        "leads": 1,
+        "cpl": 19.36,
+        "impresiones": 785,
+        "clics": 83,
+        "inversion": 19.36
+      },
+      {
+        "date": "2025-02-06",
+        "leads": 2,
+        "cpl": 11.67,
+        "impresiones": 801,
+        "clics": 86,
+        "inversion": 23.34
+      },
+      {
+        "date": "2025-02-07",
+        "leads": 1,
+        "cpl": 35.58,
+        "impresiones": 1385,
+        "clics": 128,
+        "inversion": 35.58
+      },
+      {
+        "date": "2025-02-08",
+        "leads": 1,
+        "cpl": 58.58,
+        "impresiones": 1552,
+        "clics": 172,
+        "inversion": 58.58
+      },
+      {
+        "date": "2025-02-09",
+        "leads": 1,
+        "cpl": 63.03,
+        "impresiones": 1586,
+        "clics": 167,
+        "inversion": 63.03
+      },
+      {
+        "date": "2025-02-10",
+        "leads": 1,
+        "cpl": 49.2,
+        "impresiones": 5390,
+        "clics": 128,
+        "inversion": 49.2
+      },
+      {
+        "date": "2025-02-11",
+        "leads": 4,
+        "cpl": 8.57,
+        "impresiones": 946,
+        "clics": 106,
+        "inversion": 34.27
+      },
+      {
+        "date": "2025-02-12",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 988,
+        "clics": 108,
+        "inversion": 32.06
+      },
+      {
+        "date": "2025-02-13",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 1001,
+        "clics": 105,
+        "inversion": 46.35
+      },
+      {
+        "date": "2025-02-14",
+        "leads": 1,
+        "cpl": 40.97,
+        "impresiones": 771,
+        "clics": 99,
+        "inversion": 40.97
+      },
+      {
+        "date": "2025-02-15",
+        "leads": 1,
+        "cpl": 30.86,
+        "impresiones": 855,
+        "clics": 103,
+        "inversion": 30.86
+      },
+      {
+        "date": "2025-02-16",
+        "leads": 3,
+        "cpl": 16.59,
+        "impresiones": 1108,
+        "clics": 140,
+        "inversion": 49.78
+      },
+      {
+        "date": "2025-02-17",
+        "leads": 2,
+        "cpl": 17.37,
+        "impresiones": 783,
+        "clics": 105,
+        "inversion": 34.73
+      },
+      {
+        "date": "2025-02-18",
+        "leads": 1,
+        "cpl": 44.12,
+        "impresiones": 915,
+        "clics": 109,
+        "inversion": 44.12
+      },
+      {
+        "date": "2025-02-19",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 847,
+        "clics": 106,
+        "inversion": 39.41
+      },
+      {
+        "date": "2025-02-20",
+        "leads": 1,
+        "cpl": 37.42,
+        "impresiones": 645,
+        "clics": 91,
+        "inversion": 37.42
+      },
+      {
+        "date": "2025-02-21",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 730,
+        "clics": 79,
+        "inversion": 33.9
+      },
+      {
+        "date": "2025-02-22",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 973,
+        "clics": 123,
+        "inversion": 46.28
+      },
+      {
+        "date": "2025-02-23",
+        "leads": 2,
+        "cpl": 22.36,
+        "impresiones": 957,
+        "clics": 129,
+        "inversion": 44.71
+      },
+      {
+        "date": "2025-02-24",
+        "leads": 2,
+        "cpl": 16.9,
+        "impresiones": 735,
+        "clics": 97,
+        "inversion": 33.81
+      },
+      {
+        "date": "2025-02-25",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 759,
+        "clics": 94,
+        "inversion": 26.87
+      },
+      {
+        "date": "2025-02-26",
+        "leads": 1,
+        "cpl": 47.93,
+        "impresiones": 1020,
+        "clics": 127,
+        "inversion": 47.93
+      },
+      {
+        "date": "2025-02-27",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 826,
+        "clics": 105,
+        "inversion": 39.32
+      },
+      {
+        "date": "2025-02-28",
+        "leads": 0,
+        "cpl": 0.0,
+        "impresiones": 586,
+        "clics": 59,
+        "inversion": 25.77
+      }
+    ],
+    "demographics": {
+      "gender": [
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 1
+        },
+        {
+          "label": "20",
+          "leads": 1
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 3
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 2
+        },
+        {
+          "label": "11",
+          "leads": 4
+        },
+        {
+          "label": "20",
+          "leads": 7
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        },
+        {
+          "label": "10",
+          "leads": 0
+        },
+        {
+          "label": "11",
+          "leads": 0
+        },
+        {
+          "label": "20",
+          "leads": 0
+        }
+      ],
+      "age": []
+    },
+    "campaigns": [
+      {
+        "name": "BUSQ-COLIVING-COHOUSING",
+        "impresiones": 6072,
+        "clics": 791,
+        "ctr": 13.03,
+        "cpc": 0.35,
+        "leads": 5,
+        "cpl": 55.77,
+        "inversion": 278.83
+      },
+      {
+        "name": "PMAX-HARMONICES-COLIVING",
+        "impresiones": 18777,
+        "clics": 1389,
+        "ctr": 7.4,
+        "cpc": 0.33,
+        "leads": 16,
+        "cpl": 28.61,
+        "inversion": 457.71
+      },
+      {
+        "name": "BUSQ-APARTAMENTOS-VIVIENDAS",
+        "impresiones": 8417,
+        "clics": 1122,
+        "ctr": 13.33,
+        "cpc": 0.33,
+        "leads": 13,
+        "cpl": 28.72,
+        "inversion": 373.4
+      }
+    ],
+    "keywords": [
+      {
+        "keyword": "apartamentos para personas mayores",
+        "impresiones": 4169,
+        "clics": 562,
+        "ctr": 13.48,
+        "cpc": 0.32,
+        "leads": 6,
+        "cpl": 29.62,
+        "inversion": 177.74
+      },
+      {
+        "keyword": "cohousing",
+        "impresiones": 814,
+        "clics": 127,
+        "ctr": 15.6,
+        "cpc": 0.3,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 38.35
+      },
+      {
+        "keyword": "senior living madrid",
+        "impresiones": 746,
+        "clics": 71,
+        "ctr": 9.52,
+        "cpc": 0.46,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 32.68
+      },
+      {
+        "keyword": "viviendas para personas mayores",
+        "impresiones": 582,
+        "clics": 53,
+        "ctr": 9.11,
+        "cpc": 0.4,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 20.96
+      },
+      {
+        "keyword": "senior housing",
+        "impresiones": 575,
+        "clics": 49,
+        "ctr": 8.52,
+        "cpc": 0.32,
+        "leads": 2,
+        "cpl": 7.85,
+        "inversion": 15.69
+      },
+      {
+        "keyword": "cooperativas de viviendas para personas mayores",
+        "impresiones": 493,
+        "clics": 67,
+        "ctr": 13.59,
+        "cpc": 0.28,
+        "leads": 2,
+        "cpl": 9.38,
+        "inversion": 18.75
+      },
+      {
+        "keyword": "coliving senior",
+        "impresiones": 477,
+        "clics": 62,
+        "ctr": 13.0,
+        "cpc": 0.37,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 23.24
+      },
+      {
+        "keyword": "co living madrid",
+        "impresiones": 456,
+        "clics": 66,
+        "ctr": 14.47,
+        "cpc": 0.45,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 29.97
+      },
+      {
+        "keyword": "senior cohousing",
+        "impresiones": 370,
+        "clics": 43,
+        "ctr": 11.62,
+        "cpc": 0.31,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 13.31
+      },
+      {
+        "keyword": "apartamentos tutelados para mayores precios",
+        "impresiones": 311,
+        "clics": 36,
+        "ctr": 11.58,
+        "cpc": 0.28,
+        "leads": 1,
+        "cpl": 10.11,
+        "inversion": 10.11
+      },
+      {
+        "keyword": "viviendas para mayores de 65 años",
+        "impresiones": 310,
+        "clics": 40,
+        "ctr": 12.9,
+        "cpc": 0.31,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 12.2
+      },
+      {
+        "keyword": "apartamentos tutelados para mayores en madrid precios",
+        "impresiones": 304,
+        "clics": 53,
+        "ctr": 17.43,
+        "cpc": 0.34,
+        "leads": 1,
+        "cpl": 18.14,
+        "inversion": 18.14
+      },
+      {
+        "keyword": "senior living en españa",
+        "impresiones": 296,
+        "clics": 27,
+        "ctr": 9.12,
+        "cpc": 0.38,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 10.39
+      },
+      {
+        "keyword": "cohousing para mayores",
+        "impresiones": 294,
+        "clics": 41,
+        "ctr": 13.95,
+        "cpc": 0.33,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 13.36
+      },
+      {
+        "keyword": "cohousing madrid",
+        "impresiones": 284,
+        "clics": 46,
+        "ctr": 16.2,
+        "cpc": 0.27,
+        "leads": 1,
+        "cpl": 12.23,
+        "inversion": 12.23
+      },
+      {
+        "keyword": "apartamentos para personas mayores de 65 años",
+        "impresiones": 267,
+        "clics": 31,
+        "ctr": 11.61,
+        "cpc": 0.32,
+        "leads": 1,
+        "cpl": 9.89,
+        "inversion": 9.89
+      },
+      {
+        "keyword": "cohousing senior madrid",
+        "impresiones": 242,
+        "clics": 44,
+        "ctr": 18.18,
+        "cpc": 0.42,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 18.53
+      },
+      {
+        "keyword": "retirement home",
+        "impresiones": 200,
+        "clics": 17,
+        "ctr": 8.5,
+        "cpc": 0.3,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 5.09
+      },
+      {
+        "keyword": "cohousing senior madrid precios",
+        "impresiones": 185,
+        "clics": 39,
+        "ctr": 21.08,
+        "cpc": 0.31,
+        "leads": 1,
+        "cpl": 12.24,
+        "inversion": 12.24
+      },
+      {
+        "keyword": "complejos residenciales para mayores 55 años madrid",
+        "impresiones": 165,
+        "clics": 26,
+        "ctr": 15.76,
+        "cpc": 0.4,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 10.35
+      },
+      {
+        "keyword": "complejos residenciales para mayores 55 años",
+        "impresiones": 161,
+        "clics": 19,
+        "ctr": 11.8,
+        "cpc": 0.29,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 5.44
+      },
+      {
+        "keyword": "apartamentos para personas mayores de 55 años",
+        "impresiones": 160,
+        "clics": 21,
+        "ctr": 13.12,
+        "cpc": 0.39,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 8.25
+      },
+      {
+        "keyword": "apartamentos para mayores",
+        "impresiones": 147,
+        "clics": 21,
+        "ctr": 14.29,
+        "cpc": 0.21,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 4.34
+      },
+      {
+        "keyword": "care homes near me",
+        "impresiones": 145,
+        "clics": 7,
+        "ctr": 4.83,
+        "cpc": 0.49,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 3.43
+      },
+      {
+        "keyword": "viviendas para mayores de 60 años",
+        "impresiones": 143,
+        "clics": 9,
+        "ctr": 6.29,
+        "cpc": 0.32,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.84
+      },
+      {
+        "keyword": "apartamentos para mayores madrid",
+        "impresiones": 142,
+        "clics": 20,
+        "ctr": 14.08,
+        "cpc": 0.4,
+        "leads": 1,
+        "cpl": 8.04,
+        "inversion": 8.04
+      },
+      {
+        "keyword": "residencias con apartamentos para mayores",
+        "impresiones": 132,
+        "clics": 16,
+        "ctr": 12.12,
+        "cpc": 0.38,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 6.1
+      },
+      {
+        "keyword": "senior living madrid precios",
+        "impresiones": 129,
+        "clics": 33,
+        "ctr": 25.58,
+        "cpc": 0.37,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 12.11
+      },
+      {
+        "keyword": "apartamentos para mayores de 60 años en madrid",
+        "impresiones": 129,
+        "clics": 27,
+        "ctr": 20.93,
+        "cpc": 0.39,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 10.56
+      },
+      {
+        "keyword": "apartamentos para mayores de 65 años",
+        "impresiones": 110,
+        "clics": 14,
+        "ctr": 12.73,
+        "cpc": 0.63,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 8.75
+      },
+      {
+        "keyword": "senior care home",
+        "impresiones": 107,
+        "clics": 12,
+        "ctr": 11.21,
+        "cpc": 0.45,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 5.41
+      },
+      {
+        "keyword": "coliving para mayores",
+        "impresiones": 105,
+        "clics": 16,
+        "ctr": 15.24,
+        "cpc": 0.35,
+        "leads": 1,
+        "cpl": 5.53,
+        "inversion": 5.53
+      },
+      {
+        "keyword": "viviendas para mayores de 65 años madrid",
+        "impresiones": 96,
+        "clics": 21,
+        "ctr": 21.88,
+        "cpc": 0.34,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 7.07
+      },
+      {
+        "keyword": "residencias de lujo para mayores en madrid",
+        "impresiones": 93,
+        "clics": 18,
+        "ctr": 19.35,
+        "cpc": 0.47,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 8.41
+      },
+      {
+        "keyword": "cohousing senior en españa",
+        "impresiones": 81,
+        "clics": 9,
+        "ctr": 11.11,
+        "cpc": 0.38,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 3.46
+      },
+      {
+        "keyword": "casas compartidas para mayores",
+        "impresiones": 73,
+        "clics": 8,
+        "ctr": 10.96,
+        "cpc": 0.3,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.37
+      },
+      {
+        "keyword": "apartamentos senior",
+        "impresiones": 67,
+        "clics": 2,
+        "ctr": 2.99,
+        "cpc": 0.06,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.11
+      },
+      {
+        "keyword": "senior assisted living",
+        "impresiones": 65,
+        "clics": 1,
+        "ctr": 1.54,
+        "cpc": 1.33,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.33
+      },
+      {
+        "keyword": "senior living precio",
+        "impresiones": 56,
+        "clics": 2,
+        "ctr": 3.57,
+        "cpc": 0.42,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.84
+      },
+      {
+        "keyword": "coliving madrid adultos",
+        "impresiones": 55,
+        "clics": 8,
+        "ctr": 14.55,
+        "cpc": 0.36,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.87
+      },
+      {
+        "keyword": "coliving senior madrid",
+        "impresiones": 52,
+        "clics": 19,
+        "ctr": 36.54,
+        "cpc": 0.33,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 6.18
+      },
+      {
+        "keyword": "casas compartidas para mayores",
+        "impresiones": 52,
+        "clics": 6,
+        "ctr": 11.54,
+        "cpc": 0.42,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.49
+      },
+      {
+        "keyword": "apartamentos tutelados precios",
+        "impresiones": 50,
+        "clics": 6,
+        "ctr": 12.0,
+        "cpc": 0.8,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 4.78
+      },
+      {
+        "keyword": "apartamentos para mayores precios",
+        "impresiones": 47,
+        "clics": 5,
+        "ctr": 10.64,
+        "cpc": 0.32,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.59
+      },
+      {
+        "keyword": "cohousing mayores",
+        "impresiones": 45,
+        "clics": 7,
+        "ctr": 15.56,
+        "cpc": 0.18,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.28
+      },
+      {
+        "keyword": "apartamentos asistidos para mayores",
+        "impresiones": 45,
+        "clics": 8,
+        "ctr": 17.78,
+        "cpc": 0.34,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 2.7
+      },
+      {
+        "keyword": "residencias de lujo para ancianos",
+        "impresiones": 37,
+        "clics": 6,
+        "ctr": 16.22,
+        "cpc": 0.28,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.67
+      },
+      {
+        "keyword": "coliving senior españa",
+        "impresiones": 35,
+        "clics": 4,
+        "ctr": 11.43,
+        "cpc": 0.45,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.78
+      },
+      {
+        "keyword": "cooperativa de viviendas para jubilados",
+        "impresiones": 32,
+        "clics": 5,
+        "ctr": 15.62,
+        "cpc": 0.11,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.55
+      },
+      {
+        "keyword": "senior home",
+        "impresiones": 30,
+        "clics": 3,
+        "ctr": 10.0,
+        "cpc": 0.22,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.67
+      },
+      {
+        "keyword": "viviendas para jubilados españa",
+        "impresiones": 30,
+        "clics": 2,
+        "ctr": 6.67,
+        "cpc": 0.14,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.28
+      },
+      {
+        "keyword": "apartamentos para mayores de 55 años",
+        "impresiones": 29,
+        "clics": 5,
+        "ctr": 17.24,
+        "cpc": 0.35,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.73
+      },
+      {
+        "keyword": "apartamentos mayores madrid",
+        "impresiones": 26,
+        "clics": 8,
+        "ctr": 30.77,
+        "cpc": 0.49,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 3.91
+      },
+      {
+        "keyword": "senior coliving",
+        "impresiones": 25,
+        "clics": 2,
+        "ctr": 8.0,
+        "cpc": 0.32,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.64
+      },
+      {
+        "keyword": "cohousing senior españa",
+        "impresiones": 21,
+        "clics": 3,
+        "ctr": 14.29,
+        "cpc": 0.31,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.94
+      },
+      {
+        "keyword": "apartamentos para mayores comunidad de madrid",
+        "impresiones": 20,
+        "clics": 3,
+        "ctr": 15.0,
+        "cpc": 0.14,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.43
+      },
+      {
+        "keyword": "apartamentos para mayores en madrid",
+        "impresiones": 19,
+        "clics": 3,
+        "ctr": 15.79,
+        "cpc": 0.45,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.34
+      },
+      {
+        "keyword": "coliving mayores",
+        "impresiones": 18,
+        "clics": 3,
+        "ctr": 16.67,
+        "cpc": 0.3,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.9
+      },
+      {
+        "keyword": "residencia de mayores de lujo",
+        "impresiones": 15,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "coliving para jubilados",
+        "impresiones": 12,
+        "clics": 3,
+        "ctr": 25.0,
+        "cpc": 0.19,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.57
+      },
+      {
+        "keyword": "residencias de lujo para mayores",
+        "impresiones": 12,
+        "clics": 3,
+        "ctr": 25.0,
+        "cpc": 0.35,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 1.05
+      },
+      {
+        "keyword": "senior cohousing en españa",
+        "impresiones": 11,
+        "clics": 2,
+        "ctr": 18.18,
+        "cpc": 0.28,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.55
+      },
+      {
+        "keyword": "coliving madrid mayores",
+        "impresiones": 11,
+        "clics": 4,
+        "ctr": 36.36,
+        "cpc": 0.22,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.89
+      },
+      {
+        "keyword": "residencias para adultos mayores en spain",
+        "impresiones": 11,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "cohousing sierra de madrid",
+        "impresiones": 9,
+        "clics": 2,
+        "ctr": 22.22,
+        "cpc": 0.22,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.44
+      },
+      {
+        "keyword": "apartamentos tutelados para mayores en madrid",
+        "impresiones": 8,
+        "clics": 1,
+        "ctr": 12.5,
+        "cpc": 0.58,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.58
+      },
+      {
+        "keyword": "apartamentos con servicios para mayores",
+        "impresiones": 8,
+        "clics": 3,
+        "ctr": 37.5,
+        "cpc": 0.3,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.89
+      },
+      {
+        "keyword": "viviendas compartidas para mayores",
+        "impresiones": 8,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "cohousing senior en madrid",
+        "impresiones": 7,
+        "clics": 4,
+        "ctr": 57.14,
+        "cpc": 0.17,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.69
+      },
+      {
+        "keyword": "apartamentos senior madrid",
+        "impresiones": 7,
+        "clics": 3,
+        "ctr": 42.86,
+        "cpc": 0.38,
+        "leads": 1,
+        "cpl": 1.15,
+        "inversion": 1.15
+      },
+      {
+        "keyword": "alquiler de pisos para personas mayores",
+        "impresiones": 5,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "senior living españa",
+        "impresiones": 4,
+        "clics": 2,
+        "ctr": 50.0,
+        "cpc": 0.17,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.33
+      },
+      {
+        "keyword": "apartamentos seniors",
+        "impresiones": 4,
+        "clics": 4,
+        "ctr": 100.0,
+        "cpc": 0.18,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.74
+      },
+      {
+        "keyword": "viviendas para mayores de 55 años",
+        "impresiones": 3,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "apartamentos senior living",
+        "impresiones": 2,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      },
+      {
+        "keyword": "coliving madrid idealista",
+        "impresiones": 2,
+        "clics": 0,
+        "ctr": 0.0,
+        "cpc": 0.0,
+        "leads": 0,
+        "cpl": 0.0,
+        "inversion": 0.0
+      }
+    ],
+    "monthly_history": [
+      {
+        "month": "2025-01-01",
+        "impresiones": 48651,
+        "clics": 5500,
+        "ctr": 11.31,
+        "cpc": 0.18,
+        "leads": 28,
+        "cpl": 35.47,
+        "inversion": 993.03
+      },
+      {
+        "month": "2025-02-01",
+        "impresiones": 33266,
+        "clics": 3302,
+        "ctr": 9.93,
+        "cpc": 0.34,
+        "leads": 34,
+        "cpl": 32.65,
+        "inversion": 1109.94
+      }
+    ]
+  },
+  "meta_ads": {
+    "kpis": {
+      "impresiones": {
+        "value": 0,
+        "previous": 0
+      },
+      "clics": {
+        "value": 0,
+        "previous": 0
+      },
+      "ctr": {
+        "value": 0.0,
+        "previous": 0.0
+      },
+      "cpc": {
+        "value": 0.0,
+        "previous": 0.0
+      },
+      "leads": {
+        "value": 0,
+        "previous": 0
+      },
+      "cpl": {
+        "value": 0.0,
+        "previous": 0.0
+      },
+      "inversion": {
+        "value": 0,
+        "previous": 0
+      },
+      "alcance": {
+        "value": 0,
+        "previous": 0
+      }
+    },
+    "daily": [],
+    "campaigns": [],
+    "campaigns_by_platform": [],
+    "creatives": [],
+    "monthly_history": []
+  },
+  "hubspot": {
+    "deals_current_month": {
+      "lead_entrante": 0,
+      "exploratorio": 0,
+      "interesado_futuro": 0,
+      "interesado_caliente": 0,
+      "reservado_pagado": 1,
+      "descartado": 63
+    },
+    "deals_stock_total": {
+      "lead_entrante": 103,
+      "exploratorio": 232,
+      "interesado_futuro": 93,
+      "interesado_caliente": 6,
+      "reservado_pagado": 15,
+      "descartado": 2909
+    },
+    "visitas_monthly": [],
+    "leads_valid_monthly": [
+      {
+        "month": "2023-12",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-01",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-02",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-03",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2024-04",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-05",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-06",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2024-07",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2024-08",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-09",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-10",
+        "interesado_futuro": 2,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2024-11",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2024-12",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2025-01",
+        "interesado_futuro": 2,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2025-02",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-03",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-04",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2025-05",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-06",
+        "interesado_futuro": 1,
+        "interesado_caliente": 0,
+        "reservado_pagado": 2
+      },
+      {
+        "month": "2025-07",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-08",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2025-09",
+        "interesado_futuro": 6,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-10",
+        "interesado_futuro": 3,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2025-11",
+        "interesado_futuro": 5,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2025-12",
+        "interesado_futuro": 10,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2026-01",
+        "interesado_futuro": 28,
+        "interesado_caliente": 1,
+        "reservado_pagado": 1
+      },
+      {
+        "month": "2026-02",
+        "interesado_futuro": 26,
+        "interesado_caliente": 5,
+        "reservado_pagado": 2
+      },
+      {
+        "month": "2026-03",
+        "interesado_futuro": 5,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "month": "2026-04",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      }
+    ],
+    "stage_history": {
+      "interesado_futuro": [
+        {
+          "month": "2023-12",
+          "count": 0
+        },
+        {
+          "month": "2024-01",
+          "count": 1
+        },
+        {
+          "month": "2024-02",
+          "count": 0
+        },
+        {
+          "month": "2024-03",
+          "count": 0
+        },
+        {
+          "month": "2024-04",
+          "count": 0
+        },
+        {
+          "month": "2024-05",
+          "count": 0
+        },
+        {
+          "month": "2024-06",
+          "count": 0
+        },
+        {
+          "month": "2024-07",
+          "count": 0
+        },
+        {
+          "month": "2024-08",
+          "count": 1
+        },
+        {
+          "month": "2024-09",
+          "count": 0
+        },
+        {
+          "month": "2024-10",
+          "count": 2
+        },
+        {
+          "month": "2024-11",
+          "count": 0
+        },
+        {
+          "month": "2024-12",
+          "count": 1
+        },
+        {
+          "month": "2025-01",
+          "count": 2
+        },
+        {
+          "month": "2025-02",
+          "count": 0
+        },
+        {
+          "month": "2025-03",
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "count": 0
+        },
+        {
+          "month": "2025-06",
+          "count": 1
+        },
+        {
+          "month": "2025-07",
+          "count": 0
+        },
+        {
+          "month": "2025-08",
+          "count": 0
+        },
+        {
+          "month": "2025-09",
+          "count": 6
+        },
+        {
+          "month": "2025-10",
+          "count": 3
+        },
+        {
+          "month": "2025-11",
+          "count": 5
+        },
+        {
+          "month": "2025-12",
+          "count": 10
+        },
+        {
+          "month": "2026-01",
+          "count": 28
+        },
+        {
+          "month": "2026-02",
+          "count": 26
+        },
+        {
+          "month": "2026-03",
+          "count": 5
+        },
+        {
+          "month": "2026-04",
+          "count": 0
+        }
+      ],
+      "interesado_caliente": [
+        {
+          "month": "2023-12",
+          "count": 0
+        },
+        {
+          "month": "2024-01",
+          "count": 0
+        },
+        {
+          "month": "2024-02",
+          "count": 0
+        },
+        {
+          "month": "2024-03",
+          "count": 0
+        },
+        {
+          "month": "2024-04",
+          "count": 0
+        },
+        {
+          "month": "2024-05",
+          "count": 0
+        },
+        {
+          "month": "2024-06",
+          "count": 0
+        },
+        {
+          "month": "2024-07",
+          "count": 0
+        },
+        {
+          "month": "2024-08",
+          "count": 0
+        },
+        {
+          "month": "2024-09",
+          "count": 0
+        },
+        {
+          "month": "2024-10",
+          "count": 0
+        },
+        {
+          "month": "2024-11",
+          "count": 0
+        },
+        {
+          "month": "2024-12",
+          "count": 0
+        },
+        {
+          "month": "2025-01",
+          "count": 0
+        },
+        {
+          "month": "2025-02",
+          "count": 0
+        },
+        {
+          "month": "2025-03",
+          "count": 0
+        },
+        {
+          "month": "2025-04",
+          "count": 0
+        },
+        {
+          "month": "2025-05",
+          "count": 0
+        },
+        {
+          "month": "2025-06",
+          "count": 0
+        },
+        {
+          "month": "2025-07",
+          "count": 0
+        },
+        {
+          "month": "2025-08",
+          "count": 0
+        },
+        {
+          "month": "2025-09",
+          "count": 0
+        },
+        {
+          "month": "2025-10",
+          "count": 0
+        },
+        {
+          "month": "2025-11",
+          "count": 0
+        },
+        {
+          "month": "2025-12",
+          "count": 0
+        },
+        {
+          "month": "2026-01",
+          "count": 1
+        },
+        {
+          "month": "2026-02",
+          "count": 5
+        },
+        {
+          "month": "2026-03",
+          "count": 0
+        },
+        {
+          "month": "2026-04",
+          "count": 0
+        }
+      ],
+      "reservado_pagado": [
+        {
+          "month": "2023-12",
+          "count": 0
+        },
+        {
+          "month": "2024-01",
+          "count": 0
+        },
+        {
+          "month": "2024-02",
+          "count": 0
+        },
+        {
+          "month": "2024-03",
+          "count": 1
+        },
+        {
+          "month": "2024-04",
+          "count": 0
+        },
+        {
+          "month": "2024-05",
+          "count": 0
+        },
+        {
+          "month": "2024-06",
+          "count": 1
+        },
+        {
+          "month": "2024-07",
+          "count": 1
+        },
+        {
+          "month": "2024-08",
+          "count": 0
+        },
+        {
+          "month": "2024-09",
+          "count": 0
+        },
+        {
+          "month": "2024-10",
+          "count": 0
+        },
+        {
+          "month": "2024-11",
+          "count": 1
+        },
+        {
+          "month": "2024-12",
+          "count": 0
+        },
+        {
+          "month": "2025-01",
+          "count": 0
+        },
+        {
+          "month": "2025-02",
+          "count": 1
+        },
+        {
+          "month": "2025-03",
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "count": 0
+        },
+        {
+          "month": "2025-05",
+          "count": 1
+        },
+        {
+          "month": "2025-06",
+          "count": 2
+        },
+        {
+          "month": "2025-07",
+          "count": 1
+        },
+        {
+          "month": "2025-08",
+          "count": 0
+        },
+        {
+          "month": "2025-09",
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "count": 1
+        },
+        {
+          "month": "2025-11",
+          "count": 0
+        },
+        {
+          "month": "2025-12",
+          "count": 0
+        },
+        {
+          "month": "2026-01",
+          "count": 1
+        },
+        {
+          "month": "2026-02",
+          "count": 2
+        },
+        {
+          "month": "2026-03",
+          "count": 0
+        },
+        {
+          "month": "2026-04",
+          "count": 0
+        }
+      ]
+    },
+    "leads_by_source": [
+      {
+        "source": "DIRECT_TRAFFIC",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "source": "OFFLINE",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 0
+      },
+      {
+        "source": "PAID_SEARCH",
+        "interesado_futuro": 0,
+        "interesado_caliente": 0,
+        "reservado_pagado": 1
+      }
+    ]
+  }
+}
