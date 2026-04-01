@@ -64,8 +64,8 @@
 
     .nav-card-icon { width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; transition: transform 0.25s ease; }
     .nav-card:hover .nav-card-icon { transform: scale(1.1); }
-    .nav-card-icon svg { width: 48px; height: 48px; }
-    .nav-card-icon img { height: 48px; width: auto; }
+    .nav-card-icon svg,
+    .nav-card-icon img { width: 48px; height: 48px; object-fit: contain; }
     .nav-card-title { font-size: 1.1rem; font-weight: 700; }
     .nav-card-desc { font-size: 0.82rem; color: var(--color-text-muted); line-height: 1.4; }
     .landing-footer { margin-top: 48px; font-size: 0.8rem; color: var(--color-text-muted); }

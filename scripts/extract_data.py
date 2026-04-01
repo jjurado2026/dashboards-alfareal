@@ -1054,6 +1054,7 @@ def git_commit_and_push(month_str: str) -> None:
             ["git", "commit", "-m", f"chore: update dashboard data {month_str}"],
             check=True,
         )
+        subprocess.run(["git", "pull", "--rebase"], check=True)
         subprocess.run(["git", "push"], check=True)
         log.info("Committed and pushed data for %s", month_str)
     except subprocess.CalledProcessError as exc:
