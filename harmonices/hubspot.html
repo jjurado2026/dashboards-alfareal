@@ -256,7 +256,35 @@
       </div>
     </div>
 
-    <!-- 1. Stage History Charts: 3 side-by-side -->
+    <!-- 1. Negocios mes en curso + Negocios stock total (2 cols) -->
+    <div class="chart-row cols-2">
+      <div class="chart-box">
+        <h4>Negocios Mes en Curso</h4>
+        <div class="chart-container"><canvas id="chart-hs-current"></canvas></div>
+      </div>
+      <div class="chart-box">
+        <h4>Negocios Stock Total</h4>
+        <div class="chart-container"><canvas id="chart-hs-stock"></canvas></div>
+      </div>
+    </div>
+
+    <!-- 2. Visitas Realizadas (FULL WIDTH) -->
+    <div class="chart-row cols-1">
+      <div class="chart-box">
+        <h4>Visitas Realizadas (Mensual)</h4>
+        <div class="chart-container tall"><canvas id="chart-hs-visitas"></canvas></div>
+      </div>
+    </div>
+
+    <!-- 3. Leads Válidos Mensuales (Stacked Bar, full width) -->
+    <div class="chart-row cols-1">
+      <div class="chart-box">
+        <h4>Leads Válidos Mensuales</h4>
+        <div class="chart-container tall"><canvas id="chart-hubspot-stacked"></canvas></div>
+      </div>
+    </div>
+
+    <!-- 4. Stage History Charts: 3 side-by-side -->
     <div class="chart-row cols-3">
       <div class="chart-box">
         <h4>Interesado Futuro Histórico</h4>
@@ -272,38 +300,10 @@
       </div>
     </div>
 
-    <!-- 2. Leads Validos Mensuales (Stacked Bar, full width) -->
-    <div class="chart-row cols-1">
-      <div class="chart-box">
-        <h4>Leads Validos Mensuales</h4>
-        <div class="chart-container tall"><canvas id="chart-hubspot-stacked"></canvas></div>
-      </div>
-    </div>
-
-    <!-- 3. Leads por Etapa y Fuente (table) -->
+    <!-- 5. Leads por Etapa y Fuente (table) -->
     <div class="table-section">
       <h4>Leads por Etapa y Fuente</h4>
       <div class="table-wrapper" id="table-hubspot-sources"></div>
-    </div>
-
-    <!-- 4. Negocios mes en curso + Negocios stock total (2 cols) -->
-    <div class="chart-row cols-2">
-      <div class="chart-box">
-        <h4>Negocios Mes en Curso</h4>
-        <div class="chart-container"><canvas id="chart-hs-current"></canvas></div>
-      </div>
-      <div class="chart-box">
-        <h4>Negocios Stock Total</h4>
-        <div class="chart-container"><canvas id="chart-hs-stock"></canvas></div>
-      </div>
-    </div>
-
-    <!-- 5. Visitas Realizadas (FULL WIDTH) -->
-    <div class="chart-row cols-1">
-      <div class="chart-box">
-        <h4>Visitas Realizadas (Mensual)</h4>
-        <div class="chart-container tall"><canvas id="chart-hs-visitas"></canvas></div>
-      </div>
     </div>
 
     <footer class="dashboard-footer">

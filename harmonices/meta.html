@@ -187,19 +187,21 @@
       </div>
     </div>
 
-    <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campañas</h4>
-      <div class="table-wrapper" id="table-meta-campaigns"></div>
-    </section>
-
-    <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Campañas por Plataforma</h4>
-      <div class="table-wrapper" id="table-meta-platforms"></div>
-    </section>
-
-    <section style="margin-bottom:28px;">
-      <h4 style="margin-bottom:14px; color:var(--color-text-muted); font-size:0.85rem; font-weight:600;">Top Creatividades</h4>
-      <div class="table-wrapper" id="table-meta-creatives"></div>
+    <section class="tabs" style="margin-bottom:28px;">
+      <div class="tab-buttons no-print">
+        <button class="tab-btn active" data-tab="tab-meta-campaigns" data-group="meta">Campañas</button>
+        <button class="tab-btn" data-tab="tab-meta-platforms" data-group="meta">Plataformas</button>
+        <button class="tab-btn" data-tab="tab-meta-creatives" data-group="meta">Creatividades</button>
+      </div>
+      <div id="tab-meta-campaigns" class="tab-content active" data-group="meta">
+        <div class="table-wrapper" id="table-meta-campaigns"></div>
+      </div>
+      <div id="tab-meta-platforms" class="tab-content" data-group="meta">
+        <div class="table-wrapper" id="table-meta-platforms"></div>
+      </div>
+      <div id="tab-meta-creatives" class="tab-content" data-group="meta">
+        <div class="table-wrapper" id="table-meta-creatives"></div>
+      </div>
     </section>
 
     <footer class="dashboard-footer">
@@ -323,6 +325,17 @@
         ], m.creatives, { defaultSortCol: 'leads', defaultSortAsc: false });
       }
     }
+
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const group = btn.dataset.group;
+        document.querySelectorAll(`.tab-btn[data-group="${group}"]`).forEach(b => b.classList.remove('active'));
+        document.querySelectorAll(`.tab-content[data-group="${group}"]`).forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab)?.classList.add('active');
+      });
+    });
 
     initDashboard({
       clientId: 'harmonices',
