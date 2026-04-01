@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2025-07",
-    "generatedAt": "2026-04-01T08:49:20.019973Z",
+    "generatedAt": "2026-04-01T09:29:37.441005Z",
     "dateRange": {
       "from": "2025-07-01",
       "to": "2025-07-31"
@@ -1856,7 +1856,7 @@
       {
         "name": "Vídeo cliente",
         "ad_id": "120224045953500407",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwEGllgf&_nc_oc=AdqZSV60uxsnVl_xF0q_t1x4cWWLp59zKbvACzXXJ46ZhJxC58wSx5fJ_cbCILN4DuU&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=tmj5ND6NDELlisMeOxVddQ&_nc_tpa=Q5bMBQEIdkw_pYIAjUA0QbWGjMNVJcZHxUtpbQM-skJRq6OVv1Hgbq_mEv0ZDNtZPpQlqyNvgLOCQo7hzQ&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2sxowOqUMwV4HMkV_6GiCsAYmxiutl0oUD9zSelysdvQ&oe=69D2C23E",
+        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwHwgno3&_nc_oc=Adp6MYqVnCfFv7KlfWOMHSmA8-_0hLCkJBQ9y0VU_16HJ2EGoF3aWtG9YxQTqFEpp7s&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=joT0xLxNf5GuGCNvG9nIYw&_nc_tpa=Q5bMBQFV5yHtBetjUDOTWwznJarlFMiEoPO6U3xrO-5PuWUQqSe_XuhhfBVpFZ9lkjdTmKYmOi15xwjsSg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af07Ittn4oXTmQ4M6G9EhHXwWcZbn852mXvCsOBM6GLLZQ&oe=69D2C23E",
         "impresiones": 33747,
         "clics": 3504,
         "ctr": 10.383145,
@@ -1867,7 +1867,7 @@
       {
         "name": "Vídeo cliente 2",
         "ad_id": "120226758910920407",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/509130027_704043678914126_8811603678686514418_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=8XalzuuHrQwQ7kNvwG7WGIc&_nc_oc=AdpUDAUoos7KN7bdc0832lDA4EuncsWG0mgJH91ORhPepULlh_3egoxy_Ph5T-lQljc&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=lL1j13chP78hjer4vWCJWw&_nc_tpa=Q5bMBQGtqKr4hNWPO-aPxW4rk-6KkSDYhQ9m4_bXgf0h_nmMpDgsRMTrXSR8QVzn9GgVPMPFUoj3AhGdow&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af2NphhfIqWBqx5k24MJygDUw10mCHYvOFLVQwz4yHtYoQ&oe=69D2A31A",
+        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/509130027_704043678914126_8811603678686514418_n.jpg?_nc_cat=110&ccb=1-7&_nc_ohc=8XalzuuHrQwQ7kNvwHjDF6E&_nc_oc=AdpGczv6TIxaX1o5TDTsVvu_Du4sKcRbEOZsuN_400vP5me8Jp2Fb9JKAZcbVQVZTts&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=5seNoPvf2KAn3L-KnAWWvA&_nc_tpa=Q5bMBQFeRc18IwoJfvb2gUM5PkSgYmuXhkc5x_LQcNdXYsHpmJBArSLOMIYGb42TLM8Ka2xcfXe-KJbovw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af0YSzuX0tLUPL03-r19VjUhVuDwi0dFVWEiQAnt5zWr4Q&oe=69D2A31A",
         "impresiones": 2873,
         "clics": 320,
         "ctr": 11.138183,
@@ -1929,7 +1929,96 @@
       "reservado_pagado": 15,
       "descartado": 2909
     },
-    "visitas_monthly": [],
+    "visitas_monthly": [
+      {
+        "month": "2024-06",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 3
+      },
+      {
+        "month": "2024-09",
+        "count": 2
+      },
+      {
+        "month": "2024-10",
+        "count": 4
+      },
+      {
+        "month": "2024-11",
+        "count": 2
+      },
+      {
+        "month": "2024-12",
+        "count": 6
+      },
+      {
+        "month": "2025-01",
+        "count": 12
+      },
+      {
+        "month": "2025-02",
+        "count": 15
+      },
+      {
+        "month": "2025-03",
+        "count": 19
+      },
+      {
+        "month": "2025-04",
+        "count": 12
+      },
+      {
+        "month": "2025-05",
+        "count": 12
+      },
+      {
+        "month": "2025-06",
+        "count": 13
+      },
+      {
+        "month": "2025-07",
+        "count": 18
+      },
+      {
+        "month": "2025-08",
+        "count": 7
+      },
+      {
+        "month": "2025-09",
+        "count": 19
+      },
+      {
+        "month": "2025-10",
+        "count": 21
+      },
+      {
+        "month": "2025-11",
+        "count": 13
+      },
+      {
+        "month": "2025-12",
+        "count": 11
+      },
+      {
+        "month": "2026-01",
+        "count": 21
+      },
+      {
+        "month": "2026-02",
+        "count": 20
+      },
+      {
+        "month": "2026-03",
+        "count": 11
+      }
+    ],
     "leads_valid_monthly": [
       {
         "month": "2023-12",

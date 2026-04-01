@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2025-08",
-    "generatedAt": "2026-04-01T08:49:57.750631Z",
+    "generatedAt": "2026-04-01T09:30:27.223433Z",
     "dateRange": {
       "from": "2025-08-01",
       "to": "2025-08-31"
@@ -1856,7 +1856,7 @@
       {
         "name": "Vídeo cliente",
         "ad_id": "120224045953500407",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwEGllgf&_nc_oc=AdqZSV60uxsnVl_xF0q_t1x4cWWLp59zKbvACzXXJ46ZhJxC58wSx5fJ_cbCILN4DuU&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=-Ap4uJ-HOae5QaVySg_1zg&_nc_tpa=Q5bMBQFIktHgROow2OgMzn0pNYScdZvux0cVa3zZcKgdSNJ-ZFJj--0SejxOW58Ank_Cj8aiIqj58IsKPg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1mDRUveLytBZJXvr5Y18s25Ka4wHg6f7XeMkVIF8Tw1g&oe=69D2C23E",
+        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/542447659_2420863261686123_930281566861366092_n.jpg?_nc_cat=104&ccb=1-7&_nc_ohc=J8e2qoLI95cQ7kNvwHwgno3&_nc_oc=Adp6MYqVnCfFv7KlfWOMHSmA8-_0hLCkJBQ9y0VU_16HJ2EGoF3aWtG9YxQTqFEpp7s&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=dRkPJOR5CagzTDGMypXSDg&_nc_tpa=Q5bMBQHUSbBZAJoMiyUIHioGRZiweXeXrxmWVUkKGSam-hBHIjtFJeyWGL1mmRmqFzhhwwU9RdLBhr7NKA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af00sgcEHD2bnm5BgT71sllsYt-iyTYi41De4J5XORhmMw&oe=69D2C23E",
         "impresiones": 40610,
         "clics": 3962,
         "ctr": 9.756218,
@@ -1929,7 +1929,96 @@
       "reservado_pagado": 15,
       "descartado": 2909
     },
-    "visitas_monthly": [],
+    "visitas_monthly": [
+      {
+        "month": "2024-06",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 3
+      },
+      {
+        "month": "2024-09",
+        "count": 2
+      },
+      {
+        "month": "2024-10",
+        "count": 4
+      },
+      {
+        "month": "2024-11",
+        "count": 2
+      },
+      {
+        "month": "2024-12",
+        "count": 6
+      },
+      {
+        "month": "2025-01",
+        "count": 12
+      },
+      {
+        "month": "2025-02",
+        "count": 15
+      },
+      {
+        "month": "2025-03",
+        "count": 19
+      },
+      {
+        "month": "2025-04",
+        "count": 12
+      },
+      {
+        "month": "2025-05",
+        "count": 12
+      },
+      {
+        "month": "2025-06",
+        "count": 13
+      },
+      {
+        "month": "2025-07",
+        "count": 18
+      },
+      {
+        "month": "2025-08",
+        "count": 7
+      },
+      {
+        "month": "2025-09",
+        "count": 19
+      },
+      {
+        "month": "2025-10",
+        "count": 21
+      },
+      {
+        "month": "2025-11",
+        "count": 13
+      },
+      {
+        "month": "2025-12",
+        "count": 11
+      },
+      {
+        "month": "2026-01",
+        "count": 21
+      },
+      {
+        "month": "2026-02",
+        "count": 20
+      },
+      {
+        "month": "2026-03",
+        "count": 11
+      }
+    ],
     "leads_valid_monthly": [
       {
         "month": "2023-12",

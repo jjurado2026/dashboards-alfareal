@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2026-03",
-    "generatedAt": "2026-04-01T08:55:25.398307Z",
+    "generatedAt": "2026-04-01T09:37:05.862579Z",
     "dateRange": {
       "from": "2026-03-01",
       "to": "2026-03-31"
@@ -12,7 +12,7 @@
   "google_ads": {
     "kpis": {
       "impresiones": {
-        "value": 331136,
+        "value": 331146,
         "previous": 256633
       },
       "clics": {
@@ -277,7 +277,7 @@
         "date": "2026-03-30",
         "leads": 2,
         "cpl": 23.43,
-        "impresiones": 7691,
+        "impresiones": 7692,
         "clics": 302,
         "inversion": 46.87
       },
@@ -285,7 +285,7 @@
         "date": "2026-03-31",
         "leads": 6,
         "cpl": 8.69,
-        "impresiones": 8154,
+        "impresiones": 8163,
         "clics": 365,
         "inversion": 52.12
       }
@@ -656,7 +656,7 @@
       },
       {
         "name": "PMAX-HARMONICES-COLIVING #2",
-        "impresiones": 329519,
+        "impresiones": 329529,
         "clics": 12504,
         "ctr": 3.79,
         "cpc": 0.11,
@@ -1210,7 +1210,7 @@
       },
       {
         "month": "2026-03-01",
-        "impresiones": 331136,
+        "impresiones": 331146,
         "clics": 12804,
         "ctr": 3.87,
         "cpc": 0.11,
@@ -1546,7 +1546,7 @@
       {
         "name": "Video sept 25",
         "ad_id": "120235373002690407",
-        "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t15.5256-10/586645002_2069736890504988_4792398009052276110_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=c_cu0fdqWoIQ7kNvwEpZMIY&_nc_oc=Adp98ibxGxjpdTxCho-qjhUzwSgmlL9vAH7FSIJ6_6npe-j6rFSfRG_l7JcIUeRU_P8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&edm=AAwGEdEEAAAA&_nc_gid=X4berj9YmluagpsqZMK3gw&_nc_tpa=Q5bMBQFWuuoP03gKOWViimDKmX4hkSjsoOZM1HCZTW9R15PzJl41jnIRcJJayHf3pBpKK7SGjlbEPVDn6g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af3kNqTz8fYlDTWhxgViMzNtXRg4jowkMQvsfS5cGPy32w&oe=69D2B6AB",
+        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t15.5256-10/586645002_2069736890504988_4792398009052276110_n.jpg?_nc_cat=105&ccb=1-7&_nc_ohc=c_cu0fdqWoIQ7kNvwHEZKHR&_nc_oc=Adrgo-OtpH3U6KEqy3spLQ7JODq0OS7bSLnOvxJl69FzirNoToZsBogERCUySVUjRq4&_nc_zt=23&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=XDDqYH1_t38Fy5NgMvGc0A&_nc_tpa=Q5bMBQFfcS0wjrOq8fpL28nBOZFj-ih-mpBDcUiVC0wlByKx8Th5cQxxqs2f29tEGHX5ILA56Uv2llhsng&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=d2b52d&_nc_sid=58080a&oh=00_Af1yVn9KUWvVlX4I-K-k-4fKvLEq8Di1JmtT8EvlZPZBvw&oe=69D2B6AB",
         "impresiones": 16571,
         "clics": 1382,
         "ctr": 8.339871,
@@ -1557,7 +1557,7 @@
       {
         "name": "Video nov 25",
         "ad_id": "120235642542760407",
-        "image_url": "https://external-iad6-1.xx.fbcdn.net/emg1/v/t13/17558598037983485654?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIaaPgHpwy4wVkfWPQn1dwy7TQL2cyKMzPLUvH4M1eKSDlmi3sy74H8F0eWAO5XxO7MCkbgRp35H9IU4LSYicD6kNRIIVYw7DbXBnC7cIjT22miI4jvmleFcqJB5gX-PfuyeLVyn4iLvEGgEQLo4iV1&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=iSTr0HSCPZ2QkIw3k8ybAQ&_nc_oc=AdpLNTkeHXS4FE0Z88D4lzGxC56SYrEsQTZyjQqG-WNLmiQvY-YaSz_uru6V_hNSMFA&ccb=13-1&oh=06_Q3-9Ad3fD7rQWyzd5DBLGYPttyI4ZqgsV7oF1WSb6bWFS8OC&oe=69CE9FCC&_nc_sid=58080a",
+        "image_url": "https://external-ams2-1.xx.fbcdn.net/emg1/v/t13/6596102530200719796?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIgd3Kf07sxBLCZdJ_P9ewZIMFUap_mhmOi93kIwzZHVPuEpbvDy3-q-lY0xHpA4yGjxK4MvNotkagq5Fkp1PEke4rIXVXoYEVAhS7Dz6MWzGhEly1sg4YipKI7TutEOXS1GyM3w77PaAms6pmT_CK3&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AAwGEdEEAAAA&_nc_gid=rbI0pc2CPMyoqC1qDgLg6w&_nc_oc=AdqEXxvMn0lK_biVcqQ-tJ2byAT-pxJct6S78oIBu-jYdKx1jSJZxCVHqC7vINvqxCE&ccb=13-1&oh=06_Q3-9AV5FaTR5E57MDaZVGz4ssS-u6XyPl_X30B8jBh7Pin3A&oe=69CEC267&_nc_sid=58080a",
         "impresiones": 4568,
         "clics": 490,
         "ctr": 10.726795,
@@ -1568,7 +1568,7 @@
       {
         "name": "Carrusel nov 25",
         "ad_id": "120235643175770407",
-        "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t45.1600-4/588793758_857535553892476_4728378291005106974_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2dLGpgDPNV0Q7kNvwG5hViI&_nc_oc=AdpqSfgf4aRwOf2f-BFfOD5dyb1mQDSECtDMrNWPZl5bkc7QH2XRYGyDdsnarOFwC2w&_nc_zt=1&_nc_ht=scontent-iad3-1.xx&edm=AAwGEdEEAAAA&_nc_gid=_ky3e6NAAg_cHbys_IY0nw&_nc_tpa=Q5bMBQGfMIlWaWo-ZhlmrIU7iYxiHM4mQmz-PppKv2lg19aalAsdJjVB2YW5zbxIeB_bcMXczIQ3gvlg6A&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af0DGw7M2B20epLy8-EdZkbzfhnnLZ2_0eb78wIS5UVwpw&oe=69D2994B",
+        "image_url": "https://scontent-ams2-1.xx.fbcdn.net/v/t45.1600-4/588793758_857535553892476_4728378291005106974_n.png?_nc_cat=104&ccb=1-7&_nc_ohc=2dLGpgDPNV0Q7kNvwER7Vy7&_nc_oc=AdqDVMsD1_jMIPN6ln3ENvXwtEPhjgOD9fxAiFDkjjXC7qlLNytpjQizUghSTQIJ0VE&_nc_zt=1&_nc_ht=scontent-ams2-1.xx&edm=AAwGEdEEAAAA&_nc_gid=YywPIbBRvxQ0N1cReud27g&_nc_tpa=Q5bMBQEVJ4CjxsnHbxZmNwp5JoCpXqOqG_hlsmippStT3CWElD5aCIVoOZPbQpw557WU9q63PijwxNaDEw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=52f3c4&_nc_sid=58080a&oh=00_Af12v5wYAupqsJ4wjDyO9iWw3YIFPkDiGm1LoUEuBGiGpQ&oe=69D2D18B",
         "impresiones": 592,
         "clics": 52,
         "ctr": 8.783784,
@@ -1718,7 +1718,96 @@
       "reservado_pagado": 15,
       "descartado": 2909
     },
-    "visitas_monthly": [],
+    "visitas_monthly": [
+      {
+        "month": "2024-06",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 3
+      },
+      {
+        "month": "2024-09",
+        "count": 2
+      },
+      {
+        "month": "2024-10",
+        "count": 4
+      },
+      {
+        "month": "2024-11",
+        "count": 2
+      },
+      {
+        "month": "2024-12",
+        "count": 6
+      },
+      {
+        "month": "2025-01",
+        "count": 12
+      },
+      {
+        "month": "2025-02",
+        "count": 15
+      },
+      {
+        "month": "2025-03",
+        "count": 19
+      },
+      {
+        "month": "2025-04",
+        "count": 12
+      },
+      {
+        "month": "2025-05",
+        "count": 12
+      },
+      {
+        "month": "2025-06",
+        "count": 13
+      },
+      {
+        "month": "2025-07",
+        "count": 18
+      },
+      {
+        "month": "2025-08",
+        "count": 7
+      },
+      {
+        "month": "2025-09",
+        "count": 19
+      },
+      {
+        "month": "2025-10",
+        "count": 21
+      },
+      {
+        "month": "2025-11",
+        "count": 13
+      },
+      {
+        "month": "2025-12",
+        "count": 11
+      },
+      {
+        "month": "2026-01",
+        "count": 21
+      },
+      {
+        "month": "2026-02",
+        "count": 20
+      },
+      {
+        "month": "2026-03",
+        "count": 11
+      }
+    ],
     "leads_valid_monthly": [
       {
         "month": "2023-12",

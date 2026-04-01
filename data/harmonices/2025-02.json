@@ -3,7 +3,7 @@
     "clientId": "harmonices",
     "clientName": "Harmonices",
     "month": "2025-02",
-    "generatedAt": "2026-04-01T08:46:02.588758Z",
+    "generatedAt": "2026-04-01T09:25:27.509541Z",
     "dateRange": {
       "from": "2025-02-01",
       "to": "2025-02-28"
@@ -1494,7 +1494,96 @@
       "reservado_pagado": 15,
       "descartado": 2909
     },
-    "visitas_monthly": [],
+    "visitas_monthly": [
+      {
+        "month": "2024-06",
+        "count": 1
+      },
+      {
+        "month": "2024-07",
+        "count": 1
+      },
+      {
+        "month": "2024-08",
+        "count": 3
+      },
+      {
+        "month": "2024-09",
+        "count": 2
+      },
+      {
+        "month": "2024-10",
+        "count": 4
+      },
+      {
+        "month": "2024-11",
+        "count": 2
+      },
+      {
+        "month": "2024-12",
+        "count": 6
+      },
+      {
+        "month": "2025-01",
+        "count": 12
+      },
+      {
+        "month": "2025-02",
+        "count": 15
+      },
+      {
+        "month": "2025-03",
+        "count": 19
+      },
+      {
+        "month": "2025-04",
+        "count": 12
+      },
+      {
+        "month": "2025-05",
+        "count": 12
+      },
+      {
+        "month": "2025-06",
+        "count": 13
+      },
+      {
+        "month": "2025-07",
+        "count": 18
+      },
+      {
+        "month": "2025-08",
+        "count": 7
+      },
+      {
+        "month": "2025-09",
+        "count": 19
+      },
+      {
+        "month": "2025-10",
+        "count": 21
+      },
+      {
+        "month": "2025-11",
+        "count": 13
+      },
+      {
+        "month": "2025-12",
+        "count": 11
+      },
+      {
+        "month": "2026-01",
+        "count": 21
+      },
+      {
+        "month": "2026-02",
+        "count": 20
+      },
+      {
+        "month": "2026-03",
+        "count": 11
+      }
+    ],
     "leads_valid_monthly": [
       {
         "month": "2023-12",
