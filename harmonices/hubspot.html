@@ -306,6 +306,18 @@
       <div class="table-wrapper" id="table-hubspot-sources"></div>
     </div>
 
+    <!-- Coste por Lead Válido -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px;">
+      <div style="background:var(--color-card-bg,#fff);border:1px solid #E5E7EB;border-radius:8px;padding:28px 24px;text-align:center;">
+        <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:#34A853;margin-bottom:10px;">Coste por Lead Válido Google</div>
+        <div id="cplv-google" style="font-size:2rem;font-weight:800;color:var(--color-text,#1A1A1A);">--</div>
+      </div>
+      <div style="background:var(--color-card-bg,#fff);border:1px solid #E5E7EB;border-radius:8px;padding:28px 24px;text-align:center;">
+        <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.5px;color:#1877F2;margin-bottom:10px;">Coste por Lead Válido Meta</div>
+        <div id="cplv-meta" style="font-size:2rem;font-weight:800;color:var(--color-text,#1A1A1A);">--</div>
+      </div>
+    </div>
+
     <footer class="dashboard-footer">
       <span id="last-updated"></span> · Datos actualizados diariamente
     </footer>
@@ -451,6 +463,25 @@
       } else {
         showEmpty('chart-hubspot-stacked');
       }
+
+      // Coste por Lead Válido
+      const googleSources = ['PAID_SEARCH', 'OTHER_CAMPAIGNS'];
+      const metaSources = ['PAID_SOCIAL', 'SOCIAL_MEDIA'];
+      let googleValidLeads = 0, metaValidLeads = 0;
+      if (hs.leads_by_source) {
+        for (const row of hs.leads_by_source) {
+          const src = (row.source || '').toUpperCase();
+          const total = (row.interesado_futuro || 0) + (row.interesado_caliente || 0) + (row.reservado_pagado || 0);
+          if (googleSources.includes(src)) googleValidLeads += total;
+          if (metaSources.includes(src)) metaValidLeads += total;
+        }
+      }
+      const googleSpend = data.google_ads && data.google_ads.kpis && data.google_ads.kpis.inversion ? data.google_ads.kpis.inversion.value : 0;
+      const metaSpend = data.meta_ads && data.meta_ads.kpis && data.meta_ads.kpis.inversion ? data.meta_ads.kpis.inversion.value : 0;
+      const cplvGoogle = googleValidLeads > 0 ? (googleSpend / googleValidLeads) : 0;
+      const cplvMeta = metaValidLeads > 0 ? (metaSpend / metaValidLeads) : 0;
+      document.getElementById('cplv-google').textContent = cplvGoogle > 0 ? cplvGoogle.toFixed(2).replace('.', ',') + ' €' : '--';
+      document.getElementById('cplv-meta').textContent = cplvMeta > 0 ? cplvMeta.toFixed(2).replace('.', ',') + ' €' : '--';
 
       // 3. Leads por etapa y fuente (table)
       if (hs.leads_by_source && hs.leads_by_source.length) {
